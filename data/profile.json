@@ -2,7 +2,8 @@
   "liked_mechanics": [
     "enclose or isolate",
     "one clear rule per level",
-    "guide units to a goal"
+    "guide units to a goal",
+    "tilt gravity"
   ],
   "disliked_mechanics": [
     "match-3",
@@ -12,17 +13,18 @@
     "endless one-tap"
   ],
   "search_queries": [
-    "block isolation puzzle levels",
-    "path guiding puzzle indie studio",
-    "single rule puzzle game",
-    "level based puzzle indie developer",
-    "grid isolation puzzle challenges"
+    "tilt gravity puzzle indie",
+    "physics tilt puzzle levels",
+    "single rule block puzzle indie",
+    "grid isolation puzzle indie studio",
+    "guide units to goal puzzle"
   ],
   "anchor_app_ids": [
     "jp.danball.crossvirus",
     "com.sadpuppy.lemmings",
-    "express.spooky"
+    "express.spooky",
+    "com.IcedropGames.LOK"
   ],
-  "updated_at": "2026-09-27T05:24:58.564220+00:00",
-  "notes": "Added express.spooky (score 5) to liked games; continue focusing on level‑based puzzles with a single clear rule per level from small indie studios."
+  "updated_at": "2026-09-27T06:18:58.724940+00:00",
+  "notes": "Added com.IcedropGames.LOK (score 4) to liked games. Continue focusing on level‑based puzzles with a single clear rule per level from small indie studios, avoiding match‑3, screw, sort, idle, and endless formats."
 }

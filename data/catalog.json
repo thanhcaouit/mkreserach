@@ -265,6 +265,76 @@
       "suggested_at": "2026-09-27T05:31:57.262344+00:00",
       "mechanic_vi": "Giải các câu đố logic ngắn gọn dựa trên các ràng buộc vị trí.",
       "why_vi": "Mỗi câu đố là một màn độc lập với một quy tắc duy nhất, phù hợp với sở thích puzzle có mục tiêu rõ ràng."
+    },
+    "com.playdigious.chantsofsennaar": {
+      "app_id": "com.playdigious.chantsofsennaar",
+      "title": "Chants of Sennaar",
+      "title_norm": "chants of sennaar",
+      "developer": "Playdigious",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.91,
+      "url": "https://play.google.com/store/apps/details?id=com.playdigious.chantsofsennaar&hl=en",
+      "message_id": 29,
+      "suggested_at": "2026-09-27T06:19:51.238292+00:00",
+      "mechanic_vi": "Giải đố dựa trên ngôn ngữ và ký hiệu, mỗi màn chỉ có một quy tắc duy nhất để giải.",
+      "why_vi": "Cung cấp trải nghiệm câu đố độc đáo, không giống bất kỳ trò chơi nào trong danh sách mẫu, đồng thời có mục tiêu rõ ràng cho mỗi cấp."
+    },
+    "au.net.interconnected.orbit": {
+      "app_id": "au.net.interconnected.orbit",
+      "title": "Orbit – Gravity Puzzle Game",
+      "title_norm": "orbit gravity puzzle game",
+      "developer": "Interconnected",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.9310346,
+      "url": "https://play.google.com/store/apps/details?id=au.net.interconnected.orbit&hl=en",
+      "message_id": 30,
+      "suggested_at": "2026-09-27T06:19:52.477522+00:00",
+      "mechanic_vi": "Đặt trọng lực và nghiêng thiết bị để điều khiển quỹ đạo của hành tinh, mỗi cấp một bài toán vật lý duy nhất.",
+      "why_vi": "Kết hợp cơ chế nghiêng trọng lực mà người dùng yêu thích, với các màn chơi được thiết kế riêng biệt, không phải dạng vô tận."
+    },
+    "com.orbital.climbhigher": {
+      "app_id": "com.orbital.climbhigher",
+      "title": "Climb Higher - Physics Puzzles",
+      "title_norm": "climb higher physics puzzles",
+      "developer": "Orbital Nine Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.65,
+      "url": "https://play.google.com/store/apps/details?id=com.orbital.climbhigher&hl=en",
+      "message_id": 31,
+      "suggested_at": "2026-09-27T06:19:53.677932+00:00",
+      "mechanic_vi": "Dẫn nhân vật lên đỉnh bằng cách sử dụng các công cụ vật lý như lò xo và bắn tạ, mỗi màn chỉ có một cách giải tối ưu.",
+      "why_vi": "Mang lại cảm giác dẫn đơn vị tới mục tiêu qua các cấp độ, phù hợp với sở thích “guide units to a goal”."
+    },
+    "balance.art.puzzle": {
+      "app_id": "balance.art.puzzle",
+      "title": "Balance Art: Physics Puzzle",
+      "title_norm": "balance art physics puzzle",
+      "developer": "Supercode Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.0526314,
+      "url": "https://play.google.com/store/apps/details?id=balance.art.puzzle&hl=en",
+      "message_id": 32,
+      "suggested_at": "2026-09-27T06:19:55.580911+00:00",
+      "mechanic_vi": "Xếp và cân bằng các hình khối trên nền, mỗi cấp độ yêu cầu cô lập các khối để đạt được cân bằng hoàn hảo.",
+      "why_vi": "Áp dụng cơ chế “enclose or isolate” với một quy tắc duy nhất cho mỗi màn, đồng thời có hơn 100 cấp độ."
+    },
+    "fi.paulipotta.bouncybuddies": {
+      "app_id": "fi.paulipotta.bouncybuddies",
+      "title": "Bouncy Buddies: Physics Puzzle",
+      "title_norm": "bouncy buddies physics puzzle",
+      "developer": "Pauli Potta Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.47,
+      "url": "https://play.google.com/store/apps/details?id=fi.paulipotta.bouncybuddies&hl=en",
+      "message_id": 33,
+      "suggested_at": "2026-09-27T06:19:57.177305+00:00",
+      "mechanic_vi": "Giải các câu đố vật lý bằng cách điều khiển nhân vật nhảy qua các chướng ngại vật, mỗi màn một mục tiêu duy nhất.",
+      "why_vi": "Kết hợp hướng dẫn nhân vật tới mục tiêu và quy tắc rõ ràng, phù hợp với sở thích “guide units to a goal”."
     }
   }
 }
