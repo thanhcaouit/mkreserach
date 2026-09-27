@@ -1,0 +1,4 @@
+google-play-scraper
+pyyaml
+httpx
+pytest

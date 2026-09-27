@@ -1,0 +1,50 @@
+name: Research
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: smoke kiểm tra hoặc research thật
+        type: choice
+        options:
+          - research
+          - smoke
+        default: research
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: mkresearch-state
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Run
+        env:
+          PYTHONPATH: src
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+          GROQ_MODEL: llama-3.3-70b-versatile
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m mkresearch.main ${{ github.event.inputs.mode || 'research' }}
+      - name: Commit data
+        if: success() && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke')
+        run: |
+          git add data
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi data"
+          else
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update research data"
+            git push
+          fi

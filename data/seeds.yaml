@@ -1,0 +1,7 @@
+games:
+  - app_id: jp.danball.crossvirus
+    title: Cross Virus
+    why: Puzzle bao vây theo màn. Đặt block để chặn virus lan theo hình chữ thập. Studio nhỏ DAN-BALL.
+  - app_id: com.sadpuppy.lemmings
+    title: Lemmings Puzzle Survival
+    why: Nhiều level, mỗi màn một mục tiêu dẫn lemming bằng vai trò. Mốc cho puzzle có luật rõ, không phải hypercasual một vòng.

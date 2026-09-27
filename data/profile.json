@@ -1,0 +1,26 @@
+{
+  "liked_mechanics": [
+    "enclose or isolate",
+    "one clear rule per level",
+    "guide units to a goal"
+  ],
+  "disliked_mechanics": [
+    "match-3",
+    "screw puzzle",
+    "sort puzzle",
+    "idle",
+    "endless one-tap"
+  ],
+  "search_queries": [
+    "enclose puzzle level",
+    "unique rule puzzle stages",
+    "lemmings style puzzle",
+    "logic puzzle indie levels",
+    "block puzzle strategy levels"
+  ],
+  "anchor_app_ids": [
+    "jp.danball.crossvirus",
+    "com.sadpuppy.lemmings"
+  ],
+  "updated_at": null
+}
