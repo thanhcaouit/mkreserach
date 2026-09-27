@@ -405,6 +405,20 @@
       "suggested_at": "2026-09-27T09:17:45.330338+00:00",
       "mechanic_vi": "Giải các mê cung ký ức, mỗi cấp độ là một câu chuyện và một câu đố duy nhất.",
       "why_vi": "Luật chơi đơn giản – tìm lối ra trong mê cung, nhưng mỗi màn mang nội dung và mục tiêu riêng."
+    },
+    "jp.danball.sss": {
+      "app_id": "jp.danball.sss",
+      "title": "ShisenSho",
+      "title_norm": "shisensho",
+      "developer": "DAN-BALL",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.387097,
+      "url": "https://play.google.com/store/apps/details?id=jp.danball.sss&hl=en",
+      "message_id": 42,
+      "suggested_at": "2026-09-27T15:35:36.186000+00:00",
+      "mechanic_vi": "Kết nối các ô cùng hình ảnh qua đường không chéo để xóa sạch bảng.",
+      "why_vi": "Mặc dù là dạng Mahjong cổ điển, trò vẫn có nhiều màn với mục tiêu xóa hết ô, phù hợp cho người thích logic."
     }
   }
 }

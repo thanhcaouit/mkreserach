@@ -52,7 +52,8 @@
     "com.puzzlegames.puzzlebrickslegend": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.wood.block.sudoku.puzzle.bm": {
@@ -1148,6 +1149,48 @@
       ]
     },
     "com.madovergames.PrincessPop": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "triple.sorting.bubble.fish.match": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "sheep.animal.parking.puzzle.game.jam": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.StudioWaterzooi.PleaseTouchTheArtwork": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.arrowflow.escape.puzzle.game": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.infinity.railways": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.Neurononfire.SupremeDuelist": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "puzzle.yarn.fever.unravel.puzzle": {
       "first_seen": "2026-09-27",
       "sources": [
         "GAME"
