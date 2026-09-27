@@ -125,6 +125,76 @@
       "suggested_at": "2026-09-27T04:47:18.494404+00:00",
       "mechanic_vi": "Đẩy các khối xanh lên các ô mục tiêu màu xanh lá, trong không gian 3D; mỗi màn có một bố cục cố định.",
       "why_vi": "Cơ chế đẩy hộp tương tự Sokoban nhưng được mở rộng thành môi trường 3D, mang lại ít đổi mới so với các trò chơi gốc."
+    },
+    "com.seriouspeoplegames.pathipuzzlegame": {
+      "app_id": "com.seriouspeoplegames.pathipuzzlegame",
+      "title": "Pathi - Physics Logic Puzzle",
+      "title_norm": "pathi physics logic puzzle",
+      "developer": "Serious People Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.285714,
+      "url": "https://play.google.com/store/apps/details?id=com.seriouspeoplegames.pathipuzzlegame&hl=en",
+      "message_id": 18,
+      "suggested_at": "2026-09-27T05:25:46.434127+00:00",
+      "mechanic_vi": "Đặt và xoay các hình để dẫn bóng rơi tới mục tiêu.",
+      "why_vi": "Mỗi màn chỉ có một luật duy nhất: dẫn bóng qua các chướng ngại vật để tới đích, phù hợp với sở thích dẫn đơn vị tới mục tiêu."
+    },
+    "com.TiniGame.UnblockPuzzleSudoku": {
+      "app_id": "com.TiniGame.UnblockPuzzleSudoku",
+      "title": "Unblock Puzzle - Block Slide",
+      "title_norm": "unblock puzzle block slide",
+      "developer": "TiniGame",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.6666667,
+      "url": "https://play.google.com/store/apps/details?id=com.TiniGame.UnblockPuzzleSudoku&hl=en",
+      "message_id": 19,
+      "suggested_at": "2026-09-27T05:25:47.952578+00:00",
+      "mechanic_vi": "Trượt các khối để mở đường cho khối đỏ thoát ra.",
+      "why_vi": "Mỗi cấp chỉ có một cách di chuyển hợp lệ để giải, đáp ứng nguyên tắc một luật rõ ràng và cô lập/đóng khối."
+    },
+    "com.wind.twistedpaths": {
+      "app_id": "com.wind.twistedpaths",
+      "title": "Twisted Paths",
+      "title_norm": "twisted paths",
+      "developer": "Wind Games AS",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.5495496,
+      "url": "https://play.google.com/store/apps/details?id=com.wind.twistedpaths&hl=en",
+      "message_id": 20,
+      "suggested_at": "2026-09-27T05:25:48.703164+00:00",
+      "mechanic_vi": "Chạm vào các mũi tên theo thứ tự để mở đường và gỡ rối mê cung.",
+      "why_vi": "Luật chơi đơn giản – chỉ cần chọn đúng thứ tự, mỗi màn có mục tiêu duy nhất là giải thoát mê cung, phù hợp với luật một‑luật‑mỗi‑màn."
+    },
+    "com.arrows.puzzle.escape.maze.out.free.game": {
+      "app_id": "com.arrows.puzzle.escape.maze.out.free.game",
+      "title": "Path Flow! - Tap Away Puzzles",
+      "title_norm": "path flow tap away puzzles",
+      "developer": "Appindia Technologies Private Limited",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.646465,
+      "url": "https://play.google.com/store/apps/details?id=com.arrows.puzzle.escape.maze.out.free.game&hl=en",
+      "message_id": 21,
+      "suggested_at": "2026-09-27T05:25:49.964001+00:00",
+      "mechanic_vi": "Gỡ chặn các khối đường dẫn để tạo một con đường liên tục.",
+      "why_vi": "Các cấp độ yêu cầu người chơi phân tích và mở các chướng ngại vật, tuân theo một quy tắc duy nhất, đáp ứng yêu cầu “one clear rule per level”."
+    },
+    "com.game.gridpatch": {
+      "app_id": "com.game.gridpatch",
+      "title": "Grid Patch : Logic Puzzle",
+      "title_norm": "grid patch logic puzzle",
+      "developer": "Yudiz Solutions Limited",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.game.gridpatch&hl=en",
+      "message_id": 22,
+      "suggested_at": "2026-09-27T05:25:51.455616+00:00",
+      "mechanic_vi": "Đặt các miếng hình chữ nhật hoặc vuông dựa trên số trong ô để lấp đầy toàn bộ lưới.",
+      "why_vi": "Mỗi màn chỉ có một cách duy nhất để lắp đầy lưới, đáp ứng yêu cầu luật rõ ràng và tính cô lập, phù hợp với sở thích puzzle có mục tiêu từng màn."
     }
   }
 }

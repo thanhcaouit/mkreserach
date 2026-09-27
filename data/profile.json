@@ -12,16 +12,17 @@
     "endless one-tap"
   ],
   "search_queries": [
-    "snakebird",
-    "sokoban puzzle",
-    "mirror reflection puzzle levels",
-    "nurikabe puzzle",
-    "cosmic express puzzle",
-    "laser puzzle mirror light"
+    "block isolation puzzle levels",
+    "path guiding puzzle indie studio",
+    "single rule puzzle game",
+    "level based puzzle indie developer",
+    "grid isolation puzzle challenges"
   ],
   "anchor_app_ids": [
     "jp.danball.crossvirus",
-    "com.sadpuppy.lemmings"
+    "com.sadpuppy.lemmings",
+    "express.spooky"
   ],
-  "updated_at": null
+  "updated_at": "2026-09-27T05:24:58.564220+00:00",
+  "notes": "Added express.spooky (score 5) to liked games; continue focusing on level‑based puzzles with a single clear rule per level from small indie studios."
 }

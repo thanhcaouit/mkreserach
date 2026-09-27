@@ -1058,6 +1058,42 @@
       "sources": [
         "GAME"
       ]
+    },
+    "water.sort.puzzle.game.color.sorting.free": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "water.sort.puzzle.color.sort.games": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "ball.sort.water.puzzle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.peoplefun.wordsearch": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fruitshake.fairyrpg": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.scopely.yux": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
