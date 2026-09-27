@@ -1,3 +1,14 @@
 {
-  "apps": {}
+  "apps": {
+    "1014140": {
+      "app_id": "1014140",
+      "title": "Snakebird Primer",
+      "title_norm": "snakebird primer",
+      "developer": "Noumenon Games",
+      "reviews": 234,
+      "url": "https://store.steampowered.com/app/1014140",
+      "message_id": 34,
+      "suggested_at": "2026-09-27T06:20:25.164340+00:00"
+    }
+  }
 }
