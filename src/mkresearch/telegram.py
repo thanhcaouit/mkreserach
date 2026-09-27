@@ -145,15 +145,11 @@ def format_report(app: dict, judgement: dict) -> str:
     app_id = app.get("appId") or app.get("app_id")
     url = play_url(str(app_id))
     iap = "Có IAP" if app.get("offersIAP") else "Không IAP"
-    mechanic = judgement.get("mechanic_vi") or "Chưa mô tả"
-    why = judgement.get("why_vi") or "Chưa rõ"
     near = judgement.get("near_seed") or "game mẫu"
     return (
         f"{title}\n"
         f"{developer} · {installs} · {score_text}\n"
         f"{url}\n\n"
-        f"Cơ chế: {mechanic}\n"
-        f"Vì sao đáng chơi: {why}\n"
         f"Gần mẫu: {near}\n"
         f"{iap}\n\n"
         "Chấm điểm: reply tin này bằng 1–5. Có thể thêm một câu."

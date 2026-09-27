@@ -50,6 +50,10 @@ def test_report_skips_store_description_and_uses_first_screenshot():
     }
     text = format_report(app, {"mechanic_vi": "Nuốt trái", "why_vi": "Luật lạ", "near_seed": "Lemmings"})
     assert "store description" not in text
+    assert "Nuốt trái" not in text
+    assert "Luật lạ" not in text
+    assert "Cơ chế" not in text
+    assert "Vì sao" not in text
     assert "https://play.google.com/store/apps/details?id=com.example.game&hl=en" in text
     assert first_screenshot(app) == "https://play-lh.googleusercontent.com/shot-one"
     assert first_screenshot({"screenshots": []}) is None
