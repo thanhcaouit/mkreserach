@@ -335,6 +335,76 @@
       "suggested_at": "2026-09-27T06:19:57.177305+00:00",
       "mechanic_vi": "Giải các câu đố vật lý bằng cách điều khiển nhân vật nhảy qua các chướng ngại vật, mỗi màn một mục tiêu duy nhất.",
       "why_vi": "Kết hợp hướng dẫn nhân vật tới mục tiêu và quy tắc rõ ràng, phù hợp với sở thích “guide units to a goal”."
+    },
+    "com.pam.blockphysics": {
+      "app_id": "com.pam.blockphysics",
+      "title": "Block And Chain: funny physics",
+      "title_norm": "block and chain funny physics",
+      "developer": "PAMPAM TOV",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 2.6875,
+      "url": "https://play.google.com/store/apps/details?id=com.pam.blockphysics&hl=en",
+      "message_id": 36,
+      "suggested_at": "2026-09-27T09:17:39.953247+00:00",
+      "mechanic_vi": "Dẫn khối đỏ tới vị trí mục tiêu bằng cách nối các khối và sử dụng chuỗi vật lý.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất – đưa khối đúng nơi, tạo cảm giác hướng dẫn đơn giản nhưng sâu sắc."
+    },
+    "com.starwaves.blocksliding": {
+      "app_id": "com.starwaves.blocksliding",
+      "title": "Slide Blocks - Block Puzzle",
+      "title_norm": "slide blocks block puzzle",
+      "developer": "Star Waves",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.288889,
+      "url": "https://play.google.com/store/apps/details?id=com.starwaves.blocksliding&hl=en",
+      "message_id": 37,
+      "suggested_at": "2026-09-27T09:17:41.461212+00:00",
+      "mechanic_vi": "Trượt khối theo chiều ngang, để trọng lực kéo chúng xuống và tạo dòng đầy.",
+      "why_vi": "Luật chơi rõ ràng: chỉ di chuyển ngang, để trọng lực tự động rơi, mỗi cấp độ là một thử thách riêng."
+    },
+    "com.GoldChairSTUDIOS.Jelly_Tetris_Test_Brain_Fill_Block_Offline": {
+      "app_id": "com.GoldChairSTUDIOS.Jelly_Tetris_Test_Brain_Fill_Block_Offline",
+      "title": "Physics Jelly Block Brain Test",
+      "title_norm": "physics jelly block brain test",
+      "developer": "Go Dreams",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.GoldChairSTUDIOS.Jelly_Tetris_Test_Brain_Fill_Block_Offline&hl=en",
+      "message_id": 38,
+      "suggested_at": "2026-09-27T09:17:43.056517+00:00",
+      "mechanic_vi": "Xếp các khối jelly rơi tự do vào lưới, lấp đầy hàng/ô để hoàn thành.",
+      "why_vi": "Cơ chế vật lý mềm dẻo tạo cảm giác mới lạ, mỗi màn chỉ yêu cầu lắp ghép khối đúng cách."
+    },
+    "com.brennerd.grid_puzzle.hashi": {
+      "app_id": "com.brennerd.grid_puzzle.hashi",
+      "title": "Hashi: Logic Puzzles",
+      "title_norm": "hashi logic puzzles",
+      "developer": "brennerd",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.56,
+      "url": "https://play.google.com/store/apps/details?id=com.brennerd.grid_puzzle.hashi&hl=en",
+      "message_id": 39,
+      "suggested_at": "2026-09-27T09:17:44.118714+00:00",
+      "mechanic_vi": "Kết nối các hòn đảo bằng cầu sao cho số cầu khớp với số yêu cầu và mọi đảo liên thông.",
+      "why_vi": "Mỗi câu đố có một quy tắc duy nhất và giải pháp duy nhất, phù hợp với sở thích logic cô lập."
+    },
+    "com.IvanKovalov.G30AndroidDemo": {
+      "app_id": "com.IvanKovalov.G30AndroidDemo",
+      "title": "G30 - A Memory Maze (Demo)",
+      "title_norm": "g30 a memory maze demo",
+      "developer": "Ivan Kovalov",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.893617,
+      "url": "https://play.google.com/store/apps/details?id=com.IvanKovalov.G30AndroidDemo&hl=en",
+      "message_id": 40,
+      "suggested_at": "2026-09-27T09:17:45.330338+00:00",
+      "mechanic_vi": "Giải các mê cung ký ức, mỗi cấp độ là một câu chuyện và một câu đố duy nhất.",
+      "why_vi": "Luật chơi đơn giản – tìm lối ra trong mê cung, nhưng mỗi màn mang nội dung và mục tiêu riêng."
     }
   }
 }

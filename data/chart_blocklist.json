@@ -17,25 +17,29 @@
     "com.ecffri.arrows": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.dreamgames.royalmatch": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.Garawell.LoopSort": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.loomgames.pixelflow": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.dreamgames.royalkingdom": {
@@ -1114,6 +1118,36 @@
       ]
     },
     "com.ironhidegames.android.kingdomrush4": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "kidultlovin.word.zen": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.JindoBlu.OfflineGames": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tensquaregames.letsfish2": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.vincentb.MobControl": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.madovergames.PrincessPop": {
       "first_seen": "2026-09-27",
       "sources": [
         "GAME"
