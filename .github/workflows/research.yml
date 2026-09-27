@@ -2,7 +2,7 @@ name: Research
 
 on:
   schedule:
-    - cron: "0 2-14 * * *"
+    - cron: "37 2-14 * * *"
   workflow_dispatch:
     inputs:
       mode:
