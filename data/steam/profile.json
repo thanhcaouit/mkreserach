@@ -1,0 +1,27 @@
+{
+  "liked_mechanics": [
+    "enclose or isolate",
+    "one clear rule per level",
+    "guide units to a goal"
+  ],
+  "disliked_mechanics": [
+    "match-3",
+    "screw puzzle",
+    "sort puzzle",
+    "idle",
+    "endless one-tap"
+  ],
+  "search_queries": [
+    "snakebird",
+    "sausage roll puzzle",
+    "sokoban puzzle levels",
+    "one rule puzzle",
+    "guide units puzzle levels",
+    "isolation puzzle levels"
+  ],
+  "anchor_app_ids": [
+    "357300",
+    "353540"
+  ],
+  "updated_at": null
+}

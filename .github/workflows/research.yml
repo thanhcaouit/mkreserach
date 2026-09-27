@@ -48,3 +48,42 @@ jobs:
             git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update research data"
             git push
           fi
+
+  steam:
+    needs: run
+    if: github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: mkresearch-state
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Run
+        env:
+          PYTHONPATH: src
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+          GROQ_MODEL: openai/gpt-oss-120b
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m mkresearch.steam research
+      - name: Commit steam data
+        if: success()
+        run: |
+          git fetch origin main
+          git merge --ff-only origin/main
+          git add data/steam
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi data/steam"
+          else
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update steam research data"
+            git push origin HEAD:main
+          fi
