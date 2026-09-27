@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from mkresearch.filters import hard_reject, in_install_band, publisher_blocked
+from mkresearch.filters import hard_reject, in_install_band, is_puzzle, publisher_blocked
 from mkresearch.store import Store
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -50,6 +50,11 @@ def test_hard_reject_reasons():
     assert hard_reject(_app(developer="Voodoo"), NAMES, set()) == "publisher"
     assert hard_reject(_app(appId="com.hit.game"), NAMES, {"com.hit.game"}) == "chart"
     assert hard_reject(_app(genre="Arcade", genreId="GAME_ARCADE"), NAMES, set()) == "genre"
+
+
+def test_vietnamese_puzzle_genre_is_kept():
+    assert is_puzzle({"genre": "Giải đố"})
+    assert not is_puzzle({"genre": "Công cụ"})
 
 
 def test_default_publisher_file_lists_the_named_studios():

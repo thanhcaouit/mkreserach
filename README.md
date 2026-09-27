@@ -30,7 +30,7 @@ Mỗi push lên `main` chạy workflow Test. Xanh nghĩa là bộ lọc, chống
 
 Smoke, bấm tay sau khi đã có secret: Actions → Research → Run workflow → chọn `smoke`. Job tải hai game mẫu, gọi Gemini (Groq nếu Gemini lỗi), gửi một tin `smoke ok`. Không ghi game vào catalog. Cron research chỉ nên để chạy sau khi Telegram nhận tin đó.
 
-Research thật: cùng workflow, chọn `research`, hoặc đợi 07:00 giờ Việt Nam. Thu điểm chạy mỗi 6 giờ.
+Research thật chạy mỗi tiếng từ 09:00 đến 21:00 giờ Việt Nam. Nếu Play, Gemini hoặc Groq trả 402, 403 hoặc 429, bot ghi thời điểm nghỉ tới 09:00 sáng hôm sau và các lần trong khoảng đó không gọi lại. Thu điểm vẫn chạy mỗi 6 giờ, nhưng không gọi AI khi đang nghỉ.
 
 ## Chấm điểm
 

@@ -34,7 +34,7 @@ def build_learn_prompt(seeds: list[dict], ratings: list[dict], profile: dict) ->
     return (
         "Bạn cập nhật hồ sơ gu tìm puzzle mobile.\n"
         "Chỉ trả JSON với các khóa liked_mechanics, disliked_mechanics, search_queries, notes.\n"
-        "search_queries là 4 đến 6 cụm tiếng Anh để tìm trên Play, hướng tới puzzle có level, "
+        "search_queries là 4 đến 6 cụm tiếng Anh, không dùng tiếng Việt, để tìm trên Play, hướng tới puzzle có level, "
         "một luật chơi rõ, studio nhỏ. Tránh match-3, screw, sort, idle, endless.\n"
         "Điểm 4-5 là thích. Điểm 1-2 là không thích.\n\n"
         f"Seed:\n{_dump(seeds)}\n\n"

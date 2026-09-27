@@ -67,18 +67,33 @@ class Telegram:
         return bool(self.token and self.chat_id)
 
     def send(self, text: str) -> int:
-        response = self.http.post(
-            f"https://api.telegram.org/bot{self.token}/sendMessage",
-            json={
-                "chat_id": self.chat_id,
-                "text": text,
-                "disable_web_page_preview": True,
-            },
-        )
+        return self._post("sendMessage", {"chat_id": self.chat_id, "text": text, "disable_web_page_preview": True})
+
+    def send_report(self, text: str, screenshot_url: str | None) -> int:
+        caption = text if len(text) <= 1024 else text[:1021] + "..."
+        if screenshot_url:
+            try:
+                image = self.http.get(screenshot_url, timeout=30, follow_redirects=True)
+                image.raise_for_status()
+                response = self.http.post(
+                    f"https://api.telegram.org/bot{self.token}/sendPhoto",
+                    data={"chat_id": self.chat_id, "caption": caption},
+                    files={"photo": ("screenshot.jpg", image.content, image.headers.get("content-type", "image/jpeg"))},
+                )
+                return self._message_id(response)
+            except Exception as exc:
+                print(f"Không gửi được ảnh, gửi chữ: {exc}")
+        return self.send(text)
+
+    def _post(self, method: str, payload: dict) -> int:
+        response = self.http.post(f"https://api.telegram.org/bot{self.token}/{method}", json=payload)
+        return self._message_id(response)
+
+    def _message_id(self, response: httpx.Response) -> int:
         response.raise_for_status()
         body = response.json()
         if not body.get("ok"):
-            raise RuntimeError(json.dumps(body))
+            raise RuntimeError("Telegram từ chối tin nhắn")
         return int(body["result"]["message_id"])
 
     def get_updates(self, offset: int) -> list[dict]:
@@ -107,6 +122,20 @@ def message_index(catalog: dict) -> dict[int, str]:
     return index
 
 
+def play_url(app_id: str) -> str:
+    return f"https://play.google.com/store/apps/details?id={app_id}&hl=en"
+
+
+def first_screenshot(app: dict) -> str | None:
+    shots = app.get("screenshots") or []
+    if not isinstance(shots, list):
+        return None
+    for shot in shots:
+        if isinstance(shot, str) and shot.startswith("http"):
+            return shot
+    return None
+
+
 def format_report(app: dict, judgement: dict) -> str:
     title = app.get("title") or app.get("appId")
     developer = app.get("developer") or "Không rõ"
@@ -114,7 +143,7 @@ def format_report(app: dict, judgement: dict) -> str:
     score = app.get("score")
     score_text = f"{float(score):.1f}★" if isinstance(score, (int, float)) else "chưa có điểm"
     app_id = app.get("appId") or app.get("app_id")
-    url = f"https://play.google.com/store/apps/details?id={app_id}"
+    url = play_url(str(app_id))
     iap = "Có IAP" if app.get("offersIAP") else "Không IAP"
     mechanic = judgement.get("mechanic_vi") or "Chưa mô tả"
     why = judgement.get("why_vi") or "Chưa rõ"

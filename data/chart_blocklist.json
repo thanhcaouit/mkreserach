@@ -1,3 +1,1063 @@
 {
-  "apps": {}
+  "apps": {
+    "com.oakever.meowdoku": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE",
+        "GAME"
+      ]
+    },
+    "com.block.juggle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE",
+        "GAME"
+      ]
+    },
+    "com.ecffri.arrows": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.dreamgames.royalmatch": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.Garawell.LoopSort": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.loomgames.pixelflow": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.dreamgames.royalkingdom": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE",
+        "GAME"
+      ]
+    },
+    "com.puzzlegames.puzzlebrickslegend": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.wood.block.sudoku.puzzle.bm": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.oakever.tiletrip": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.rotatelab.cubeblast": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.oakever.jigsawcard": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.nebula.tiles": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.arrow.out": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.playvalve.connect.dots": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "net.peakgames.toonblast": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE",
+        "GAME"
+      ]
+    },
+    "com.abi.colony.flow": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "net.peakgames.match": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.easybrain.art.puzzle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE",
+        "GAME"
+      ]
+    },
+    "com.leap.searchit": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.homagames.studio.allinhole": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "linkdesks.merge.gossipstreet": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.spcomes.hellotown": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.zynga.gotm": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.garden.design.match3.makeover.renovate.dream.home.decor": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.jumkaash.impossibleisland.andr": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.StudioFolly.GUBBINS": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE",
+        "GAME"
+      ]
+    },
+    "com.arizonags.puzzlesocietyalpha": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.bigcool.puzzle.homematch": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.blu.wsp": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.chamelio.magicraft": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.cleverapps.hustlemerge": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.global.xxsx.google": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.mergegames.queenscastle.gp": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.mergegames.witchandcatstory.gp": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.mobirix.mbtm": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.mobirix.mrgomw": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.grandgames.magicsort": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE",
+        "GAME"
+      ]
+    },
+    "com.mergegames.gossipharbor": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "jp.co.goodroid.hyper.busflow": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.yolo.hiddenobjects": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.easybrain.number.puzzle.game": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE",
+        "GAME"
+      ]
+    },
+    "com.loop.clear.cube.free.card.puzzle.sort.match": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.easybrain.sudoku.android": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE",
+        "GAME"
+      ]
+    },
+    "easy.sudoku.puzzle.solver.free": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.ig.screwdom": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.vigafun.funfinity.foodhunt": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.crazylabs.amaze.game": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "car.parking.jam.solver.puzzle.games": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "math.puzzle.games.crossmath.number.puzzles.free": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.wood.bolt.wordle.screw.nuts.puzzle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.nopegames.coffeemania": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "puzzle.snakes.puzzle.slithereat.gaming": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.dopuz.klotski.riddle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "linkdesks.block.puzzle.classic.puzzlegames": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.puzzlegamesclassic.puzzlegame": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.playrix.fishdomdd.gplay": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "linkdesks.storymatch": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.gamee.royal.escape.kingdom.castle.match.puzzle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "linkdesks.tile.match.fun": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.cookapps.ff.moderncity": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.playdigious.tmnt": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gof.global": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playdigious.skul": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bethsoft.DOOMII": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bethsoft.DOOM": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.roblox.client": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playrix.township": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pixel.art.coloring.color.number": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.supercell.clashroyale": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mojang.minecraftpe": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pazugames.avatarworld": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.outfit7.mytalkingangela2": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.king.candycrushsodasaga": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.outfit7.mytalkingtom2": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playrix.gardenscapes": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.supercell.clashofclans": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.plarium.raidlegends": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.williamsinteractive.jackpotparty": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pixelgun2": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tgc.sky.android": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.peaksel.openthesafebox_3dsafebreaker_thevault": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.com2usholdings.agwiv.android.google.global.normal": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playstack.balatro.android": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "air.com.midjiwan.polytopia": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.noodlecake.superliminal": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.devolver.reigns": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ustwo.monumentvalley2": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.Friedemann.SlotsAndDaggers": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.FireproofStudios.TheRoom3": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "air.com.bartbonte.purple": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.terribletoybox.thimbleweedparkandroid": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "air.com.RustyLake.UndergroundBlossom": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "air.com.RustyLake.WhiteDoor": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "app.flow.levelsII": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "ca.lbcstudios.coffee": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.IvanKovalov.quadline.android": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.RustyLake.ThePastWithin": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gurupuzzle.find.go.hidden.objects": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.nimblemind.drop.solitaire.jigsaw": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "game.mahjong.vibe.offline.puzzle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tilematch.cat": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ashita.jewel.bloom.color": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gurupuzzle.goods.tidy.jam.sorting": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.quzizi.juicyjourney.google": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tilequest.match.puzzle.travel.game": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "casual.jigsaw.color.puzzle.game": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.arrow.jam.travel.puzzle.trip": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bubbleshooter.rescue.story.family.pop.puzzle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "sort.game.water.sort.casual": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.snapbreak.fishinginc": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "waterflow.color.sort.puzzle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.super4.pixelart.coloring.number": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "dreamplay.clucksurvivor.google.roguelikedefense": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.candy.witch.match.gp": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.puzzle.escape.arrow.out": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sohi.zenarrow.gp": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.nimblemind.bus.traffic.games": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.digitalextremes.warframemobile": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.supercell.brawlstars": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.proxima.dfm": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.halfbrick.dantheman": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.dts.freefireth": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fingersoft.hcr2": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fanatee.cody": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.aniplex.fategrandorder.en": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.papegames.lysk.en": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.phs.global": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.vitastudio.mahjong": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.cyphergames.royalsmash": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.scopely.monopolygo": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.nianticlabs.pokemongo": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.nebula.mahjongtile": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fungames.blockcraft": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.kiloo.subwaysurf": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.studio27.MelonPlayground": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.king.candycrushsaga": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.innersloth.spacemafia": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.epicgames.fortnite": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.activision.callofduty.shooter": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.totalbattle": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.farlightgames.warline.gp.global": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.run.tower.defense": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.s01.global": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.zroute.global": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.funplus.ts.global": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.igg.android.doomsdaylastsurvivors": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ea.game.pvzfree_row": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.topgamesinc.evony": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.readygo.dark.gp": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "games.vaveda.militaryoverturn": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.readygo.barrel.gp": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.spark.sp.gp": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mobile.legends.usa": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.project.idle.cd": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "jp.co.ponos.battlecatsen": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.more.lastshelter.gp": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tocaboca.tocalifeworld": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.youmusic.magictiles": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playgendary.kickthebuddy": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.starplay.spider.fighter.openworld": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fansipan.stickman.fight.shadow.knights": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "jp.gree.warofnationsbeta": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.matryoshka.royal.cooking.kitchen.madness": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.miniclip.eightballpool": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.smilerlee.klondike": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.robtopx.geometryjumplite": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tripledot.blockbash": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.soccer.score.star": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.JindoBlu.TwoPlayerGamesChallenge": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ea.gp.fifamobile": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.halfbrick.fruitninjafree": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.rovio.baba": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.zynga.words3": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.epicoro.castleclashers": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    }
+  }
 }

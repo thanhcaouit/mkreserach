@@ -6,6 +6,7 @@ import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 
+from mkresearch.cooldown import Guard, LimitReached
 from mkresearch.dedupe import normalize_title
 from mkresearch.discover import PlayStore, blocked_ids, collect_partials, merge_blocklist, shortlist
 from mkresearch.filters import in_install_band
@@ -13,30 +14,49 @@ from mkresearch.judge import judge
 from mkresearch.learn import update_profile
 from mkresearch.llm import LlmClient
 from mkresearch.store import Store
-from mkresearch.telegram import Telegram, collect_ratings, format_report, message_index
+from mkresearch.telegram import (
+    Telegram,
+    collect_ratings,
+    first_screenshot,
+    format_report,
+    message_index,
+    play_url,
+)
 
 
 def main(argv: list[str] | None = None) -> int:
     _load_dotenv(Path(".env"))
+    _load_dotenv(Path(".env.local"))
     args = list(sys.argv[1:] if argv is None else argv)
     if len(args) != 1 or args[0] not in {"research", "ingest", "smoke"}:
         print("Dùng: python -m mkresearch.main research|ingest|smoke", file=sys.stderr)
         return 2
     mode = args[0]
     store = Store(Path(os.environ.get("DATA_DIR", "data")))
+    guard = Guard(store.load_cooldown())
     telegram = Telegram(
         os.environ.get("TELEGRAM_BOT_TOKEN", ""),
         os.environ.get("TELEGRAM_CHAT_ID", ""),
     )
-    llm = LlmClient()
-    play = PlayStore()
+    llm = LlmClient(guard=guard)
+    play = PlayStore(guard=guard)
     try:
         if mode == "ingest":
-            return run_ingest(store, telegram, llm)
-        if mode == "smoke":
-            return run_smoke(store, play, llm, telegram)
-        return run_research(store, play, llm, telegram)
+            code = run_ingest(store, telegram, llm)
+        elif mode == "smoke":
+            code = run_smoke(store, play, llm, telegram)
+        else:
+            code = run_research(store, play, llm, telegram)
+        _notify_pending(guard, telegram)
+        store.save_cooldown(guard.state)
+        return code
+    except LimitReached as exc:
+        _notify_pending(guard, telegram)
+        store.save_cooldown(guard.state)
+        print(f"Nghỉ gọi dịch vụ: {exc}")
+        return 0
     except Exception as exc:
+        store.save_cooldown(guard.state)
         print(f"Lỗi: {exc}", file=sys.stderr)
         traceback.print_exc()
         if mode == "research" and telegram.configured():
@@ -50,10 +70,11 @@ def main(argv: list[str] | None = None) -> int:
 def run_ingest(store: Store, telegram: Telegram, llm: LlmClient) -> int:
     _require_telegram(telegram)
     ratings, changed = _pull_ratings(store, telegram)
-    profile = store.load_profile()
-    if changed:
-        profile = update_profile(llm, store.load_seeds(), ratings["items"], profile)
+    if changed and not _llm_paused(llm):
+        profile = update_profile(llm, store.load_seeds(), ratings["items"], store.load_profile())
         store.save_profile(profile)
+    elif changed:
+        print("Có điểm mới, AI đang nghỉ nên chưa viết lại hồ sơ.")
     print(f"Đã đọc điểm. Tổng {len(ratings['items'])} dòng.")
     return 0
 
@@ -65,12 +86,18 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
     seeds = store.load_seeds()
     if not seeds:
         raise RuntimeError("data/seeds.yaml chưa có game mẫu")
+    if llm.guard.active("play") or _llm_paused(llm):
+        print("Đang trong thời gian nghỉ, không gọi Play và AI.")
+        _pull_ratings(store, telegram)
+        return 0
     ratings, changed = _pull_ratings(store, telegram)
     profile = store.load_profile()
-    if changed:
+    if changed and not _llm_paused(llm):
         try:
             profile = update_profile(llm, seeds, ratings["items"], profile)
             store.save_profile(profile)
+        except LimitReached:
+            raise
         except Exception as exc:
             print(f"Giữ hồ sơ cũ vì không cập nhật được: {exc}")
             profile = store.load_profile()
@@ -78,6 +105,9 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
     charts = play.chart_ids()
     blocklist = merge_blocklist(store.load_blocklist(), charts, datetime.now(timezone.utc).date().isoformat())
     store.save_blocklist(blocklist)
+    if play.halted:
+        print("Play bị chặn, dừng lượt này.")
+        return 0
     chart_ids = blocked_ids(blocklist)
 
     catalog = store.load_catalog()
@@ -86,7 +116,15 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
     queries = [str(item) for item in profile.get("search_queries") or []]
     partials = collect_partials(play, anchors, queries)
     passed, scanned = shortlist(play, partials, catalog, seeds, publishers, chart_ids)
+    if play.halted and not passed:
+        print("Play bị chặn, dừng lượt này.")
+        return 0
     print(f"Ứng viên {len(partials)}, đã lấy chi tiết {scanned}, qua lọc {len(passed)}")
+    for app in passed:
+        print(
+            f"qua lọc: {app.get('title')} | {app.get('appId')} | "
+            f"{app.get('developer')} | {app.get('installs')}"
+        )
     picks = judge(llm, passed, seeds, profile)
     by_id = {str(app.get("appId")): app for app in passed}
     sent = 0
@@ -95,7 +133,7 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
         if app is None:
             continue
         try:
-            message_id = telegram.send(format_report(app, pick))
+            message_id = telegram.send_report(format_report(app, pick), first_screenshot(app))
         except Exception as exc:
             print(f"Không gửi được {pick['app_id']}: {exc}")
             continue
@@ -145,8 +183,7 @@ def run_smoke(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegram)
         print("Smoke LLM không trả về ok")
         return 1
     links = "\n".join(
-        f"https://play.google.com/store/apps/details?id={app_id}"
-        for app_id in ("jp.danball.crossvirus", "com.sadpuppy.lemmings")
+        play_url(app_id) for app_id in ("jp.danball.crossvirus", "com.sadpuppy.lemmings")
     )
     message_id = telegram.send(f"smoke ok\n{links}")
     print(f"telegram message_id={message_id}")
@@ -196,12 +233,35 @@ def _remember(catalog: dict, app: dict, message_id: int, pick: dict) -> None:
         "installs": app.get("installs"),
         "min_installs": app.get("minInstalls"),
         "score": app.get("score"),
-        "url": f"https://play.google.com/store/apps/details?id={app_id}",
+        "url": play_url(app_id),
         "message_id": message_id,
         "suggested_at": datetime.now(timezone.utc).isoformat(),
         "mechanic_vi": pick.get("mechanic_vi"),
         "why_vi": pick.get("why_vi"),
     }
+
+
+def _llm_paused(llm: LlmClient) -> bool:
+    can_gemini = bool(llm.gemini_key) and not llm.guard.active("gemini")
+    can_groq = bool(llm.groq_key) and not llm.guard.active("groq")
+    return not can_gemini and not can_groq
+
+
+def _notify_pending(guard: Guard, telegram: Telegram) -> None:
+    pending = [
+        name
+        for name in ("play", "gemini", "groq")
+        if (guard.state.get(name) or {}).get("until") and not guard.state[name].get("notified")
+    ]
+    if not pending:
+        return
+    until = guard.state[pending[0]].get("until", "")
+    try:
+        telegram.send(f"Tạm dừng tới {until} vì bị giới hạn hoặc chặn: {', '.join(pending)}.")
+    except Exception as exc:
+        print(f"Không báo được Telegram: {exc}")
+    for name in pending:
+        guard.state[name]["notified"] = True
 
 
 def _require_telegram(telegram: Telegram) -> None:

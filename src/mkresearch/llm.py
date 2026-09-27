@@ -5,6 +5,8 @@ import re
 
 import httpx
 
+from mkresearch.cooldown import Guard, LimitReached, limit_kind
+
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
@@ -31,8 +33,9 @@ def parse_json_object(text: str) -> dict:
 
 
 class LlmClient:
-    def __init__(self, http: httpx.Client | None = None) -> None:
+    def __init__(self, http: httpx.Client | None = None, guard: Guard | None = None) -> None:
         self.http = http or httpx.Client(timeout=60)
+        self.guard = guard or Guard()
         self.gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
         self.groq_key = os.environ.get("GROQ_API_KEY", "").strip()
         self.last_model = ""
@@ -42,25 +45,38 @@ class LlmClient:
 
     def complete(self, prompt: str) -> str:
         errors: list[str] = []
-        if self.gemini_key:
+        if self.gemini_key and not self.guard.active("gemini"):
             for model in _gemini_models():
                 try:
                     text = self._gemini(prompt, model)
                     self.last_model = model
                     return text
                 except Exception as exc:
-                    errors.append(f"{model}: {exc}")
-        if self.groq_key:
-            model = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+                    errors.append(f"{model}: {_public_error(exc)}")
+                    if self._trip("gemini", exc):
+                        break
+        if self.groq_key and not self.guard.active("groq"):
+            model = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
             try:
                 text = self._groq(prompt, model)
                 self.last_model = model
                 return text
             except Exception as exc:
-                errors.append(f"{model}: {exc}")
+                errors.append(f"{model}: {_public_error(exc)}")
+                self._trip("groq", exc)
+        can_gemini = bool(self.gemini_key) and not self.guard.active("gemini")
+        can_groq = bool(self.groq_key) and not self.guard.active("groq")
+        if not can_gemini and not can_groq and (self.guard.active("gemini") or self.guard.active("groq")):
+            raise LimitReached("llm", "AI bị giới hạn")
         if not errors:
             raise LlmError("Thiếu GEMINI_API_KEY hoặc GROQ_API_KEY")
         raise LlmError("; ".join(errors))
+
+    def _trip(self, scope: str, exc: Exception) -> bool:
+        if limit_kind(exc) is None:
+            return False
+        self.guard.trip(scope, "day", f"HTTP giới hạn {scope}")
+        return True
 
     def ping(self) -> str:
         text = self.complete("Reply with the single word ok")
@@ -94,10 +110,17 @@ class LlmClient:
         return body["choices"][0]["message"]["content"]
 
 
+def _public_error(exc: Exception) -> str:
+    text = str(exc)
+    text = re.sub(r"([?&]key=)[^&\s'\"]+", r"\1***", text)
+    text = re.sub(r"Bearer\s+\S+", "Bearer ***", text)
+    return text.split("For more information")[0].strip()
+
+
 def _gemini_models() -> list[str]:
     primary = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash").strip()
     models = [primary]
-    fallback = "gemini-2.0-flash"
-    if fallback not in models:
-        models.append(fallback)
+    for fallback in ("gemini-2.5-flash-lite",):
+        if fallback not in models:
+            models.append(fallback)
     return models

@@ -72,3 +72,9 @@ class Store:
 
     def save_offset(self, offset: int) -> None:
         _write_json(self.root / "telegram_offset.json", {"offset": offset})
+
+    def load_cooldown(self) -> dict:
+        return _read_json(self.root / "cooldown.json", {})
+
+    def save_cooldown(self, state: dict) -> None:
+        _write_json(self.root / "cooldown.json", state)

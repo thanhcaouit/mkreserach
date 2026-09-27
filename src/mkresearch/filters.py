@@ -55,10 +55,10 @@ def is_free(app: dict) -> bool:
 
 def is_puzzle(app: dict) -> bool:
     genre_id = str(app.get("genreId") or "")
-    genre = str(app.get("genre") or "")
+    genre = str(app.get("genre") or "").casefold()
     if genre_id == "GAME_PUZZLE":
         return True
-    return "puzzle" in genre.casefold()
+    return any(token in genre for token in ("puzzle", "giải đố", "giai do"))
 
 
 def hard_reject(app: dict, publisher_names: list[str], blocked_ids: set[str]) -> str | None:

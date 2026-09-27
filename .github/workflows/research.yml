@@ -2,7 +2,7 @@ name: Research
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 2-14 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -34,7 +34,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_MODEL: gemini-2.5-flash
-          GROQ_MODEL: llama-3.3-70b-versatile
+          GROQ_MODEL: openai/gpt-oss-120b
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m mkresearch.main ${{ github.event.inputs.mode || 'research' }}
