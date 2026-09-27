@@ -2,7 +2,7 @@ name: Ingest scores
 
 on:
   schedule:
-    - cron: "47 */6 * * *"
+    - cron: "17,47 */6 * * *"
   workflow_dispatch:
 
 jobs:

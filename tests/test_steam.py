@@ -99,4 +99,4 @@ def test_research_workflow_keeps_play_job_and_commits_only_steam_data():
     assert "git add data/steam" in text
     play_job, steam_job = text.split("\n  steam:", 1)
     assert "git add data/steam" not in play_job
-    assert "needs: run" in steam_job or "needs:\n" in "  steam:" + steam_job
+    assert "needs: [gate, run]" in steam_job

@@ -2,7 +2,7 @@ name: Research
 
 on:
   schedule:
-    - cron: "37 2-14 * * *"
+    - cron: "7,27,47 2-14 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -14,7 +14,55 @@ on:
         default: research
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          if [ "$EVENT_NAME" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          curl -sS -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/research.yml/runs?event=schedule&per_page=8" \
+            -o /tmp/runs.json || echo '{"workflow_runs":[]}' > /tmp/runs.json
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timedelta, timezone
+          try:
+              runs = json.load(open("/tmp/runs.json")).get("workflow_runs") or []
+          except Exception as exc:
+              print(f"Không đọc được lịch sử, vẫn chạy: {exc}")
+              runs = []
+          now = datetime.now(timezone.utc)
+          current = os.environ["RUN_ID"]
+          run = True
+          for item in runs:
+              if str(item.get("id")) == current:
+                  continue
+              created = datetime.fromisoformat(str(item.get("created_at")).replace("Z", "+00:00"))
+              if now - created >= timedelta(minutes=45):
+                  continue
+              status = item.get("status")
+              conclusion = item.get("conclusion")
+              if status in {"queued", "in_progress", "waiting", "pending"} or conclusion in {"success", "skipped"}:
+                  print(f"Bỏ qua vì run {item.get('id')} lúc {item.get('created_at')} trạng thái {status}/{conclusion}")
+                  run = False
+                  break
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as handle:
+              handle.write(f"run={'true' if run else 'false'}\n")
+          PY
   run:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -50,8 +98,8 @@ jobs:
           fi
 
   steam:
-    needs: run
-    if: github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke'
+    needs: [gate, run]
+    if: needs.gate.outputs.run == 'true' && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke')
     runs-on: ubuntu-latest
     permissions:
       contents: write
