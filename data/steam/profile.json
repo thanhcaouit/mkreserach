@@ -17,11 +17,13 @@
     "sokoban puzzle levels",
     "one rule puzzle",
     "guide units puzzle levels",
-    "isolation puzzle levels"
+    "world of goo physics puzzle"
   ],
   "anchor_app_ids": [
     "357300",
-    "353540"
+    "353540",
+    "22000",
+    "3385670"
   ],
   "updated_at": null
 }

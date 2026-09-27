@@ -19,14 +19,14 @@ def build_judge_prompt(candidates: list[dict], seeds: list[dict], profile: dict)
         )
     return (
         "Bạn chọn puzzle Steam có level và luật chơi lạ, gần tinh thần game mẫu.\n"
-        "Game mẫu là Snakebird và Stephen's Sausage Roll: nhiều màn, một luật rõ.\n"
+        "Game mẫu là Snakebird, Stephen's Sausage Roll, World of Goo và World of Goo 2: nhiều màn, một luật rõ.\n"
         "Mọi mức giá đều được. Loại match-3, screw puzzle, sort puzzle, idle, endless một vòng, "
         "jigsaw ghép ảnh, unblock thuần, mahjong cổ điển không có luật mới.\n"
         "Chỉ trả JSON dạng "
         '{"picks":[{"app_id":"","has_levels":true,"novelty":1,"near_seed":""}]}.\n'
         "novelty là số nguyên 1-5. has_levels true chỉ khi chơi theo màn hoặc mục tiêu từng màn.\n"
         "app_id phải chép đúng từ danh sách ứng viên. Không bịa id mới.\n"
-        "near_seed là Snakebird hoặc Stephen's Sausage Roll.\n"
+        "near_seed là Snakebird, Stephen's Sausage Roll, World of Goo hoặc World of Goo 2.\n"
         "Trả đúng 5 game có level nếu danh sách ứng viên đủ 5. Xếp theo novelty, cao hơn đứng trước.\n\n"
         f"Hồ sơ gu:\n{_dump(profile)}\n\n"
         f"Seed:\n{_dump(seeds)}\n\n"

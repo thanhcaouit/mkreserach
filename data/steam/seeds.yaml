@@ -5,3 +5,9 @@ games:
   - app_id: "353540"
     title: Stephen's Sausage Roll
     why: Nhiều màn đẩy xúc xích trên vỉ nướng. Mỗi màn một mục tiêu, gần tinh thần dẫn đơn vị.
+  - app_id: "22000"
+    title: World of Goo
+    why: Puzzle vật lý theo màn. Nối những viên goo để dựng kết cấu và đưa chúng tới ống hút.
+  - app_id: "3385670"
+    title: World of Goo 2
+    why: Phần tiếp theo của World of Goo. Vẫn dựng kết cấu từ goo theo từng màn, một luật rõ.
