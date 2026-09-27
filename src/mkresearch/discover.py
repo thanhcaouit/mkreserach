@@ -150,7 +150,7 @@ def collect_partials(play: PlayStore, anchors: list[str], queries: list[str]) ->
         seen.add(app_id)
         partials.append(item)
 
-    for app_id in anchors[:4]:
+    for app_id in anchors[:6]:
         for lang, country in LOCALES:
             for found in play.similar_ids(app_id, lang, country):
                 add({"appId": found})
