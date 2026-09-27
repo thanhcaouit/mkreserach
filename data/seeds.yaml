@@ -5,3 +5,6 @@ games:
   - app_id: com.sadpuppy.lemmings
     title: Lemmings Puzzle Survival
     why: Nhiều level, mỗi màn một mục tiêu dẫn lemming bằng vai trò. Mốc cho puzzle có luật rõ, không phải hypercasual một vòng.
+  - app_id: com.khlbgames.slimbo
+    title: Slimbo
+    why: Puzzle vật lý mềm theo màn. Thả khối nhão để dựng đường, dẫn goo tới kẹo. Mỗi màn một ý.

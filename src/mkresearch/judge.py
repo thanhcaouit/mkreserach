@@ -18,8 +18,8 @@ def build_judge_prompt(candidates: list[dict], seeds: list[dict], profile: dict)
         )
     return (
         "Bạn chọn puzzle mobile có level và luật chơi lạ, gần tinh thần game mẫu.\n"
-        "Game mẫu là puzzle theo màn, một luật rõ: Cross Virus (đặt block chặn virus lan chữ thập) "
-        "và Lemmings (dẫn lemming qua từng màn).\n"
+        "Game mẫu là puzzle theo màn, một luật rõ: Cross Virus (đặt block chặn virus lan chữ thập), "
+        "Lemmings (dẫn lemming qua từng màn) và Slimbo (thả khối nhão dựng đường dẫn goo tới kẹo).\n"
         "Loại match-3, screw puzzle, sort puzzle, idle, endless một vòng, jigsaw ghép ảnh, unblock thuần, mahjong/shisen cổ điển không có luật mới.\n"
         "Chỉ trả JSON dạng "
         '{"picks":[{"app_id":"","has_levels":true,"novelty":1,"mechanic_vi":"","why_vi":"","near_seed":""}]}.\n'
