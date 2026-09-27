@@ -1094,6 +1094,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.paradyme.solarsmash": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "io.supercent.weaponrpg": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bigbluebubble.singingmonsters.full": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ironhidegames.android.kingdomrush4": {
+      "first_seen": "2026-09-27",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

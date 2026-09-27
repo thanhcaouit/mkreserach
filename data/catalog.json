@@ -195,6 +195,76 @@
       "suggested_at": "2026-09-27T05:25:51.455616+00:00",
       "mechanic_vi": "Đặt các miếng hình chữ nhật hoặc vuông dựa trên số trong ô để lấp đầy toàn bộ lưới.",
       "why_vi": "Mỗi màn chỉ có một cách duy nhất để lắp đầy lưới, đáp ứng yêu cầu luật rõ ràng và tính cô lập, phù hợp với sở thích puzzle có mục tiêu từng màn."
+    },
+    "com.dts.arrow.escape.puzzle": {
+      "app_id": "com.dts.arrow.escape.puzzle",
+      "title": "Path Flow Puzzle: Logic Game",
+      "title_norm": "path flow puzzle logic game",
+      "developer": "Digital Toys Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dts.arrow.escape.puzzle&hl=en",
+      "message_id": 23,
+      "suggested_at": "2026-09-27T05:31:52.642059+00:00",
+      "mechanic_vi": "Dẫn các khối theo hướng đúng để tạo đường nối từ nguồn tới đích.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất: không để khối chặn đường đi, phù hợp với sở thích dẫn đơn vị tới mục tiêu."
+    },
+    "com.liaoyanxuan.onelinepuzzlegp": {
+      "app_id": "com.liaoyanxuan.onelinepuzzlegp",
+      "title": "1Line One Line game puzzle",
+      "title_norm": "1line one line game puzzle",
+      "developer": "CasualBrain Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.liaoyanxuan.onelinepuzzlegp&hl=en",
+      "message_id": 24,
+      "suggested_at": "2026-09-27T05:31:53.550701+00:00",
+      "mechanic_vi": "Vẽ một đường duy nhất qua tất cả các điểm mà không lặp lại.",
+      "why_vi": "Luật chơi đơn giản, mỗi màn chỉ yêu cầu một nét duy nhất, đáp ứng yêu cầu một quy tắc rõ ràng."
+    },
+    "com.IcedropGames.LOK": {
+      "app_id": "com.IcedropGames.LOK",
+      "title": "LOK Digital",
+      "title_norm": "lok digital",
+      "developer": "Draknek",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.4158416,
+      "url": "https://play.google.com/store/apps/details?id=com.IcedropGames.LOK&hl=en",
+      "message_id": 25,
+      "suggested_at": "2026-09-27T05:31:55.076825+00:00",
+      "mechanic_vi": "Ghép từ để kích hoạt khả năng đặc biệt, thay đổi môi trường xung quanh.",
+      "why_vi": "Mỗi thế giới có một cơ chế mới, nhưng mỗi màn vẫn giữ một mục tiêu duy nhất, phù hợp với luật đơn giản."
+    },
+    "com.iwp.tango": {
+      "app_id": "com.iwp.tango",
+      "title": "Rumba: Daily Binary Puzzle",
+      "title_norm": "rumba daily binary puzzle",
+      "developer": "Guriddo",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.42,
+      "url": "https://play.google.com/store/apps/details?id=com.iwp.tango&hl=en",
+      "message_id": 26,
+      "suggested_at": "2026-09-27T05:31:56.046223+00:00",
+      "mechanic_vi": "Điền màu xanh và vàng vào lưới sao cho mỗi hàng, cột cân bằng và không có ba màu liên tiếp.",
+      "why_vi": "Quy tắc duy nhất và rõ ràng cho mỗi màn, mang lại thách thức logic mà không cần cơ chế phức tạp."
+    },
+    "com.fanatee.logic": {
+      "app_id": "com.fanatee.logic",
+      "title": "Everyday Grids: Logic Puzzles",
+      "title_norm": "everyday grids logic puzzles",
+      "developer": "Fanatee, Inc.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.97,
+      "url": "https://play.google.com/store/apps/details?id=com.fanatee.logic&hl=en",
+      "message_id": 27,
+      "suggested_at": "2026-09-27T05:31:57.262344+00:00",
+      "mechanic_vi": "Giải các câu đố logic ngắn gọn dựa trên các ràng buộc vị trí.",
+      "why_vi": "Mỗi câu đố là một màn độc lập với một quy tắc duy nhất, phù hợp với sở thích puzzle có mục tiêu rõ ràng."
     }
   }
 }
