@@ -1315,6 +1315,76 @@
       "suggested_at": "2026-09-28T21:01:34.708702+00:00",
       "mechanic_vi": "Trượt và sắp xếp các khối để giải các mê cung màu sắc.",
       "why_vi": "Cung cấp hàng ngàn cấp độ với cùng một quy tắc di chuyển khối, dễ tiếp cận cho người mới."
+    },
+    "com.starwaves.zenblocks": {
+      "app_id": "com.starwaves.zenblocks",
+      "title": "Color Block Puzzle Game",
+      "title_norm": "color block puzzle game",
+      "developer": "Star Waves",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.79,
+      "url": "https://play.google.com/store/apps/details?id=com.starwaves.zenblocks&hl=en",
+      "message_id": 173,
+      "suggested_at": "2026-09-28T22:01:14.705354+00:00",
+      "mechanic_vi": "Ready for a relaxing yet rewarding block blast puzzle challenge? Color Block is a classic color block puzzle game that’s easy to pick up, calming to play, and surprisingly rich in strategy. Designed for players of all ag",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.color.match.block.jam.amd": {
+      "app_id": "com.color.match.block.jam.amd",
+      "title": "Block Jam: Color Sort Games",
+      "title_norm": "block jam color sort games",
+      "developer": "Anti-stress Mobile Dev",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 2.75,
+      "url": "https://play.google.com/store/apps/details?id=com.color.match.block.jam.amd&hl=en",
+      "message_id": 174,
+      "suggested_at": "2026-09-28T22:01:16.356144+00:00",
+      "mechanic_vi": "Block Jam is an exciting block puzzle game that allows you to showcase your logic and creativity skills, becoming a master in color block games. Carefully send colored blocks to their matching doors to clear the block tr",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.color.block.fun.puzzle.jam": {
+      "app_id": "com.color.block.fun.puzzle.jam",
+      "title": "Block Sorting Games: Color Jam",
+      "title_norm": "block sorting games color jam",
+      "developer": "HBA Global",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.color.block.fun.puzzle.jam&hl=en",
+      "message_id": 175,
+      "suggested_at": "2026-09-28T22:01:18.198478+00:00",
+      "mechanic_vi": "Welcome to Block Color Sort, an exciting and fun block sorting adventure! Forget about your daily stress and download this entertaining puzzle game to relax with its challenging gameplay. Use your skills and strategy to ",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.lesou.blockslide.gp": {
+      "app_id": "com.lesou.blockslide.gp",
+      "title": "Block Slide: Color Escape",
+      "title_norm": "block slide color escape",
+      "developer": "Huya Limited",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.4716983,
+      "url": "https://play.google.com/store/apps/details?id=com.lesou.blockslide.gp&hl=en",
+      "message_id": 176,
+      "suggested_at": "2026-09-28T22:01:20.188897+00:00",
+      "mechanic_vi": "Break out one move at a time in Block Slide: Color Escape, a vibrant prison puzzle adventure! Guide a determined inmate through locked cells, guarded corridors, dark tunnels, and high-security zones on the road to freedo",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.knc.woody.screw.jam": {
+      "app_id": "com.knc.woody.screw.jam",
+      "title": "Wood Screw Jam: Nuts & Bolts™",
+      "title_norm": "wood screw jam nuts bolts",
+      "developer": "KNGame",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.5555553,
+      "url": "https://play.google.com/store/apps/details?id=com.knc.woody.screw.jam&hl=en",
+      "message_id": 177,
+      "suggested_at": "2026-09-28T22:01:23.152570+00:00",
+      "mechanic_vi": "Wood Screw Jam: Nuts & Bolts™ – A Puzzle Game Like No Other! Dive into the captivating world of Wood Screw Jam: Nuts & Bolts™, where strategy meets creativity in a thrilling puzzle-solving experience. Whether you're unsc",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
