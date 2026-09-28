@@ -867,6 +867,76 @@
       "suggested_at": "2026-09-28T14:01:44.931582+00:00",
       "mechanic_vi": "Xoay mũi tên và xóa khối để tạo lối thoát, mỗi màn chỉ có một mục tiêu duy nhất.",
       "why_vi": "Đơn giản, dễ tiếp cận cho người mới và có nhiều cấp, phù hợp với yêu cầu một quy tắc rõ ràng cho mỗi màn."
+    },
+    "com.thegamebeast.arrowscube3d.games": {
+      "app_id": "com.thegamebeast.arrowscube3d.games",
+      "title": "Arrows Cube 3D",
+      "title_norm": "arrows cube 3d",
+      "developer": "The Game Beast",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.5405407,
+      "url": "https://play.google.com/store/apps/details?id=com.thegamebeast.arrowscube3d.games&hl=en",
+      "message_id": 134,
+      "suggested_at": "2026-09-28T15:01:36.497545+00:00",
+      "mechanic_vi": "Xoay khối 3D để di chuyển các mũi tên và giải phóng chúng theo thứ tự đúng.",
+      "why_vi": "Cơ chế xoay khối kết hợp với việc dẫn các đơn vị (mũi tên) tới lối ra đáp ứng yêu cầu hướng dẫn đơn vị và luật duy nhất mỗi màn."
+    },
+    "com.mtp.arrows.maze.color.puzzle.escape": {
+      "app_id": "com.mtp.arrows.maze.color.puzzle.escape",
+      "title": "Arrows Color Maze Escape",
+      "title_norm": "arrows color maze escape",
+      "developer": "Meta Play Studio",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.5742574,
+      "url": "https://play.google.com/store/apps/details?id=com.mtp.arrows.maze.color.puzzle.escape&hl=en",
+      "message_id": 135,
+      "suggested_at": "2026-09-28T15:01:38.088914+00:00",
+      "mechanic_vi": "Quay vòng mê cung 3D và kéo các mũi tên màu qua các đường đi để thoát.",
+      "why_vi": "Sự kết hợp giữa xoay mê cung (tilt gravity) và việc cô lập các mũi tên tạo ra luật duy nhất mỗi màn, phù hợp với sở thích 'enclose or isolate'."
+    },
+    "com.theone.mazecube": {
+      "app_id": "com.theone.mazecube",
+      "title": "Maze Cube: Arrow Escape",
+      "title_norm": "maze cube arrow escape",
+      "developer": "Studio Sky Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4,
+      "url": "https://play.google.com/store/apps/details?id=com.theone.mazecube&hl=en",
+      "message_id": 136,
+      "suggested_at": "2026-09-28T15:01:39.836777+00:00",
+      "mechanic_vi": "Xoay khối lập phương, sau đó chạm vào các mũi tên để giải phóng chúng theo chuỗi đúng.",
+      "why_vi": "Cơ chế xoay khối và hướng dẫn các mũi tên tới mục tiêu là một quy tắc rõ ràng cho mỗi cấp, giống như Lemmings."
+    },
+    "com.ns.arrow.puzzle.escape": {
+      "app_id": "com.ns.arrow.puzzle.escape",
+      "title": "Arrow Escape - Tap Away",
+      "title_norm": "arrow escape tap away",
+      "developer": "Takenick Innovation",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ns.arrow.puzzle.escape&hl=en",
+      "message_id": 137,
+      "suggested_at": "2026-09-28T15:01:40.927356+00:00",
+      "mechanic_vi": "Nhấn vào các mũi tên khi đường đi của chúng đã được giải phóng để chúng rời khỏi lưới.",
+      "why_vi": "Luật duy nhất là chỉ có thể di chuyển mũi tên khi không bị chặn, tạo ra một quy tắc rõ ràng cho mỗi màn."
+    },
+    "com.thebigbull.arrow.tap.escape.puzzle": {
+      "app_id": "com.thebigbull.arrow.tap.escape.puzzle",
+      "title": "Arrow Tap – Escape Out Puzzle",
+      "title_norm": "arrow tap escape out puzzle",
+      "developer": "Big Bull Studios",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.681818,
+      "url": "https://play.google.com/store/apps/details?id=com.thebigbull.arrow.tap.escape.puzzle&hl=en",
+      "message_id": 138,
+      "suggested_at": "2026-09-28T15:01:42.100239+00:00",
+      "mechanic_vi": "Chạm vào mũi tên theo thứ tự đúng để chúng thoát khỏi bảng, tránh các chướng ngại vật.",
+      "why_vi": "Mỗi cấp chỉ có một mục tiêu duy nhất – giải phóng tất cả mũi tên – đáp ứng yêu cầu 'one clear rule per level'."
     }
   }
 }
