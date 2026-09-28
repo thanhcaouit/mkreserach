@@ -259,6 +259,56 @@
       "url": "https://store.steampowered.com/app/2765140",
       "message_id": 79,
       "suggested_at": "2026-09-28T07:02:05.926201+00:00"
+    },
+    "3090630": {
+      "app_id": "3090630",
+      "title": "Puzzle Dungeon!! Earthmage Erin",
+      "title_norm": "puzzle dungeon earthmage erin",
+      "developer": "Starpixel Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3090630",
+      "message_id": 81,
+      "suggested_at": "2026-09-28T08:02:11.241365+00:00"
+    },
+    "865410": {
+      "app_id": "865410",
+      "title": "Cyber Puzzle HackRow",
+      "title_norm": "cyber puzzle hackrow",
+      "developer": "Timeless Games, Inc.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/865410",
+      "message_id": 82,
+      "suggested_at": "2026-09-28T08:02:12.751484+00:00"
+    },
+    "3735750": {
+      "app_id": "3735750",
+      "title": "Cat Summoner - Block Puzzle -",
+      "title_norm": "cat summoner block puzzle",
+      "developer": "DDBY",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3735750",
+      "message_id": 83,
+      "suggested_at": "2026-09-28T08:02:15.361795+00:00"
+    },
+    "4178360": {
+      "app_id": "4178360",
+      "title": "Snake Coil: Puzzle Adventure",
+      "title_norm": "snake coil puzzle adventure",
+      "developer": "K.E.K. Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4178360",
+      "message_id": 84,
+      "suggested_at": "2026-09-28T08:02:17.153675+00:00"
+    },
+    "1658390": {
+      "app_id": "1658390",
+      "title": "Albert and Puzzle Mansion",
+      "title_norm": "albert and puzzle mansion",
+      "developer": "Anette Rana",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1658390",
+      "message_id": 85,
+      "suggested_at": "2026-09-28T08:02:18.287698+00:00"
     }
   }
 }
