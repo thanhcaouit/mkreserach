@@ -15,6 +15,12 @@ from mkresearch.filters import hard_reject, in_install_band, is_puzzle, parse_in
 APP_ID_RE = re.compile(r"id=([A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z0-9_]+)+)")
 SKIP_PREFIXES = ("com.google.android", "com.android.", "androidx.")
 LOCALES = (("en", "us"),)
+DETAIL_BATCH = 80
+DETAIL_ATTEMPTS = (
+    (15, True),
+    (40, False),
+    (20, False),
+)
 CHART_PAGES = {
     "GAME_PUZZLE": "https://play.google.com/store/apps/category/GAME_PUZZLE?hl=en&gl=us",
     "GAME": "https://play.google.com/store/games?hl=en&gl=us",
@@ -139,9 +145,44 @@ def blocked_ids(blocklist: dict) -> set[str]:
     return set((blocklist.get("apps") or {}).keys())
 
 
-def collect_partials(play: PlayStore, anchors: list[str], queries: list[str]) -> list[dict]:
+def seen_ids(seen: dict) -> set[str]:
+    return {str(app_id) for app_id in (seen.get("apps") or {}) if str(app_id)}
+
+
+def remember_seen(seen: dict, app_ids: list[str], day: str) -> dict:
+    apps = dict(seen.get("apps") or {})
+    for app_id in app_ids:
+        token = str(app_id or "")
+        if not token or token in apps:
+            continue
+        apps[token] = {"seen": day}
+    return {"apps": apps}
+
+
+def recent_match_titles(catalog: dict, limit: int = 6) -> list[str]:
+    apps = list((catalog.get("apps") or {}).values())
+    apps.sort(key=lambda item: str(item.get("suggested_at") or ""), reverse=True)
+    titles: list[str] = []
+    for app in apps:
+        title = str(app.get("title") or "").strip()
+        if not title or title in titles:
+            continue
+        titles.append(title)
+        if len(titles) >= limit:
+            break
+    return titles
+
+
+def collect_partials(
+    play: PlayStore,
+    anchors: list[str],
+    queries: list[str],
+    n_hits: int = 15,
+    exclude: set[str] | None = None,
+    include_similar: bool = True,
+) -> list[dict]:
     partials: list[dict] = []
-    seen: set[str] = set()
+    seen: set[str] = set(exclude or ())
 
     def add(item: dict) -> None:
         app_id = str(item.get("appId") or "")
@@ -150,13 +191,14 @@ def collect_partials(play: PlayStore, anchors: list[str], queries: list[str]) ->
         seen.add(app_id)
         partials.append(item)
 
-    for app_id in anchors[:6]:
-        for lang, country in LOCALES:
-            for found in play.similar_ids(app_id, lang, country):
-                add({"appId": found})
+    if include_similar:
+        for app_id in anchors[:6]:
+            for lang, country in LOCALES:
+                for found in play.similar_ids(app_id, lang, country):
+                    add({"appId": found})
     for query in queries[:6]:
         for lang, country in LOCALES:
-            for hit in play.search_apps(query, lang, country):
+            for hit in play.search_apps(query, lang, country, n_hits=n_hits):
                 add(hit)
     return partials
 
@@ -169,29 +211,37 @@ def shortlist(
     publisher_names: list[str],
     chart_ids: set[str],
     limit: int = 12,
-) -> tuple[list[dict], int]:
+) -> tuple[list[dict], int, list[str], list[str]]:
     passed: list[dict] = []
     scanned = 0
+    opened: list[str] = []
+    handled: list[str] = []
     skipped = {"duplicate": 0, "chart": 0, "paid": 0, "partial": 0, "detail": 0}
     for partial in partials:
         app_id = str(partial.get("appId") or "")
         title = str(partial.get("title") or "")
         if is_duplicate(app_id, title, catalog, seeds):
             skipped["duplicate"] += 1
+            handled.append(app_id)
             continue
         if app_id in chart_ids:
             skipped["chart"] += 1
+            handled.append(app_id)
             continue
         if partial.get("free") is False:
             skipped["paid"] += 1
+            handled.append(app_id)
             continue
         if _partial_rejected(partial, publisher_names, chart_ids):
             skipped["partial"] += 1
+            handled.append(app_id)
             continue
         try:
             detail = play.app_details(app_id, lang="en", country="us")
         except NotFoundError:
             print(f"không thấy {app_id}")
+            opened.append(app_id)
+            handled.append(app_id)
             continue
         except DetailLimit:
             print("dừng lấy chi tiết vì đã đủ quota")
@@ -199,8 +249,12 @@ def shortlist(
         except Exception as exc:
             print(f"chi tiết lỗi {app_id}: {exc}")
             skipped["detail"] += 1
+            opened.append(app_id)
+            handled.append(app_id)
             continue
         scanned += 1
+        opened.append(app_id)
+        handled.append(app_id)
         detail["appId"] = app_id
         if is_duplicate(app_id, str(detail.get("title") or ""), catalog, seeds):
             skipped["duplicate"] += 1
@@ -213,7 +267,52 @@ def shortlist(
         if len(passed) >= limit:
             break
     print(f"bỏ qua: {skipped}")
-    return passed, scanned
+    return passed, scanned, opened, handled
+
+
+def gather_passed(
+    play: PlayStore,
+    anchors: list[str],
+    queries: list[str],
+    catalog: dict,
+    seeds: list[dict],
+    publisher_names: list[str],
+    chart_ids: set[str],
+    already_seen: set[str],
+    match_titles: list[str],
+) -> tuple[list[dict], int, list[str]]:
+    play.app_limit = DETAIL_BATCH
+    exclude = set(already_seen)
+    passed: list[dict] = []
+    scanned = 0
+    opened: list[str] = []
+    query_sets = (list(queries), list(queries), list(match_titles))
+    for index, ((n_hits, include_similar), batch_queries) in enumerate(
+        zip(DETAIL_ATTEMPTS, query_sets), start=1
+    ):
+        if passed or play.halted:
+            break
+        play.app_calls = 0
+        partials = collect_partials(
+            play,
+            anchors,
+            batch_queries,
+            n_hits=n_hits,
+            exclude=exclude,
+            include_similar=include_similar,
+        )
+        if not partials:
+            print(f"đợt {index}: hết ứng viên mới")
+            continue
+        batch_passed, batch_scanned, batch_opened, handled = shortlist(
+            play, partials, catalog, seeds, publisher_names, chart_ids
+        )
+        passed.extend(batch_passed)
+        scanned += batch_scanned
+        opened.extend(batch_opened)
+        exclude.update(handled)
+        print(f"đợt {index}: ứng viên {len(partials)}, đã lấy chi tiết {batch_scanned}, qua lọc {len(batch_passed)}")
+    return passed, scanned, opened
 
 
 def _partial_rejected(partial: dict, publisher_names: list[str], chart_ids: set[str]) -> bool:

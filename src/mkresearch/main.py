@@ -8,7 +8,15 @@ from pathlib import Path
 
 from mkresearch.cooldown import Guard, LimitReached
 from mkresearch.dedupe import normalize_title
-from mkresearch.discover import PlayStore, blocked_ids, collect_partials, merge_blocklist, shortlist
+from mkresearch.discover import (
+    PlayStore,
+    blocked_ids,
+    gather_passed,
+    merge_blocklist,
+    recent_match_titles,
+    remember_seen,
+    seen_ids,
+)
 from mkresearch.filters import in_install_band
 from mkresearch.judge import judge
 from mkresearch.learn import update_profile
@@ -114,12 +122,23 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
     publishers = store.load_publishers()
     anchors = list(profile.get("anchor_app_ids") or [])
     queries = [str(item) for item in profile.get("search_queries") or []]
-    partials = collect_partials(play, anchors, queries)
-    passed, scanned = shortlist(play, partials, catalog, seeds, publishers, chart_ids)
+    seen = store.load_seen()
+    passed, scanned, opened = gather_passed(
+        play,
+        anchors,
+        queries,
+        catalog,
+        seeds,
+        publishers,
+        chart_ids,
+        seen_ids(seen),
+        recent_match_titles(catalog),
+    )
+    store.save_seen(remember_seen(seen, opened, datetime.now(timezone.utc).date().isoformat()))
     if play.halted and not passed:
         print("Play bị chặn, dừng lượt này.")
         return 0
-    print(f"Ứng viên {len(partials)}, đã lấy chi tiết {scanned}, qua lọc {len(passed)}")
+    print(f"Đã lấy chi tiết {scanned}, qua lọc {len(passed)}")
     for app in passed:
         print(
             f"qua lọc: {app.get('title')} | {app.get('appId')} | "

@@ -78,3 +78,9 @@ class Store:
 
     def save_cooldown(self, state: dict) -> None:
         _write_json(self.root / "cooldown.json", state)
+
+    def load_seen(self) -> dict:
+        return _read_json(self.root / "play_seen.json", {"apps": {}})
+
+    def save_seen(self, seen: dict) -> None:
+        _write_json(self.root / "play_seen.json", seen)
