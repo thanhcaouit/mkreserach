@@ -937,6 +937,76 @@
       "suggested_at": "2026-09-28T15:01:42.100239+00:00",
       "mechanic_vi": "Chạm vào mũi tên theo thứ tự đúng để chúng thoát khỏi bảng, tránh các chướng ngại vật.",
       "why_vi": "Mỗi cấp chỉ có một mục tiêu duy nhất – giải phóng tất cả mũi tên – đáp ứng yêu cầu 'one clear rule per level'."
+    },
+    "com.arrows.cube3d.glide": {
+      "app_id": "com.arrows.cube3d.glide",
+      "title": "Arrows Cube 3D Glide",
+      "title_norm": "arrows cube 3d glide",
+      "developer": "SFT SOCFIT TECHNOLOGIES LIMITED",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.arrows.cube3d.glide&hl=en",
+      "message_id": 140,
+      "suggested_at": "2026-09-28T16:01:20.165726+00:00",
+      "mechanic_vi": "Quay và xoay khối lập phương 3D, chạm vào mũi tên để chúng trượt ra khỏi mặt khối; cần tìm thứ tự mở đường cho các mũi tên trên sáu mặt.",
+      "why_vi": "Luật duy nhất mỗi màn là \"đánh bật mũi tên\" và yêu cầu cô lập các mũi tên, phù hợp với sở thích \"enclose or isolate\"; có hàng trăm cấp độ."
+    },
+    "com.cubic.arrow.escape.master.game": {
+      "app_id": "com.cubic.arrow.escape.master.game",
+      "title": "Arrow Cube Escape",
+      "title_norm": "arrow cube escape",
+      "developer": "Frolic Games Studio",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.cubic.arrow.escape.master.game&hl=en",
+      "message_id": 141,
+      "suggested_at": "2026-09-28T16:01:21.777126+00:00",
+      "mechanic_vi": "Mô hình 3D dạng khối, người chơi chạm mũi tên để chúng di chuyển theo hướng đã định và rời khỏi khối, cần sắp xếp thứ tự để mở đường cho các mũi tên khác.",
+      "why_vi": "Một quy tắc rõ ràng cho mỗi màn, yêu cầu người chơi cách ly và dẫn mũi tên tới mục tiêu, đáp ứng yêu cầu \"guide units to a goal\" và có nhiều cấp độ."
+    },
+    "com.anoa.maze.color": {
+      "app_id": "com.anoa.maze.color",
+      "title": "Color Maze Jam: Maze Puzzle",
+      "title_norm": "color maze jam maze puzzle",
+      "developer": "Anoa Studio L.L.C-FZ",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.6153846,
+      "url": "https://play.google.com/store/apps/details?id=com.anoa.maze.color&hl=en",
+      "message_id": 142,
+      "suggested_at": "2026-09-28T16:01:23.465199+00:00",
+      "mechanic_vi": "Lăn bóng qua mê cung dạng lưới, mỗi đường đi sẽ tô màu; cần lấp đầy toàn bộ lưới để hoàn thành màn.",
+      "why_vi": "Luật duy nhất là \"làm đầy màu\" mỗi màn, sử dụng cơ chế nghiêng/độ nghiêng (tilt gravity) để di chuyển bóng, phù hợp với sở thích \"tilt gravity\" và có cấp độ rõ ràng."
+    },
+    "com.arrow.puzzle.escape.nipire.game": {
+      "app_id": "com.arrow.puzzle.escape.nipire.game",
+      "title": "Arrow Escape : Earn Cash",
+      "title_norm": "arrow escape earn cash",
+      "developer": "S M Reyad",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.1067963,
+      "url": "https://play.google.com/store/apps/details?id=com.arrow.puzzle.escape.nipire.game&hl=en",
+      "message_id": 143,
+      "suggested_at": "2026-09-28T16:01:24.614418+00:00",
+      "mechanic_vi": "Chạm để bắn mũi tên theo hướng đã định, cần giải phóng tất cả mũi tên trên bàn để hoàn thành mỗi màn.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất – giải phóng mọi mũi tên – và có hàng trăm cấp độ, đáp ứng yêu cầu \"one clear rule per level\"."
+    },
+    "com.cd.puzzle.arrow.maze.sort.out": {
+      "app_id": "com.cd.puzzle.arrow.maze.sort.out",
+      "title": "Arrow Out: Tap Escape Puzzle",
+      "title_norm": "arrow out tap escape puzzle",
+      "developer": "Creative Distrix Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.cd.puzzle.arrow.maze.sort.out&hl=en",
+      "message_id": 144,
+      "suggested_at": "2026-09-28T16:01:25.826304+00:00",
+      "mechanic_vi": "Nhấn vào mũi tên để chúng bay ra khỏi bảng khi đường đi không bị chặn; cần sắp xếp thứ tự để tránh va chạm.",
+      "why_vi": "Luật duy nhất mỗi màn là \"đưa mũi tên ra khỏi ma trận\" và yêu cầu người chơi lên kế hoạch trước, phù hợp với sở thích \"one clear rule per level\" và có cấp độ rõ ràng."
     }
   }
 }

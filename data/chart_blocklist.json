@@ -59,7 +59,8 @@
     "com.wood.block.sudoku.puzzle.bm": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.oakever.tiletrip": {
@@ -1577,6 +1578,18 @@
       ]
     },
     "com.WalkTalk.FlightMaster": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.matteljv.uno": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.outfit7.mytalkingtomfriends": {
       "first_seen": "2026-09-28",
       "sources": [
         "GAME"
