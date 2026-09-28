@@ -1316,6 +1316,66 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.fc.goods.sort.matching.puzzle.triplemaster": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.gamovation.tileclub": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.triple.match.goods.sort.puzzle.game": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.hypervation.goodssort": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.flyfox.triple.harvest.explorer.match3d.puzzle": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.puzzlegame.match.jewels.adventure": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.higgs.cubemaster3d": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "games.spearmint.triplecrush": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "funvent.tilepark": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.taprun.fruitmanialine": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
     }
   }
 }
