@@ -407,6 +407,30 @@
     },
     "bus.match.traffic.car.puzzles.parking": {
       "seen": "2026-09-28"
+    },
+    "com.apollo.block.out.jam.puzzle": {
+      "seen": "2026-09-28"
+    },
+    "com.gametown.block.away.jam.out.color": {
+      "seen": "2026-09-28"
+    },
+    "com.block.jam.color.puzzle": {
+      "seen": "2026-09-28"
+    },
+    "com.comgames.hungryballs": {
+      "seen": "2026-09-28"
+    },
+    "com.brickjam.color.slide": {
+      "seen": "2026-09-28"
+    },
+    "block.jam.color.puzzle3d.slide": {
+      "seen": "2026-09-28"
+    },
+    "com.ss.block.slide.jam": {
+      "seen": "2026-09-28"
+    },
+    "com.woodpuzzle.blockjam.colorpuzzle.blockaway": {
+      "seen": "2026-09-28"
     }
   }
 }

@@ -1147,6 +1147,76 @@
       "suggested_at": "2026-09-28T18:01:36.938097+00:00",
       "mechanic_vi": "Kéo khối ra khỏi cổng màu và đặt chúng vào vị trí trống, không có đồng hồ đếm ngược, tập trung vào logic.",
       "why_vi": "Không có timer, mỗi màn chỉ yêu cầu một quy tắc duy nhất – đặt khối đúng chỗ – và có hàng trăm cấp độ, phù hợp với sở thích muốn luật đơn giản và có mức độ."
+    },
+    "com.apollo.block.out.jam.puzzle": {
+      "app_id": "com.apollo.block.out.jam.puzzle",
+      "title": "Block Out: Jam Puzzle",
+      "title_norm": "block out jam puzzle",
+      "developer": "Apollo Mobile Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.74,
+      "url": "https://play.google.com/store/apps/details?id=com.apollo.block.out.jam.puzzle&hl=en",
+      "message_id": 158,
+      "suggested_at": "2026-09-28T19:01:10.707674+00:00",
+      "mechanic_vi": "Di chuyển các khối màu để mở lối thoát, cô lập chúng khỏi nhau và hướng chúng tới các cổng mục tiêu.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất – đưa mọi khối ra khỏi bảng – giúp người chơi tập trung vào việc bao vây và định vị."
+    },
+    "com.gametown.block.away.jam.out.color": {
+      "app_id": "com.gametown.block.away.jam.out.color",
+      "title": "Block Away - Block Jam",
+      "title_norm": "block away block jam",
+      "developer": "Azura Global",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.647059,
+      "url": "https://play.google.com/store/apps/details?id=com.gametown.block.away.jam.out.color&hl=en",
+      "message_id": 159,
+      "suggested_at": "2026-09-28T19:01:11.672541+00:00",
+      "mechanic_vi": "Đưa khối màu tới cổng màu tương ứng, mỗi cấp một bố cục mới và thời gian giới hạn.",
+      "why_vi": "Luật chơi rõ ràng, chỉ cần lập kế hoạch đường đi cho từng khối, phù hợp với sở thích “enclose or isolate”."
+    },
+    "com.block.jam.color.puzzle": {
+      "app_id": "com.block.jam.color.puzzle",
+      "title": "Block Jam Master:Wooden",
+      "title_norm": "block jam master wooden",
+      "developer": "Ease Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.5,
+      "url": "https://play.google.com/store/apps/details?id=com.block.jam.color.puzzle&hl=en",
+      "message_id": 160,
+      "suggested_at": "2026-09-28T19:01:13.277255+00:00",
+      "mechanic_vi": "Trượt các khối màu qua các cổng đúng màu, yêu cầu sắp xếp thứ tự di chuyển hợp lý.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất – đưa mọi khối tới cổng – tạo cảm giác thách thức từng cấp độ."
+    },
+    "com.brickjam.color.slide": {
+      "app_id": "com.brickjam.color.slide",
+      "title": "Brick Jam: Color Slide",
+      "title_norm": "brick jam color slide",
+      "developer": "Sonat Global",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.brickjam.color.slide&hl=en",
+      "message_id": 161,
+      "suggested_at": "2026-09-28T19:01:14.770240+00:00",
+      "mechanic_vi": "Kéo và trượt các khối màu để mở đường cho chúng vào cổng màu tương ứng.",
+      "why_vi": "Luật đơn giản, mỗi cấp độ chỉ yêu cầu người chơi tìm đường đi tối ưu cho các khối."
+    },
+    "com.ss.block.slide.jam": {
+      "app_id": "com.ss.block.slide.jam",
+      "title": "Block Slide Color Cube Jam",
+      "title_norm": "block slide color cube jam",
+      "developer": "Superhead Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.ss.block.slide.jam&hl=en",
+      "message_id": 162,
+      "suggested_at": "2026-09-28T19:01:15.811106+00:00",
+      "mechanic_vi": "Trượt các khối màu tới các cổng màu, giải quyết từng màn một cách tuần tự.",
+      "why_vi": "Cơ chế duy nhất mỗi màn là di chuyển khối tới cổng, phù hợp với yêu cầu “one clear rule per level”."
     }
   }
 }
