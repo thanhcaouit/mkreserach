@@ -309,6 +309,56 @@
       "url": "https://store.steampowered.com/app/1658390",
       "message_id": 85,
       "suggested_at": "2026-09-28T08:02:18.287698+00:00"
+    },
+    "2101690": {
+      "app_id": "2101690",
+      "title": "Space Voyage: The Puzzle Game",
+      "title_norm": "space voyage the puzzle game",
+      "developer": "a1creator",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2101690",
+      "message_id": 91,
+      "suggested_at": "2026-09-28T09:15:57.024246+00:00"
+    },
+    "1589920": {
+      "app_id": "1589920",
+      "title": "Long Ago: A Puzzle Tale",
+      "title_norm": "long ago a puzzle tale",
+      "developer": "GrimTalin",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1589920",
+      "message_id": 92,
+      "suggested_at": "2026-09-28T09:15:59.056750+00:00"
+    },
+    "3376410": {
+      "app_id": "3376410",
+      "title": "Lab Escape: Box Puzzle Game",
+      "title_norm": "lab escape box puzzle game",
+      "developer": "Pointless Games AB",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3376410",
+      "message_id": 93,
+      "suggested_at": "2026-09-28T09:16:00.386170+00:00"
+    },
+    "1973270": {
+      "app_id": "1973270",
+      "title": "Push the Box - Puzzle Game",
+      "title_norm": "push the box puzzle game",
+      "developer": "eSolutions",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1973270",
+      "message_id": 94,
+      "suggested_at": "2026-09-28T09:16:01.139965+00:00"
+    },
+    "874400": {
+      "app_id": "874400",
+      "title": "Dinosaur Hunt Puzzle",
+      "title_norm": "dinosaur hunt puzzle",
+      "developer": "Racing Bros",
+      "reviews": 164,
+      "url": "https://store.steampowered.com/app/874400",
+      "message_id": 95,
+      "suggested_at": "2026-09-28T09:16:01.945682+00:00"
     }
   }
 }
