@@ -503,6 +503,76 @@
       "suggested_at": "2026-09-28T06:01:38.903255+00:00",
       "mechanic_vi": "Đặt khối để tạo hàng dọc hoặc ngang, mở khóa các khu vui chơi sau mỗi vài màn.",
       "why_vi": "Mỗi màn có mục tiêu rõ ràng và tiến độ cấp độ, phù hợp với sở thích puzzle có luật đơn giản và có cấp độ."
+    },
+    "com.brennerd.grid_puzzle.tango": {
+      "app_id": "com.brennerd.grid_puzzle.tango",
+      "title": "Binary Twist: Logic Puzzles",
+      "title_norm": "binary twist logic puzzles",
+      "developer": "brennerd",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.4166665,
+      "url": "https://play.google.com/store/apps/details?id=com.brennerd.grid_puzzle.tango&hl=en",
+      "message_id": 86,
+      "suggested_at": "2026-09-28T09:15:23.604160+00:00",
+      "mechanic_vi": "Đặt 0 và 1 vào lưới sao cho mỗi hàng, cột có số lượng bằng nhau và không có ba ký tự giống nhau liên tiếp.",
+      "why_vi": "Luật duy nhất, đòi hỏi suy luận logic mà không cần đoán."
+    },
+    "com.iwp.tawa": {
+      "app_id": "com.iwp.tawa",
+      "title": "Skyscrapers Number Puzzle Tawa",
+      "title_norm": "skyscrapers number puzzle tawa",
+      "developer": "Guriddo",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.25,
+      "url": "https://play.google.com/store/apps/details?id=com.iwp.tawa&hl=en",
+      "message_id": 87,
+      "suggested_at": "2026-09-28T09:15:24.835478+00:00",
+      "mechanic_vi": "Đặt các số 1‑9 vào lưới, không trùng trong cùng hàng/cột; các chỉ số bên ngoài cho biết số tòa nhà nhìn thấy.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất, tạo cảm giác xây dựng thành phố và giải quyết câu đố."
+    },
+    "com.yunbu.nonogram.match": {
+      "app_id": "com.yunbu.nonogram.match",
+      "title": "Nonogram match - cross puzzles",
+      "title_norm": "nonogram match cross puzzles",
+      "developer": "Pixel Art - draw in fun",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.yunbu.nonogram.match&hl=en",
+      "message_id": 88,
+      "suggested_at": "2026-09-28T09:15:26.131319+00:00",
+      "mechanic_vi": "Đánh dấu hoặc để trống các ô dựa trên các chỉ số số ở cạnh để hé lộ hình ảnh.",
+      "why_vi": "Luật đơn giản nhưng mỗi cấp độ là một bức tranh mới, mang lại cảm giác khám phá."
+    },
+    "com.diomgames.SlidingPuzzle15Adventure": {
+      "app_id": "com.diomgames.SlidingPuzzle15Adventure",
+      "title": "15 Sliding Puzzle Adventure",
+      "title_norm": "15 sliding puzzle adventure",
+      "developer": "DIOM Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.4,
+      "url": "https://play.google.com/store/apps/details?id=com.diomgames.SlidingPuzzle15Adventure&hl=en",
+      "message_id": 89,
+      "suggested_at": "2026-09-28T09:15:27.656482+00:00",
+      "mechanic_vi": "Trượt các ô vuông để sắp xếp lại thứ tự số hoặc hình ảnh thành dãy đúng.",
+      "why_vi": "Mỗi màn có bố cục và mục tiêu khác nhau, tạo cảm giác phiêu lưu trong mỗi cấp độ."
+    },
+    "com.happyverse.jigsawblocks": {
+      "app_id": "com.happyverse.jigsawblocks",
+      "title": "Jigsaw Puzzles for Relaxation",
+      "title_norm": "jigsaw puzzles for relaxation",
+      "developer": "Happy-verse",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.513158,
+      "url": "https://play.google.com/store/apps/details?id=com.happyverse.jigsawblocks&hl=en",
+      "message_id": 90,
+      "suggested_at": "2026-09-28T09:15:29.236591+00:00",
+      "mechanic_vi": "Ghép các mảnh ghép lại thành hình ảnh hoàn chỉnh.",
+      "why_vi": "Mỗi cấp độ là một bức tranh mới, luật duy nhất là ghép đúng hình dạng các mảnh."
     }
   }
 }

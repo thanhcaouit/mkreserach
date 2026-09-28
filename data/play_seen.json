@@ -1,3 +1,157 @@
 {
-  "apps": {}
+  "apps": {
+    "jp.danball.powdergameviewer": {
+      "seen": "2026-09-28"
+    },
+    "jp.danball.ebox": {
+      "seen": "2026-09-28"
+    },
+    "jp.danball.wcatcup": {
+      "seen": "2026-09-28"
+    },
+    "jp.danball.monsterbox": {
+      "seen": "2026-09-28"
+    },
+    "jp.danball.rocats": {
+      "seen": "2026-09-28"
+    },
+    "com.exient.sackboy": {
+      "seen": "2026-09-28"
+    },
+    "com.ustwogames.mv3": {
+      "seen": "2026-09-28"
+    },
+    "com.ustwo.monumentvalley": {
+      "seen": "2026-09-28"
+    },
+    "com.leodesol.games.linesthegame": {
+      "seen": "2026-09-28"
+    },
+    "edu.terc.zoombinis.f2p": {
+      "seen": "2026-09-28"
+    },
+    "com.snapbreak.timelie": {
+      "seen": "2026-09-28"
+    },
+    "com.ea.game.pegglex_row": {
+      "seen": "2026-09-28"
+    },
+    "com.h8games.minecrew": {
+      "seen": "2026-09-28"
+    },
+    "com.h8games.linesweeper": {
+      "seen": "2026-09-28"
+    },
+    "com.h8games.helixrush": {
+      "seen": "2026-09-28"
+    },
+    "com.h8games.slime": {
+      "seen": "2026-09-28"
+    },
+    "com.h8games.crumbleloop": {
+      "seen": "2026-09-28"
+    },
+    "com.cosmicexpressgame": {
+      "seen": "2026-09-28"
+    },
+    "com.monsterexpedition": {
+      "seen": "2026-09-28"
+    },
+    "com.josehzz.SokobondExpress": {
+      "seen": "2026-09-28"
+    },
+    "air.com.sokobond": {
+      "seen": "2026-09-28"
+    },
+    "com.agoodsnowman": {
+      "seen": "2026-09-28"
+    },
+    "air.com.alikestudio.bringyouhome": {
+      "seen": "2026-09-28"
+    },
+    "com.cottongame.elevator": {
+      "seen": "2026-09-28"
+    },
+    "com.cottongame.reviver": {
+      "seen": "2026-09-28"
+    },
+    "com.marmalade.mousetrap": {
+      "seen": "2026-09-28"
+    },
+    "com.selvaInteractive.illuminaria": {
+      "seen": "2026-09-28"
+    },
+    "com.mografi.jennyleclue": {
+      "seen": "2026-09-28"
+    },
+    "vo.threes.exclaim": {
+      "seen": "2026-09-28"
+    },
+    "com.stateofplaygames.kami2": {
+      "seen": "2026-09-28"
+    },
+    "com.PotiPoti.IsThisSeatTaken": {
+      "seen": "2026-09-28"
+    },
+    "co.meanmanta.mergemaestro": {
+      "seen": "2026-09-28"
+    },
+    "com.supercodegames.octoevolution": {
+      "seen": "2026-09-28"
+    },
+    "com.unscrew.wood.nuts.and.bolts.screw.puzzle": {
+      "seen": "2026-09-28"
+    },
+    "com.supercodegames.mind.challenge.tricky.puzzles": {
+      "seen": "2026-09-28"
+    },
+    "bunnys.farm.zen.match.master": {
+      "seen": "2026-09-28"
+    },
+    "com.supercode.animals.arena.fighting.games": {
+      "seen": "2026-09-28"
+    },
+    "com.supercodegames.animaluptransform": {
+      "seen": "2026-09-28"
+    },
+    "com.hamsteroncoke.scalak": {
+      "seen": "2026-09-28"
+    },
+    "com.jvnconsultancy.sudokuminimal": {
+      "seen": "2026-09-28"
+    },
+    "com.IvanKovalov.G30Android": {
+      "seen": "2026-09-28"
+    },
+    "com.crazyowl.MagnetBalls2": {
+      "seen": "2026-09-28"
+    },
+    "com.elephantgames.ihh4iwct.hidden.objects.googpremium": {
+      "seen": "2026-09-28"
+    },
+    "com.gamebrain.hocus2": {
+      "seen": "2026-09-28"
+    },
+    "com.diomgames.SlidingPuzzle15Adventure": {
+      "seen": "2026-09-28"
+    },
+    "com.happyverse.jigsawblocks": {
+      "seen": "2026-09-28"
+    },
+    "com.brennerd.grid_puzzle.tango": {
+      "seen": "2026-09-28"
+    },
+    "com.iwp.tawa": {
+      "seen": "2026-09-28"
+    },
+    "com.yunbu.nonogram.match": {
+      "seen": "2026-09-28"
+    },
+    "blockpuzzle.level.jewel.legend": {
+      "seen": "2026-09-28"
+    },
+    "puzzle.classic.king.blockpuzzle": {
+      "seen": "2026-09-28"
+    }
+  }
 }

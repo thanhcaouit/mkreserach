@@ -1563,6 +1563,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.playvalve.solitaire": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
