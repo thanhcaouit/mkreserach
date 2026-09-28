@@ -1618,6 +1618,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "net.wooga.junes_journey_hidden_object_mystery_game": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

@@ -1245,6 +1245,76 @@
       "suggested_at": "2026-09-28T20:01:04.703088+00:00",
       "mechanic_vi": "Sort. Slide. Solve. Mindset is an all-new puzzle game using observation and logic to sort shapes into sets. By solving daily challenges, unlocking rules and completing weekly themes, you’ll embark on a journey of discove",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.luck.wood.jam.nets.bolts": {
+      "app_id": "com.luck.wood.jam.nets.bolts",
+      "title": "Wood Jam：Nuts & Bolts",
+      "title_norm": "wood jam nuts bolts",
+      "developer": "Darchii Studio",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.831683,
+      "url": "https://play.google.com/store/apps/details?id=com.luck.wood.jam.nets.bolts&hl=en",
+      "message_id": 167,
+      "suggested_at": "2026-09-28T21:01:29.793919+00:00",
+      "mechanic_vi": "Xếp chồng các tấm gỗ theo đúng thứ tự để mở khóa cấp độ.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất – sắp xếp đúng thứ tự, tạo cảm giác thách thức và rõ ràng."
+    },
+    "com.color.block.slidepuzzle": {
+      "app_id": "com.color.block.slidepuzzle",
+      "title": "Color Slide Jam - Block Away",
+      "title_norm": "color slide jam block away",
+      "developer": "Oogway Apps",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.72549,
+      "url": "https://play.google.com/store/apps/details?id=com.color.block.slidepuzzle&hl=en",
+      "message_id": 168,
+      "suggested_at": "2026-09-28T21:01:31.255304+00:00",
+      "mechanic_vi": "Trượt toàn bộ hàng hoặc cột để đưa các khối màu vào vị trí đúng.",
+      "why_vi": "Luật chơi đơn giản, mỗi cấp độ yêu cầu một cách sắp xếp duy nhất, phù hợp với sở thích “một quy tắc rõ ràng”."
+    },
+    "com.gplay.wood.jam.color.block": {
+      "app_id": "com.gplay.wood.jam.color.block",
+      "title": "Wood Jam: Color Block",
+      "title_norm": "wood jam color block",
+      "developer": "GPLAY JSC",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.8888888,
+      "url": "https://play.google.com/store/apps/details?id=com.gplay.wood.jam.color.block&hl=en",
+      "message_id": 169,
+      "suggested_at": "2026-09-28T21:01:32.758326+00:00",
+      "mechanic_vi": "Di chuyển các khối màu tới các cửa màu tương ứng để mở đường.",
+      "why_vi": "Mỗi màn có mục tiêu duy nhất – đưa khối về đúng cánh cửa, giúp người chơi tập trung vào một quy tắc."
+    },
+    "com.block.jam.color.sort.puzzle.game": {
+      "app_id": "com.block.jam.color.sort.puzzle.game",
+      "title": "Block Jam: Color Sort Puzzle",
+      "title_norm": "block jam color sort puzzle",
+      "developer": "NeoGame Global Ltd",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.block.jam.color.sort.puzzle.game&hl=en",
+      "message_id": 170,
+      "suggested_at": "2026-09-28T21:01:33.678185+00:00",
+      "mechanic_vi": "Sắp xếp các khối màu vào các cổng màu tương ứng.",
+      "why_vi": "Cơ chế “sắp xếp màu” rõ ràng, mỗi cấp độ chỉ có một cách giải đúng, phù hợp với yêu cầu “một luật duy nhất”."
+    },
+    "com.playbliss.blockpuzzlejamgame": {
+      "app_id": "com.playbliss.blockpuzzlejamgame",
+      "title": "Block Puzzle Jam",
+      "title_norm": "block puzzle jam",
+      "developer": "Gleam Games",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.5882354,
+      "url": "https://play.google.com/store/apps/details?id=com.playbliss.blockpuzzlejamgame&hl=en",
+      "message_id": 171,
+      "suggested_at": "2026-09-28T21:01:34.708702+00:00",
+      "mechanic_vi": "Trượt và sắp xếp các khối để giải các mê cung màu sắc.",
+      "why_vi": "Cung cấp hàng ngàn cấp độ với cùng một quy tắc di chuyển khối, dễ tiếp cận cho người mới."
     }
   }
 }
