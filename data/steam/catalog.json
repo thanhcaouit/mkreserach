@@ -509,6 +509,16 @@
       "url": "https://store.steampowered.com/app/810360",
       "message_id": 121,
       "suggested_at": "2026-09-28T12:02:00.473736+00:00"
+    },
+    "1882240": {
+      "app_id": "1882240",
+      "title": "Forgotten Realms: The Archives - Collection One",
+      "title_norm": "forgotten realms the archives collection one",
+      "developer": "Westwood Associates",
+      "reviews": 286,
+      "url": "https://store.steampowered.com/app/1882240",
+      "message_id": 127,
+      "suggested_at": "2026-09-28T13:01:56.244847+00:00"
     }
   }
 }
