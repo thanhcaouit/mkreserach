@@ -1292,6 +1292,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.funcraft.farkle": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.moonactive.coinmaster": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "io.voodoo.holeio": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.zloong.eu.dr.gp": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

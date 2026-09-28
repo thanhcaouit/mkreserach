@@ -489,6 +489,20 @@
       "suggested_at": "2026-09-28T04:21:48.385560+00:00",
       "mechanic_vi": "Block Puzzle Solver makes puzzle games easier and more fun! Get help when you're stuck and learn new ways to solve puzzles. Your helpful friend for all block puzzle games! Core Features: Manual Mode: Get instant guidance",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.superbox.aos.blockpark": {
+      "app_id": "com.superbox.aos.blockpark",
+      "title": "Block Park : Puzzle",
+      "title_norm": "block park puzzle",
+      "developer": "SUPERBOX Inc",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.89011,
+      "url": "https://play.google.com/store/apps/details?id=com.superbox.aos.blockpark&hl=en",
+      "message_id": 68,
+      "suggested_at": "2026-09-28T06:01:38.903255+00:00",
+      "mechanic_vi": "Đặt khối để tạo hàng dọc hoặc ngang, mở khóa các khu vui chơi sau mỗi vài màn.",
+      "why_vi": "Mỗi màn có mục tiêu rõ ràng và tiến độ cấp độ, phù hợp với sở thích puzzle có luật đơn giản và có cấp độ."
     }
   }
 }
