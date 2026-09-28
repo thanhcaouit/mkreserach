@@ -209,6 +209,56 @@
       "url": "https://store.steampowered.com/app/4386380",
       "message_id": 73,
       "suggested_at": "2026-09-28T06:02:15.412400+00:00"
+    },
+    "2770160": {
+      "app_id": "2770160",
+      "title": "Maxwell's puzzling demon",
+      "title_norm": "maxwell s puzzling demon",
+      "developer": "muratsubo Games",
+      "reviews": 416,
+      "url": "https://store.steampowered.com/app/2770160",
+      "message_id": 75,
+      "suggested_at": "2026-09-28T07:01:58.614957+00:00"
+    },
+    "1763550": {
+      "app_id": "1763550",
+      "title": "TatuBall: A Minimalist LoFi Puzzle",
+      "title_norm": "tatuball a minimalist lofi puzzle",
+      "developer": "TGM",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1763550",
+      "message_id": 76,
+      "suggested_at": "2026-09-28T07:02:00.263172+00:00"
+    },
+    "3633540": {
+      "app_id": "3633540",
+      "title": "Golden Arrow",
+      "title_norm": "golden arrow",
+      "developer": "Inblue Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3633540",
+      "message_id": 77,
+      "suggested_at": "2026-09-28T07:02:02.464841+00:00"
+    },
+    "3094270": {
+      "app_id": "3094270",
+      "title": "Crash Puzzle Hammer-San",
+      "title_norm": "crash puzzle hammer san",
+      "developer": "SUCCESS Corp.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3094270",
+      "message_id": 78,
+      "suggested_at": "2026-09-28T07:02:04.492787+00:00"
+    },
+    "2765140": {
+      "app_id": "2765140",
+      "title": "Super Puzzle Blasters",
+      "title_norm": "super puzzle blasters",
+      "developer": "Magic Salmon Productions",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2765140",
+      "message_id": 79,
+      "suggested_at": "2026-09-28T07:02:05.926201+00:00"
     }
   }
 }
