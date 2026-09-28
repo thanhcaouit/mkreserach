@@ -59,6 +59,56 @@
       "url": "https://store.steampowered.com/app/1406570",
       "message_id": 51,
       "suggested_at": "2026-09-28T04:02:11.494324+00:00"
+    },
+    "3126790": {
+      "app_id": "3126790",
+      "title": "Wordban: a text-based Sokoban game",
+      "title_norm": "wordban a text based sokoban game",
+      "developer": "Beibi Technology Co., Ltd.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3126790",
+      "message_id": 53,
+      "suggested_at": "2026-09-28T04:15:10.327273+00:00"
+    },
+    "3108190": {
+      "app_id": "3108190",
+      "title": "Puzzle Depot",
+      "title_norm": "puzzle depot",
+      "developer": "Laughing Manatee Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3108190",
+      "message_id": 54,
+      "suggested_at": "2026-09-28T04:15:11.607743+00:00"
+    },
+    "2181700": {
+      "app_id": "2181700",
+      "title": "Slime Warrior Sokoban",
+      "title_norm": "slime warrior sokoban",
+      "developer": "Slime Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2181700",
+      "message_id": 55,
+      "suggested_at": "2026-09-28T04:15:13.754646+00:00"
+    },
+    "3363640": {
+      "app_id": "3363640",
+      "title": "Puyo! Sokoban",
+      "title_norm": "puyo sokoban",
+      "developer": "SkyStudio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3363640",
+      "message_id": 56,
+      "suggested_at": "2026-09-28T04:15:15.767182+00:00"
+    },
+    "1500400": {
+      "app_id": "1500400",
+      "title": "Sokoban Gianta",
+      "title_norm": "sokoban gianta",
+      "developer": "JChip Game",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1500400",
+      "message_id": 57,
+      "suggested_at": "2026-09-28T04:15:17.774543+00:00"
     }
   }
 }
