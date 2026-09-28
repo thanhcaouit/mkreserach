@@ -1624,6 +1624,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.wool.puzzle.game3d": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
     }
   }
 }
