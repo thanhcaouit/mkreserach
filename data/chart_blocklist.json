@@ -224,7 +224,8 @@
     "com.mobirix.mbtm": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.mobirix.mrgomw": {
@@ -1375,6 +1376,192 @@
       "first_seen": "2026-09-28",
       "sources": [
         "GAME_PUZZLE"
+      ]
+    },
+    "in.playsimple.wordsearch": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "solitaire.patience.card.games.klondike.free": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.chess": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ea.gp.maddennfl21mobile": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.peoplefun.wordcross": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "jp.konami.pesam": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tencent.ig": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fugo.wow": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playvalve.wsjourney": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tapblaze.homecraft": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.peoplefun.wordsolitaire": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.vottzapps.wordle": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tangramgames.gourddoll.wordcrush": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ironhidegames.android.kingdomrush6.genesis": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mintrocket.drmobile": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.nitrogames.boltgunboom": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "screw.nuts.jam.pin.puzzle": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.zimad.spades": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.smilegate.bcos2.stove.google": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mobirix.fhk": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fourdollars.dng": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.airplanecooking.chef.kitchen.restaurant.diner": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "jp.co.cybird.appli.android.vil.en": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "games.starberry.game4": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.feelingtouch.rush": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pid.preserve": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.daerigame.girladriftrm": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.rpg.match.hero.teewee": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mobirix.mbpdh": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.haoplay.game.gp.duck": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ondi.fortias.defense": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
       ]
     }
   }
