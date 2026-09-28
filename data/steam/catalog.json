@@ -159,6 +159,56 @@
       "url": "https://store.steampowered.com/app/1414070",
       "message_id": 67,
       "suggested_at": "2026-09-28T04:22:23.902153+00:00"
+    },
+    "4266040": {
+      "app_id": "4266040",
+      "title": "Pack my LunchBox",
+      "title_norm": "pack my lunchbox",
+      "developer": "Owl's Howls",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4266040",
+      "message_id": 69,
+      "suggested_at": "2026-09-28T06:02:08.173028+00:00"
+    },
+    "1302850": {
+      "app_id": "1302850",
+      "title": "Tails of Trainspot",
+      "title_norm": "tails of trainspot",
+      "developer": "Poly Poly Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1302850",
+      "message_id": 70,
+      "suggested_at": "2026-09-28T06:02:10.100117+00:00"
+    },
+    "3671420": {
+      "app_id": "3671420",
+      "title": "Pipeworks Puzzle",
+      "title_norm": "pipeworks puzzle",
+      "developer": "Bile Beans For Biliousness",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3671420",
+      "message_id": 71,
+      "suggested_at": "2026-09-28T06:02:12.486884+00:00"
+    },
+    "1505220": {
+      "app_id": "1505220",
+      "title": "Roboggled Sokoban Game",
+      "title_norm": "roboggled sokoban game",
+      "developer": "Game Warden Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1505220",
+      "message_id": 72,
+      "suggested_at": "2026-09-28T06:02:14.017391+00:00"
+    },
+    "4386380": {
+      "app_id": "4386380",
+      "title": "3 Sheep Puzzle",
+      "title_norm": "3 sheep puzzle",
+      "developer": "Noel Oigres",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4386380",
+      "message_id": 73,
+      "suggested_at": "2026-09-28T06:02:15.412400+00:00"
     }
   }
 }
