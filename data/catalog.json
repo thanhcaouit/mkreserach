@@ -1007,6 +1007,76 @@
       "suggested_at": "2026-09-28T16:01:25.826304+00:00",
       "mechanic_vi": "Nhấn vào mũi tên để chúng bay ra khỏi bảng khi đường đi không bị chặn; cần sắp xếp thứ tự để tránh va chạm.",
       "why_vi": "Luật duy nhất mỗi màn là \"đưa mũi tên ra khỏi ma trận\" và yêu cầu người chơi lên kế hoạch trước, phù hợp với sở thích \"one clear rule per level\" và có cấp độ rõ ràng."
+    },
+    "com.color.flow.puzzle": {
+      "app_id": "com.color.flow.puzzle",
+      "title": "Color Jam: Art Puzzle",
+      "title_norm": "color jam art puzzle",
+      "developer": "XGame HK",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.09901,
+      "url": "https://play.google.com/store/apps/details?id=com.color.flow.puzzle&hl=en",
+      "message_id": 146,
+      "suggested_at": "2026-09-28T17:00:53.435984+00:00",
+      "mechanic_vi": "Đặt khối cát và dùng lực trọng lực để tạo đường chảy, mở khóa các khu vực bị chặn.",
+      "why_vi": "Cơ chế nghiêng và trọng lực độc đáo, mỗi màn chỉ có một quy tắc duy nhất – làm sao để dòng cát chảy tới đích."
+    },
+    "com.people.color.jam": {
+      "app_id": "com.people.color.jam",
+      "title": "People Color Jam",
+      "title_norm": "people color jam",
+      "developer": "IEC Games Australia",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.19,
+      "url": "https://play.google.com/store/apps/details?id=com.people.color.jam&hl=en",
+      "message_id": 147,
+      "suggested_at": "2026-09-28T17:00:55.086539+00:00",
+      "mechanic_vi": "Kéo và thả các nhân vật màu sắc để đưa chúng vào lỗ màu tương ứng.",
+      "why_vi": "Yếu tố dẫn dắt đơn vị tới mục tiêu rõ ràng, mỗi màn có bố cục mới và một quy tắc duy nhất."
+    },
+    "com.pvs.arrow.escape.puzzle.out.game": {
+      "app_id": "com.pvs.arrow.escape.puzzle.out.game",
+      "title": "Arrow Escape: Brain Puzzle",
+      "title_norm": "arrow escape brain puzzle",
+      "developer": "Pixelvora Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.pvs.arrow.escape.puzzle.out.game&hl=en",
+      "message_id": 148,
+      "suggested_at": "2026-09-28T17:00:56.638354+00:00",
+      "mechanic_vi": "Chạm vào các mũi tên theo thứ tự để mở đường thoát khỏi mê cung.",
+      "why_vi": "Luật chơi đơn giản – chỉ cần sắp xếp đúng thứ tự – và mỗi màn có bố cục mê cung riêng."
+    },
+    "com.speedogames.color.block.jam": {
+      "app_id": "com.speedogames.color.block.jam",
+      "title": "Color Block Jam 3d Puzzle Game",
+      "title_norm": "color block jam 3d puzzle game",
+      "developer": "Speedo Games Pty Ltd",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.speedogames.color.block.jam&hl=en",
+      "message_id": 149,
+      "suggested_at": "2026-09-28T17:00:58.336668+00:00",
+      "mechanic_vi": "Trượt và xoay khối 3D để lắp ghép và giải phóng hàng loạt khối cùng màu.",
+      "why_vi": "Mỗi màn chỉ có một cách sắp xếp hợp lệ, yêu cầu người chơi suy nghĩ không gian và kế hoạch."
+    },
+    "com.blitz.color.block.jam": {
+      "app_id": "com.blitz.color.block.jam",
+      "title": "Color Block Jam Puzzle",
+      "title_norm": "color block jam puzzle",
+      "developer": "Blitz Interactive LTD",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.2957745,
+      "url": "https://play.google.com/store/apps/details?id=com.blitz.color.block.jam&hl=en",
+      "message_id": 150,
+      "suggested_at": "2026-09-28T17:00:59.979108+00:00",
+      "mechanic_vi": "Kéo các khối màu vào vị trí đúng để xóa hàng và tiến tới màn tiếp theo.",
+      "why_vi": "Luật duy nhất là ghép khối đúng vị trí; có hàng trăm màn, mỗi màn tăng độ khó."
     }
   }
 }
