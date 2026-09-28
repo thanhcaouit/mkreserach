@@ -573,6 +573,76 @@
       "suggested_at": "2026-09-28T09:15:29.236591+00:00",
       "mechanic_vi": "Ghép các mảnh ghép lại thành hình ảnh hoàn chỉnh.",
       "why_vi": "Mỗi cấp độ là một bức tranh mới, luật duy nhất là ghép đúng hình dạng các mảnh."
+    },
+    "com.sixbynine.skyscrapers": {
+      "app_id": "com.sixbynine.skyscrapers",
+      "title": "Skyscrapers Number Puzzle",
+      "title_norm": "skyscrapers number puzzle",
+      "developer": "Six By Nine Apps",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.6875,
+      "url": "https://play.google.com/store/apps/details?id=com.sixbynine.skyscrapers&hl=en",
+      "message_id": 96,
+      "suggested_at": "2026-09-28T09:18:51.327533+00:00",
+      "mechanic_vi": "Đặt số vào ma trận sao cho không trùng trong cùng hàng và cột, đồng thời đáp ứng chỉ số nhìn thấy tòa nhà từ các cạnh.",
+      "why_vi": "Luật duy nhất mỗi màn, yêu cầu người chơi suy luận và lập kế hoạch, phù hợp với sở thích puzzle có một quy tắc rõ ràng."
+    },
+    "com.zeeron.puzzle15": {
+      "app_id": "com.zeeron.puzzle15",
+      "title": "15 Puzzle -Sliding Puzzle Game",
+      "title_norm": "15 puzzle sliding puzzle game",
+      "developer": "xDee",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.87,
+      "url": "https://play.google.com/store/apps/details?id=com.zeeron.puzzle15&hl=en",
+      "message_id": 97,
+      "suggested_at": "2026-09-28T09:18:52.360915+00:00",
+      "mechanic_vi": "Trượt các ô số để sắp xếp chúng theo thứ tự tăng dần trên lưới 4×4.",
+      "why_vi": "Mỗi màn có bố cục hỗn loạn khác nhau, người chơi phải giải quyết từng cấp độ một, đáp ứng yêu cầu có level và luật đơn giản."
+    },
+    "com.slidingpuzzledx.dev4": {
+      "app_id": "com.slidingpuzzledx.dev4",
+      "title": "Sliding Puzzle Deluxe",
+      "title_norm": "sliding puzzle deluxe",
+      "developer": "xabier payet garcía",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 2.5,
+      "url": "https://play.google.com/store/apps/details?id=com.slidingpuzzledx.dev4&hl=en",
+      "message_id": 98,
+      "suggested_at": "2026-09-28T09:18:53.206073+00:00",
+      "mechanic_vi": "Trượt các mảnh ghép để tái tạo lại hình ảnh, với nhiều kích thước lưới và hình ảnh khác nhau.",
+      "why_vi": "Cung cấp hàng trăm cấp độ dựa trên hình ảnh và kích thước, mỗi cấp độ có một mục tiêu duy nhất – hoàn thành hình ảnh."
+    },
+    "com.nemasoft.slidingpuzzle": {
+      "app_id": "com.nemasoft.slidingpuzzle",
+      "title": "Sliding Puzzle",
+      "title_norm": "sliding puzzle",
+      "developer": "NemaSense",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.49,
+      "url": "https://play.google.com/store/apps/details?id=com.nemasoft.slidingpuzzle&hl=en",
+      "message_id": 99,
+      "suggested_at": "2026-09-28T09:18:54.114748+00:00",
+      "mechanic_vi": "Trượt các ô để ghép lại bức tranh, có ba chế độ chơi và nhiều cấp độ khó khác nhau.",
+      "why_vi": "Mỗi cấp độ là một hình ảnh mới, phù hợp với yêu cầu có level và luật chơi rõ ràng, không thuộc thể loại bị ghét."
+    },
+    "com.fifteen.klotski.barleybreak.dopuz": {
+      "app_id": "com.fifteen.klotski.barleybreak.dopuz",
+      "title": "15 Puzzle: Classic Number Game",
+      "title_norm": "15 puzzle classic number game",
+      "developer": "Just Tap Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.1,
+      "url": "https://play.google.com/store/apps/details?id=com.fifteen.klotski.barleybreak.dopuz&hl=en",
+      "message_id": 100,
+      "suggested_at": "2026-09-28T09:18:54.736598+00:00",
+      "mechanic_vi": "Di chuyển các ô số trên bảng 4×4 để sắp xếp chúng theo thứ tự tăng dần.",
+      "why_vi": "Cung cấp nhiều mức độ khó và chế độ chơi, mỗi màn là một thử thách độc lập, đáp ứng tiêu chí puzzle có level và luật duy nhất."
     }
   }
 }
