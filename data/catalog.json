@@ -797,6 +797,76 @@
       "suggested_at": "2026-09-28T13:01:25.956453+00:00",
       "mechanic_vi": "Tap các khối mũi tên; chúng chỉ di chuyển nếu phía trước không có chướng ngại, mục tiêu là dọn sạch lưới.",
       "why_vi": "Mỗi màn có một quy tắc duy nhất – di chuyển khi đường mở – yêu cầu người chơi lên kế hoạch và cô lập các khối."
+    },
+    "com.smallsteps.arrowsandblocks": {
+      "app_id": "com.smallsteps.arrowsandblocks",
+      "title": "Arrows And Blocks",
+      "title_norm": "arrows and blocks",
+      "developer": "Small Steps Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.5882354,
+      "url": "https://play.google.com/store/apps/details?id=com.smallsteps.arrowsandblocks&hl=en",
+      "message_id": 128,
+      "suggested_at": "2026-09-28T14:01:38.728206+00:00",
+      "mechanic_vi": "Đặt mũi tên và để các khối rơi theo trọng lực, tạo ra việc cô lập và phá vỡ các khối để mở đường cho mũi tên.",
+      "why_vi": "Cơ chế trọng lực độc đáo mang lại cảm giác vật lý mới, mỗi màn chỉ có một quy tắc duy nhất và yêu cầu người chơi suy tính thứ tự di chuyển."
+    },
+    "com.arrow.flow": {
+      "app_id": "com.arrow.flow",
+      "title": "Arrow Maze Tap: Escape Puzzle",
+      "title_norm": "arrow maze tap escape puzzle",
+      "developer": "SuperDan",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.673077,
+      "url": "https://play.google.com/store/apps/details?id=com.arrow.flow&hl=en",
+      "message_id": 129,
+      "suggested_at": "2026-09-28T14:01:40.495485+00:00",
+      "mechanic_vi": "Di chuyển mũi tên theo hướng chỉ, chỉ có thể di chuyển khi không có khối cản trở phía trước.",
+      "why_vi": "Luật chơi cực kỳ đơn giản nhưng đòi hỏi người chơi sắp xếp thứ tự di chuyển chính xác để giải thoát toàn bộ mũi tên trong mỗi cấp."
+    },
+    "com.techarts.arrowout.mazeescape": {
+      "app_id": "com.techarts.arrowout.mazeescape",
+      "title": "Arrow Out: Maze Escape Puzzle",
+      "title_norm": "arrow out maze escape puzzle",
+      "developer": "TechArts Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.206897,
+      "url": "https://play.google.com/store/apps/details?id=com.techarts.arrowout.mazeescape&hl=en",
+      "message_id": 130,
+      "suggested_at": "2026-09-28T14:01:42.401335+00:00",
+      "mechanic_vi": "Dẫn mũi tên qua mê cung, tránh bẫy và các chướng ngại vật để đạt điểm thoát ở mỗi màn.",
+      "why_vi": "Có hàng ngàn cấp với luật rõ ràng, phù hợp với việc hướng dẫn đơn vị (mũi tên) tới mục tiêu cuối cùng."
+    },
+    "com.playcraft.arrowout": {
+      "app_id": "com.playcraft.arrowout",
+      "title": "Tap Out: Arrow Escape Puzzle",
+      "title_norm": "tap out arrow escape puzzle",
+      "developer": "Black Pyramid 3D Games Studio",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.2340426,
+      "url": "https://play.google.com/store/apps/details?id=com.playcraft.arrowout&hl=en",
+      "message_id": 131,
+      "suggested_at": "2026-09-28T14:01:43.228771+00:00",
+      "mechanic_vi": "Chạm vào mũi tên để chúng di chuyển ra khỏi lưới, giải quyết từng cấp một cách tuần tự.",
+      "why_vi": "Mỗi cấp được thiết kế riêng, luật duy nhất và dễ học nhưng lại gây thách thức khi sắp xếp thứ tự di chuyển."
+    },
+    "com.lioncube.arrow.escape.puzzle": {
+      "app_id": "com.lioncube.arrow.escape.puzzle",
+      "title": "Arrow Escape Puzzle - Tap Away",
+      "title_norm": "arrow escape puzzle tap away",
+      "developer": "Lion Cube Studio",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.1578946,
+      "url": "https://play.google.com/store/apps/details?id=com.lioncube.arrow.escape.puzzle&hl=en",
+      "message_id": 132,
+      "suggested_at": "2026-09-28T14:01:44.931582+00:00",
+      "mechanic_vi": "Xoay mũi tên và xóa khối để tạo lối thoát, mỗi màn chỉ có một mục tiêu duy nhất.",
+      "why_vi": "Đơn giản, dễ tiếp cận cho người mới và có nhiều cấp, phù hợp với yêu cầu một quy tắc rõ ràng cho mỗi màn."
     }
   }
 }
