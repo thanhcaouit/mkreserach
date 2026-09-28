@@ -1612,6 +1612,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "net.happywit.screw.out.jam": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

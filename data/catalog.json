@@ -1217,6 +1217,34 @@
       "suggested_at": "2026-09-28T19:01:15.811106+00:00",
       "mechanic_vi": "Trượt các khối màu tới các cổng màu, giải quyết từng màn một cách tuần tự.",
       "why_vi": "Cơ chế duy nhất mỗi màn là di chuyển khối tới cổng, phù hợp với yêu cầu “one clear rule per level”."
+    },
+    "com.ironzog.puzzletogether": {
+      "app_id": "com.ironzog.puzzletogether",
+      "title": "Puzzle Together Jigsaw Puzzles",
+      "title_norm": "puzzle together jigsaw puzzles",
+      "developer": "IronZog LLC",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 3.871795,
+      "url": "https://play.google.com/store/apps/details?id=com.ironzog.puzzletogether&hl=en",
+      "message_id": 164,
+      "suggested_at": "2026-09-28T20:01:02.888739+00:00",
+      "mechanic_vi": "Jigsaw puzzle fun - on your own, with friends and family, or with new puzzle pals from around the world! Voice chat lets you feel like you're all sitting around the same table. Choose from millions of beautiful images of",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.magicave.mindsetgo": {
+      "app_id": "com.magicave.mindsetgo",
+      "title": "Mindset GO!",
+      "title_norm": "mindset go",
+      "developer": "Magicave",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.3846154,
+      "url": "https://play.google.com/store/apps/details?id=com.magicave.mindsetgo&hl=en",
+      "message_id": 165,
+      "suggested_at": "2026-09-28T20:01:04.703088+00:00",
+      "mechanic_vi": "Sort. Slide. Solve. Mindset is an all-new puzzle game using observation and logic to sort shapes into sets. By solving daily challenges, unlocking rules and completing weekly themes, you’ll embark on a journey of discove",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
