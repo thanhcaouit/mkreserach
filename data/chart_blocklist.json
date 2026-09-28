@@ -1594,6 +1594,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.kitkagames.fallbuddies": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.percent.aos.cooptd": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mobirix.tdwt": {
+      "first_seen": "2026-09-28",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

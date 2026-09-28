@@ -1077,6 +1077,76 @@
       "suggested_at": "2026-09-28T17:00:59.979108+00:00",
       "mechanic_vi": "Kéo các khối màu vào vị trí đúng để xóa hàng và tiến tới màn tiếp theo.",
       "why_vi": "Luật duy nhất là ghép khối đúng vị trí; có hàng trăm màn, mỗi màn tăng độ khó."
+    },
+    "com.lioncube.color.block.slide.puzzle.game": {
+      "app_id": "com.lioncube.color.block.slide.puzzle.game",
+      "title": "Color Block Jam 3d: Slide Game",
+      "title_norm": "color block jam 3d slide game",
+      "developer": "Lion Cube Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.142857,
+      "url": "https://play.google.com/store/apps/details?id=com.lioncube.color.block.slide.puzzle.game&hl=en",
+      "message_id": 152,
+      "suggested_at": "2026-09-28T18:01:31.155041+00:00",
+      "mechanic_vi": "Trượt khối 3D vào các vị trí mục tiêu màu tương ứng, mỗi màn chỉ có một quy tắc duy nhất.",
+      "why_vi": "Cơ chế trượt khối 3D độc đáo tạo ra luật chơi mới, có hàng trăm màn và tiến độ rõ ràng, phù hợp với sở thích muốn luật duy nhất mỗi màn."
+    },
+    "and.brainworks.blockjam": {
+      "app_id": "and.brainworks.blockjam",
+      "title": "Block Slider: Color Jam",
+      "title_norm": "block slider color jam",
+      "developer": "BRAINWORKS PUBLISHING PTE. LTD.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.3333335,
+      "url": "https://play.google.com/store/apps/details?id=and.brainworks.blockjam&hl=en",
+      "message_id": 153,
+      "suggested_at": "2026-09-28T18:01:32.581813+00:00",
+      "mechanic_vi": "Kéo và thả khối để đưa chúng tới cổng màu đúng, mỗi cấp độ giới hạn số bước di chuyển.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất và số lượng cấp độ lớn, đáp ứng yêu cầu “một luật rõ ràng mỗi màn” và có tiến độ cấp độ."
+    },
+    "com.legendarylabs.city.block.slide.jam.color.puzzle": {
+      "app_id": "com.legendarylabs.city.block.slide.jam.color.puzzle",
+      "title": "City Block Jam: Color Slide",
+      "title_norm": "city block jam color slide",
+      "developer": "Legendary Labs",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.5625,
+      "url": "https://play.google.com/store/apps/details?id=com.legendarylabs.city.block.slide.jam.color.puzzle&hl=en",
+      "message_id": 154,
+      "suggested_at": "2026-09-28T18:01:34.089681+00:00",
+      "mechanic_vi": "Trượt khối màu trên lưới để khớp với cổng cùng màu, mỗi màn có bố cục và chướng ngại vật khác nhau.",
+      "why_vi": "Cơ chế trượt khối đơn giản nhưng mỗi màn đều có một quy tắc duy nhất và có hơn 1000 cấp, phù hợp với yêu cầu có mức độ và luật rõ ràng."
+    },
+    "com.yelly.jam.color.block.out.puzzle": {
+      "app_id": "com.yelly.jam.color.block.out.puzzle",
+      "title": "Jelly Jam: Color Block puzzle",
+      "title_norm": "jelly jam color block puzzle",
+      "developer": "We Win Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.57,
+      "url": "https://play.google.com/store/apps/details?id=com.yelly.jam.color.block.out.puzzle&hl=en",
+      "message_id": 155,
+      "suggested_at": "2026-09-28T18:01:35.126589+00:00",
+      "mechanic_vi": "Đặt khối màu vào vị trí đúng để giải phóng khu vực, mỗi cấp độ giới hạn thời gian và số bước.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất và có hàng trăm cấp độ, đáp ứng yêu cầu có luật rõ ràng và tiến độ cấp độ."
+    },
+    "com.griffin.colorblock.games.enjoy.android": {
+      "app_id": "com.griffin.colorblock.games.enjoy.android",
+      "title": "Block Jam Out: No Timer Puzzle",
+      "title_norm": "block jam out no timer puzzle",
+      "developer": "Play2Ever Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.97006,
+      "url": "https://play.google.com/store/apps/details?id=com.griffin.colorblock.games.enjoy.android&hl=en",
+      "message_id": 156,
+      "suggested_at": "2026-09-28T18:01:36.938097+00:00",
+      "mechanic_vi": "Kéo khối ra khỏi cổng màu và đặt chúng vào vị trí trống, không có đồng hồ đếm ngược, tập trung vào logic.",
+      "why_vi": "Không có timer, mỗi màn chỉ yêu cầu một quy tắc duy nhất – đặt khối đúng chỗ – và có hàng trăm cấp độ, phù hợp với sở thích muốn luật đơn giản và có mức độ."
     }
   }
 }
