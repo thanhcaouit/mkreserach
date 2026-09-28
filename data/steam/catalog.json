@@ -109,6 +109,56 @@
       "url": "https://store.steampowered.com/app/1500400",
       "message_id": 57,
       "suggested_at": "2026-09-28T04:15:17.774543+00:00"
+    },
+    "745250": {
+      "app_id": "745250",
+      "title": "YAPP: Yet Another Puzzle Platformer",
+      "title_norm": "yapp yet another puzzle platformer",
+      "developer": "Artless Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/745250",
+      "message_id": 63,
+      "suggested_at": "2026-09-28T04:22:17.252101+00:00"
+    },
+    "1586620": {
+      "app_id": "1586620",
+      "title": "Robot.Start - Puzzle Game",
+      "title_norm": "robot start puzzle game",
+      "developer": "Misc.261",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1586620",
+      "message_id": 64,
+      "suggested_at": "2026-09-28T04:22:18.833043+00:00"
+    },
+    "1681540": {
+      "app_id": "1681540",
+      "title": "Latarnix Puzzle",
+      "title_norm": "latarnix puzzle",
+      "developer": "Mad Mimic",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1681540",
+      "message_id": 65,
+      "suggested_at": "2026-09-28T04:22:20.633030+00:00"
+    },
+    "1312480": {
+      "app_id": "1312480",
+      "title": "Ratico Puzzle Adventure",
+      "title_norm": "ratico puzzle adventure",
+      "developer": "Navarro PIM Ltd.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1312480",
+      "message_id": 66,
+      "suggested_at": "2026-09-28T04:22:22.024729+00:00"
+    },
+    "1414070": {
+      "app_id": "1414070",
+      "title": "Sokoban: Bunny Tales",
+      "title_norm": "sokoban bunny tales",
+      "developer": "Block Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1414070",
+      "message_id": 67,
+      "suggested_at": "2026-09-28T04:22:23.902153+00:00"
     }
   }
 }
