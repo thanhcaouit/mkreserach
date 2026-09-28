@@ -519,6 +519,16 @@
       "url": "https://store.steampowered.com/app/1882240",
       "message_id": 127,
       "suggested_at": "2026-09-28T13:01:56.244847+00:00"
+    },
+    "1028750": {
+      "app_id": "1028750",
+      "title": "Ultimate Logic Puzzle Collection",
+      "title_norm": "ultimate logic puzzle collection",
+      "developer": "Stanley Lam",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1028750",
+      "message_id": 163,
+      "suggested_at": "2026-09-28T19:01:42.506909+00:00"
     }
   }
 }
