@@ -409,6 +409,56 @@
       "url": "https://store.steampowered.com/app/1973260",
       "message_id": 105,
       "suggested_at": "2026-09-28T09:19:27.551282+00:00"
+    },
+    "1636550": {
+      "app_id": "1636550",
+      "title": "Laruaville 11 Match 3 Puzzle",
+      "title_norm": "laruaville 11 match 3 puzzle",
+      "developer": "LGT SIA",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1636550",
+      "message_id": 107,
+      "suggested_at": "2026-09-28T11:01:32.528501+00:00"
+    },
+    "3639930": {
+      "app_id": "3639930",
+      "title": "2048Puzzle",
+      "title_norm": "2048puzzle",
+      "developer": "Danilliniois",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3639930",
+      "message_id": 108,
+      "suggested_at": "2026-09-28T11:01:33.978749+00:00"
+    },
+    "2858000": {
+      "app_id": "2858000",
+      "title": "Easter 2024 Puzzle",
+      "title_norm": "easter 2024 puzzle",
+      "developer": "Schwan OG",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2858000",
+      "message_id": 109,
+      "suggested_at": "2026-09-28T11:01:35.834808+00:00"
+    },
+    "680070": {
+      "app_id": "680070",
+      "title": "Puzzle: Underwater World",
+      "title_norm": "puzzle underwater world",
+      "developer": "Boogygames Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/680070",
+      "message_id": 110,
+      "suggested_at": "2026-09-28T11:01:37.152117+00:00"
+    },
+    "2119960": {
+      "app_id": "2119960",
+      "title": "Cursed House 11 Match 3 Puzzle",
+      "title_norm": "cursed house 11 match 3 puzzle",
+      "developer": "LGT SIA",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2119960",
+      "message_id": 111,
+      "suggested_at": "2026-09-28T11:01:38.569659+00:00"
     }
   }
 }
