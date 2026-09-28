@@ -459,6 +459,56 @@
       "url": "https://store.steampowered.com/app/2119960",
       "message_id": 111,
       "suggested_at": "2026-09-28T11:01:38.569659+00:00"
+    },
+    "1815430": {
+      "app_id": "1815430",
+      "title": "Cursed House 10 - Match 3 Puzzle",
+      "title_norm": "cursed house 10 match 3 puzzle",
+      "developer": "LGT SIA",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1815430",
+      "message_id": 117,
+      "suggested_at": "2026-09-28T12:01:53.139804+00:00"
+    },
+    "2209310": {
+      "app_id": "2209310",
+      "title": "1 Rule Sudoku",
+      "title_norm": "1 rule sudoku",
+      "developer": "Edelweiss Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2209310",
+      "message_id": 118,
+      "suggested_at": "2026-09-28T12:01:54.241128+00:00"
+    },
+    "2703070": {
+      "app_id": "2703070",
+      "title": "24H Stories: The Rule 7",
+      "title_norm": "24h stories the rule 7",
+      "developer": "LikeGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2703070",
+      "message_id": 119,
+      "suggested_at": "2026-09-28T12:01:57.565798+00:00"
+    },
+    "1758220": {
+      "app_id": "1758220",
+      "title": "13:ORIGIN - Chapter One",
+      "title_norm": "13 origin chapter one",
+      "developer": "Corvus Studio Yazilim Anonim Sirketi",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1758220",
+      "message_id": 120,
+      "suggested_at": "2026-09-28T12:01:59.344137+00:00"
+    },
+    "810360": {
+      "app_id": "810360",
+      "title": "Masters of Puzzle",
+      "title_norm": "masters of puzzle",
+      "developer": "Belleal Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/810360",
+      "message_id": 121,
+      "suggested_at": "2026-09-28T12:02:00.473736+00:00"
     }
   }
 }
