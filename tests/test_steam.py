@@ -22,17 +22,17 @@ def _app(**extra):
 
 
 def test_review_band_edges():
-    assert in_review_band(50)
-    assert in_review_band(5000)
-    assert not in_review_band(49)
-    assert not in_review_band(5001)
-    assert not in_review_band(None)
+    assert in_review_band(0)
+    assert in_review_band(20_000)
+    assert not in_review_band(20_001)
+    assert in_review_band(None)
 
 
 def test_hard_reject_reasons():
     assert hard_reject(_app(type="dlc"), [], set()) == "type"
     assert hard_reject(_app(coming_soon=True), [], set()) == "unreleased"
-    assert hard_reject(_app(reviews=10), [], set()) == "reviews"
+    assert hard_reject(_app(reviews=20_001), [], set()) == "reviews"
+    assert hard_reject(_app(reviews=None), [], set()) is None
     assert hard_reject(_app(developer="Valve"), ["Valve"], set()) == "publisher"
     assert hard_reject(_app(publishers=["2K Games"]), ["2K"], set()) == "publisher"
     assert hard_reject(_app(), [], {"10"}) == "chart"

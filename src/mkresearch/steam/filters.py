@@ -2,13 +2,13 @@ from __future__ import annotations
 
 import re
 
-REVIEW_MIN = 50
-REVIEW_MAX = 5_000
+REVIEW_MIN = 0
+REVIEW_MAX = 20_000
 
 
 def in_review_band(reviews: int | None) -> bool:
     if reviews is None:
-        return False
+        return True
     return REVIEW_MIN <= reviews <= REVIEW_MAX
 
 
@@ -46,7 +46,9 @@ def hard_reject(app: dict, publisher_names: list[str], blocked_ids: set[str]) ->
     if app.get("coming_soon"):
         return "unreleased"
     reviews = app.get("reviews")
-    if not isinstance(reviews, int) or not in_review_band(reviews):
+    if not isinstance(reviews, int):
+        reviews = None
+    if not in_review_band(reviews):
         return "reviews"
     parties = [str(app.get("developer") or "")]
     parties.extend(str(name) for name in app.get("publishers") or [])
