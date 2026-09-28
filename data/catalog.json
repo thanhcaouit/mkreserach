@@ -419,6 +419,76 @@
       "suggested_at": "2026-09-27T15:35:36.186000+00:00",
       "mechanic_vi": "Kết nối các ô cùng hình ảnh qua đường không chéo để xóa sạch bảng.",
       "why_vi": "Mặc dù là dạng Mahjong cổ điển, trò vẫn có nhiều màn với mục tiêu xóa hết ô, phù hợp cho người thích logic."
+    },
+    "com.blockpuzzle.crystalblastblockpuzzle": {
+      "app_id": "com.blockpuzzle.crystalblastblockpuzzle",
+      "title": "Block Grid: Puzzle Master",
+      "title_norm": "block grid puzzle master",
+      "developer": "Draw it - Draw One Part",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.blockpuzzle.crystalblastblockpuzzle&hl=en",
+      "message_id": 58,
+      "suggested_at": "2026-09-28T04:21:41.935278+00:00",
+      "mechanic_vi": "Đặt các khối trên lưới 8x8 để lấp đầy và tạo hàng hoặc cột, cô lập các ô trống.",
+      "why_vi": "Có chế độ Adventure với nhiều màn, mỗi màn một mục tiêu lấp đầy lưới, phù hợp với luật duy nhất mỗi cấp và cảm giác “enclose”."
+    },
+    "com.morionstudio.murderpuzzle": {
+      "app_id": "com.morionstudio.murderpuzzle",
+      "title": "Myrdle - Cross Logic Puzzles",
+      "title_norm": "myrdle cross logic puzzles",
+      "developer": "Morion Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3,
+      "url": "https://play.google.com/store/apps/details?id=com.morionstudio.murderpuzzle&hl=en",
+      "message_id": 59,
+      "suggested_at": "2026-09-28T04:21:44.178247+00:00",
+      "mechanic_vi": "Suy luận logic để loại bỏ các nghi phạm, cô lập đáp án đúng trong mỗi câu đố.",
+      "why_vi": "Mỗi câu đố là một màn với một luật duy nhất – tìm ra kẻ giết người – cung cấp tiến độ cấp độ và thách thức trí tuệ."
+    },
+    "water.sort.color.games.tile.match.puzzle": {
+      "app_id": "water.sort.color.games.tile.match.puzzle",
+      "title": "Tile Sort Puzzle Game",
+      "title_norm": "tile sort puzzle game",
+      "developer": "Unico Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.640316,
+      "url": "https://play.google.com/store/apps/details?id=water.sort.color.games.tile.match.puzzle&hl=en",
+      "message_id": 60,
+      "suggested_at": "2026-09-28T04:21:45.322234+00:00",
+      "mechanic_vi": "Welcome to the ultimate tile sort puzzle game! If you're a fan of water sort-style games, color sorting games, tile puzzles, block sorting, logic puzzles, brain teasers, or relaxing puzzle games, Tile Sort is your perfec",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "dev.tfw.empowered": {
+      "app_id": "dev.tfw.empowered",
+      "title": "Puzzle Wizards",
+      "title_norm": "puzzle wizards",
+      "developer": "tfw.dev Inc.",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.813187,
+      "url": "https://play.google.com/store/apps/details?id=dev.tfw.empowered&hl=en",
+      "message_id": 61,
+      "suggested_at": "2026-09-28T04:21:47.237974+00:00",
+      "mechanic_vi": "Become a Puzzle Wizard! Ply your magic by playing three, easy to learn and challenging to master, Puzzles: Harvesting, Mixing and Battle. Set forth from your Village into the magical Wildwoods on Adventures in the wilds.",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.mi.blockpuzzle.solver": {
+      "app_id": "com.mi.blockpuzzle.solver",
+      "title": "Block Puzzle Solver",
+      "title_norm": "block puzzle solver",
+      "developer": "Meta Innovation",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.6732674,
+      "url": "https://play.google.com/store/apps/details?id=com.mi.blockpuzzle.solver&hl=en",
+      "message_id": 62,
+      "suggested_at": "2026-09-28T04:21:48.385560+00:00",
+      "mechanic_vi": "Block Puzzle Solver makes puzzle games easier and more fun! Get help when you're stuck and learn new ways to solve puzzles. Your helpful friend for all block puzzle games! Core Features: Manual Mode: Get instant guidance",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
