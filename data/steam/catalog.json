@@ -9,6 +9,56 @@
       "url": "https://store.steampowered.com/app/1014140",
       "message_id": 34,
       "suggested_at": "2026-09-27T06:20:25.164340+00:00"
+    },
+    "2478340": {
+      "app_id": "2478340",
+      "title": "Sokoban 3D",
+      "title_norm": "sokoban 3d",
+      "developer": "Prots Andrii",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2478340",
+      "message_id": 47,
+      "suggested_at": "2026-09-28T04:02:04.705094+00:00"
+    },
+    "670850": {
+      "app_id": "670850",
+      "title": "Sokoban Land DX",
+      "title_norm": "sokoban land dx",
+      "developer": "lightUP",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/670850",
+      "message_id": 48,
+      "suggested_at": "2026-09-28T04:02:06.968769+00:00"
+    },
+    "2161120": {
+      "app_id": "2161120",
+      "title": "Slime Ranger Sokoban",
+      "title_norm": "slime ranger sokoban",
+      "developer": "Cozy Village",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2161120",
+      "message_id": 49,
+      "suggested_at": "2026-09-28T04:02:09.348116+00:00"
+    },
+    "4671490": {
+      "app_id": "4671490",
+      "title": "Armu's Sokoban Adventure",
+      "title_norm": "armu s sokoban adventure",
+      "developer": "samooz",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4671490",
+      "message_id": 50,
+      "suggested_at": "2026-09-28T04:02:10.325760+00:00"
+    },
+    "1406570": {
+      "app_id": "1406570",
+      "title": "Sokoban (Boxman) Classic",
+      "title_norm": "sokoban boxman classic",
+      "developer": "JChip Game",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1406570",
+      "message_id": 51,
+      "suggested_at": "2026-09-28T04:02:11.494324+00:00"
     }
   }
 }
