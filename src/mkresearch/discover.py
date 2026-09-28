@@ -37,7 +37,7 @@ class DetailLimit(RuntimeError):
 
 
 class PlayStore:
-    def __init__(self, sleeper=time.sleep, app_limit: int = 40, guard: Guard | None = None) -> None:
+    def __init__(self, sleeper=time.sleep, app_limit: int = 80, guard: Guard | None = None) -> None:
         self.sleeper = sleeper
         self.app_limit = app_limit
         self.app_calls = 0
