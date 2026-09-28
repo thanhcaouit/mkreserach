@@ -359,6 +359,56 @@
       "url": "https://store.steampowered.com/app/874400",
       "message_id": 95,
       "suggested_at": "2026-09-28T09:16:01.945682+00:00"
+    },
+    "1542860": {
+      "app_id": "1542860",
+      "title": "Dungeon Slime 2: Puzzle in the Dark Forest",
+      "title_norm": "dungeon slime 2 puzzle in the dark forest",
+      "developer": "Daniel Siqueira Abdelnur",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1542860",
+      "message_id": 101,
+      "suggested_at": "2026-09-28T09:19:23.073867+00:00"
+    },
+    "852340": {
+      "app_id": "852340",
+      "title": "King Rabbit - Puzzle",
+      "title_norm": "king rabbit puzzle",
+      "developer": "RareSloth",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/852340",
+      "message_id": 102,
+      "suggested_at": "2026-09-28T09:19:24.357396+00:00"
+    },
+    "4518030": {
+      "app_id": "4518030",
+      "title": "Chronicles Puzzle: History Path",
+      "title_norm": "chronicles puzzle history path",
+      "developer": "Chronicles game studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4518030",
+      "message_id": 103,
+      "suggested_at": "2026-09-28T09:19:25.786453+00:00"
+    },
+    "1693260": {
+      "app_id": "1693260",
+      "title": "Yugo Puzzle",
+      "title_norm": "yugo puzzle",
+      "developer": "Qrostar",
+      "reviews": 327,
+      "url": "https://store.steampowered.com/app/1693260",
+      "message_id": 104,
+      "suggested_at": "2026-09-28T09:19:26.548632+00:00"
+    },
+    "1973260": {
+      "app_id": "1973260",
+      "title": "MazezaM - Puzzle Game",
+      "title_norm": "mazezam puzzle game",
+      "developer": "eSolutions",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1973260",
+      "message_id": 105,
+      "suggested_at": "2026-09-28T09:19:27.551282+00:00"
     }
   }
 }
