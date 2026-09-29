@@ -889,6 +889,56 @@
       "url": "https://store.steampowered.com/app/3530820",
       "message_id": 286,
       "suggested_at": "2026-09-29T14:01:37.227099+00:00"
+    },
+    "3677140": {
+      "app_id": "3677140",
+      "title": "Whispers of the Hourglass",
+      "title_norm": "whispers of the hourglass",
+      "developer": "Umut Sahpaz",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3677140",
+      "message_id": 288,
+      "suggested_at": "2026-09-29T14:54:50.109175+00:00"
+    },
+    "3771920": {
+      "app_id": "3771920",
+      "title": "Whispers of Kelsden",
+      "title_norm": "whispers of kelsden",
+      "developer": "Sunwake Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3771920",
+      "message_id": 289,
+      "suggested_at": "2026-09-29T14:54:51.605958+00:00"
+    },
+    "4253730": {
+      "app_id": "4253730",
+      "title": "Unsolved Case: Whispers of Elderwick Collector’s Edition",
+      "title_norm": "unsolved case whispers of elderwick collector s edition",
+      "developer": "Do Games Limited",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4253730",
+      "message_id": 290,
+      "suggested_at": "2026-09-29T14:54:53.111450+00:00"
+    },
+    "3499870": {
+      "app_id": "3499870",
+      "title": "Panic Room: Ghosts of the Past",
+      "title_norm": "panic room ghosts of the past",
+      "developer": "GameXP.com",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3499870",
+      "message_id": 291,
+      "suggested_at": "2026-09-29T14:54:54.398083+00:00"
+    },
+    "4336440": {
+      "app_id": "4336440",
+      "title": "Dead Lasso: Temple Of Shadows",
+      "title_norm": "dead lasso temple of shadows",
+      "developer": "Chilling Moose Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4336440",
+      "message_id": 292,
+      "suggested_at": "2026-09-29T14:54:57.070747+00:00"
     }
   }
 }
