@@ -729,6 +729,56 @@
       "url": "https://store.steampowered.com/app/4040240",
       "message_id": 254,
       "suggested_at": "2026-09-29T10:01:53.429685+00:00"
+    },
+    "467090": {
+      "app_id": "467090",
+      "title": "A Game of Changes",
+      "title_norm": "a game of changes",
+      "developer": "Nuno Donato",
+      "reviews": 130,
+      "url": "https://store.steampowered.com/app/467090",
+      "message_id": 259,
+      "suggested_at": "2026-09-29T11:01:39.823824+00:00"
+    },
+    "711130": {
+      "app_id": "711130",
+      "title": "God of Light: Remastered",
+      "title_norm": "god of light remastered",
+      "developer": "Playmous",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/711130",
+      "message_id": 260,
+      "suggested_at": "2026-09-29T11:01:42.457240+00:00"
+    },
+    "1564090": {
+      "app_id": "1564090",
+      "title": "Landlord of the Woods",
+      "title_norm": "landlord of the woods",
+      "developer": "Madison Karrh",
+      "reviews": 1249,
+      "url": "https://store.steampowered.com/app/1564090",
+      "message_id": 261,
+      "suggested_at": "2026-09-29T11:01:43.498721+00:00"
+    },
+    "2821450": {
+      "app_id": "2821450",
+      "title": "Sands of Hope",
+      "title_norm": "sands of hope",
+      "developer": "Guateke Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2821450",
+      "message_id": 262,
+      "suggested_at": "2026-09-29T11:01:45.582557+00:00"
+    },
+    "1065230": {
+      "app_id": "1065230",
+      "title": "Room of Pandora",
+      "title_norm": "room of pandora",
+      "developer": "SHEN JIAWEI",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1065230",
+      "message_id": 263,
+      "suggested_at": "2026-09-29T11:01:46.640781+00:00"
     }
   }
 }
