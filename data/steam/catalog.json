@@ -1089,6 +1089,56 @@
       "url": "https://store.steampowered.com/app/730820",
       "message_id": 310,
       "suggested_at": "2026-09-29T18:01:55.101053+00:00"
+    },
+    "3864960": {
+      "app_id": "3864960",
+      "title": "Pumuckl and the Crown of the Pirate King",
+      "title_norm": "pumuckl and the crown of the pirate king",
+      "developer": "Quantumfrog ",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3864960",
+      "message_id": 312,
+      "suggested_at": "2026-09-29T19:01:36.285315+00:00"
+    },
+    "2333130": {
+      "app_id": "2333130",
+      "title": "Tower of Fire: The Sword of Unspoken Misc",
+      "title_norm": "tower of fire the sword of unspoken misc",
+      "developer": "Dale Blackwood",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2333130",
+      "message_id": 313,
+      "suggested_at": "2026-09-29T19:01:38.083044+00:00"
+    },
+    "32360": {
+      "app_id": "32360",
+      "title": "The Secret of Monkey Island: Special Edition",
+      "title_norm": "the secret of monkey island special edition",
+      "developer": "LucasArts",
+      "reviews": 5347,
+      "url": "https://store.steampowered.com/app/32360",
+      "message_id": 314,
+      "suggested_at": "2026-09-29T19:01:39.275888+00:00"
+    },
+    "1097110": {
+      "app_id": "1097110",
+      "title": "Willy Morgan and the Curse of Bone Town",
+      "title_norm": "willy morgan and the curse of bone town",
+      "developer": "imaginarylab",
+      "reviews": 511,
+      "url": "https://store.steampowered.com/app/1097110",
+      "message_id": 315,
+      "suggested_at": "2026-09-29T19:01:40.801029+00:00"
+    },
+    "3647290": {
+      "app_id": "3647290",
+      "title": "Eclipse of the Lost",
+      "title_norm": "eclipse of the lost",
+      "developer": "Eclipse Forged LLC",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3647290",
+      "message_id": 316,
+      "suggested_at": "2026-09-29T19:01:42.185064+00:00"
     }
   }
 }
