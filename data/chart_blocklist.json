@@ -1977,6 +1977,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.crazylabs.fashion.squad": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "dk.tactile.holegame": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
