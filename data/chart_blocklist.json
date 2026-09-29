@@ -1989,6 +1989,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.playagames.shakesfidget": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.superplusgames.hosandroid": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
