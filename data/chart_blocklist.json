@@ -1707,6 +1707,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.asobimo.toramonline": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.miniclip.checkers": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.football.soccer.league": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
