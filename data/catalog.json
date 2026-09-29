@@ -2253,6 +2253,20 @@
       "suggested_at": "2026-09-29T14:01:16.133343+00:00",
       "mechanic_vi": "This enhanced version of sudoku offers more hints and difficulty levels and, therefore, more rewarding experience for all types of players – Killer Sudoku: Brain Puzzles are great for both beginners and sudoku experts! W",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.keesing.android.tectonic": {
+      "app_id": "com.keesing.android.tectonic",
+      "title": "Tectonic",
+      "title_norm": "tectonic",
+      "developer": "Keesing Media Group",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.62069,
+      "url": "https://play.google.com/store/apps/details?id=com.keesing.android.tectonic&hl=en",
+      "message_id": 287,
+      "suggested_at": "2026-09-29T14:54:13.678171+00:00",
+      "mechanic_vi": "Đặt số vào các ô sao cho các ô kề nhau không chứa cùng một số.",
+      "why_vi": "Có nhiều mức độ khó khác nhau, mỗi màn chỉ áp dụng một quy tắc duy nhất, phù hợp với sở thích puzzle có luật rõ ràng và tiến độ theo màn."
     }
   }
 }
