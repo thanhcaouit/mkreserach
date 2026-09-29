@@ -1039,6 +1039,56 @@
       "url": "https://store.steampowered.com/app/4137730",
       "message_id": 304,
       "suggested_at": "2026-09-29T17:01:39.932128+00:00"
+    },
+    "1106830": {
+      "app_id": "1106830",
+      "title": "Rainbow Billy: The Curse of the Leviathan",
+      "title_norm": "rainbow billy the curse of the leviathan",
+      "developer": "ManaVoid Entertainment",
+      "reviews": 147,
+      "url": "https://store.steampowered.com/app/1106830",
+      "message_id": 306,
+      "suggested_at": "2026-09-29T18:01:47.413529+00:00"
+    },
+    "1949300": {
+      "app_id": "1949300",
+      "title": "EXIT - The Curse of Ophir",
+      "title_norm": "exit the curse of ophir",
+      "developer": "Nementic Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1949300",
+      "message_id": 307,
+      "suggested_at": "2026-09-29T18:01:50.054137+00:00"
+    },
+    "255390": {
+      "app_id": "255390",
+      "title": "Max: The Curse of Brotherhood",
+      "title_norm": "max the curse of brotherhood",
+      "developer": "Press Play",
+      "reviews": 1528,
+      "url": "https://store.steampowered.com/app/255390",
+      "message_id": 308,
+      "suggested_at": "2026-09-29T18:01:51.243083+00:00"
+    },
+    "2222420": {
+      "app_id": "2222420",
+      "title": "The Curse of Eclipse",
+      "title_norm": "the curse of eclipse",
+      "developer": "LAWEND",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2222420",
+      "message_id": 309,
+      "suggested_at": "2026-09-29T18:01:54.137123+00:00"
+    },
+    "730820": {
+      "app_id": "730820",
+      "title": "The Curse of Monkey Island",
+      "title_norm": "the curse of monkey island",
+      "developer": "LucasArts",
+      "reviews": 2833,
+      "url": "https://store.steampowered.com/app/730820",
+      "message_id": 310,
+      "suggested_at": "2026-09-29T18:01:55.101053+00:00"
     }
   }
 }
