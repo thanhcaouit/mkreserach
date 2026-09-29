@@ -1725,6 +1725,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "defense.roguelike.cell.shoot.survivor": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
