@@ -1239,6 +1239,56 @@
       "url": "https://store.steampowered.com/app/1916420",
       "message_id": 328,
       "suggested_at": "2026-09-29T21:01:35.514810+00:00"
+    },
+    "2677140": {
+      "app_id": "2677140",
+      "title": "Temple of Causality",
+      "title_norm": "temple of causality",
+      "developer": "GameEon Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2677140",
+      "message_id": 330,
+      "suggested_at": "2026-09-29T22:01:36.998268+00:00"
+    },
+    "1208590": {
+      "app_id": "1208590",
+      "title": "Temple Of Snek",
+      "title_norm": "temple of snek",
+      "developer": "Aetheric Games",
+      "reviews": 101,
+      "url": "https://store.steampowered.com/app/1208590",
+      "message_id": 331,
+      "suggested_at": "2026-09-29T22:01:38.858794+00:00"
+    },
+    "1903770": {
+      "app_id": "1903770",
+      "title": "Koni: The Secrets of Castle",
+      "title_norm": "koni the secrets of castle",
+      "developer": "Shido Game Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1903770",
+      "message_id": 332,
+      "suggested_at": "2026-09-29T22:01:40.506764+00:00"
+    },
+    "2988400": {
+      "app_id": "2988400",
+      "title": "Temple of Shadows",
+      "title_norm": "temple of shadows",
+      "developer": "DRB Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2988400",
+      "message_id": 333,
+      "suggested_at": "2026-09-29T22:01:42.166547+00:00"
+    },
+    "2558060": {
+      "app_id": "2558060",
+      "title": "Secrets of the Haunted Mansion",
+      "title_norm": "secrets of the haunted mansion",
+      "developer": "WulwArtGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2558060",
+      "message_id": 334,
+      "suggested_at": "2026-09-29T22:01:43.691342+00:00"
     }
   }
 }
