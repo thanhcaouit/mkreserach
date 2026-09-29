@@ -2029,6 +2029,62 @@
       "suggested_at": "2026-09-29T10:01:18.325493+00:00",
       "mechanic_vi": "Khóa ô đen để cô lập các ô trắng theo số đã cho.",
       "why_vi": "Mỗi màn chỉ có một quy tắc rõ ràng: số ô trắng nhìn thấy theo hàng và cột phải khớp với con số trên ô."
+    },
+    "com.logicpuzzle": {
+      "app_id": "com.logicpuzzle",
+      "title": "Logic Puzzles Daily - Solve Lo",
+      "title_norm": "logic puzzles daily solve lo",
+      "developer": "Twin Wizards: The Logic Puzzle Experts",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.161954,
+      "url": "https://play.google.com/store/apps/details?id=com.logicpuzzle&hl=en",
+      "message_id": 255,
+      "suggested_at": "2026-09-29T11:01:09.939355+00:00",
+      "mechanic_vi": "Giải các câu đố logic dạng lưới, mỗi màn là một bài thách thức độc lập.",
+      "why_vi": "Mỗi cấp độ có một quy tắc duy nhất và yêu cầu suy luận sâu, phù hợp với sở thích có luật rõ ràng."
+    },
+    "dk.logicom.mastermind": {
+      "app_id": "dk.logicom.mastermind",
+      "title": "Logic: code breaking",
+      "title_norm": "logic code breaking",
+      "developer": "Logicom Apps",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.822785,
+      "url": "https://play.google.com/store/apps/details?id=dk.logicom.mastermind&hl=en",
+      "message_id": 256,
+      "suggested_at": "2026-09-29T11:01:10.944747+00:00",
+      "mechanic_vi": "Đoán mã bí mật và nhận phản hồi vị trí, mỗi màn chỉ có một quy tắc duy nhất.",
+      "why_vi": "Cơ chế đơn giản nhưng đòi hỏi suy luận chiến lược, phù hợp với yêu cầu một luật duy nhất mỗi cấp độ."
+    },
+    "com.uvmlab.killer": {
+      "app_id": "com.uvmlab.killer",
+      "title": "Killer Sudoku by Logic Wiz",
+      "title_norm": "killer sudoku by logic wiz",
+      "developer": "Logic-Wiz",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.73,
+      "url": "https://play.google.com/store/apps/details?id=com.uvmlab.killer&hl=en",
+      "message_id": 257,
+      "suggested_at": "2026-09-29T11:01:12.519583+00:00",
+      "mechanic_vi": "Sắp xếp số trong lưới Sudoku với các ô bị bao quanh, mỗi màn có các ô \"cage\" cần tổng nhất định.",
+      "why_vi": "Luật cô lập các ô trong \"cage\" tạo ra mục tiêu rõ ràng cho mỗi cấp độ."
+    },
+    "com.conceptispuzzles.sumsudoku": {
+      "app_id": "com.conceptispuzzles.sumsudoku",
+      "title": "SumSudoku: Killer Sudoku",
+      "title_norm": "sumsudoku killer sudoku",
+      "developer": "Conceptis Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.6,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.sumsudoku&hl=en",
+      "message_id": 258,
+      "suggested_at": "2026-09-29T11:01:13.904907+00:00",
+      "mechanic_vi": "Kết hợp Sudoku và Kakuro, người chơi phải điền số sao cho mỗi \"cage\" đạt tổng đã cho.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất về tổng và vị trí, đáp ứng tiêu chí luật chơi rõ ràng."
     }
   }
 }
