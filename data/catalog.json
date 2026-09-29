@@ -2001,6 +2001,34 @@
       "suggested_at": "2026-09-29T09:00:57.885372+00:00",
       "mechanic_vi": "Đặt gạch, gia tốc và thay đổi trọng lực để đưa bóng vào lỗ mục tiêu.",
       "why_vi": "Kết hợp cách đặt khối và thay đổi trọng lực trong mỗi cấp, tạo luật chơi rõ ràng và có tiến độ cấp độ."
+    },
+    "com.her.garden.secret.code.puzzle": {
+      "app_id": "com.her.garden.secret.code.puzzle",
+      "title": "Hidden Code: Brain Puzzle Game",
+      "title_norm": "hidden code brain puzzle game",
+      "developer": "Drage Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.her.garden.secret.code.puzzle&hl=en",
+      "message_id": 248,
+      "suggested_at": "2026-09-29T10:01:17.057862+00:00",
+      "mechanic_vi": "Mã 3x3 ẩn trong khu vườn, người chơi phải tìm và nhập đúng mã.",
+      "why_vi": "Mỗi màn có một luật duy nhất: quan sát môi trường, giải mã và nhập vào lưới 3x3 để mở hoa."
+    },
+    "com.brennerd.grid_puzzle.kuromasu": {
+      "app_id": "com.brennerd.grid_puzzle.kuromasu",
+      "title": "Kuromasu: Logic Puzzles",
+      "title_norm": "kuromasu logic puzzles",
+      "developer": "brennerd",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.88,
+      "url": "https://play.google.com/store/apps/details?id=com.brennerd.grid_puzzle.kuromasu&hl=en",
+      "message_id": 249,
+      "suggested_at": "2026-09-29T10:01:18.325493+00:00",
+      "mechanic_vi": "Khóa ô đen để cô lập các ô trắng theo số đã cho.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc rõ ràng: số ô trắng nhìn thấy theo hàng và cột phải khớp với con số trên ô."
     }
   }
 }
