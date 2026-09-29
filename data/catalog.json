@@ -2085,6 +2085,76 @@
       "suggested_at": "2026-09-29T11:01:13.904907+00:00",
       "mechanic_vi": "Kết hợp Sudoku và Kakuro, người chơi phải điền số sao cho mỗi \"cage\" đạt tổng đã cho.",
       "why_vi": "Mỗi màn có một quy tắc duy nhất về tổng và vị trí, đáp ứng tiêu chí luật chơi rõ ràng."
+    },
+    "com.uvmlab.suguru": {
+      "app_id": "com.uvmlab.suguru",
+      "title": "Suguru & Variants by Logic Wiz",
+      "title_norm": "suguru variants by logic wiz",
+      "developer": "Logic-Wiz",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.807229,
+      "url": "https://play.google.com/store/apps/details?id=com.uvmlab.suguru&hl=en",
+      "message_id": 264,
+      "suggested_at": "2026-09-29T12:01:12.740398+00:00",
+      "mechanic_vi": "Đặt các ô vào các vùng (cage) và điền số sao cho tổng của mỗi vùng bằng giá trị chỉ định, đồng thời không trùng lặp trong hàng, cột và vùng 3×3.",
+      "why_vi": "Luật duy nhất, rõ ràng cho mỗi màn và có nhiều cấp độ khó khác nhau, phù hợp với sở thích \"một quy tắc rõ ràng mỗi màn\"."
+    },
+    "com.hangxunspace.killersudoku": {
+      "app_id": "com.hangxunspace.killersudoku",
+      "title": "Killer Sudoku - sudoku game",
+      "title_norm": "killer sudoku sudoku game",
+      "developer": "航讯工作室",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.78,
+      "url": "https://play.google.com/store/apps/details?id=com.hangxunspace.killersudoku&hl=en",
+      "message_id": 265,
+      "suggested_at": "2026-09-29T12:01:14.161139+00:00",
+      "mechanic_vi": "Kết hợp Sudoku với các ô \"cage\" yêu cầu tổng các số trong ô bằng giá trị cho trước, tạo ra một quy tắc mới so với Sudoku truyền thống.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất (điền đúng tổng), có nhiều mức độ khó, đáp ứng yêu cầu có luật rõ ràng và tiến độ cấp độ."
+    },
+    "com.brainatee.killer.sudoku.sumdoku.number.puzzle.free": {
+      "app_id": "com.brainatee.killer.sudoku.sumdoku.number.puzzle.free",
+      "title": "Killer Sudoku",
+      "title_norm": "killer sudoku",
+      "developer": "Brainatee",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.61,
+      "url": "https://play.google.com/store/apps/details?id=com.brainatee.killer.sudoku.sumdoku.number.puzzle.free&hl=en",
+      "message_id": 266,
+      "suggested_at": "2026-09-29T12:01:15.544877+00:00",
+      "mechanic_vi": "Giải các ô Sudoku có các vùng \"cage\" với tổng số cố định, yêu cầu người chơi cân bằng cả quy tắc Sudoku và tính tổng.",
+      "why_vi": "Cung cấp hàng ngàn màn chơi với một quy tắc duy nhất, cho phép người chơi tiến bộ qua các cấp độ khó tăng dần."
+    },
+    "com.relitygames.killersudoku": {
+      "app_id": "com.relitygames.killersudoku",
+      "title": "Killer Sudoku - Sudoku Puzzles",
+      "title_norm": "killer sudoku sudoku puzzles",
+      "developer": "Relity Games",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.3125,
+      "url": "https://play.google.com/store/apps/details?id=com.relitygames.killersudoku&hl=en",
+      "message_id": 267,
+      "suggested_at": "2026-09-29T12:01:16.567198+00:00",
+      "mechanic_vi": "Sử dụng lưới Sudoku có các ô \"cage\" yêu cầu tổng số chính xác, kết hợp logic số và tính toán tổng.",
+      "why_vi": "Mỗi màn là một câu đố độc lập với một quy tắc duy nhất, có nhiều mức độ khó, phù hợp với tiêu chí \"một quy tắc mỗi màn\"."
+    },
+    "com.uvmlab.classic": {
+      "app_id": "com.uvmlab.classic",
+      "title": "Classic Sudoku by Logic Wiz",
+      "title_norm": "classic sudoku by logic wiz",
+      "developer": "Logic-Wiz",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.8,
+      "url": "https://play.google.com/store/apps/details?id=com.uvmlab.classic&hl=en",
+      "message_id": 268,
+      "suggested_at": "2026-09-29T12:01:17.388658+00:00",
+      "mechanic_vi": "Điền các số 1‑9 vào lưới 9×9 sao cho mỗi hàng, cột và khối 3×3 không trùng lặp.",
+      "why_vi": "Là một puzzle truyền thống với luật duy nhất và nhiều cấp độ khó, nhưng không mang tính mới lạ so với các trò đã biết."
     }
   }
 }
