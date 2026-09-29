@@ -1917,6 +1917,62 @@
       "suggested_at": "2026-09-29T06:01:11.610663+00:00",
       "mechanic_vi": "Block Breaker - PuzzleGame is a challenging tile puzzle where every move counts. Slide, stack, and shatter your way through tricky logic levels - no timers, no pressure, just pure brainpower. Inspired by hits like Tetris",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.block.blast.cube.puzzle": {
+      "app_id": "com.block.blast.cube.puzzle",
+      "title": "Block Wizard: Brain Puzzle",
+      "title_norm": "block wizard brain puzzle",
+      "developer": "FUNJOY",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.2,
+      "url": "https://play.google.com/store/apps/details?id=com.block.blast.cube.puzzle&hl=en",
+      "message_id": 225,
+      "suggested_at": "2026-09-29T07:01:47.165279+00:00",
+      "mechanic_vi": "One block can change the whole board. Block Wizard is a relaxing 8×8 block puzzle with a clever twist: every level brings new goals, unique obstacles and useful power-ups. Drag colorful blocks onto the grid, complete row",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.agedstudio.block.puzzle.gem.quest.classic": {
+      "app_id": "com.agedstudio.block.puzzle.gem.quest.classic",
+      "title": "Block Puzzle - Brain Blast",
+      "title_norm": "block puzzle brain blast",
+      "developer": "Aged Studio Limited",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.6666665,
+      "url": "https://play.google.com/store/apps/details?id=com.agedstudio.block.puzzle.gem.quest.classic&hl=en",
+      "message_id": 226,
+      "suggested_at": "2026-09-29T07:01:48.773233+00:00",
+      "mechanic_vi": "Stuck in a block puzzle? Not anymore. Block Puzzle - Brain Blast takes the classic game you love and makes every move count. Use powerful tools, earn rewards, and keep the game going. No WiFi? No problem. Play offline an",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.blockpuzzle.jewel.gems": {
+      "app_id": "com.blockpuzzle.jewel.gems",
+      "title": "Block Puzzle Jewel & Gems",
+      "title_norm": "block puzzle jewel gems",
+      "developer": "Infolative Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.blockpuzzle.jewel.gems&hl=en",
+      "message_id": 227,
+      "suggested_at": "2026-09-29T07:01:50.467643+00:00",
+      "mechanic_vi": "Features: * Unique Jewel Block Puzzle * Powers to remove block * Locked Block * Keys to unlock the locked block * Special power to remove the whole row and column of blocks. Game Rules: 1. Place the jewel puzzle blocks i",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.no.game.block": {
+      "app_id": "com.no.game.block",
+      "title": "Block Puzzle: Jewel Blast 1010",
+      "title_norm": "block puzzle jewel blast 1010",
+      "developer": "NOGAME STUDIO",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.4375,
+      "url": "https://play.google.com/store/apps/details?id=com.no.game.block&hl=en",
+      "message_id": 228,
+      "suggested_at": "2026-09-29T07:01:51.822947+00:00",
+      "mechanic_vi": "Welcome to Block Puzzle: Jewel Blast, Block Puzzle is an addictive brain teaser with simple yet challenging games designed to give your brain a rest. Drag and drop the block title to complete a vertical or horizontal lin",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
