@@ -629,6 +629,56 @@
       "url": "https://store.steampowered.com/app/883880",
       "message_id": 241,
       "suggested_at": "2026-09-29T07:38:01.542955+00:00"
+    },
+    "2782600": {
+      "app_id": "2782600",
+      "title": "Poorzzle - Puzzle Alive",
+      "title_norm": "poorzzle puzzle alive",
+      "developer": "YMQWORKS",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2782600",
+      "message_id": 243,
+      "suggested_at": "2026-09-29T09:01:26.408513+00:00"
+    },
+    "3939370": {
+      "app_id": "3939370",
+      "title": "Soccer Puzzle",
+      "title_norm": "soccer puzzle",
+      "developer": "Hard Shark Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3939370",
+      "message_id": 244,
+      "suggested_at": "2026-09-29T09:01:28.997787+00:00"
+    },
+    "3589540": {
+      "app_id": "3589540",
+      "title": "Stickman Puzzle",
+      "title_norm": "stickman puzzle",
+      "developer": "Hard Shark Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3589540",
+      "message_id": 245,
+      "suggested_at": "2026-09-29T09:01:31.207862+00:00"
+    },
+    "2464950": {
+      "app_id": "2464950",
+      "title": "The Puzzle Maker: Cebba’s Odyssey",
+      "title_norm": "the puzzle maker cebba s odyssey",
+      "developer": "Arcaneworks Inc.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2464950",
+      "message_id": 246,
+      "suggested_at": "2026-09-29T09:01:32.330894+00:00"
+    },
+    "3201880": {
+      "app_id": "3201880",
+      "title": "Tescaris  -  A Soothing Cute Puzzle Game",
+      "title_norm": "tescaris a soothing cute puzzle game",
+      "developer": "YS246 Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3201880",
+      "message_id": 247,
+      "suggested_at": "2026-09-29T09:01:33.280279+00:00"
     }
   }
 }
