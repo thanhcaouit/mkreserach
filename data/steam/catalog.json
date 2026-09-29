@@ -879,6 +879,16 @@
       "url": "https://store.steampowered.com/app/830620",
       "message_id": 282,
       "suggested_at": "2026-09-29T13:01:53.754914+00:00"
+    },
+    "3530820": {
+      "app_id": "3530820",
+      "title": "Puzzling Places - 3D Jigsaw Sim",
+      "title_norm": "puzzling places 3d jigsaw sim",
+      "developer": "Realities.io Inc",
+      "reviews": 151,
+      "url": "https://store.steampowered.com/app/3530820",
+      "message_id": 286,
+      "suggested_at": "2026-09-29T14:01:37.227099+00:00"
     }
   }
 }
