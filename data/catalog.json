@@ -2211,6 +2211,48 @@
       "suggested_at": "2026-09-29T13:01:19.545512+00:00",
       "mechanic_vi": "Điền số 1‑9 vào lưới Sudoku sao cho không có số nào lặp lại trong hàng, cột và vùng 3×3.",
       "why_vi": "Luật truyền thống, mỗi màn chỉ có một quy tắc duy nhất."
+    },
+    "com.alexuvarov.android.suguru": {
+      "app_id": "com.alexuvarov.android.suguru",
+      "title": "Suguru",
+      "title_norm": "suguru",
+      "developer": "Aliaksandr Uvarau",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.95,
+      "url": "https://play.google.com/store/apps/details?id=com.alexuvarov.android.suguru&hl=en",
+      "message_id": 283,
+      "suggested_at": "2026-09-29T14:01:12.856821+00:00",
+      "mechanic_vi": "Suguru, also known as Tectonics or Number Blocks, was invented in Japan. These puzzles have very simple instructions, but a very wide range of difficulties, from easy to insanely complex. Suguru is a great logic puzzle w",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.somepuzzle.sudoku": {
+      "app_id": "com.somepuzzle.sudoku",
+      "title": "Classic Sudoku.",
+      "title_norm": "classic sudoku",
+      "developer": "SomePuzzle.com",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.somepuzzle.sudoku&hl=en",
+      "message_id": 284,
+      "suggested_at": "2026-09-29T14:01:14.511951+00:00",
+      "mechanic_vi": "Yet another Sudoku app, right? Well, not exactly. <b>Classic Sudoku</b> free app is designed with <b>mobile devices</b> in mind. Small touch devices have limited control possibilities compared to desktop apps, so they ne",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.onecmobile.sudokukiller": {
+      "app_id": "com.onecmobile.sudokukiller",
+      "title": "Killer Sudoku: Brain Puzzles",
+      "title_norm": "killer sudoku brain puzzles",
+      "developer": "Mahjong Brain Puzzles",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.909091,
+      "url": "https://play.google.com/store/apps/details?id=com.onecmobile.sudokukiller&hl=en",
+      "message_id": 285,
+      "suggested_at": "2026-09-29T14:01:16.133343+00:00",
+      "mechanic_vi": "This enhanced version of sudoku offers more hints and difficulty levels and, therefore, more rewarding experience for all types of players – Killer Sudoku: Brain Puzzles are great for both beginners and sudoku experts! W",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
