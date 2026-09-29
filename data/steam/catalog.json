@@ -529,6 +529,56 @@
       "url": "https://store.steampowered.com/app/1028750",
       "message_id": 163,
       "suggested_at": "2026-09-28T19:01:42.506909+00:00"
+    },
+    "771710": {
+      "app_id": "771710",
+      "title": ".T.E.S.T: Expected Behaviour — Sci-Fi 3D Puzzle Quest",
+      "title_norm": "t e s t expected behaviour sci fi 3d puzzle quest",
+      "developer": "Veslo Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/771710",
+      "message_id": 231,
+      "suggested_at": "2026-09-29T07:35:01.186884+00:00"
+    },
+    "970580": {
+      "app_id": "970580",
+      "title": "Cubicity: Slide puzzle",
+      "title_norm": "cubicity slide puzzle",
+      "developer": "Pirate Parrot",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/970580",
+      "message_id": 232,
+      "suggested_at": "2026-09-29T07:35:02.687316+00:00"
+    },
+    "3187360": {
+      "app_id": "3187360",
+      "title": "AD BLOCKER: An Action Puzzle Game",
+      "title_norm": "ad blocker an action puzzle game",
+      "developer": "The AD BLOCKER Team",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3187360",
+      "message_id": 233,
+      "suggested_at": "2026-09-29T07:35:03.760411+00:00"
+    },
+    "2991290": {
+      "app_id": "2991290",
+      "title": "Supernatural Rules Suppress Ghosts",
+      "title_norm": "supernatural rules suppress ghosts",
+      "developer": "星辰工作室",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2991290",
+      "message_id": 234,
+      "suggested_at": "2026-09-29T07:35:05.022984+00:00"
+    },
+    "3566590": {
+      "app_id": "3566590",
+      "title": "One Hunread-Year Kingdom",
+      "title_norm": "one hunread year kingdom",
+      "developer": "Dersty",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3566590",
+      "message_id": 235,
+      "suggested_at": "2026-09-29T07:35:06.649120+00:00"
     }
   }
 }
