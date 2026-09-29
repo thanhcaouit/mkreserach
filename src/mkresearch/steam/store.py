@@ -62,6 +62,12 @@ class SteamData:
     def save_offset(self, offset: int) -> None:
         _write_json(self.root / "telegram_offset.json", {"offset": offset})
 
+    def load_seen(self) -> dict:
+        return _read_json(self.root / "seen.json", {"apps": {}})
+
+    def save_seen(self, seen: dict) -> None:
+        _write_json(self.root / "seen.json", seen)
+
     def load_cooldown(self) -> dict:
         return _read_json(self.root / "cooldown.json", {})
 

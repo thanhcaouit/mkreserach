@@ -75,3 +75,31 @@ def merge_blocklist(current: dict, app_ids: list[str], day: str) -> dict:
 
 def blocked_ids(blocklist: dict) -> set[str]:
     return set((blocklist.get("apps") or {}).keys())
+
+
+def seen_ids(seen: dict) -> set[str]:
+    return {str(app_id) for app_id in (seen.get("apps") or {}) if str(app_id)}
+
+
+def remember_seen(seen: dict, app_ids: list[str], day: str) -> dict:
+    apps = dict(seen.get("apps") or {})
+    for app_id in app_ids:
+        token = str(app_id or "")
+        if not token or token in apps:
+            continue
+        apps[token] = {"seen": day}
+    return {"apps": apps}
+
+
+def recent_match_titles(catalog: dict, limit: int = 6) -> list[str]:
+    apps = list((catalog.get("apps") or {}).values())
+    apps.sort(key=lambda item: str(item.get("suggested_at") or ""), reverse=True)
+    titles: list[str] = []
+    for app in apps:
+        title = str(app.get("title") or "").strip()
+        if not title or title in titles:
+            continue
+        titles.append(title)
+        if len(titles) >= limit:
+            break
+    return titles

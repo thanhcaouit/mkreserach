@@ -10,7 +10,14 @@ from mkresearch.cooldown import Guard, LimitReached
 from mkresearch.dedupe import normalize_title
 from mkresearch.llm import LlmClient
 from mkresearch.steam.client import SteamClient
-from mkresearch.steam.discover import DetailLimit, blocked_ids, merge_blocklist
+from mkresearch.steam.discover import (
+    DetailLimit,
+    blocked_ids,
+    merge_blocklist,
+    recent_match_titles,
+    remember_seen,
+    seen_ids,
+)
 from mkresearch.steam.filters import hard_reject
 from mkresearch.steam.judge import judge
 from mkresearch.steam.learn import update_profile
@@ -95,14 +102,24 @@ def run_research(data: SteamData, client: SteamClient, llm: LlmClient, telegram:
     publishers = data.load_publishers()
     play_catalog, play_seeds = data.load_play_reference()
     queries = [str(item) for item in profile.get("search_queries") or []]
-    partials = client.search_ids(queries)
-    passed, scanned = shortlist(
-        client, partials, catalog, seeds, publishers, chart_ids, play_catalog, play_seeds
+    seen = data.load_seen()
+    passed, scanned, opened = gather_passed(
+        client,
+        queries,
+        catalog,
+        seeds,
+        publishers,
+        chart_ids,
+        play_catalog,
+        play_seeds,
+        seen_ids(seen),
+        recent_match_titles(catalog),
     )
+    data.save_seen(remember_seen(seen, opened, datetime.now(timezone.utc).date().isoformat()))
     if client.halted and not passed:
         print("Steam bị chặn, dừng lượt này.")
         return 0
-    print(f"Ứng viên {len(partials)}, đã lấy chi tiết {scanned}, qua lọc {len(passed)}")
+    print(f"Đã lấy chi tiết {scanned}, qua lọc {len(passed)}")
     for app in passed:
         print(f"qua lọc: {app.get('title')} | {app.get('appId')} | {app.get('developer')} | {app.get('reviews')}")
     picks = judge(llm, passed, seeds, profile)
@@ -176,9 +193,11 @@ def shortlist(
     play_catalog: dict,
     play_seeds: list[dict],
     limit: int = 12,
-) -> tuple[list[dict], int]:
+) -> tuple[list[dict], int, list[str], list[str]]:
     passed: list[dict] = []
     scanned = 0
+    opened: list[str] = []
+    handled: list[str] = []
     skips: dict[str, int] = {}
     for app_id in app_ids:
         if len(passed) >= limit:
@@ -187,12 +206,15 @@ def shortlist(
             break
         if already_sent(app_id, "", catalog, seeds, play_catalog, play_seeds):
             skips["duplicate"] = skips.get("duplicate", 0) + 1
+            handled.append(app_id)
             continue
         try:
             app = client.app_details(app_id)
         except DetailLimit:
             break
         scanned += 1
+        opened.append(app_id)
+        handled.append(app_id)
         if already_sent(app_id, str(app.get("title") or ""), catalog, seeds, play_catalog, play_seeds):
             skips["duplicate"] = skips.get("duplicate", 0) + 1
             continue
@@ -203,7 +225,43 @@ def shortlist(
         passed.append(app)
     if skips:
         print("Bỏ qua: " + ", ".join(f"{key} {count}" for key, count in sorted(skips.items())))
-    return passed, scanned
+    return passed, scanned, opened, handled
+
+
+def gather_passed(
+    client: SteamClient,
+    queries: list[str],
+    catalog: dict,
+    seeds: list[dict],
+    publishers: list[str],
+    chart_ids: set[str],
+    play_catalog: dict,
+    play_seeds: list[dict],
+    already_seen: set[str],
+    match_titles: list[str],
+) -> tuple[list[dict], int, list[str]]:
+    exclude = set(already_seen)
+    passed: list[dict] = []
+    scanned = 0
+    opened: list[str] = []
+    query_sets = (list(queries), list(queries), list(match_titles))
+    for index, batch_queries in enumerate(query_sets, start=1):
+        if passed or client.halted:
+            break
+        client.begin_batch()
+        app_ids = [app_id for app_id in client.search_ids(batch_queries) if app_id not in exclude]
+        if not app_ids:
+            print(f"đợt {index}: hết ứng viên mới")
+            continue
+        batch_passed, batch_scanned, batch_opened, handled = shortlist(
+            client, app_ids, catalog, seeds, publishers, chart_ids, play_catalog, play_seeds
+        )
+        passed.extend(batch_passed)
+        scanned += batch_scanned
+        opened.extend(batch_opened)
+        exclude.update(handled)
+        print(f"đợt {index}: ứng viên {len(app_ids)}, đã lấy chi tiết {batch_scanned}, qua lọc {len(batch_passed)}")
+    return passed, scanned, opened
 
 
 def _pull_ratings(data: SteamData, telegram: Telegram) -> tuple[dict, bool]:

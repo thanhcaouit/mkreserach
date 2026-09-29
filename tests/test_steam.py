@@ -1,4 +1,11 @@
-from mkresearch.steam.discover import app_id_from_logo, merge_blocklist, parse_search_items
+from mkresearch.steam.__main__ import gather_passed
+from mkresearch.steam.discover import (
+    DetailLimit,
+    app_id_from_logo,
+    merge_blocklist,
+    parse_search_items,
+    remember_seen,
+)
 from mkresearch.steam.filters import hard_reject, in_review_band
 from mkresearch.steam.judge import complete_picks, select_picks
 from mkresearch.steam.report import format_report
@@ -38,6 +45,85 @@ def test_hard_reject_reasons():
     assert hard_reject(_app(), [], {"10"}) == "chart"
     assert hard_reject(_app(from_puzzle_tag=False, genres=["Indie"]), [], set()) == "genre"
     assert hard_reject(_app(), ["Valve"], set()) is None
+
+
+class FakeSteam:
+    def __init__(self, cap: int = 2) -> None:
+        self.detail_calls = 0
+        self.cap = cap
+        self.halted = False
+        self.pages: dict[str, list[str]] = {}
+        self.details: dict[str, dict] = {}
+        self.opened: list[str] = []
+        self.searches: list[str] = []
+
+    def begin_batch(self) -> None:
+        self.detail_calls = 0
+
+    def search_ids(self, queries: list[str]) -> list[str]:
+        found: list[str] = []
+        seen: set[str] = set()
+        for query in list(queries)[:6]:
+            self.searches.append(query)
+            for app_id in self.pages.get(query, []):
+                if app_id not in seen:
+                    seen.add(app_id)
+                    found.append(app_id)
+        return found
+
+    def app_details(self, app_id: str) -> dict:
+        if self.detail_calls >= self.cap:
+            raise DetailLimit("cap")
+        self.detail_calls += 1
+        self.opened.append(app_id)
+        return dict(self.details[app_id])
+
+
+def _steam_catalog(title: str) -> dict:
+    return {"apps": {"1": {"title": title, "suggested_at": "2026-09-27T00:00:00Z"}}}
+
+
+def test_second_steam_batch_finds_a_game_and_skips_the_third():
+    client = FakeSteam()
+    client.pages["q"] = ["a", "b", "c"]
+    client.details["a"] = _app(appId="a", reviews=20_001)
+    client.details["b"] = _app(appId="b", reviews=20_001)
+    client.details["c"] = _app(appId="c", title="Fresh Puzzle")
+    client.pages["Newest"] = ["later"]
+    passed, scanned, opened = gather_passed(
+        client, ["q"], _steam_catalog("Newest"), [], [], set(), {"apps": {}}, [], set(), ["Newest"]
+    )
+    assert [app["appId"] for app in passed] == ["c"]
+    assert scanned == 3
+    assert opened == ["a", "b", "c"]
+    assert "Newest" not in client.searches
+
+
+def test_three_steam_batches_when_nothing_passes():
+    client = FakeSteam()
+    client.pages["q"] = ["a", "b", "c", "d"]
+    client.pages["Newest"] = ["e"]
+    for app_id in ("a", "b", "c", "d", "e"):
+        client.details[app_id] = _app(appId=app_id, reviews=20_001)
+    passed, _scanned, opened = gather_passed(
+        client, ["q"], _steam_catalog("Newest"), [], [], set(), {"apps": {}}, [], set(), ["Newest"]
+    )
+    assert passed == []
+    assert opened == ["a", "b", "c", "d", "e"]
+    assert client.searches.count("Newest") == 1
+
+
+def test_seen_steam_ids_are_not_opened_again():
+    client = FakeSteam(cap=20)
+    client.pages["q"] = ["old", "new"]
+    client.details["old"] = _app(appId="old")
+    client.details["new"] = _app(appId="new", reviews=20_001)
+    _passed, _scanned, opened = gather_passed(
+        client, ["q"], {"apps": {}}, [], [], set(), {"apps": {}}, [], {"old"}, []
+    )
+    assert opened == ["new"]
+    seen = remember_seen({"apps": {}}, opened, "2026-09-29")
+    assert seen["apps"]["new"]["seen"] == "2026-09-29"
 
 
 def test_logo_and_search_items_use_puzzle_tag():

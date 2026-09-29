@@ -79,6 +79,13 @@ class Store:
     def save_cooldown(self, state: dict) -> None:
         _write_json(self.root / "cooldown.json", state)
 
+    def load_ignore_keywords(self) -> list[str]:
+        path = self.root / "ignore_keywords.yaml"
+        if not path.exists():
+            return []
+        raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        return [str(item).strip() for item in (raw.get("keywords") or []) if str(item).strip()]
+
     def load_seen(self) -> dict:
         return _read_json(self.root / "play_seen.json", {"apps": {}})
 

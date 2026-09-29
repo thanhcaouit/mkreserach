@@ -17,7 +17,7 @@ from mkresearch.discover import (
     remember_seen,
     seen_ids,
 )
-from mkresearch.filters import in_install_band
+from mkresearch.filters import in_install_band, title_ignored
 from mkresearch.judge import judge
 from mkresearch.learn import update_profile
 from mkresearch.llm import LlmClient
@@ -121,7 +121,12 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
     catalog = store.load_catalog()
     publishers = store.load_publishers()
     anchors = list(profile.get("anchor_app_ids") or [])
-    queries = [str(item) for item in profile.get("search_queries") or []]
+    keywords = store.load_ignore_keywords()
+    queries = [
+        str(item)
+        for item in profile.get("search_queries") or []
+        if not title_ignored(str(item), keywords)
+    ]
     seen = store.load_seen()
     passed, scanned, opened = gather_passed(
         play,
@@ -133,6 +138,7 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
         chart_ids,
         seen_ids(seen),
         recent_match_titles(catalog),
+        keywords,
     )
     store.save_seen(remember_seen(seen, opened, datetime.now(timezone.utc).date().isoformat()))
     if play.halted and not passed:

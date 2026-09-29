@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from datetime import date
 
 INSTALL_MIN = 10_000
 INSTALL_MAX = 500_000
@@ -61,7 +62,59 @@ def is_puzzle(app: dict) -> bool:
     return any(token in genre for token in ("puzzle", "giải đố", "giai do"))
 
 
-def hard_reject(app: dict, publisher_names: list[str], blocked_ids: set[str]) -> str | None:
+def release_year(value: object) -> int | None:
+    if not isinstance(value, str):
+        return None
+    match = re.search(r"\b(?:19|20)\d{2}\b", value)
+    if match is None:
+        return None
+    return int(match.group(0))
+
+
+def released_too_recent(value: object, today: date | None = None) -> bool:
+    year = release_year(value)
+    if year is None:
+        return False
+    current = (today or date.today()).year
+    return current - 2 <= year <= current
+
+
+def title_ignored(title: str, keywords: list[str]) -> bool:
+    words = _title_words(title)
+    compact = "".join(words)
+    for raw in keywords:
+        parts = _title_words(raw)
+        if not parts:
+            continue
+        if len(parts) > 1:
+            if "".join(parts) in compact or _has_phrase(words, parts):
+                return True
+            continue
+        token = parts[0]
+        if len(token) >= 5:
+            if token in compact:
+                return True
+        elif token in words:
+            return True
+    return False
+
+
+def _title_words(value: str) -> list[str]:
+    text = value.casefold().replace("-", " ")
+    return re.findall(r"[a-z0-9]+", text)
+
+
+def _has_phrase(words: list[str], parts: list[str]) -> bool:
+    width = len(parts)
+    return any(words[index : index + width] == parts for index in range(len(words) - width + 1))
+
+
+def hard_reject(
+    app: dict,
+    publisher_names: list[str],
+    blocked_ids: set[str],
+    keywords: list[str] | None = None,
+) -> str | None:
     if not is_free(app):
         return "paid"
     installs = app.get("minInstalls")
@@ -76,4 +129,8 @@ def hard_reject(app: dict, publisher_names: list[str], blocked_ids: set[str]) ->
         return "chart"
     if not is_puzzle(app):
         return "genre"
+    if title_ignored(str(app.get("title") or ""), keywords or []):
+        return "keyword"
+    if released_too_recent(app.get("released")):
+        return "recent"
     return None

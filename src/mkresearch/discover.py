@@ -10,7 +10,14 @@ from google_play_scraper.utils.request import get
 
 from mkresearch.cooldown import Guard, limit_kind
 from mkresearch.dedupe import is_duplicate
-from mkresearch.filters import hard_reject, in_install_band, is_puzzle, parse_installs, publisher_blocked
+from mkresearch.filters import (
+    hard_reject,
+    in_install_band,
+    is_puzzle,
+    parse_installs,
+    publisher_blocked,
+    title_ignored,
+)
 
 APP_ID_RE = re.compile(r"id=([A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z0-9_]+)+)")
 SKIP_PREFIXES = ("com.google.android", "com.android.", "androidx.")
@@ -210,6 +217,7 @@ def shortlist(
     seeds: list[dict],
     publisher_names: list[str],
     chart_ids: set[str],
+    keywords: list[str] | None = None,
     limit: int = 12,
 ) -> tuple[list[dict], int, list[str], list[str]]:
     passed: list[dict] = []
@@ -232,7 +240,7 @@ def shortlist(
             skipped["paid"] += 1
             handled.append(app_id)
             continue
-        if _partial_rejected(partial, publisher_names, chart_ids):
+        if _partial_rejected(partial, publisher_names, chart_ids, keywords or []):
             skipped["partial"] += 1
             handled.append(app_id)
             continue
@@ -259,7 +267,7 @@ def shortlist(
         if is_duplicate(app_id, str(detail.get("title") or ""), catalog, seeds):
             skipped["duplicate"] += 1
             continue
-        reason = hard_reject(detail, publisher_names, chart_ids)
+        reason = hard_reject(detail, publisher_names, chart_ids, keywords or [])
         if reason:
             skipped[reason] = skipped.get(reason, 0) + 1
             continue
@@ -280,13 +288,15 @@ def gather_passed(
     chart_ids: set[str],
     already_seen: set[str],
     match_titles: list[str],
+    keywords: list[str] | None = None,
 ) -> tuple[list[dict], int, list[str]]:
     play.app_limit = DETAIL_BATCH
+    kept = [query for query in queries if not title_ignored(query, keywords or [])]
     exclude = set(already_seen)
     passed: list[dict] = []
     scanned = 0
     opened: list[str] = []
-    query_sets = (list(queries), list(queries), list(match_titles))
+    query_sets = (kept, kept, list(match_titles))
     for index, ((n_hits, include_similar), batch_queries) in enumerate(
         zip(DETAIL_ATTEMPTS, query_sets), start=1
     ):
@@ -305,7 +315,7 @@ def gather_passed(
             print(f"đợt {index}: hết ứng viên mới")
             continue
         batch_passed, batch_scanned, batch_opened, handled = shortlist(
-            play, partials, catalog, seeds, publisher_names, chart_ids
+            play, partials, catalog, seeds, publisher_names, chart_ids, keywords or []
         )
         passed.extend(batch_passed)
         scanned += batch_scanned
@@ -315,7 +325,15 @@ def gather_passed(
     return passed, scanned, opened
 
 
-def _partial_rejected(partial: dict, publisher_names: list[str], chart_ids: set[str]) -> bool:
+def _partial_rejected(
+    partial: dict,
+    publisher_names: list[str],
+    chart_ids: set[str],
+    keywords: list[str],
+) -> bool:
+    title = str(partial.get("title") or "")
+    if title and title_ignored(title, keywords):
+        return True
     developer = str(partial.get("developer") or "")
     if developer and publisher_blocked(developer, publisher_names):
         return True

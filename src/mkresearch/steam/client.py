@@ -50,6 +50,9 @@ class SteamClient:
                     found.append(app_id)
         return found
 
+    def begin_batch(self) -> None:
+        self.detail_calls = 0
+
     def app_details(self, app_id: str) -> dict:
         if self.halted or self.guard.active("steam"):
             self.halted = True

@@ -1,6 +1,14 @@
+from datetime import date
 from pathlib import Path
 
-from mkresearch.filters import hard_reject, in_install_band, is_puzzle, publisher_blocked
+from mkresearch.filters import (
+    hard_reject,
+    in_install_band,
+    is_puzzle,
+    publisher_blocked,
+    released_too_recent,
+    title_ignored,
+)
 from mkresearch.store import Store
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -55,6 +63,34 @@ def test_hard_reject_reasons():
 def test_vietnamese_puzzle_genre_is_kept():
     assert is_puzzle({"genre": "Giải đố"})
     assert not is_puzzle({"genre": "Công cụ"})
+
+
+def test_recent_release_years_are_dropped_and_unknown_dates_stay():
+    today = date(2026, 9, 29)
+    assert released_too_recent("Oct 12, 2024", today)
+    assert released_too_recent("Jan 1, 2025", today)
+    assert released_too_recent("Sep 1, 2026", today)
+    assert not released_too_recent("Mar 1, 2019", today)
+    assert not released_too_recent("Jan 1, 2023", today)
+    assert not released_too_recent(None, today)
+    assert not released_too_recent("soon", today)
+    current = date.today().year
+    assert hard_reject(_app(released=f"Jan 1, {current}"), NAMES, set()) == "recent"
+    assert hard_reject(_app(released=f"Jan 1, {current - 3}"), NAMES, set()) is None
+    assert hard_reject(_app(released=""), NAMES, set()) is None
+
+
+def test_ignore_keywords_match_block_and_phrases_but_not_reptile():
+    keywords = ["block", "arrow", "match 3", "tile", "screw"]
+    assert title_ignored("Unblock Puzzle", keywords)
+    assert title_ignored("Arrow Escape", keywords)
+    assert title_ignored("Match-3 Garden", keywords)
+    assert title_ignored("Tile Sort", keywords)
+    assert not title_ignored("Reptile", keywords)
+    assert not title_ignored("Snakebird", keywords)
+    assert hard_reject(_app(title="Block Puzzle"), NAMES, set(), keywords) == "keyword"
+    names = Store(ROOT / "data").load_ignore_keywords()
+    assert names[:5] == ["block", "arrow", "match 3", "tile", "screw"]
 
 
 def test_default_publisher_file_lists_the_named_studios():
