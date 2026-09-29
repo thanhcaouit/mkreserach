@@ -829,6 +829,56 @@
       "url": "https://store.steampowered.com/app/3451680",
       "message_id": 273,
       "suggested_at": "2026-09-29T12:01:50.802225+00:00"
+    },
+    "821180": {
+      "app_id": "821180",
+      "title": "Reliefs The Time of the Lemures",
+      "title_norm": "reliefs the time of the lemures",
+      "developer": "Calepin Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/821180",
+      "message_id": 278,
+      "suggested_at": "2026-09-29T13:01:48.108122+00:00"
+    },
+    "269670": {
+      "app_id": "269670",
+      "title": "BADLAND: Game of the Year Edition",
+      "title_norm": "badland game of the year edition",
+      "developer": "Frogmind",
+      "reviews": 2801,
+      "url": "https://store.steampowered.com/app/269670",
+      "message_id": 279,
+      "suggested_at": "2026-09-29T13:01:49.617821+00:00"
+    },
+    "604330": {
+      "app_id": "604330",
+      "title": "The Crown of Leaves",
+      "title_norm": "the crown of leaves",
+      "developer": "Lingrimm",
+      "reviews": 1954,
+      "url": "https://store.steampowered.com/app/604330",
+      "message_id": 280,
+      "suggested_at": "2026-09-29T13:01:50.652337+00:00"
+    },
+    "291690": {
+      "app_id": "291690",
+      "title": "Empathy: Path of Whispers",
+      "title_norm": "empathy path of whispers",
+      "developer": "Pixel Night",
+      "reviews": 163,
+      "url": "https://store.steampowered.com/app/291690",
+      "message_id": 281,
+      "suggested_at": "2026-09-29T13:01:52.430106+00:00"
+    },
+    "830620": {
+      "app_id": "830620",
+      "title": "Storm of Jigsaw Puzzles  拼图风暴",
+      "title_norm": "storm of jigsaw puzzles 拼图风暴",
+      "developer": "AppleCoffee",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/830620",
+      "message_id": 282,
+      "suggested_at": "2026-09-29T13:01:53.754914+00:00"
     }
   }
 }
