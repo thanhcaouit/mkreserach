@@ -1861,6 +1861,62 @@
       "suggested_at": "2026-09-29T05:01:09.564352+00:00",
       "mechanic_vi": "🎉 Celebrate the joyous season with Block Puzzle Z Classic – a gem of a game that sparkles with festive cheer! 🎄 🌟 Embrace the holiday spirit with our free classical jewel-style block puzzle game! Experience the merry tra",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.vns.blockpuzzle": {
+      "app_id": "com.vns.blockpuzzle",
+      "title": "Block Puzzle: Jewel Blast",
+      "title_norm": "block puzzle jewel blast",
+      "developer": "VnS Game Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.5454545,
+      "url": "https://play.google.com/store/apps/details?id=com.vns.blockpuzzle&hl=en",
+      "message_id": 220,
+      "suggested_at": "2026-09-29T06:01:07.685555+00:00",
+      "mechanic_vi": "Step into the exciting universe of Block Puzzle Jewel Blast, a totally free and addictive block puzzle game that tests your strategic thinking and rewards you with immensely satisfying jewel-crushing effects. Enjoy the p",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "daily.block.free.puzzle": {
+      "app_id": "daily.block.free.puzzle",
+      "title": "Daily Block - Brain Game",
+      "title_norm": "daily block brain game",
+      "developer": "Game Maker Ltd.",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=daily.block.free.puzzle&hl=en",
+      "message_id": 221,
+      "suggested_at": "2026-09-29T06:01:08.626324+00:00",
+      "mechanic_vi": "Daily Block: a wood block puzzle game meets a sudoku grid. It is a classic addictive wooden style block puzzle game you'll want to play today and every day! Match blocks to remove them by completing lines and cubes. Ther",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.JollifyGames.BlockBreakers": {
+      "app_id": "com.JollifyGames.BlockBreakers",
+      "title": "Block Breakers",
+      "title_norm": "block breakers",
+      "developer": "Jollify Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.4,
+      "url": "https://play.google.com/store/apps/details?id=com.JollifyGames.BlockBreakers&hl=en",
+      "message_id": 222,
+      "suggested_at": "2026-09-29T06:01:10.333074+00:00",
+      "mechanic_vi": "Block Breakers is a block puzzle game with a few surprises. Drag block pieces onto the board, fill rows and columns to clear them, and chain your moves into big combos. It takes a minute to learn, keeps your brain workin",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.fiogonia.bblock": {
+      "app_id": "com.fiogonia.bblock",
+      "title": "Block Breaker",
+      "title_norm": "block breaker",
+      "developer": "FIOGONIA LIMITED",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.7184467,
+      "url": "https://play.google.com/store/apps/details?id=com.fiogonia.bblock&hl=en",
+      "message_id": 223,
+      "suggested_at": "2026-09-29T06:01:11.610663+00:00",
+      "mechanic_vi": "Block Breaker - PuzzleGame is a challenging tile puzzle where every move counts. Slide, stack, and shatter your way through tricky logic levels - no timers, no pressure, just pure brainpower. Inspired by hits like Tetris",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
