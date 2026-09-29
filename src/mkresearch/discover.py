@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import random
 import re
 import time
 
@@ -168,6 +169,62 @@ def remember_seen(seen: dict, app_ids: list[str], day: str) -> dict:
     return {"apps": apps}
 
 
+def normalize_query(text: str) -> str:
+    return " ".join(text.casefold().split())
+
+
+def remember_queries(saved: dict, queries: list[str]) -> dict:
+    existing = [str(item).strip() for item in (saved.get("exhausted") or []) if str(item).strip()]
+    seen = {normalize_query(item) for item in existing}
+    merged = list(existing)
+    for query in queries:
+        token = str(query).strip()
+        key = normalize_query(token)
+        if not token or key in seen:
+            continue
+        merged.append(token)
+        seen.add(key)
+    return {"exhausted": merged}
+
+
+def choose_random_query(
+    words: list[str],
+    keywords: list[str],
+    exhausted: set[str],
+    rng: random.Random,
+) -> str | None:
+    pool: list[str] = []
+    for raw in words:
+        word = str(raw).strip()
+        if not word or title_ignored(word, keywords):
+            continue
+        query = strip_ignored(f"{word} puzzle levels", keywords)
+        key = normalize_query(query)
+        if not query or key in exhausted or key in {normalize_query(item) for item in pool}:
+            continue
+        pool.append(query)
+    if not pool:
+        return None
+    return rng.choice(pool)
+
+
+def _retire_queries(
+    returned: dict[str, list[str]],
+    productive: set[str],
+    handled: set[str],
+    excluded_before: set[str],
+) -> list[str]:
+    retired: list[str] = []
+    for query, ids in returned.items():
+        key = normalize_query(query)
+        if not key or key in productive:
+            continue
+        if any(app_id not in excluded_before and app_id not in handled for app_id in ids):
+            continue
+        retired.append(query)
+    return retired
+
+
 def recent_match_titles(catalog: dict, limit: int = 6) -> list[str]:
     apps = list((catalog.get("apps") or {}).values())
     apps.sort(key=lambda item: str(item.get("suggested_at") or ""), reverse=True)
@@ -189,9 +246,10 @@ def collect_partials(
     n_hits: int = 15,
     exclude: set[str] | None = None,
     include_similar: bool = True,
-) -> list[dict]:
+) -> tuple[list[dict], dict[str, list[str]]]:
     partials: list[dict] = []
     seen: set[str] = set(exclude or ())
+    returned: dict[str, list[str]] = {}
 
     def add(item: dict) -> None:
         app_id = str(item.get("appId") or "")
@@ -205,11 +263,17 @@ def collect_partials(
             for lang, country in LOCALES:
                 for found in play.similar_ids(app_id, lang, country):
                     add({"appId": found})
-    for query in queries[:6]:
+    for query in queries:
+        found: list[str] = []
         for lang, country in LOCALES:
             for hit in play.search_apps(query, lang, country, n_hits=n_hits):
+                app_id = str(hit.get("appId") or "")
+                if not app_id or app_id.startswith(SKIP_PREFIXES) or app_id in found:
+                    continue
+                found.append(app_id)
                 add(hit)
-    return partials
+        returned[query] = found
+    return partials, returned
 
 
 def shortlist(
@@ -291,22 +355,38 @@ def gather_passed(
     already_seen: set[str],
     match_titles: list[str],
     keywords: list[str] | None = None,
-) -> tuple[list[dict], int, list[str]]:
+    exhausted: list[str] | None = None,
+    search_words: list[str] | None = None,
+    rng: random.Random | None = None,
+) -> tuple[list[dict], int, list[str], list[str]]:
     play.app_limit = DETAIL_BATCH
     exclude = set(already_seen)
     passed: list[dict] = []
     scanned = 0
     opened: list[str] = []
-    cleaned = [text for text in (strip_ignored(query, keywords or []) for query in queries) if text]
+    dead = {normalize_query(item) for item in (exhausted or [])}
+    cleaned: list[str] = []
+    seen_queries: set[str] = set()
+    for text in (strip_ignored(query, keywords or []) for query in queries):
+        key = normalize_query(text)
+        if not text or key in dead or key in seen_queries:
+            continue
+        cleaned.append(text)
+        seen_queries.add(key)
+    extra = choose_random_query(search_words or [], keywords or [], dead | seen_queries, rng or random.Random())
+    if extra:
+        cleaned.append(extra)
     titles = [text for text in (strip_ignored(title, keywords or []) for title in match_titles) if text]
     query_sets = (cleaned, cleaned, titles)
+    productive: set[str] = set()
+    retired: list[str] = []
     for index, ((n_hits, include_similar), batch_queries) in enumerate(
         zip(DETAIL_ATTEMPTS, query_sets), start=1
     ):
         if len(passed) >= PASS_TARGET or play.halted:
             break
         play.app_calls = 0
-        partials = collect_partials(
+        partials, returned = collect_partials(
             play,
             anchors,
             batch_queries,
@@ -316,6 +396,8 @@ def gather_passed(
         )
         if not partials:
             print(f"đợt {index}: hết ứng viên mới")
+            if index == 2 and not play.halted:
+                retired.extend(_retire_queries(returned, productive, set(), exclude))
             continue
         batch_passed, batch_scanned, batch_opened, handled = shortlist(
             play,
@@ -327,12 +409,21 @@ def gather_passed(
             keywords or [],
             limit=DETAIL_BATCH,
         )
+        if index <= 2:
+            opened_now = set(batch_opened)
+            for query, ids in returned.items():
+                if any(app_id in opened_now for app_id in ids):
+                    productive.add(normalize_query(query))
+        if index == 2 and not play.halted:
+            retired.extend(_retire_queries(returned, productive, set(handled), exclude))
         passed.extend(batch_passed)
         scanned += batch_scanned
         opened.extend(batch_opened)
         exclude.update(handled)
         print(f"đợt {index}: ứng viên {len(partials)}, đã lấy chi tiết {batch_scanned}, qua lọc {len(batch_passed)}")
-    return passed, scanned, opened
+    if retired:
+        print(f"bỏ câu tìm: {retired}")
+    return passed, scanned, opened, retired
 
 
 def _partial_rejected(

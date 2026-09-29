@@ -91,3 +91,16 @@ class Store:
 
     def save_seen(self, seen: dict) -> None:
         _write_json(self.root / "play_seen.json", seen)
+
+    def load_queries(self) -> dict:
+        return _read_json(self.root / "play_queries.json", {"exhausted": []})
+
+    def save_queries(self, queries: dict) -> None:
+        _write_json(self.root / "play_queries.json", queries)
+
+    def load_search_words(self) -> list[str]:
+        path = self.root / "search_words.yaml"
+        if not path.exists():
+            return []
+        raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        return [str(item).strip() for item in (raw.get("words") or []) if str(item).strip()]

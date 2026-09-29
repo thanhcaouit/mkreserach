@@ -1,0 +1,43 @@
+# Một từ mỗi lượt, ghép thành "{từ} puzzle levels".
+# Không đưa từ đã có trong ignore_keywords.yaml.
+words:
+  - gravity
+  - laser
+  - rope
+  - mirror
+  - liquid
+  - ice
+  - switch
+  - portal
+  - magnet
+  - wind
+  - pressure
+  - bridge
+  - herd
+  - goo
+  - light
+  - shadow
+  - conveyor
+  - bounce
+  - reflect
+  - flood
+  - pipe
+  - wire
+  - rotate
+  - slide
+  - balance
+  - tilt
+  - path
+  - water
+  - rewind
+  - hook
+  - swing
+  - glue
+  - paint
+  - orbit
+  - cannon
+  - trampoline
+  - freeze
+  - melt
+  - grow
+  - shrink

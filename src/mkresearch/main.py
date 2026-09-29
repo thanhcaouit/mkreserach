@@ -14,6 +14,7 @@ from mkresearch.discover import (
     gather_passed,
     merge_blocklist,
     recent_match_titles,
+    remember_queries,
     remember_seen,
     seen_ids,
 )
@@ -79,7 +80,13 @@ def run_ingest(store: Store, telegram: Telegram, llm: LlmClient) -> int:
     _require_telegram(telegram)
     ratings, changed = _pull_ratings(store, telegram)
     if changed and not _llm_paused(llm):
-        profile = update_profile(llm, store.load_seeds(), ratings["items"], store.load_profile())
+        profile = update_profile(
+            llm,
+            store.load_seeds(),
+            ratings["items"],
+            store.load_profile(),
+            _exhausted_queries(store),
+        )
         store.save_profile(profile)
     elif changed:
         print("Có điểm mới, AI đang nghỉ nên chưa viết lại hồ sơ.")
@@ -102,7 +109,7 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
     profile = store.load_profile()
     if changed and not _llm_paused(llm):
         try:
-            profile = update_profile(llm, seeds, ratings["items"], profile)
+            profile = update_profile(llm, seeds, ratings["items"], profile, _exhausted_queries(store))
             store.save_profile(profile)
         except LimitReached:
             raise
@@ -124,7 +131,8 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
     keywords = store.load_ignore_keywords()
     queries = [str(item) for item in profile.get("search_queries") or []]
     seen = store.load_seen()
-    passed, scanned, opened = gather_passed(
+    saved_queries = store.load_queries()
+    passed, scanned, opened, retired = gather_passed(
         play,
         anchors,
         queries,
@@ -135,8 +143,11 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
         seen_ids(seen),
         recent_match_titles(catalog),
         keywords,
+        _exhausted_queries(store),
+        store.load_search_words(),
     )
     store.save_seen(remember_seen(seen, opened, datetime.now(timezone.utc).date().isoformat()))
+    store.save_queries(remember_queries(saved_queries, retired))
     if play.halted and not passed:
         print("Play bị chặn, dừng lượt này.")
         return 0
@@ -241,6 +252,10 @@ def _pull_ratings(store: Store, telegram: Telegram) -> tuple[dict, bool]:
         store.save_offset(max(offset, next_offset))
     print(f"Telegram: {len(updates)} update, {added} điểm mới")
     return ratings, changed
+
+
+def _exhausted_queries(store: Store) -> list[str]:
+    return [str(item) for item in (store.load_queries().get("exhausted") or []) if str(item).strip()]
 
 
 def _remember(catalog: dict, app: dict, message_id: int, pick: dict) -> None:
