@@ -1189,6 +1189,56 @@
       "url": "https://store.steampowered.com/app/447800",
       "message_id": 322,
       "suggested_at": "2026-09-29T20:01:41.190646+00:00"
+    },
+    "4386240": {
+      "app_id": "4386240",
+      "title": "Lost Children of the Mansion",
+      "title_norm": "lost children of the mansion",
+      "developer": "Kentaro Omi",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4386240",
+      "message_id": 324,
+      "suggested_at": "2026-09-29T21:01:29.565481+00:00"
+    },
+    "2852470": {
+      "app_id": "2852470",
+      "title": "The Fall of Elena Temple",
+      "title_norm": "the fall of elena temple",
+      "developer": "GrimTalin",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2852470",
+      "message_id": 325,
+      "suggested_at": "2026-09-29T21:01:31.076704+00:00"
+    },
+    "263960": {
+      "app_id": "263960",
+      "title": "Wyv and Keep: The Temple of the Lost Idol",
+      "title_norm": "wyv and keep the temple of the lost idol",
+      "developer": "A Jolly Corpse",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/263960",
+      "message_id": 326,
+      "suggested_at": "2026-09-29T21:01:32.700425+00:00"
+    },
+    "700620": {
+      "app_id": "700620",
+      "title": "Temple of Aluxes",
+      "title_norm": "temple of aluxes",
+      "developer": "Silver Machine Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/700620",
+      "message_id": 327,
+      "suggested_at": "2026-09-29T21:01:34.094184+00:00"
+    },
+    "1916420": {
+      "app_id": "1916420",
+      "title": "Secrets of the Temple",
+      "title_norm": "secrets of the temple",
+      "developer": "Matt Cusworth",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1916420",
+      "message_id": 328,
+      "suggested_at": "2026-09-29T21:01:35.514810+00:00"
     }
   }
 }
