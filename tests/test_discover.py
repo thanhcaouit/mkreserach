@@ -57,7 +57,7 @@ def _catalog(titles: list[tuple[str, str]]) -> dict:
     }
 
 
-def test_second_batch_finds_a_game_and_skips_the_third():
+def test_one_passer_keeps_searching_until_five():
     play = FakePlay()
     fails = [f"fail.{index}" for index in range(80)]
     for app_id in fails:
@@ -66,6 +66,7 @@ def test_second_batch_finds_a_game_and_skips_the_third():
     play.pages["indie puzzle"] = ["pass.1"]
     play.details["pass.1"] = _pass("pass.1", "Fresh Rule")
     play.pages["Spooky Express"] = ["later.1"]
+    play.details["later.1"] = _fail("later.1")
     catalog = _catalog([("Spooky Express", "2026-09-27T00:00:00Z")])
     passed, scanned, opened = gather_passed(
         play,
@@ -79,11 +80,69 @@ def test_second_batch_finds_a_game_and_skips_the_third():
         recent_match_titles(catalog),
     )
     assert [app["appId"] for app in passed] == ["pass.1"]
-    assert scanned == 81
-    assert opened[-1] == "pass.1"
-    assert len(opened) == len(set(opened)) == 81
+    assert scanned == 82
+    assert opened[-1] == "later.1"
+    assert len(opened) == len(set(opened)) == 82
     assert ("indie puzzle", 40) in play.searches
-    assert all(term != "Spooky Express" for term, _n in play.searches)
+    assert ("Spooky Express", 20) in play.searches
+
+
+def test_batch_two_over_five_returns_all_and_skips_the_third():
+    play = FakePlay()
+    play.similar["anchor"] = ["early"]
+    play.details["early"] = _pass("early", "Early")
+    misses = [f"miss.{index}" for index in range(15)]
+    hits = [f"hit.{index}" for index in range(6)]
+    for app_id in misses:
+        play.details[app_id] = _fail(app_id)
+    for app_id in hits:
+        play.details[app_id] = _pass(app_id)
+    play.pages["indie puzzle"] = misses + hits
+    play.pages["Spooky Express"] = ["later.1"]
+    play.details["later.1"] = _pass("later.1", "Later")
+    catalog = _catalog([("Spooky Express", "2026-09-27T00:00:00Z")])
+    passed, _scanned, opened = gather_passed(
+        play,
+        ["anchor"],
+        ["indie puzzle"],
+        catalog,
+        [],
+        [],
+        set(),
+        set(),
+        recent_match_titles(catalog),
+    )
+    assert [app["appId"] for app in passed] == ["early", *hits]
+    assert "later.1" not in opened
+    assert all(n_hits != 20 for _term, n_hits in play.searches)
+
+
+def test_short_batch_two_continues_and_batch_three_returns_all():
+    play = FakePlay()
+    misses = [f"miss.{index}" for index in range(15)]
+    for app_id in misses:
+        play.details[app_id] = _fail(app_id)
+    for app_id in ("b.1", "b.2"):
+        play.details[app_id] = _pass(app_id)
+    third = [f"c.{index}" for index in range(6)]
+    for app_id in third:
+        play.details[app_id] = _pass(app_id)
+    play.pages["q"] = [*misses, "b.1", "b.2"]
+    play.pages["Newest"] = third
+    catalog = _catalog([("Newest", "2026-09-27T00:00:00Z")])
+    passed, _scanned, opened = gather_passed(
+        play,
+        ["anchor"],
+        ["q"],
+        catalog,
+        [],
+        [],
+        set(),
+        set(),
+        recent_match_titles(catalog),
+    )
+    assert [app["appId"] for app in passed] == ["b.1", "b.2", *third]
+    assert opened[-len(third):] == third
 
 
 def test_three_batches_when_nothing_passes_and_ids_stay_unique():

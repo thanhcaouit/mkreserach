@@ -146,7 +146,7 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
             f"qua lọc: {app.get('title')} | {app.get('appId')} | "
             f"{app.get('developer')} | {app.get('installs')}"
         )
-    picks = judge(llm, passed, seeds, profile)
+    picks = judge(llm, passed, seeds, profile, limit=len(passed) or 5)
     by_id = {str(app.get("appId")): app for app in passed}
     sent = 0
     for pick in picks:

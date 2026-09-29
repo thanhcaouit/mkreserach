@@ -24,6 +24,7 @@ APP_ID_RE = re.compile(r"id=([A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z0-9_]+)+)")
 SKIP_PREFIXES = ("com.google.android", "com.android.", "androidx.")
 LOCALES = (("en", "us"),)
 DETAIL_BATCH = 80
+PASS_TARGET = 5
 DETAIL_ATTEMPTS = (
     (15, True),
     (40, False),
@@ -302,7 +303,7 @@ def gather_passed(
     for index, ((n_hits, include_similar), batch_queries) in enumerate(
         zip(DETAIL_ATTEMPTS, query_sets), start=1
     ):
-        if passed or play.halted:
+        if len(passed) >= PASS_TARGET or play.halted:
             break
         play.app_calls = 0
         partials = collect_partials(
@@ -317,7 +318,14 @@ def gather_passed(
             print(f"đợt {index}: hết ứng viên mới")
             continue
         batch_passed, batch_scanned, batch_opened, handled = shortlist(
-            play, partials, catalog, seeds, publisher_names, chart_ids, keywords or []
+            play,
+            partials,
+            catalog,
+            seeds,
+            publisher_names,
+            chart_ids,
+            keywords or [],
+            limit=DETAIL_BATCH,
         )
         passed.extend(batch_passed)
         scanned += batch_scanned

@@ -26,7 +26,7 @@ def build_judge_prompt(candidates: list[dict], seeds: list[dict], profile: dict)
         "novelty là số nguyên 1-5. has_levels true chỉ khi chơi theo màn hoặc mục tiêu từng màn.\n"
         "app_id phải chép đúng từ danh sách ứng viên. Không bịa id mới.\n"
         "mechanic_vi và why_vi viết tiếng Việt, mỗi cái một hoặc hai câu.\n"
-        "Trả đúng 5 game có level nếu danh sách ứng viên đủ 5. Xếp theo novelty, cao hơn đứng trước.\n\n"
+        "Trả mọi ứng viên có level trong danh sách, kể cả khi nhiều hơn 5. Xếp theo novelty, cao hơn đứng trước.\n\n"
         f"Hồ sơ gu:\n{_dump(profile)}\n\n"
         f"Seed:\n{_dump(seeds)}\n\n"
         f"Ứng viên:\n{_dump(packed)}\n"
