@@ -1595,6 +1595,76 @@
       "suggested_at": "2026-09-29T01:01:21.795705+00:00",
       "mechanic_vi": "đặt khối màu để cô lập các ô trống và hoàn thành hàng/ cột đồng màu",
       "why_vi": "mỗi màn có mục tiêu duy nhất là tạo ra các dải khối đồng màu, tuân thủ quy tắc “một luật mỗi level”"
+    },
+    "com.superbox.aos.popstar": {
+      "app_id": "com.superbox.aos.popstar",
+      "title": "POP Block Puzzle",
+      "title_norm": "pop block puzzle",
+      "developer": "SUPERBOX Inc",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.28,
+      "url": "https://play.google.com/store/apps/details?id=com.superbox.aos.popstar&hl=en",
+      "message_id": 197,
+      "suggested_at": "2026-09-29T02:01:09.156036+00:00",
+      "mechanic_vi": "Great fun and easy to play! Anyone can pick up and play Block Puzzle POP! Find and tap 2 or more blocks of the same color. Blocks are cleared when their colors match. Try tapping more than 2 block to get a high score. Bl",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.classic.block.puzzle.games": {
+      "app_id": "com.classic.block.puzzle.games",
+      "title": "Block Blast Puzzle Master",
+      "title_norm": "block blast puzzle master",
+      "developer": "Biza Studio - Puzzle Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.classic.block.puzzle.games&hl=en",
+      "message_id": 198,
+      "suggested_at": "2026-09-29T02:01:11.008644+00:00",
+      "mechanic_vi": "Meet block puzzle games master piece, a great block blast adventure that will relax your mind. Woody puzzle blocks will master you for IQ games with fun puzzle block games. Immerse yourself in an addicting classic puzzle",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.dna.blaster": {
+      "app_id": "com.dna.blaster",
+      "title": "Block Blaster - Classic Puzzle",
+      "title_norm": "block blaster classic puzzle",
+      "developer": "DNA Mobile Group",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.92,
+      "url": "https://play.google.com/store/apps/details?id=com.dna.blaster&hl=en",
+      "message_id": 199,
+      "suggested_at": "2026-09-29T02:01:12.311789+00:00",
+      "mechanic_vi": "Welcome to Block Blast – The Ultimate Free Block Puzzle Game! Are you ready to challenge your brain and relax at the same time? Dive into Block Blast, the addictive new block puzzle game that combines classic brick-clear",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.ud.block.puzzle.bricks.blast": {
+      "app_id": "com.ud.block.puzzle.bricks.blast",
+      "title": "Block Puzzle: Bricks Blast",
+      "title_norm": "block puzzle bricks blast",
+      "developer": "Uga Dooga LLC",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.4333334,
+      "url": "https://play.google.com/store/apps/details?id=com.ud.block.puzzle.bricks.blast&hl=en",
+      "message_id": 200,
+      "suggested_at": "2026-09-29T02:01:14.446493+00:00",
+      "mechanic_vi": "This addictive block puzzle game Block Puzzle: Bricks Blast offers a mind-bending challenge and endless fun. With its engaging gameplay and captivating jewel blocks, this classic matching puzzle game is perfect for playe",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.fiogonia.blocks": {
+      "app_id": "com.fiogonia.blocks",
+      "title": "Block Blast * puzzle game",
+      "title_norm": "block blast puzzle game",
+      "developer": "FIOGONIA LIMITED",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.4851484,
+      "url": "https://play.google.com/store/apps/details?id=com.fiogonia.blocks&hl=en",
+      "message_id": 201,
+      "suggested_at": "2026-09-29T02:01:16.179007+00:00",
+      "mechanic_vi": "Block Blast Puzzle is the ultimate brain-teasing block puzzle that challenges your logic and spatial reasoning. Welcome to an engaging mental workout that's been refined to deliver satisfying puzzle-solving moments every",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }

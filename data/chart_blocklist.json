@@ -86,7 +86,8 @@
     "com.nebula.tiles": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.arrow.out": {
@@ -260,7 +261,8 @@
     "com.yolo.hiddenobjects": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.easybrain.number.puzzle.game": {
@@ -1683,6 +1685,24 @@
       ]
     },
     "flexus.dye.hard": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "find.out.hidden.objects.seek.puzzle.games.free": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "cats.goods.sort.sorting.games": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.neowiz.game.anne": {
       "first_seen": "2026-09-29",
       "sources": [
         "GAME"
