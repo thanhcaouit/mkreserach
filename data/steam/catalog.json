@@ -1289,6 +1289,16 @@
       "url": "https://store.steampowered.com/app/2558060",
       "message_id": 334,
       "suggested_at": "2026-09-29T22:01:43.691342+00:00"
+    },
+    "2714620": {
+      "app_id": "2714620",
+      "title": "Duck Detective: The Ghost of Glamping",
+      "title_norm": "duck detective the ghost of glamping",
+      "developer": "Happy Broccoli Games",
+      "reviews": 2582,
+      "url": "https://store.steampowered.com/app/2714620",
+      "message_id": 337,
+      "suggested_at": "2026-09-29T22:16:13.141349+00:00"
     }
   }
 }
