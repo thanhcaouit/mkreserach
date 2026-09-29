@@ -579,6 +579,56 @@
       "url": "https://store.steampowered.com/app/3566590",
       "message_id": 235,
       "suggested_at": "2026-09-29T07:35:06.649120+00:00"
+    },
+    "386290": {
+      "app_id": "386290",
+      "title": "Kumoon : Ballistic Physics Puzzle",
+      "title_norm": "kumoon ballistic physics puzzle",
+      "developer": "Lucky You Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/386290",
+      "message_id": 237,
+      "suggested_at": "2026-09-29T07:37:56.452555+00:00"
+    },
+    "1716390": {
+      "app_id": "1716390",
+      "title": "Floating Farmer - Logic Puzzle",
+      "title_norm": "floating farmer logic puzzle",
+      "developer": "Mens Sana Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1716390",
+      "message_id": 238,
+      "suggested_at": "2026-09-29T07:37:58.008965+00:00"
+    },
+    "1483470": {
+      "app_id": "1483470",
+      "title": "Catty & Batty: The Spirit Guide",
+      "title_norm": "catty batty the spirit guide",
+      "developer": "Philipp Lehner",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1483470",
+      "message_id": 239,
+      "suggested_at": "2026-09-29T07:37:59.255575+00:00"
+    },
+    "328780": {
+      "app_id": "328780",
+      "title": "Vampires: Guide Them to Safety!",
+      "title_norm": "vampires guide them to safety",
+      "developer": "CBE software",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/328780",
+      "message_id": 240,
+      "suggested_at": "2026-09-29T07:38:00.672321+00:00"
+    },
+    "883880": {
+      "app_id": "883880",
+      "title": "Faraway: Puzzle Escape",
+      "title_norm": "faraway puzzle escape",
+      "developer": "Pine Studio",
+      "reviews": 121,
+      "url": "https://store.steampowered.com/app/883880",
+      "message_id": 241,
+      "suggested_at": "2026-09-29T07:38:01.542955+00:00"
     }
   }
 }
