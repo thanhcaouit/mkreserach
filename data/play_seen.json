@@ -725,6 +725,21 @@
     },
     "com.uvmlab.suguru": {
       "seen": "2026-09-29"
+    },
+    "org.moire.opensudoku": {
+      "seen": "2026-09-29"
+    },
+    "com.conceptispuzzles.sudoku": {
+      "seen": "2026-09-29"
+    },
+    "com.easytap.puzzle.sudoku": {
+      "seen": "2026-09-29"
+    },
+    "com.netiapps.sudokukiller": {
+      "seen": "2026-09-29"
+    },
+    "com.brennerd.grid_puzzle.suguru": {
+      "seen": "2026-09-29"
     }
   }
 }
