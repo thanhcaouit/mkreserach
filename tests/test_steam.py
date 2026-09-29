@@ -1,15 +1,29 @@
+from pathlib import Path
+
 from mkresearch.steam.__main__ import gather_passed
 from mkresearch.steam.discover import (
     DetailLimit,
     app_id_from_logo,
     merge_blocklist,
     parse_search_items,
+    parse_store_tags,
     remember_seen,
 )
 from mkresearch.steam.filters import hard_reject, in_review_band
 from mkresearch.steam.judge import complete_picks, select_picks
 from mkresearch.steam.report import format_report
-from mkresearch.steam.store import already_sent
+from mkresearch.steam.store import SteamData, already_sent
+
+IGNORED_TAGS = [
+    "Platformer",
+    "First-Person",
+    "Action",
+    "Action-Adventure",
+    "Shooter",
+    "Horror",
+    "FPS",
+    "Gore",
+]
 
 
 def _app(**extra):
@@ -124,6 +138,32 @@ def test_seen_steam_ids_are_not_opened_again():
     assert opened == ["new"]
     seen = remember_seen({"apps": {}}, opened, "2026-09-29")
     assert seen["apps"]["new"]["seen"] == "2026-09-29"
+
+
+def test_ignored_tags_drop_action_views_and_keep_adventure():
+    assert hard_reject(_app(genres=["Action", "Indie"]), [], set(), IGNORED_TAGS) == "tag"
+    assert hard_reject(_app(genres=["Action RPG"]), [], set(), IGNORED_TAGS) == "tag"
+    assert hard_reject(_app(tags=["Precision Platformer"]), [], set(), IGNORED_TAGS) == "tag"
+    assert hard_reject(_app(tags=["First-Person Shooter"]), [], set(), IGNORED_TAGS) == "tag"
+    assert hard_reject(_app(tags=["Third-Person Shooter"]), [], set(), IGNORED_TAGS) == "tag"
+    assert hard_reject(_app(tags=["Survival Horror"]), [], set(), IGNORED_TAGS) == "tag"
+    assert hard_reject(_app(tags=["Puzzle"], genres=["Indie"]), [], set(), IGNORED_TAGS) is None
+    assert hard_reject(_app(genres=["Adventure", "Indie"]), [], set(), IGNORED_TAGS) is None
+
+
+def test_store_page_tags_skip_the_add_button():
+    html = """
+    <a class="app_tag" href="/tags/en/Puzzle"> Puzzle </a>
+    <a class="app_tag" href="/tags/en/Platformer">Platformer</a>
+    <div class="app_tag add_button">+</div>
+    """
+    assert parse_store_tags(html) == ["Puzzle", "Platformer"]
+
+
+def test_ignore_tag_file_lists_the_starter_tags():
+    tags = SteamData(Path(__file__).resolve().parents[1] / "data" / "steam").load_ignore_tags()
+    assert tags == IGNORED_TAGS
+    assert "Adventure" not in tags
 
 
 def test_logo_and_search_items_use_puzzle_tag():

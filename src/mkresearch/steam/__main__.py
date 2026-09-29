@@ -114,6 +114,7 @@ def run_research(data: SteamData, client: SteamClient, llm: LlmClient, telegram:
         play_seeds,
         seen_ids(seen),
         recent_match_titles(catalog),
+        data.load_ignore_tags(),
     )
     data.save_seen(remember_seen(seen, opened, datetime.now(timezone.utc).date().isoformat()))
     if client.halted and not passed:
@@ -192,6 +193,7 @@ def shortlist(
     chart_ids: set[str],
     play_catalog: dict,
     play_seeds: list[dict],
+    ignore_tags: list[str] | None = None,
     limit: int = 12,
 ) -> tuple[list[dict], int, list[str], list[str]]:
     passed: list[dict] = []
@@ -218,7 +220,7 @@ def shortlist(
         if already_sent(app_id, str(app.get("title") or ""), catalog, seeds, play_catalog, play_seeds):
             skips["duplicate"] = skips.get("duplicate", 0) + 1
             continue
-        reason = hard_reject(app, publishers, chart_ids)
+        reason = hard_reject(app, publishers, chart_ids, ignore_tags)
         if reason:
             skips[reason] = skips.get(reason, 0) + 1
             continue
@@ -239,6 +241,7 @@ def gather_passed(
     play_seeds: list[dict],
     already_seen: set[str],
     match_titles: list[str],
+    ignore_tags: list[str] | None = None,
 ) -> tuple[list[dict], int, list[str]]:
     exclude = set(already_seen)
     passed: list[dict] = []
@@ -254,7 +257,15 @@ def gather_passed(
             print(f"đợt {index}: hết ứng viên mới")
             continue
         batch_passed, batch_scanned, batch_opened, handled = shortlist(
-            client, app_ids, catalog, seeds, publishers, chart_ids, play_catalog, play_seeds
+            client,
+            app_ids,
+            catalog,
+            seeds,
+            publishers,
+            chart_ids,
+            play_catalog,
+            play_seeds,
+            ignore_tags,
         )
         passed.extend(batch_passed)
         scanned += batch_scanned

@@ -13,6 +13,7 @@ from mkresearch.steam.discover import (
     DetailLimit,
     parse_app_details,
     parse_search_items,
+    parse_store_tags,
 )
 
 
@@ -66,8 +67,23 @@ class SteamClient:
         parsed = parse_app_details(app_id, payload)
         if parsed is None:
             return {"appId": str(app_id), "title": "", "type": "missing", "from_puzzle_tag": True}
+        parsed["tags"] = self._store_tags(app_id)
         time.sleep(0.4)
         return parsed
+
+    def _store_tags(self, app_id: str) -> list[str]:
+        if self.halted or self.guard.active("steam"):
+            self.halted = True
+            return []
+        try:
+            response = self.http.get(f"https://store.steampowered.com/app/{app_id}/", params={"l": "english"})
+            response.raise_for_status()
+        except Exception as exc:
+            if limit_kind(exc) is not None:
+                self.guard.trip("steam", "day", "HTTP giới hạn steam")
+                self.halted = True
+            return []
+        return parse_store_tags(response.text)
 
     def _search(self, term: str = "", filter: str = "") -> list[dict]:
         params = {

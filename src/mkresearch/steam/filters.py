@@ -30,6 +30,19 @@ def publisher_blocked(names_on_app: list[str], blocked: list[str]) -> bool:
     return False
 
 
+def _tag_text(value: str) -> str:
+    return value.casefold().replace("-", " ").strip()
+
+
+def tag_blocked(labels: list[str], ignored: list[str]) -> bool:
+    names = [_tag_text(item) for item in labels if _tag_text(str(item))]
+    for raw in ignored:
+        needle = _tag_text(raw)
+        if needle and any(needle in name for name in names):
+            return True
+    return False
+
+
 def is_puzzle(app: dict) -> bool:
     if app.get("from_puzzle_tag"):
         return True
@@ -40,7 +53,12 @@ def is_puzzle(app: dict) -> bool:
     return "puzzle" in text
 
 
-def hard_reject(app: dict, publisher_names: list[str], blocked_ids: set[str]) -> str | None:
+def hard_reject(
+    app: dict,
+    publisher_names: list[str],
+    blocked_ids: set[str],
+    ignore_tags: list[str] | None = None,
+) -> str | None:
     if str(app.get("type") or "game") != "game":
         return "type"
     if app.get("coming_soon"):
@@ -57,6 +75,10 @@ def hard_reject(app: dict, publisher_names: list[str], blocked_ids: set[str]) ->
     app_id = str(app.get("appId") or "")
     if app_id and app_id in blocked_ids:
         return "chart"
+    labels = [str(item) for item in app.get("genres") or []]
+    labels.extend(str(item) for item in app.get("tags") or [])
+    if tag_blocked(labels, ignore_tags or []):
+        return "tag"
     if not is_puzzle(app):
         return "genre"
     return None

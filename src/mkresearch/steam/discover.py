@@ -8,6 +8,7 @@ SEARCH_URL = "https://store.steampowered.com/search/results/"
 APP_URL = "https://store.steampowered.com/api/appdetails"
 PUZZLE_TAG = "1664"
 APP_ID_RE = re.compile(r"/apps/(\d+)/")
+APP_TAG_RE = re.compile(r'<a\b[^>]*class="[^"]*\bapp_tag\b[^"]*"[^>]*>\s*([^<]+?)\s*</a>', re.I)
 DETAIL_CAP = 20
 
 
@@ -60,10 +61,24 @@ def parse_app_details(app_id: str, payload: dict) -> dict | None:
         "type": str(data.get("type") or ""),
         "coming_soon": bool((data.get("release_date") or {}).get("coming_soon")),
         "genres": genres,
+        "tags": [],
         "from_puzzle_tag": True,
         "screenshots": shots,
         "description": str(data.get("short_description") or ""),
     }
+
+
+def parse_store_tags(html: str) -> list[str]:
+    found: list[str] = []
+    seen: set[str] = set()
+    for raw in APP_TAG_RE.findall(html or ""):
+        name = " ".join(raw.split())
+        key = name.casefold()
+        if not name or key in seen:
+            continue
+        seen.add(key)
+        found.append(name)
+    return found
 
 
 def merge_blocklist(current: dict, app_ids: list[str], day: str) -> dict:

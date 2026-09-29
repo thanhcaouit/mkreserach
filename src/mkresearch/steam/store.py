@@ -31,6 +31,13 @@ class SteamData:
         raw = yaml.safe_load((self.root / "publishers.yaml").read_text(encoding="utf-8")) or {}
         return [str(name) for name in raw.get("names") or []]
 
+    def load_ignore_tags(self) -> list[str]:
+        path = self.root / "ignore_tags.yaml"
+        if not path.exists():
+            return []
+        raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        return [str(item).strip() for item in (raw.get("tags") or []) if str(item).strip()]
+
     def load_catalog(self) -> dict:
         return _read_json(self.root / "catalog.json", {"apps": {}})
 

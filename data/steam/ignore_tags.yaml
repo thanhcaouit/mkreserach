@@ -1,0 +1,11 @@
+# Tag Steam cần bỏ, kể cả khi game vẫn có tag Puzzle. Sửa file này khi muốn thêm.
+# Khớp không phân biệt hoa thường. Platformer cũng loại Precision Platformer.
+tags:
+  - Platformer
+  - First-Person
+  - Action
+  - Action-Adventure
+  - Shooter
+  - Horror
+  - FPS
+  - Gore
