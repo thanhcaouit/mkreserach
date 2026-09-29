@@ -989,6 +989,56 @@
       "url": "https://store.steampowered.com/app/572740",
       "message_id": 298,
       "suggested_at": "2026-09-29T16:01:53.769176+00:00"
+    },
+    "4488860": {
+      "app_id": "4488860",
+      "title": "The Red Pearls Of Borneo",
+      "title_norm": "the red pearls of borneo",
+      "developer": "Bushmonkey Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4488860",
+      "message_id": 300,
+      "suggested_at": "2026-09-29T17:01:34.431690+00:00"
+    },
+    "3084570": {
+      "app_id": "3084570",
+      "title": "The Secret of Whispering",
+      "title_norm": "the secret of whispering",
+      "developer": "Teo Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3084570",
+      "message_id": 301,
+      "suggested_at": "2026-09-29T17:01:35.807336+00:00"
+    },
+    "277540": {
+      "app_id": "277540",
+      "title": "Curse of Dragon Mountains: The Strix",
+      "title_norm": "curse of dragon mountains the strix",
+      "developer": "Cateia Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/277540",
+      "message_id": 302,
+      "suggested_at": "2026-09-29T17:01:37.386463+00:00"
+    },
+    "4823380": {
+      "app_id": "4823380",
+      "title": "Eyes Of The Factory",
+      "title_norm": "eyes of the factory",
+      "developer": "VLight Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4823380",
+      "message_id": 303,
+      "suggested_at": "2026-09-29T17:01:38.688856+00:00"
+    },
+    "4137730": {
+      "app_id": "4137730",
+      "title": "The Curse Of Grandfather",
+      "title_norm": "the curse of grandfather",
+      "developer": "MED Game",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4137730",
+      "message_id": 304,
+      "suggested_at": "2026-09-29T17:01:39.932128+00:00"
     }
   }
 }
