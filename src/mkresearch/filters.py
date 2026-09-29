@@ -79,6 +79,47 @@ def released_too_recent(value: object, today: date | None = None) -> bool:
     return current - 2 <= year <= current
 
 
+def strip_ignored(text: str, keywords: list[str]) -> str:
+    tokens = re.findall(r"[A-Za-z0-9]+", text)
+    words = [token.casefold() for token in tokens]
+    phrases: list[list[str]] = []
+    singles: list[str] = []
+    for raw in keywords:
+        parts = _title_words(raw)
+        if not parts:
+            continue
+        if len(parts) > 1:
+            phrases.append(parts)
+        else:
+            singles.append(parts[0])
+    phrases.sort(key=len, reverse=True)
+    drop: set[int] = set()
+    index = 0
+    while index < len(words):
+        removed = False
+        for parts in phrases:
+            width = len(parts)
+            if words[index : index + width] == parts:
+                drop.update(range(index, index + width))
+                index += width
+                removed = True
+                break
+            if words[index] == "".join(parts):
+                drop.add(index)
+                index += 1
+                removed = True
+                break
+        if removed:
+            continue
+        token = words[index]
+        for single in singles:
+            if (len(single) >= 5 and single in token) or (len(single) < 5 and token == single):
+                drop.add(index)
+                break
+        index += 1
+    return " ".join(token for position, token in enumerate(tokens) if position not in drop)
+
+
 def title_ignored(title: str, keywords: list[str]) -> bool:
     words = _title_words(title)
     compact = "".join(words)

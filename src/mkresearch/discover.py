@@ -16,6 +16,7 @@ from mkresearch.filters import (
     is_puzzle,
     parse_installs,
     publisher_blocked,
+    strip_ignored,
     title_ignored,
 )
 
@@ -291,12 +292,13 @@ def gather_passed(
     keywords: list[str] | None = None,
 ) -> tuple[list[dict], int, list[str]]:
     play.app_limit = DETAIL_BATCH
-    kept = [query for query in queries if not title_ignored(query, keywords or [])]
     exclude = set(already_seen)
     passed: list[dict] = []
     scanned = 0
     opened: list[str] = []
-    query_sets = (kept, kept, list(match_titles))
+    cleaned = [text for text in (strip_ignored(query, keywords or []) for query in queries) if text]
+    titles = [text for text in (strip_ignored(title, keywords or []) for title in match_titles) if text]
+    query_sets = (cleaned, cleaned, titles)
     for index, ((n_hits, include_similar), batch_queries) in enumerate(
         zip(DETAIL_ATTEMPTS, query_sets), start=1
     ):

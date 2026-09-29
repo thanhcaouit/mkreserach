@@ -7,6 +7,7 @@ from mkresearch.filters import (
     is_puzzle,
     publisher_blocked,
     released_too_recent,
+    strip_ignored,
     title_ignored,
 )
 from mkresearch.store import Store
@@ -91,6 +92,9 @@ def test_ignore_keywords_match_block_and_phrases_but_not_reptile():
     assert hard_reject(_app(title="Block Puzzle"), NAMES, set(), keywords) == "keyword"
     names = Store(ROOT / "data").load_ignore_keywords()
     assert names[:5] == ["block", "arrow", "match 3", "tile", "screw"]
+    assert strip_ignored("physics block placement puzzle levels", keywords) == "physics placement puzzle levels"
+    assert strip_ignored("Match-3 Garden", keywords) == "Garden"
+    assert strip_ignored("Reptile", keywords) == "Reptile"
 
 
 def test_default_publisher_file_lists_the_named_studios():
