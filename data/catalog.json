@@ -2295,6 +2295,48 @@
       "suggested_at": "2026-09-29T22:15:27.299760+00:00",
       "mechanic_vi": "Dive into the colorful twisted fun world of Tangle Rope 3D: Sorting Puzzle, the coolest and extreme brain teasing twisted & tangle game ever! It's like having a fun brain workout that's super easy to play but also tests ",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "tangle.rope.puzzle.games": {
+      "app_id": "tangle.rope.puzzle.games",
+      "title": "Tangle Go 3D: Untie The Knot",
+      "title_norm": "tangle go 3d untie the knot",
+      "developer": "GameLord 3D",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4,
+      "url": "https://play.google.com/store/apps/details?id=tangle.rope.puzzle.games&hl=en",
+      "message_id": 338,
+      "suggested_at": "2026-09-29T23:00:56.795105+00:00",
+      "mechanic_vi": "Giải đố gỡ rối dây theo từng màn, mỗi màn chỉ có một quy tắc duy nhất: tháo nút thắt bằng cách di chuyển các đoạn dây.",
+      "why_vi": "Có hơn 100 màn, luật chơi rõ ràng và mỗi màn yêu cầu người chơi cô lập, tách các đoạn dây để giải quyết, phù hợp với sở thích “enclose or isolate” và “one clear rule per level”."
+    },
+    "com.infinitygames.oneline": {
+      "app_id": "com.infinitygames.oneline",
+      "title": "One Line - One Touch Puzzle",
+      "title_norm": "one line one touch puzzle",
+      "developer": "Infinity Games, Lda",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.4094486,
+      "url": "https://play.google.com/store/apps/details?id=com.infinitygames.oneline&hl=en",
+      "message_id": 339,
+      "suggested_at": "2026-09-29T23:00:58.046506+00:00",
+      "mechanic_vi": "ONE LINE is an IQ based <b>brain game</b>. The best snack to activate your brain every time wherever you are. Routine and the excessive use of technology tend to numb your brain with certain behaviors and patterned ways ",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.nag.one1line.dotgame": {
+      "app_id": "com.nag.one1line.dotgame",
+      "title": "One Line Draw - Connect Dots",
+      "title_norm": "one line draw connect dots",
+      "developer": "NAGameStudio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.7029705,
+      "url": "https://play.google.com/store/apps/details?id=com.nag.one1line.dotgame&hl=en",
+      "message_id": 340,
+      "suggested_at": "2026-09-29T23:00:59.269830+00:00",
+      "mechanic_vi": "Looking for a simple way to exercise your brain every day? Look no further than One Line Drawing - Connect the Dots. This game features straightforward rules and a fun, challenging gameplay. Just connect all the dots wit",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
