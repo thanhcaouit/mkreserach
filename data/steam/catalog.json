@@ -1139,6 +1139,56 @@
       "url": "https://store.steampowered.com/app/3647290",
       "message_id": 316,
       "suggested_at": "2026-09-29T19:01:42.185064+00:00"
+    },
+    "2318100": {
+      "app_id": "2318100",
+      "title": "Tales of the Magic Ball: The Lost Sorcerer",
+      "title_norm": "tales of the magic ball the lost sorcerer",
+      "developer": "Wild Monkeygames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2318100",
+      "message_id": 318,
+      "suggested_at": "2026-09-29T20:01:35.085047+00:00"
+    },
+    "1480910": {
+      "app_id": "1480910",
+      "title": "Tomb of The Lost Sentry",
+      "title_norm": "tomb of the lost sentry",
+      "developer": "spleeN",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1480910",
+      "message_id": 319,
+      "suggested_at": "2026-09-29T20:01:36.460773+00:00"
+    },
+    "898120": {
+      "app_id": "898120",
+      "title": "Temple of the Lost",
+      "title_norm": "temple of the lost",
+      "developer": "dosinis",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/898120",
+      "message_id": 320,
+      "suggested_at": "2026-09-29T20:01:38.002753+00:00"
+    },
+    "210230": {
+      "app_id": "210230",
+      "title": "Nancy Drew®: Tomb of the Lost Queen",
+      "title_norm": "nancy drew tomb of the lost queen",
+      "developer": "HeR Interactive",
+      "reviews": 129,
+      "url": "https://store.steampowered.com/app/210230",
+      "message_id": 321,
+      "suggested_at": "2026-09-29T20:01:40.140182+00:00"
+    },
+    "447800": {
+      "app_id": "447800",
+      "title": "LostWinds 2: Winter of the Melodias",
+      "title_norm": "lostwinds 2 winter of the melodias",
+      "developer": "Frontier Developments",
+      "reviews": 294,
+      "url": "https://store.steampowered.com/app/447800",
+      "message_id": 322,
+      "suggested_at": "2026-09-29T20:01:41.190646+00:00"
     }
   }
 }
