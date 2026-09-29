@@ -779,6 +779,56 @@
       "url": "https://store.steampowered.com/app/1065230",
       "message_id": 263,
       "suggested_at": "2026-09-29T11:01:46.640781+00:00"
+    },
+    "616040": {
+      "app_id": "616040",
+      "title": "Tales of the Tiny Planet",
+      "title_norm": "tales of the tiny planet",
+      "developer": "Pixelsplit",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/616040",
+      "message_id": 269,
+      "suggested_at": "2026-09-29T12:01:44.363328+00:00"
+    },
+    "347440": {
+      "app_id": "347440",
+      "title": "Pneuma: Breath of Life",
+      "title_norm": "pneuma breath of life",
+      "developer": "BULKHEAD",
+      "reviews": 135,
+      "url": "https://store.steampowered.com/app/347440",
+      "message_id": 270,
+      "suggested_at": "2026-09-29T12:01:45.818026+00:00"
+    },
+    "293660": {
+      "app_id": "293660",
+      "title": "TRI: Of Friendship and Madness",
+      "title_norm": "tri of friendship and madness",
+      "developer": "Rat King Entertainment",
+      "reviews": 364,
+      "url": "https://store.steampowered.com/app/293660",
+      "message_id": 271,
+      "suggested_at": "2026-09-29T12:01:47.415169+00:00"
+    },
+    "350970": {
+      "app_id": "350970",
+      "title": "Planet of the Eyes",
+      "title_norm": "planet of the eyes",
+      "developer": "Cococucumber",
+      "reviews": 178,
+      "url": "https://store.steampowered.com/app/350970",
+      "message_id": 272,
+      "suggested_at": "2026-09-29T12:01:49.079715+00:00"
+    },
+    "3451680": {
+      "app_id": "3451680",
+      "title": "The House of Hikmah",
+      "title_norm": "the house of hikmah",
+      "developer": "Lunacy Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3451680",
+      "message_id": 273,
+      "suggested_at": "2026-09-29T12:01:50.802225+00:00"
     }
   }
 }
