@@ -679,6 +679,56 @@
       "url": "https://store.steampowered.com/app/3201880",
       "message_id": 247,
       "suggested_at": "2026-09-29T09:01:33.280279+00:00"
+    },
+    "4266950": {
+      "app_id": "4266950",
+      "title": "Square Man Puzzle Game",
+      "title_norm": "square man puzzle game",
+      "developer": "J D Wise",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4266950",
+      "message_id": 250,
+      "suggested_at": "2026-09-29T10:01:47.754702+00:00"
+    },
+    "681640": {
+      "app_id": "681640",
+      "title": "World of Contraptions",
+      "title_norm": "world of contraptions",
+      "developer": "JCP Games Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/681640",
+      "message_id": 251,
+      "suggested_at": "2026-09-29T10:01:49.399371+00:00"
+    },
+    "3576290": {
+      "app_id": "3576290",
+      "title": "Chess Quest: A Cozy Puzzle",
+      "title_norm": "chess quest a cozy puzzle",
+      "developer": "Knightosaur Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3576290",
+      "message_id": 252,
+      "suggested_at": "2026-09-29T10:01:51.170745+00:00"
+    },
+    "3914860": {
+      "app_id": "3914860",
+      "title": "Moss: The Forgotten Relic ",
+      "title_norm": "moss the forgotten relic",
+      "developer": "Polyarc",
+      "reviews": 393,
+      "url": "https://store.steampowered.com/app/3914860",
+      "message_id": 253,
+      "suggested_at": "2026-09-29T10:01:52.054063+00:00"
+    },
+    "4040240": {
+      "app_id": "4040240",
+      "title": "Gocha Sura Dash: Countdown Puzzle",
+      "title_norm": "gocha sura dash countdown puzzle",
+      "developer": "G2PLHAS",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4040240",
+      "message_id": 254,
+      "suggested_at": "2026-09-29T10:01:53.429685+00:00"
     }
   }
 }
