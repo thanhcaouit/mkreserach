@@ -939,6 +939,56 @@
       "url": "https://store.steampowered.com/app/4336440",
       "message_id": 292,
       "suggested_at": "2026-09-29T14:54:57.070747+00:00"
+    },
+    "2110690": {
+      "app_id": "2110690",
+      "title": "EXIT The Game – Trial of the Griffin",
+      "title_norm": "exit the game trial of the griffin",
+      "developer": "Nementic Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2110690",
+      "message_id": 294,
+      "suggested_at": "2026-09-29T16:01:41.390444+00:00"
+    },
+    "2716400": {
+      "app_id": "2716400",
+      "title": "The Rise of the Golden Idol",
+      "title_norm": "the rise of the golden idol",
+      "developer": "Color Gray Games",
+      "reviews": 3797,
+      "url": "https://store.steampowered.com/app/2716400",
+      "message_id": 295,
+      "suggested_at": "2026-09-29T16:01:43.128746+00:00"
+    },
+    "203830": {
+      "app_id": "203830",
+      "title": "The Dark Eye: Chains of Satinav",
+      "title_norm": "the dark eye chains of satinav",
+      "developer": "Daedalic Entertainment",
+      "reviews": 2076,
+      "url": "https://store.steampowered.com/app/203830",
+      "message_id": 296,
+      "suggested_at": "2026-09-29T16:01:44.711061+00:00"
+    },
+    "4260120": {
+      "app_id": "4260120",
+      "title": "Whispers of the Gallows",
+      "title_norm": "whispers of the gallows",
+      "developer": "Bambui",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4260120",
+      "message_id": 297,
+      "suggested_at": "2026-09-29T16:01:52.794092+00:00"
+    },
+    "572740": {
+      "app_id": "572740",
+      "title": "Nancy Drew®: The Secret of Shadow Ranch",
+      "title_norm": "nancy drew the secret of shadow ranch",
+      "developer": "HeR Interactive",
+      "reviews": 218,
+      "url": "https://store.steampowered.com/app/572740",
+      "message_id": 298,
+      "suggested_at": "2026-09-29T16:01:53.769176+00:00"
     }
   }
 }
