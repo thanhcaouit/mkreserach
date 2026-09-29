@@ -1731,6 +1731,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.candywriter.bitlife": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.merge.cooking.theme.restaurant.food": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.luckyskeletonstudios.idlebanktycoon": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
