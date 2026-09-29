@@ -66,13 +66,15 @@
     "com.oakever.tiletrip": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.rotatelab.cubeblast": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.oakever.jigsawcard": {
@@ -284,7 +286,8 @@
     "easy.sudoku.puzzle.solver.free": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.ig.screwdom": {
@@ -1668,6 +1671,18 @@
       ]
     },
     "com.oculus.twilight": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.dodreams.driveahead": {
+      "first_seen": "2026-09-29",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "flexus.dye.hard": {
       "first_seen": "2026-09-29",
       "sources": [
         "GAME"

@@ -1525,6 +1525,76 @@
       "suggested_at": "2026-09-29T00:01:21.736133+00:00",
       "mechanic_vi": "Welcome to Water Sort Puzzle, relaxing and addictive sorting game available! If you love puzzle games, this water color sort game will be your new favorite. It’s a sorting experience like no other, designed to challenge ",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.appcelent.block.blast.mania.puzzle.game": {
+      "app_id": "com.appcelent.block.blast.mania.puzzle.game",
+      "title": "Block Blast Mania!",
+      "title_norm": "block blast mania",
+      "developer": "Appcelent Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.5,
+      "url": "https://play.google.com/store/apps/details?id=com.appcelent.block.blast.mania.puzzle.game&hl=en",
+      "message_id": 191,
+      "suggested_at": "2026-09-29T01:01:15.779838+00:00",
+      "mechanic_vi": "đặt khối để cô lập các ô trống và tạo hàng/cột đầy, ngăn chặn việc lấp đầy không mong muốn",
+      "why_vi": "mỗi màn có một mục tiêu duy nhất – làm sạch bảng bằng cách cô lập và xóa hàng, phù hợp với luật đơn giản mỗi level"
+    },
+    "com.albayoo.block.mania": {
+      "app_id": "com.albayoo.block.mania",
+      "title": "Block Mania - Blast Puzzle",
+      "title_norm": "block mania blast puzzle",
+      "developer": "Albayoo",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.415254,
+      "url": "https://play.google.com/store/apps/details?id=com.albayoo.block.mania&hl=en",
+      "message_id": 192,
+      "suggested_at": "2026-09-29T01:01:17.150453+00:00",
+      "mechanic_vi": "đặt khối để tạo ra các khu vực bị chặn, ngăn chặn việc lấp đầy toàn bộ bảng",
+      "why_vi": "các level tăng dần độ khó, mỗi màn chỉ có một quy tắc duy nhất là cô lập và xóa hàng/ cột"
+    },
+    "com.T9Soft.blockmania": {
+      "app_id": "com.T9Soft.blockmania",
+      "title": "Block Mania: Block Pop Blast",
+      "title_norm": "block mania block pop blast",
+      "developer": "Devio Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.1666665,
+      "url": "https://play.google.com/store/apps/details?id=com.T9Soft.blockmania&hl=en",
+      "message_id": 193,
+      "suggested_at": "2026-09-29T01:01:19.064530+00:00",
+      "mechanic_vi": "đặt khối trên lưới để cô lập các ô trống và tạo chuỗi xóa hàng/ cột",
+      "why_vi": "cơ chế đơn giản, mỗi màn có mục tiêu xóa hết các khối, phù hợp với yêu cầu “một luật rõ ràng mỗi level”"
+    },
+    "com.summer.block.puzzle.mania": {
+      "app_id": "com.summer.block.puzzle.mania",
+      "title": "Block Puzzle Mania",
+      "title_norm": "block puzzle mania",
+      "developer": "summer affica",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.7058825,
+      "url": "https://play.google.com/store/apps/details?id=com.summer.block.puzzle.mania&hl=en",
+      "message_id": 194,
+      "suggested_at": "2026-09-29T01:01:20.660827+00:00",
+      "mechanic_vi": "đặt khối để ngăn chặn việc lấp đầy toàn bộ bảng, tạo ra các khu vực cô lập",
+      "why_vi": "các level được thiết kế riêng, mỗi màn chỉ cần thực hiện một hành động duy nhất là cô lập và xóa hàng"
+    },
+    "com.minibox.colorblock": {
+      "app_id": "com.minibox.colorblock",
+      "title": "Color Block Mania",
+      "title_norm": "color block mania",
+      "developer": "Minibox",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.5135136,
+      "url": "https://play.google.com/store/apps/details?id=com.minibox.colorblock&hl=en",
+      "message_id": 195,
+      "suggested_at": "2026-09-29T01:01:21.795705+00:00",
+      "mechanic_vi": "đặt khối màu để cô lập các ô trống và hoàn thành hàng/ cột đồng màu",
+      "why_vi": "mỗi màn có mục tiêu duy nhất là tạo ra các dải khối đồng màu, tuân thủ quy tắc “một luật mỗi level”"
     }
   }
 }
