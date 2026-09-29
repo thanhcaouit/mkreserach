@@ -1299,6 +1299,16 @@
       "url": "https://store.steampowered.com/app/2714620",
       "message_id": 337,
       "suggested_at": "2026-09-29T22:16:13.141349+00:00"
+    },
+    "2619200": {
+      "app_id": "2619200",
+      "title": "Doctor Arcana and The Secret of Shadowspire",
+      "title_norm": "doctor arcana and the secret of shadowspire",
+      "developer": "Monolith Graphics",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2619200",
+      "message_id": 341,
+      "suggested_at": "2026-09-29T23:01:36.577381+00:00"
     }
   }
 }
