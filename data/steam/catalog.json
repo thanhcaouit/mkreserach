@@ -2699,6 +2699,96 @@
       "url": "https://store.steampowered.com/app/4329240",
       "message_id": 571,
       "suggested_at": "2026-09-30T16:02:28.073524+00:00"
+    },
+    "2472770": {
+      "app_id": "2472770",
+      "title": "Automate It: Factory Puzzle",
+      "title_norm": "automate it factory puzzle",
+      "developer": "South Blue Moon",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2472770",
+      "message_id": 589,
+      "suggested_at": "2026-09-30T17:02:30.526206+00:00"
+    },
+    "4824950": {
+      "app_id": "4824950",
+      "title": "Connections",
+      "title_norm": "connections",
+      "developer": "Drective Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4824950",
+      "message_id": 590,
+      "suggested_at": "2026-09-30T17:02:32.471798+00:00"
+    },
+    "3875650": {
+      "app_id": "3875650",
+      "title": "Pipe Down",
+      "title_norm": "pipe down",
+      "developer": "Emerald Knight Interactive LLC",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3875650",
+      "message_id": 591,
+      "suggested_at": "2026-09-30T17:02:33.966041+00:00"
+    },
+    "2327670": {
+      "app_id": "2327670",
+      "title": "Pipe Dreams",
+      "title_norm": "pipe dreams",
+      "developer": "ElvGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2327670",
+      "message_id": 592,
+      "suggested_at": "2026-09-30T17:02:35.312698+00:00"
+    },
+    "1721270": {
+      "app_id": "1721270",
+      "title": "Farm Kitten - Puzzle Pipes",
+      "title_norm": "farm kitten puzzle pipes",
+      "developer": "Minicactus Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1721270",
+      "message_id": 593,
+      "suggested_at": "2026-09-30T17:02:36.421143+00:00"
+    },
+    "2099370": {
+      "app_id": "2099370",
+      "title": "PIP",
+      "title_norm": "pip",
+      "developer": "Cute Hannah's Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2099370",
+      "message_id": 594,
+      "suggested_at": "2026-09-30T17:02:38.089684+00:00"
+    },
+    "1908430": {
+      "app_id": "1908430",
+      "title": "Pipe connect",
+      "title_norm": "pipe connect",
+      "developer": "Artur Rezende",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1908430",
+      "message_id": 595,
+      "suggested_at": "2026-09-30T17:02:39.525558+00:00"
+    },
+    "2075930": {
+      "app_id": "2075930",
+      "title": "Angkor: Beginnings: Match 3 Puzzle",
+      "title_norm": "angkor beginnings match 3 puzzle",
+      "developer": "Ironcode Gaming",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2075930",
+      "message_id": 596,
+      "suggested_at": "2026-09-30T17:02:41.048621+00:00"
+    },
+    "26500": {
+      "app_id": "26500",
+      "title": "Cogs",
+      "title_norm": "cogs",
+      "developer": "Lazy 8 Studios",
+      "reviews": 311,
+      "url": "https://store.steampowered.com/app/26500",
+      "message_id": 597,
+      "suggested_at": "2026-09-30T17:02:42.748480+00:00"
     }
   }
 }
