@@ -2813,6 +2813,34 @@
       "suggested_at": "2026-09-30T10:00:59.354618+00:00",
       "mechanic_vi": "Crack the Code Pro - the addictive logic puzzle that keeps your brain sharp! Decode a hidden number using smart deduction. Study the clues, narrow down the possibilities, and unlock the code before time runs out. Simple ",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.eivaagames.LabyrinthGameFree": {
+      "app_id": "com.eivaagames.LabyrinthGameFree",
+      "title": "Maze Puzzle Game",
+      "title_norm": "maze puzzle game",
+      "developer": "EivaaGames",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.3,
+      "url": "https://play.google.com/store/apps/details?id=com.eivaagames.LabyrinthGameFree&hl=en",
+      "message_id": 472,
+      "suggested_at": "2026-09-30T11:01:01.124313+00:00",
+      "mechanic_vi": "Điều khiển quả bóng bằng độ nghiêng của thiết bị, đưa bóng qua mê cung tránh lỗ và chướng ngại vật.",
+      "why_vi": "Kết hợp cơ chế nghiêng trọng lực mà bạn thích, có 75 màn rõ ràng, mỗi màn một mục tiêu duy nhất."
+    },
+    "thelouras.pattern.game": {
+      "app_id": "thelouras.pattern.game",
+      "title": "Pattern Lock: Brain Games!",
+      "title_norm": "pattern lock brain games",
+      "developer": "Mobile Brain Games!",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=thelouras.pattern.game&hl=en",
+      "message_id": 473,
+      "suggested_at": "2026-09-30T11:01:02.549740+00:00",
+      "mechanic_vi": "Train your brain with Pattern Lock: Brain Games! It's free and offline! Two engaging games will challenge your memory, attention span, and problem-solving skills. Whether you're on your daily commute or winding down befo",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
