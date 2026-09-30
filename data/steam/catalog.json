@@ -1309,6 +1309,36 @@
       "url": "https://store.steampowered.com/app/2619200",
       "message_id": 341,
       "suggested_at": "2026-09-29T23:01:36.577381+00:00"
+    },
+    "4160210": {
+      "app_id": "4160210",
+      "title": "The Artisan of Glimmith",
+      "title_norm": "the artisan of glimmith",
+      "developer": "Lunarch Studios",
+      "reviews": 2584,
+      "url": "https://store.steampowered.com/app/4160210",
+      "message_id": 347,
+      "suggested_at": "2026-09-30T00:01:54.664784+00:00"
+    },
+    "2151950": {
+      "app_id": "2151950",
+      "title": "Voice of the Wizard by Brett Farkas",
+      "title_norm": "voice of the wizard by brett farkas",
+      "developer": "Brett Farkas",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2151950",
+      "message_id": 348,
+      "suggested_at": "2026-09-30T00:01:55.806728+00:00"
+    },
+    "1550380": {
+      "app_id": "1550380",
+      "title": "Faircroft's Antiques: The Heir of Glen Kinnoch",
+      "title_norm": "faircroft s antiques the heir of glen kinnoch",
+      "developer": "Boomzap Inc",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1550380",
+      "message_id": 349,
+      "suggested_at": "2026-09-30T00:01:58.280305+00:00"
     }
   }
 }
