@@ -1819,6 +1819,126 @@
       "url": "https://store.steampowered.com/app/2312360",
       "message_id": 426,
       "suggested_at": "2026-09-30T07:01:55.602122+00:00"
+    },
+    "4520500": {
+      "app_id": "4520500",
+      "title": "Puzzle",
+      "title_norm": "puzzle",
+      "developer": "IR Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4520500",
+      "message_id": 428,
+      "suggested_at": "2026-09-30T08:01:33.884218+00:00"
+    },
+    "2611630": {
+      "app_id": "2611630",
+      "title": "Portal Puzzle",
+      "title_norm": "portal puzzle",
+      "developer": "Tyler Hudson",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2611630",
+      "message_id": 429,
+      "suggested_at": "2026-09-30T08:01:35.251109+00:00"
+    },
+    "2235340": {
+      "app_id": "2235340",
+      "title": "Urban Flow",
+      "title_norm": "urban flow",
+      "developer": "Baltoro Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2235340",
+      "message_id": 430,
+      "suggested_at": "2026-09-30T08:01:36.347721+00:00"
+    },
+    "4288330": {
+      "app_id": "4288330",
+      "title": "Flow Legends",
+      "title_norm": "flow legends",
+      "developer": "Azur Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4288330",
+      "message_id": 431,
+      "suggested_at": "2026-09-30T08:01:37.202593+00:00"
+    },
+    "4464260": {
+      "app_id": "4464260",
+      "title": "Arrow Flow",
+      "title_norm": "arrow flow",
+      "developer": "Paper Sun Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4464260",
+      "message_id": 432,
+      "suggested_at": "2026-09-30T08:01:38.339025+00:00"
+    },
+    "747810": {
+      "app_id": "747810",
+      "title": "Flow Handcrafted",
+      "title_norm": "flow handcrafted",
+      "developer": "Flow",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/747810",
+      "message_id": 433,
+      "suggested_at": "2026-09-30T08:01:39.422111+00:00"
+    },
+    "836700": {
+      "app_id": "836700",
+      "title": "Doctor Flow",
+      "title_norm": "doctor flow",
+      "developer": "Grendel Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/836700",
+      "message_id": 434,
+      "suggested_at": "2026-09-30T08:01:40.460902+00:00"
+    },
+    "4001910": {
+      "app_id": "4001910",
+      "title": "Maze Infinite Puzzle",
+      "title_norm": "maze infinite puzzle",
+      "developer": "paxgamestudio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4001910",
+      "message_id": 435,
+      "suggested_at": "2026-09-30T08:01:41.674717+00:00"
+    },
+    "4888170": {
+      "app_id": "4888170",
+      "title": "Your Young Mother: NSFW PUZZLE",
+      "title_norm": "your young mother nsfw puzzle",
+      "developer": "Tap-Tap Legends",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4888170",
+      "message_id": 436,
+      "suggested_at": "2026-09-30T08:01:42.671480+00:00"
+    },
+    "3812990": {
+      "app_id": "3812990",
+      "title": "Crazy Puzzle - Cosplay",
+      "title_norm": "crazy puzzle cosplay",
+      "developer": "CrazySky3D",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3812990",
+      "message_id": 437,
+      "suggested_at": "2026-09-30T08:01:43.538487+00:00"
+    },
+    "3598790": {
+      "app_id": "3598790",
+      "title": "Bear vs. Wolf Jigsaw Puzzle",
+      "title_norm": "bear vs wolf jigsaw puzzle",
+      "developer": "Boogygames Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3598790",
+      "message_id": 438,
+      "suggested_at": "2026-09-30T08:01:45.387101+00:00"
+    },
+    "3764920": {
+      "app_id": "3764920",
+      "title": "Relax Scramble: Endless Word Puzzle",
+      "title_norm": "relax scramble endless word puzzle",
+      "developer": "Perch Labs",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3764920",
+      "message_id": 439,
+      "suggested_at": "2026-09-30T08:01:46.533355+00:00"
     }
   }
 }
