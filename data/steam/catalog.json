@@ -3079,6 +3079,86 @@
       "url": "https://store.steampowered.com/app/3296300",
       "message_id": 645,
       "suggested_at": "2026-09-30T20:02:05.000287+00:00"
+    },
+    "1972200": {
+      "app_id": "1972200",
+      "title": "Link The Cubes",
+      "title_norm": "link the cubes",
+      "developer": "battyRabbit",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1972200",
+      "message_id": 653,
+      "suggested_at": "2026-09-30T21:01:55.154333+00:00"
+    },
+    "3336240": {
+      "app_id": "3336240",
+      "title": "Walk The Frog",
+      "title_norm": "walk the frog",
+      "developer": "Walk The Frog",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3336240",
+      "message_id": 654,
+      "suggested_at": "2026-09-30T21:01:56.517384+00:00"
+    },
+    "1605190": {
+      "app_id": "1605190",
+      "title": "Connect The Dots",
+      "title_norm": "connect the dots",
+      "developer": "Pankabre",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1605190",
+      "message_id": 655,
+      "suggested_at": "2026-09-30T21:01:58.015905+00:00"
+    },
+    "1777650": {
+      "app_id": "1777650",
+      "title": "Connect the Dots",
+      "title_norm": "connect the dots",
+      "developer": "beans rolls",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1777650",
+      "message_id": 656,
+      "suggested_at": "2026-09-30T21:01:58.814987+00:00"
+    },
+    "2086890": {
+      "app_id": "2086890",
+      "title": "Connect the Dots 3D",
+      "title_norm": "connect the dots 3d",
+      "developer": "beans rolls",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2086890",
+      "message_id": 657,
+      "suggested_at": "2026-09-30T21:01:59.793514+00:00"
+    },
+    "1264970": {
+      "app_id": "1264970",
+      "title": "The Conquest of Go",
+      "title_norm": "the conquest of go",
+      "developer": "Wolfey Studios",
+      "reviews": 584,
+      "url": "https://store.steampowered.com/app/1264970",
+      "message_id": 658,
+      "suggested_at": "2026-09-30T21:02:01.820820+00:00"
+    },
+    "2541310": {
+      "app_id": "2541310",
+      "title": "The Cable Guy",
+      "title_norm": "the cable guy",
+      "developer": "4sandwiches",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2541310",
+      "message_id": 659,
+      "suggested_at": "2026-09-30T21:02:02.634546+00:00"
+    },
+    "1549220": {
+      "app_id": "1549220",
+      "title": "Storyblocks: The King",
+      "title_norm": "storyblocks the king",
+      "developer": "Ostra Entertainment",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1549220",
+      "message_id": 660,
+      "suggested_at": "2026-09-30T21:02:03.917903+00:00"
     }
   }
 }
