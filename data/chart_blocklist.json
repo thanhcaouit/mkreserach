@@ -2176,6 +2176,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.featherweightgames.fx": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.matryoshka.cooking.vibes": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
