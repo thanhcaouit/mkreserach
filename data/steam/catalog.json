@@ -2629,6 +2629,76 @@
       "url": "https://store.steampowered.com/app/4629680",
       "message_id": 559,
       "suggested_at": "2026-09-30T15:02:04.329344+00:00"
+    },
+    "2631380": {
+      "app_id": "2631380",
+      "title": "Humpi and Hemicube",
+      "title_norm": "humpi and hemicube",
+      "developer": "Sayantan",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2631380",
+      "message_id": 565,
+      "suggested_at": "2026-09-30T16:02:18.751699+00:00"
+    },
+    "1346630": {
+      "app_id": "1346630",
+      "title": "Astronomia",
+      "title_norm": "astronomia",
+      "developer": "Ari Velazquez",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1346630",
+      "message_id": 566,
+      "suggested_at": "2026-09-30T16:02:19.918120+00:00"
+    },
+    "4040270": {
+      "app_id": "4040270",
+      "title": "Flict",
+      "title_norm": "flict",
+      "developer": "Promeduz",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4040270",
+      "message_id": 567,
+      "suggested_at": "2026-09-30T16:02:20.853789+00:00"
+    },
+    "1556550": {
+      "app_id": "1556550",
+      "title": "Chiasm",
+      "title_norm": "chiasm",
+      "developer": "Tim Fowers",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1556550",
+      "message_id": 568,
+      "suggested_at": "2026-09-30T16:02:22.794472+00:00"
+    },
+    "2717120": {
+      "app_id": "2717120",
+      "title": "Shape of Clouds",
+      "title_norm": "shape of clouds",
+      "developer": "Latte Games JSC",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2717120",
+      "message_id": 569,
+      "suggested_at": "2026-09-30T16:02:23.922116+00:00"
+    },
+    "562660": {
+      "app_id": "562660",
+      "title": "Pandarama: The Lost Toys",
+      "title_norm": "pandarama the lost toys",
+      "developer": "goonswarm",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/562660",
+      "message_id": 570,
+      "suggested_at": "2026-09-30T16:02:26.032099+00:00"
+    },
+    "4329240": {
+      "app_id": "4329240",
+      "title": "Storytime Cats - A Day At The Park",
+      "title_norm": "storytime cats a day at the park",
+      "developer": "626 Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4329240",
+      "message_id": 571,
+      "suggested_at": "2026-09-30T16:02:28.073524+00:00"
     }
   }
 }
