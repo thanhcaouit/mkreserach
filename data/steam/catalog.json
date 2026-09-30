@@ -1659,6 +1659,86 @@
       "url": "https://store.steampowered.com/app/1272330",
       "message_id": 404,
       "suggested_at": "2026-09-30T05:01:55.364477+00:00"
+    },
+    "794940": {
+      "app_id": "794940",
+      "title": "Hexa Turn",
+      "title_norm": "hexa turn",
+      "developer": "Abdullah Firat",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/794940",
+      "message_id": 410,
+      "suggested_at": "2026-09-30T06:02:21.753243+00:00"
+    },
+    "2097840": {
+      "app_id": "2097840",
+      "title": "Co OPERATION: MultiTurn",
+      "title_norm": "co operation multiturn",
+      "developer": "Mind Feast Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2097840",
+      "message_id": 411,
+      "suggested_at": "2026-09-30T06:02:23.966300+00:00"
+    },
+    "664080": {
+      "app_id": "664080",
+      "title": "Turn your Destiny",
+      "title_norm": "turn your destiny",
+      "developer": "Flying Kiwi",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/664080",
+      "message_id": 412,
+      "suggested_at": "2026-09-30T06:02:26.267970+00:00"
+    },
+    "1606300": {
+      "app_id": "1606300",
+      "title": "Puzzle Light",
+      "title_norm": "puzzle light",
+      "developer": "Waidy Andrade",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1606300",
+      "message_id": 413,
+      "suggested_at": "2026-09-30T06:02:27.067115+00:00"
+    },
+    "2989390": {
+      "app_id": "2989390",
+      "title": "Puzzle Garden",
+      "title_norm": "puzzle garden",
+      "developer": "Team Turnip",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2989390",
+      "message_id": 414,
+      "suggested_at": "2026-09-30T06:02:28.597182+00:00"
+    },
+    "1710140": {
+      "app_id": "1710140",
+      "title": "Puzzle Light: Slide",
+      "title_norm": "puzzle light slide",
+      "developer": "Waidy Andrade",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1710140",
+      "message_id": 415,
+      "suggested_at": "2026-09-30T06:02:29.496750+00:00"
+    },
+    "1653300": {
+      "app_id": "1653300",
+      "title": "Puzzle Light: Rotate",
+      "title_norm": "puzzle light rotate",
+      "developer": "Waidy Andrade",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1653300",
+      "message_id": 416,
+      "suggested_at": "2026-09-30T06:02:30.371729+00:00"
+    },
+    "1560940": {
+      "app_id": "1560940",
+      "title": "Puzzle & Chess",
+      "title_norm": "puzzle chess",
+      "developer": "Beni Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1560940",
+      "message_id": 417,
+      "suggested_at": "2026-09-30T06:02:31.523894+00:00"
     }
   }
 }
