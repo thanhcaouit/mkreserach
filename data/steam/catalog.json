@@ -2579,6 +2579,56 @@
       "url": "https://store.steampowered.com/app/1813190",
       "message_id": 528,
       "suggested_at": "2026-09-30T14:02:21.688107+00:00"
+    },
+    "1304610": {
+      "app_id": "1304610",
+      "title": "Lab Rat",
+      "title_norm": "lab rat",
+      "developer": "Chump Squad",
+      "reviews": 365,
+      "url": "https://store.steampowered.com/app/1304610",
+      "message_id": 555,
+      "suggested_at": "2026-09-30T15:01:59.477519+00:00"
+    },
+    "1143800": {
+      "app_id": "1143800",
+      "title": "Jigsaw Puzzle - Pro Edition",
+      "title_norm": "jigsaw puzzle pro edition",
+      "developer": "Boogygames Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1143800",
+      "message_id": 556,
+      "suggested_at": "2026-09-30T15:02:00.645117+00:00"
+    },
+    "61600": {
+      "app_id": "61600",
+      "title": "Zen Bound 2",
+      "title_norm": "zen bound 2",
+      "developer": "Secret Exit Ltd.",
+      "reviews": 288,
+      "url": "https://store.steampowered.com/app/61600",
+      "message_id": 557,
+      "suggested_at": "2026-09-30T15:02:01.548822+00:00"
+    },
+    "1677100": {
+      "app_id": "1677100",
+      "title": "AiliA",
+      "title_norm": "ailia",
+      "developer": "IceToad Studio LLC",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1677100",
+      "message_id": 558,
+      "suggested_at": "2026-09-30T15:02:02.471249+00:00"
+    },
+    "4629680": {
+      "app_id": "4629680",
+      "title": "The Door in The Skybox",
+      "title_norm": "the door in the skybox",
+      "developer": "4a.m. to bed",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4629680",
+      "message_id": 559,
+      "suggested_at": "2026-09-30T15:02:04.329344+00:00"
     }
   }
 }
