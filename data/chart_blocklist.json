@@ -2037,6 +2037,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.plarium.mechlegion": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.neowizgames.game.browndust2": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.belkatechnologies.clockmaker": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gameloft.android.ANMP.GloftGGHM": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

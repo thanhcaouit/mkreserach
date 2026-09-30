@@ -2337,6 +2337,76 @@
       "suggested_at": "2026-09-29T23:00:59.269830+00:00",
       "mechanic_vi": "Looking for a simple way to exercise your brain every day? Look no further than One Line Drawing - Connect the Dots. This game features straightforward rules and a fun, challenging gameplay. Just connect all the dots wit",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.programiko.electricitychain": {
+      "app_id": "com.programiko.electricitychain",
+      "title": "Connect Current Wires Puzzle",
+      "title_norm": "connect current wires puzzle",
+      "developer": "Programiko",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.programiko.electricitychain&hl=en",
+      "message_id": 342,
+      "suggested_at": "2026-09-30T00:01:11.670617+00:00",
+      "mechanic_vi": "Kết nối các cực dương và âm bằng dây mà không cho phép dây cùng cực chạm nhau hoặc dây giao nhau.",
+      "why_vi": "Luật duy nhất rõ ràng cho mỗi màn, độ khó tăng dần qua các cấp, phù hợp với sở thích có một quy tắc duy nhất mỗi level."
+    },
+    "net.playtouch.onelineonlydtd": {
+      "app_id": "net.playtouch.onelineonlydtd",
+      "title": "One line only : dot to dot",
+      "title_norm": "one line only dot to dot",
+      "developer": "PLAYTOUCH",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.6363637,
+      "url": "https://play.google.com/store/apps/details?id=net.playtouch.onelineonlydtd&hl=en",
+      "message_id": 343,
+      "suggested_at": "2026-09-30T00:01:12.722173+00:00",
+      "mechanic_vi": "Vẽ một đường duy nhất nối tất cả các chấm mà không nhấc ngón tay và không để đường cắt nhau.",
+      "why_vi": "Mỗi màn chỉ yêu cầu một quy tắc duy nhất, độ khó tăng lên từng cấp, tạo cảm giác thách thức từng level."
+    },
+    "com.pm4.onetouch": {
+      "app_id": "com.pm4.onetouch",
+      "title": "One Touch Drawing - One Line",
+      "title_norm": "one touch drawing one line",
+      "developer": "pm4",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.6226416,
+      "url": "https://play.google.com/store/apps/details?id=com.pm4.onetouch&hl=en",
+      "message_id": 344,
+      "suggested_at": "2026-09-30T00:01:14.143775+00:00",
+      "mechanic_vi": "Vẽ hình theo một nét duy nhất theo mẫu, không được ngắt quãng hay giao nhau.",
+      "why_vi": "Luật chơi đơn giản, mỗi màn có một mục tiêu duy nhất và độ khó tăng dần, đáp ứng yêu cầu một quy tắc rõ ràng cho mỗi level."
+    },
+    "com.nixgames.line.dots": {
+      "app_id": "com.nixgames.line.dots",
+      "title": "1Line: Connect Dots Puzzle",
+      "title_norm": "1line connect dots puzzle",
+      "developer": "nixGames",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.730769,
+      "url": "https://play.google.com/store/apps/details?id=com.nixgames.line.dots&hl=en",
+      "message_id": 345,
+      "suggested_at": "2026-09-30T00:01:15.086735+00:00",
+      "mechanic_vi": "Kết nối mọi chấm bằng một đường duy nhất, không để đường cắt nhau.",
+      "why_vi": "Mỗi cấp độ đưa ra một bài toán duy nhất, độ khó tăng lên, phù hợp với sở thích puzzle có luật rõ ràng và tiến độ level."
+    },
+    "com.digital.magic.lines.tiles.music.game": {
+      "app_id": "com.digital.magic.lines.tiles.music.game",
+      "title": "Magic Lines: Connect Dots Game",
+      "title_norm": "magic lines connect dots game",
+      "developer": "Digital Payment Tech",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.digital.magic.lines.tiles.music.game&hl=en",
+      "message_id": 346,
+      "suggested_at": "2026-09-30T00:01:16.744247+00:00",
+      "mechanic_vi": "Nối các chấm cùng màu bằng đường không giao nhau, hoàn thành mọi chấm trên bảng.",
+      "why_vi": "Luật chơi đơn giản, mỗi màn chỉ có một mục tiêu duy nhất và độ khó tăng dần, đáp ứng tiêu chí một quy tắc rõ ràng mỗi level."
     }
   }
 }
