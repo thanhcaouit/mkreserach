@@ -2399,6 +2399,116 @@
       "url": "https://store.steampowered.com/app/4017500",
       "message_id": 493,
       "suggested_at": "2026-09-30T12:01:44.871467+00:00"
+    },
+    "4310810": {
+      "app_id": "4310810",
+      "title": "Droid Must Deliver",
+      "title_norm": "droid must deliver",
+      "developer": "Ernst Krogtoft",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4310810",
+      "message_id": 498,
+      "suggested_at": "2026-09-30T13:01:57.208699+00:00"
+    },
+    "1721550": {
+      "app_id": "1721550",
+      "title": "Core-Blast",
+      "title_norm": "core blast",
+      "developer": "RWHs",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1721550",
+      "message_id": 499,
+      "suggested_at": "2026-09-30T13:01:58.392745+00:00"
+    },
+    "4724760": {
+      "app_id": "4724760",
+      "title": "Drawtris",
+      "title_norm": "drawtris",
+      "developer": "elcanogames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4724760",
+      "message_id": 500,
+      "suggested_at": "2026-09-30T13:01:59.491835+00:00"
+    },
+    "3106600": {
+      "app_id": "3106600",
+      "title": "Unto Deepest Depths",
+      "title_norm": "unto deepest depths",
+      "developer": "McCollum Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3106600",
+      "message_id": 501,
+      "suggested_at": "2026-09-30T13:02:00.737012+00:00"
+    },
+    "4899850": {
+      "app_id": "4899850",
+      "title": "HexLight",
+      "title_norm": "hexlight",
+      "developer": "Cameron Olson",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4899850",
+      "message_id": 502,
+      "suggested_at": "2026-09-30T13:02:02.061440+00:00"
+    },
+    "1225920": {
+      "app_id": "1225920",
+      "title": "Pixelfence",
+      "title_norm": "pixelfence",
+      "developer": "cBlck",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1225920",
+      "message_id": 503,
+      "suggested_at": "2026-09-30T13:02:03.289438+00:00"
+    },
+    "733020": {
+      "app_id": "733020",
+      "title": "Zen Blocks - Relaxing Puzzle Board Game",
+      "title_norm": "zen blocks relaxing puzzle board game",
+      "developer": "Gazzapper Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/733020",
+      "message_id": 504,
+      "suggested_at": "2026-09-30T13:02:04.183622+00:00"
+    },
+    "1833890": {
+      "app_id": "1833890",
+      "title": "Fish Story: Gourmet Puzzle",
+      "title_norm": "fish story gourmet puzzle",
+      "developer": "Five Percents",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1833890",
+      "message_id": 505,
+      "suggested_at": "2026-09-30T13:02:05.481000+00:00"
+    },
+    "1476690": {
+      "app_id": "1476690",
+      "title": "15 puzzle",
+      "title_norm": "15 puzzle",
+      "developer": "Vectura Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1476690",
+      "message_id": 506,
+      "suggested_at": "2026-09-30T13:02:07.448799+00:00"
+    },
+    "1388010": {
+      "app_id": "1388010",
+      "title": "Easy puzzle: Animals 2",
+      "title_norm": "easy puzzle animals 2",
+      "developer": "Laush Dmitriy Sergeevich",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1388010",
+      "message_id": 507,
+      "suggested_at": "2026-09-30T13:02:08.721611+00:00"
+    },
+    "3104020": {
+      "app_id": "3104020",
+      "title": "Deviation Game",
+      "title_norm": "deviation game",
+      "developer": "Tomo Kihara",
+      "reviews": 109,
+      "url": "https://store.steampowered.com/app/3104020",
+      "message_id": 508,
+      "suggested_at": "2026-09-30T13:02:10.199418+00:00"
     }
   }
 }
