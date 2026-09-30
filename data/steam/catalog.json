@@ -2509,6 +2509,76 @@
       "url": "https://store.steampowered.com/app/3104020",
       "message_id": 508,
       "suggested_at": "2026-09-30T13:02:10.199418+00:00"
+    },
+    "2513360": {
+      "app_id": "2513360",
+      "title": "Kinny and the Star Track Puzzle",
+      "title_norm": "kinny and the star track puzzle",
+      "developer": "Kinnymoms",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2513360",
+      "message_id": 522,
+      "suggested_at": "2026-09-30T14:02:15.007949+00:00"
+    },
+    "440650": {
+      "app_id": "440650",
+      "title": "Niche - a genetics survival game",
+      "title_norm": "niche a genetics survival game",
+      "developer": "Stray Fawn Studio",
+      "reviews": 4356,
+      "url": "https://store.steampowered.com/app/440650",
+      "message_id": 523,
+      "suggested_at": "2026-09-30T14:02:16.712099+00:00"
+    },
+    "23500": {
+      "app_id": "23500",
+      "title": "Puzzle Quest: Galactrix",
+      "title_norm": "puzzle quest galactrix",
+      "developer": "Infinite Interactive",
+      "reviews": 311,
+      "url": "https://store.steampowered.com/app/23500",
+      "message_id": 524,
+      "suggested_at": "2026-09-30T14:02:17.537779+00:00"
+    },
+    "661280": {
+      "app_id": "661280",
+      "title": "Dresden Files Cooperative Card Game",
+      "title_norm": "dresden files cooperative card game",
+      "developer": "Hidden Achievement LLC",
+      "reviews": 115,
+      "url": "https://store.steampowered.com/app/661280",
+      "message_id": 525,
+      "suggested_at": "2026-09-30T14:02:18.712054+00:00"
+    },
+    "3209240": {
+      "app_id": "3209240",
+      "title": "Canvas - The Board Game",
+      "title_norm": "canvas the board game",
+      "developer": "Mipmap Digital",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3209240",
+      "message_id": 526,
+      "suggested_at": "2026-09-30T14:02:19.742669+00:00"
+    },
+    "2865190": {
+      "app_id": "2865190",
+      "title": "The Time Game",
+      "title_norm": "the time game",
+      "developer": "Kai",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2865190",
+      "message_id": 527,
+      "suggested_at": "2026-09-30T14:02:20.767693+00:00"
+    },
+    "1813190": {
+      "app_id": "1813190",
+      "title": "Little Inner Monsters - Card Game",
+      "title_norm": "little inner monsters card game",
+      "developer": "Mens Sana Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1813190",
+      "message_id": 528,
+      "suggested_at": "2026-09-30T14:02:21.688107+00:00"
     }
   }
 }
