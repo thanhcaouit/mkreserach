@@ -3269,6 +3269,66 @@
       "url": "https://store.steampowered.com/app/1383250",
       "message_id": 679,
       "suggested_at": "2026-09-30T22:02:30.093790+00:00"
+    },
+    "3200200": {
+      "app_id": "3200200",
+      "title": "Puzzle Checkers: The Rooks",
+      "title_norm": "puzzle checkers the rooks",
+      "developer": "SplashPunk Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3200200",
+      "message_id": 681,
+      "suggested_at": "2026-09-30T23:01:28.960695+00:00"
+    },
+    "3927260": {
+      "app_id": "3927260",
+      "title": "FlipSum - A Puzzle By Claris Richter",
+      "title_norm": "flipsum a puzzle by claris richter",
+      "developer": "TheDollarGameStore",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3927260",
+      "message_id": 682,
+      "suggested_at": "2026-09-30T23:01:30.333697+00:00"
+    },
+    "1878850": {
+      "app_id": "1878850",
+      "title": "Perfect Balance Collection",
+      "title_norm": "perfect balance collection",
+      "developer": "Ville Helin",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1878850",
+      "message_id": 683,
+      "suggested_at": "2026-09-30T23:01:32.004352+00:00"
+    },
+    "2923220": {
+      "app_id": "2923220",
+      "title": "Cats Balance",
+      "title_norm": "cats balance",
+      "developer": "Minicactus Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2923220",
+      "message_id": 684,
+      "suggested_at": "2026-09-30T23:01:33.941692+00:00"
+    },
+    "731940": {
+      "app_id": "731940",
+      "title": "Bars and Balance",
+      "title_norm": "bars and balance",
+      "developer": "Mykhail Konokh",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/731940",
+      "message_id": 685,
+      "suggested_at": "2026-09-30T23:01:36.182610+00:00"
+    },
+    "2213300": {
+      "app_id": "2213300",
+      "title": "Might & Magic: Clash of Heroes - Definitive Edition",
+      "title_norm": "might magic clash of heroes definitive edition",
+      "developer": "Dotemu",
+      "reviews": 436,
+      "url": "https://store.steampowered.com/app/2213300",
+      "message_id": 686,
+      "suggested_at": "2026-09-30T23:01:37.423856+00:00"
     }
   }
 }
