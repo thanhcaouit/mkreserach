@@ -2771,6 +2771,48 @@
       "suggested_at": "2026-09-30T09:00:59.769077+00:00",
       "mechanic_vi": "Giải các câu đố khóa với nhiều chế độ",
       "why_vi": "Có nhiều chế độ và quy tắc, không tập trung vào một luật duy nhất mỗi màn."
+    },
+    "com.motionlab.orbitr": {
+      "app_id": "com.motionlab.orbitr",
+      "title": "OrbitR - Maze Puzzle Game",
+      "title_norm": "orbitr maze puzzle game",
+      "developer": "Motionlab Interactive Ltd",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.580645,
+      "url": "https://play.google.com/store/apps/details?id=com.motionlab.orbitr&hl=en",
+      "message_id": 456,
+      "suggested_at": "2026-09-30T10:00:56.538231+00:00",
+      "mechanic_vi": "Điều khiển hướng di chuyển bằng một lần chạm, dẫn đường qua mê cung để tới trung tâm và thu thập vật phẩm.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất và luật chơi rõ ràng, phù hợp với sở thích các level có quy tắc đơn giản."
+    },
+    "host.stjin.cucumbersandwich": {
+      "app_id": "host.stjin.cucumbersandwich",
+      "title": "Lock'ed",
+      "title_norm": "lock ed",
+      "developer": "Stjin",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 2.142857,
+      "url": "https://play.google.com/store/apps/details?id=host.stjin.cucumbersandwich&hl=en",
+      "message_id": 457,
+      "suggested_at": "2026-09-30T10:00:57.998825+00:00",
+      "mechanic_vi": "Lock'ed is an app where you can crack a safe against other people in the world. You can either listen to the clicks of the safe or you can feel! In this game you will have to determine by means of sound or feeling whethe",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.tvt.crackthecode": {
+      "app_id": "com.tvt.crackthecode",
+      "title": "Crack the Code Pro",
+      "title_norm": "crack the code pro",
+      "developer": "TvTroid",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.1707315,
+      "url": "https://play.google.com/store/apps/details?id=com.tvt.crackthecode&hl=en",
+      "message_id": 458,
+      "suggested_at": "2026-09-30T10:00:59.354618+00:00",
+      "mechanic_vi": "Crack the Code Pro - the addictive logic puzzle that keeps your brain sharp! Decode a hidden number using smart deduction. Study the clues, narrow down the possibilities, and unlock the code before time runs out. Simple ",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }

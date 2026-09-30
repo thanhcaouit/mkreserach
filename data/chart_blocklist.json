@@ -2152,6 +2152,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "net.mobigame.zombietsunami": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gameloft.android.ANMP.GloftPOHM": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
