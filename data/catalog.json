@@ -2505,6 +2505,76 @@
       "suggested_at": "2026-09-30T02:01:00.509364+00:00",
       "mechanic_vi": "Kết nối các cặp chỉ dẫn bằng đường vẽ trên lưới.",
       "why_vi": "Mỗi màn cung cấp một hình ảnh ẩn, người chơi phải nối đúng số ô."
+    },
+    "com.conceptispuzzles.fap": {
+      "app_id": "com.conceptispuzzles.fap",
+      "title": "Fill-a-Pix: Minesweeper Puzzle",
+      "title_norm": "fill a pix minesweeper puzzle",
+      "developer": "Conceptis Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.61,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.fap&hl=en",
+      "message_id": 359,
+      "suggested_at": "2026-09-30T03:01:10.324050+00:00",
+      "mechanic_vi": "Điền ô màu dựa trên số gợi ý quanh ô để tạo hình ảnh.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất là điền đúng số ô, phù hợp với sở thích luật đơn giản và rõ ràng."
+    },
+    "com.conceptispuzzles.symapix": {
+      "app_id": "com.conceptispuzzles.symapix",
+      "title": "Sym-a-Pix: Nonogram Symmetry",
+      "title_norm": "sym a pix nonogram symmetry",
+      "developer": "Conceptis Ltd.",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.26,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.symapix&hl=en",
+      "message_id": 360,
+      "suggested_at": "2026-09-30T03:01:11.409155+00:00",
+      "mechanic_vi": "Vẽ tường bao quanh các chấm theo quy tắc đối xứng để lộ hình ảnh.",
+      "why_vi": "Luật duy nhất cho mỗi màn, yêu cầu người chơi xác định và vẽ đối xứng, đáp ứng tiêu chí một quy tắc rõ ràng."
+    },
+    "com.conceptispuzzles.crossapix": {
+      "app_id": "com.conceptispuzzles.crossapix",
+      "title": "Cross-a-Pix: Nonogram Crosses",
+      "title_norm": "cross a pix nonogram crosses",
+      "developer": "Conceptis Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.45,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.crossapix&hl=en",
+      "message_id": 361,
+      "suggested_at": "2026-09-30T03:01:13.216971+00:00",
+      "mechanic_vi": "Tô màu và lấp đầy các khu vực trên lưới dựa trên các gợi ý hàng và cột.",
+      "why_vi": "Mỗi màn là một bảng mới với cùng một quy tắc duy nhất, phù hợp với mong muốn có luật chơi rõ ràng cho từng cấp độ."
+    },
+    "com.nonogram.color.picturecross.sudoku.puzzle": {
+      "app_id": "com.nonogram.color.picturecross.sudoku.puzzle",
+      "title": "Nonogram Color: Paint by Logic",
+      "title_norm": "nonogram color paint by logic",
+      "developer": "EasyFun Puzzle Game Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.4313726,
+      "url": "https://play.google.com/store/apps/details?id=com.nonogram.color.picturecross.sudoku.puzzle&hl=en",
+      "message_id": 362,
+      "suggested_at": "2026-09-30T03:01:14.468002+00:00",
+      "mechanic_vi": "Tô màu ô theo số để tạo ra bức tranh pixel.",
+      "why_vi": "Luật duy nhất áp dụng cho mọi màn, mỗi câu đố là một cấp độ riêng, đáp ứng yêu cầu một quy tắc rõ ràng."
+    },
+    "com.pixeption.light": {
+      "app_id": "com.pixeption.light",
+      "title": "Life: Color Nonogram",
+      "title_norm": "life color nonogram",
+      "developer": "Pixeption",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.5487804,
+      "url": "https://play.google.com/store/apps/details?id=com.pixeption.light&hl=en",
+      "message_id": 363,
+      "suggested_at": "2026-09-30T03:01:16.107978+00:00",
+      "mechanic_vi": "Giải nonogram bằng cách tô các ô dựa trên các chỉ số ở hàng và cột.",
+      "why_vi": "Mỗi câu đố là một màn độc lập với cùng một quy tắc, phù hợp với sở thích có một luật duy nhất cho mỗi cấp độ."
     }
   }
 }

@@ -2122,6 +2122,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sinyee.babybus.meet": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.outfit7.mytalkingtomfriends2": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bubadu.duddu": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.miniclip.drone1": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
