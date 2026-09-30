@@ -1519,6 +1519,146 @@
       "url": "https://store.steampowered.com/app/1953540",
       "message_id": 386,
       "suggested_at": "2026-09-30T04:02:13.453685+00:00"
+    },
+    "684410": {
+      "app_id": "684410",
+      "title": "Bridge Constructor Portal",
+      "title_norm": "bridge constructor portal",
+      "developer": "ClockStone",
+      "reviews": 6641,
+      "url": "https://store.steampowered.com/app/684410",
+      "message_id": 391,
+      "suggested_at": "2026-09-30T05:01:41.282641+00:00"
+    },
+    "419080": {
+      "app_id": "419080",
+      "title": "Bridge Constructor Stunts",
+      "title_norm": "bridge constructor stunts",
+      "developer": "ClockStone",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/419080",
+      "message_id": 392,
+      "suggested_at": "2026-09-30T05:01:43.459287+00:00"
+    },
+    "1850160": {
+      "app_id": "1850160",
+      "title": "Poly Bridge 3",
+      "title_norm": "poly bridge 3",
+      "developer": "Dry Cactus",
+      "reviews": 2091,
+      "url": "https://store.steampowered.com/app/1850160",
+      "message_id": 393,
+      "suggested_at": "2026-09-30T05:01:44.504726+00:00"
+    },
+    "1062160": {
+      "app_id": "1062160",
+      "title": "Poly Bridge 2",
+      "title_norm": "poly bridge 2",
+      "developer": "Dry Cactus",
+      "reviews": 7869,
+      "url": "https://store.steampowered.com/app/1062160",
+      "message_id": 394,
+      "suggested_at": "2026-09-30T05:01:45.818041+00:00"
+    },
+    "319850": {
+      "app_id": "319850",
+      "title": "Bridge Constructor Medieval",
+      "title_norm": "bridge constructor medieval",
+      "developer": "ClockStone",
+      "reviews": 287,
+      "url": "https://store.steampowered.com/app/319850",
+      "message_id": 395,
+      "suggested_at": "2026-09-30T05:01:46.737925+00:00"
+    },
+    "279990": {
+      "app_id": "279990",
+      "title": "Bridge Constructor Playground",
+      "title_norm": "bridge constructor playground",
+      "developer": "ClockStone",
+      "reviews": 145,
+      "url": "https://store.steampowered.com/app/279990",
+      "message_id": 396,
+      "suggested_at": "2026-09-30T05:01:47.958544+00:00"
+    },
+    "360380": {
+      "app_id": "360380",
+      "title": "Tiny Bridge: Ratventure",
+      "title_norm": "tiny bridge ratventure",
+      "developer": "Estelion",
+      "reviews": 818,
+      "url": "https://store.steampowered.com/app/360380",
+      "message_id": 397,
+      "suggested_at": "2026-09-30T05:01:48.705135+00:00"
+    },
+    "1336120": {
+      "app_id": "1336120",
+      "title": "Bridge Constructor: The Walking Dead",
+      "title_norm": "bridge constructor the walking dead",
+      "developer": "ClockStone",
+      "reviews": 233,
+      "url": "https://store.steampowered.com/app/1336120",
+      "message_id": 398,
+      "suggested_at": "2026-09-30T05:01:49.396506+00:00"
+    },
+    "367450": {
+      "app_id": "367450",
+      "title": "Poly Bridge",
+      "title_norm": "poly bridge",
+      "developer": "Dry Cactus",
+      "reviews": 17120,
+      "url": "https://store.steampowered.com/app/367450",
+      "message_id": 399,
+      "suggested_at": "2026-09-30T05:01:50.255042+00:00"
+    },
+    "250460": {
+      "app_id": "250460",
+      "title": "Bridge Constructor",
+      "title_norm": "bridge constructor",
+      "developer": "ClockStone",
+      "reviews": 962,
+      "url": "https://store.steampowered.com/app/250460",
+      "message_id": 400,
+      "suggested_at": "2026-09-30T05:01:51.098568+00:00"
+    },
+    "248370": {
+      "app_id": "248370",
+      "title": "Bridge It +",
+      "title_norm": "bridge it",
+      "developer": "Chronic Logic",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/248370",
+      "message_id": 401,
+      "suggested_at": "2026-09-30T05:01:52.027816+00:00"
+    },
+    "232950": {
+      "app_id": "232950",
+      "title": "Bridge Project",
+      "title_norm": "bridge project",
+      "developer": "Halycon Media GmbH & Co. KG",
+      "reviews": 244,
+      "url": "https://store.steampowered.com/app/232950",
+      "message_id": 402,
+      "suggested_at": "2026-09-30T05:01:53.264873+00:00"
+    },
+    "1547630": {
+      "app_id": "1547630",
+      "title": "Bridge2Code",
+      "title_norm": "bridge2code",
+      "developer": "Damon Wang",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1547630",
+      "message_id": 403,
+      "suggested_at": "2026-09-30T05:01:54.349314+00:00"
+    },
+    "1272330": {
+      "app_id": "1272330",
+      "title": "Easy puzzle: Bridges",
+      "title_norm": "easy puzzle bridges",
+      "developer": "Laush Dmitriy Sergeevich",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1272330",
+      "message_id": 404,
+      "suggested_at": "2026-09-30T05:01:55.364477+00:00"
     }
   }
 }
