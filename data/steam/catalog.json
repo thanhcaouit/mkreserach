@@ -2789,6 +2789,136 @@
       "url": "https://store.steampowered.com/app/26500",
       "message_id": 597,
       "suggested_at": "2026-09-30T17:02:42.748480+00:00"
+    },
+    "511470": {
+      "app_id": "511470",
+      "title": "Glass Masquerade",
+      "title_norm": "glass masquerade",
+      "developer": "Onyx Lute",
+      "reviews": 5614,
+      "url": "https://store.steampowered.com/app/511470",
+      "message_id": 605,
+      "suggested_at": "2026-09-30T18:02:02.824025+00:00"
+    },
+    "935880": {
+      "app_id": "935880",
+      "title": "Glass Masquerade 2: Illusions",
+      "title_norm": "glass masquerade 2 illusions",
+      "developer": "Onyx Lute",
+      "reviews": 2884,
+      "url": "https://store.steampowered.com/app/935880",
+      "message_id": 606,
+      "suggested_at": "2026-09-30T18:02:03.934656+00:00"
+    },
+    "3845830": {
+      "app_id": "3845830",
+      "title": "Glass Masquerade 4: Constellations",
+      "title_norm": "glass masquerade 4 constellations",
+      "developer": "Onyx Lute",
+      "reviews": 533,
+      "url": "https://store.steampowered.com/app/3845830",
+      "message_id": 607,
+      "suggested_at": "2026-09-30T18:02:05.068002+00:00"
+    },
+    "2464500": {
+      "app_id": "2464500",
+      "title": "Hentai Glass",
+      "title_norm": "hentai glass",
+      "developer": "Petal Sakura",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2464500",
+      "message_id": 608,
+      "suggested_at": "2026-09-30T18:02:06.557599+00:00"
+    },
+    "2534980": {
+      "app_id": "2534980",
+      "title": "Stories in Glass: Winter",
+      "title_norm": "stories in glass winter",
+      "developer": "Tiny Little Lion",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2534980",
+      "message_id": 609,
+      "suggested_at": "2026-09-30T18:02:08.633534+00:00"
+    },
+    "1052220": {
+      "app_id": "1052220",
+      "title": "GlassSmash",
+      "title_norm": "glasssmash",
+      "developer": "Anvate Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1052220",
+      "message_id": 610,
+      "suggested_at": "2026-09-30T18:02:10.109724+00:00"
+    },
+    "891720": {
+      "app_id": "891720",
+      "title": "Pirate Mosaic Puzzle. Caribbean Treasures",
+      "title_norm": "pirate mosaic puzzle caribbean treasures",
+      "developer": "Creobit",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/891720",
+      "message_id": 611,
+      "suggested_at": "2026-09-30T18:02:11.258602+00:00"
+    },
+    "1555580": {
+      "app_id": "1555580",
+      "title": "Invisible Services - Pixel Art Jigsaw Puzzle",
+      "title_norm": "invisible services pixel art jigsaw puzzle",
+      "developer": "Wise Box Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1555580",
+      "message_id": 612,
+      "suggested_at": "2026-09-30T18:02:12.796668+00:00"
+    },
+    "1495090": {
+      "app_id": "1495090",
+      "title": "Christmas Mosaic Puzzle",
+      "title_norm": "christmas mosaic puzzle",
+      "developer": "Creobit",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1495090",
+      "message_id": 613,
+      "suggested_at": "2026-09-30T18:02:14.008642+00:00"
+    },
+    "1859070": {
+      "app_id": "1859070",
+      "title": "Jigsaw Puzzle Womens Day",
+      "title_norm": "jigsaw puzzle womens day",
+      "developer": "Creobit",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1859070",
+      "message_id": 614,
+      "suggested_at": "2026-09-30T18:02:15.013879+00:00"
+    },
+    "2392760": {
+      "app_id": "2392760",
+      "title": "GLASS2",
+      "title_norm": "glass2",
+      "developer": "TeamSnowball",
+      "reviews": 206,
+      "url": "https://store.steampowered.com/app/2392760",
+      "message_id": 615,
+      "suggested_at": "2026-09-30T18:02:15.965882+00:00"
+    },
+    "2582540": {
+      "app_id": "2582540",
+      "title": "RoGlass",
+      "title_norm": "roglass",
+      "developer": "James Castle",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2582540",
+      "message_id": 616,
+      "suggested_at": "2026-09-30T18:02:16.907883+00:00"
+    },
+    "965590": {
+      "app_id": "965590",
+      "title": "Sagrada",
+      "title_norm": "sagrada",
+      "developer": "Dire Wolf",
+      "reviews": 319,
+      "url": "https://store.steampowered.com/app/965590",
+      "message_id": 617,
+      "suggested_at": "2026-09-30T18:02:17.955812+00:00"
     }
   }
 }
