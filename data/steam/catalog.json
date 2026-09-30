@@ -1339,6 +1339,66 @@
       "url": "https://store.steampowered.com/app/1550380",
       "message_id": 349,
       "suggested_at": "2026-09-30T00:01:58.280305+00:00"
+    },
+    "3330220": {
+      "app_id": "3330220",
+      "title": "Magic Puzzle King 2: Rolling Cat",
+      "title_norm": "magic puzzle king 2 rolling cat",
+      "developer": "Magic Cat",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3330220",
+      "message_id": 364,
+      "suggested_at": "2026-09-30T03:01:52.480895+00:00"
+    },
+    "2096960": {
+      "app_id": "2096960",
+      "title": "Roll On Dice",
+      "title_norm": "roll on dice",
+      "developer": "Edalbung",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2096960",
+      "message_id": 365,
+      "suggested_at": "2026-09-30T03:01:53.448832+00:00"
+    },
+    "2362570": {
+      "app_id": "2362570",
+      "title": "Roll It To The End",
+      "title_norm": "roll it to the end",
+      "developer": "STORMY RISE",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2362570",
+      "message_id": 366,
+      "suggested_at": "2026-09-30T03:01:54.544093+00:00"
+    },
+    "1793380": {
+      "app_id": "1793380",
+      "title": "Roll The Cat",
+      "title_norm": "roll the cat",
+      "developer": "LeJunesArt",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1793380",
+      "message_id": 367,
+      "suggested_at": "2026-09-30T03:01:55.696920+00:00"
+    },
+    "2119570": {
+      "app_id": "2119570",
+      "title": "Panda Roll",
+      "title_norm": "panda roll",
+      "developer": "TGM",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2119570",
+      "message_id": 368,
+      "suggested_at": "2026-09-30T03:01:57.020968+00:00"
+    },
+    "1939940": {
+      "app_id": "1939940",
+      "title": "Roll Player - The Board Game",
+      "title_norm": "roll player the board game",
+      "developer": "Mipmap Digital",
+      "reviews": 179,
+      "url": "https://store.steampowered.com/app/1939940",
+      "message_id": 369,
+      "suggested_at": "2026-09-30T03:01:58.490034+00:00"
     }
   }
 }
