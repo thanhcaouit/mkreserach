@@ -12,18 +12,20 @@
     "endless one-tap"
   ],
   "search_queries": [
-    "snakebird",
-    "sausage roll puzzle",
-    "sokoban puzzle levels",
-    "one rule puzzle",
-    "guide units puzzle levels",
-    "world of goo physics puzzle"
+    "single rule puzzle levels",
+    "minimalist logic puzzle",
+    "gridless physics puzzle",
+    "unit movement puzzle",
+    "turn‑based puzzle game",
+    "spatial manipulation puzzle"
   ],
   "anchor_app_ids": [
     "357300",
     "353540",
     "22000",
-    "3385670"
+    "3385670",
+    "794940"
   ],
-  "updated_at": null
+  "updated_at": "2026-09-30T09:01:16.404651+00:00",
+  "notes": "Added game 794940 (score 5, very good) to the liked list. Continue targeting puzzle games that present one clear rule per level and require guiding units or objects to a goal."
 }

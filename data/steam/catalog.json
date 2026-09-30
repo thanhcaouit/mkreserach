@@ -1939,6 +1939,146 @@
       "url": "https://store.steampowered.com/app/3764920",
       "message_id": 439,
       "suggested_at": "2026-09-30T08:01:46.533355+00:00"
+    },
+    "1099960": {
+      "app_id": "1099960",
+      "title": "Mini Tone - Minimalist Puzzle",
+      "title_norm": "mini tone minimalist puzzle",
+      "developer": "Mens Sana Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1099960",
+      "message_id": 442,
+      "suggested_at": "2026-09-30T09:01:39.949668+00:00"
+    },
+    "1632610": {
+      "app_id": "1632610",
+      "title": "Puzzle Light: One Move",
+      "title_norm": "puzzle light one move",
+      "developer": "Waidy Andrade",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1632610",
+      "message_id": 443,
+      "suggested_at": "2026-09-30T09:01:41.629421+00:00"
+    },
+    "3201940": {
+      "app_id": "3201940",
+      "title": "Paper Puzzle",
+      "title_norm": "paper puzzle",
+      "developer": "Catnip Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3201940",
+      "message_id": 444,
+      "suggested_at": "2026-09-30T09:01:44.210750+00:00"
+    },
+    "3277370": {
+      "app_id": "3277370",
+      "title": "Paper Puzzle Ⅱ",
+      "title_norm": "paper puzzle ⅱ",
+      "developer": "Catnip Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3277370",
+      "message_id": 445,
+      "suggested_at": "2026-09-30T09:01:46.643022+00:00"
+    },
+    "4094400": {
+      "app_id": "4094400",
+      "title": "Romcab Puzzle",
+      "title_norm": "romcab puzzle",
+      "developer": "8º Arte Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4094400",
+      "message_id": 446,
+      "suggested_at": "2026-09-30T09:01:48.243237+00:00"
+    },
+    "1507180": {
+      "app_id": "1507180",
+      "title": "Math Hero - Minimalist Puzzle",
+      "title_norm": "math hero minimalist puzzle",
+      "developer": "Robotizar Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1507180",
+      "message_id": 447,
+      "suggested_at": "2026-09-30T09:01:50.057947+00:00"
+    },
+    "664180": {
+      "app_id": "664180",
+      "title": "Draw Puzzle 画之谜",
+      "title_norm": "draw puzzle 画之谜",
+      "developer": "Hen Wen Studio",
+      "reviews": 801,
+      "url": "https://store.steampowered.com/app/664180",
+      "message_id": 448,
+      "suggested_at": "2026-09-30T09:01:51.073292+00:00"
+    },
+    "4528620": {
+      "app_id": "4528620",
+      "title": "Cross Math - Logic Number Puzzle",
+      "title_norm": "cross math logic number puzzle",
+      "developer": "Popoko VM Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4528620",
+      "message_id": 449,
+      "suggested_at": "2026-09-30T09:01:52.920715+00:00"
+    },
+    "4859540": {
+      "app_id": "4859540",
+      "title": "Word Puzzle Master",
+      "title_norm": "word puzzle master",
+      "developer": "Tilewise",
+      "reviews": 144,
+      "url": "https://store.steampowered.com/app/4859540",
+      "message_id": 450,
+      "suggested_at": "2026-09-30T09:01:54.145298+00:00"
+    },
+    "1489660": {
+      "app_id": "1489660",
+      "title": "Copy Editor: A RegEx Puzzle",
+      "title_norm": "copy editor a regex puzzle",
+      "developer": "Christopher Jarvis",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1489660",
+      "message_id": 451,
+      "suggested_at": "2026-09-30T09:01:55.378956+00:00"
+    },
+    "2314580": {
+      "app_id": "2314580",
+      "title": "Jigsaw Puzzle Fever",
+      "title_norm": "jigsaw puzzle fever",
+      "developer": "NYX Digital Ltd",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2314580",
+      "message_id": 452,
+      "suggested_at": "2026-09-30T09:01:56.285287+00:00"
+    },
+    "4123420": {
+      "app_id": "4123420",
+      "title": "Easy Jigsaw Puzzle",
+      "title_norm": "easy jigsaw puzzle",
+      "developer": " unkn",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4123420",
+      "message_id": 453,
+      "suggested_at": "2026-09-30T09:01:57.821848+00:00"
+    },
+    "2402170": {
+      "app_id": "2402170",
+      "title": "Veggie Quest: The Puzzle Game",
+      "title_norm": "veggie quest the puzzle game",
+      "developer": "Smart AI Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2402170",
+      "message_id": 454,
+      "suggested_at": "2026-09-30T09:01:59.695578+00:00"
+    },
+    "1806110": {
+      "app_id": "1806110",
+      "title": "GirlHub - adult puzzle game",
+      "title_norm": "girlhub adult puzzle game",
+      "developer": "ONBI Co,. Ltd.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1806110",
+      "message_id": 455,
+      "suggested_at": "2026-09-30T09:02:00.630441+00:00"
     }
   }
 }
