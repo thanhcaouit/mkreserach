@@ -1399,6 +1399,126 @@
       "url": "https://store.steampowered.com/app/1939940",
       "message_id": 369,
       "suggested_at": "2026-09-30T03:01:58.490034+00:00"
+    },
+    "351920": {
+      "app_id": "351920",
+      "title": "Crazy Machines 3",
+      "title_norm": "crazy machines 3",
+      "developer": "Fakt Software",
+      "reviews": 7487,
+      "url": "https://store.steampowered.com/app/351920",
+      "message_id": 375,
+      "suggested_at": "2026-09-30T04:01:59.767028+00:00"
+    },
+    "1098670": {
+      "app_id": "1098670",
+      "title": "CHAIN SAW",
+      "title_norm": "chain saw",
+      "developer": "VikTor",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1098670",
+      "message_id": 376,
+      "suggested_at": "2026-09-30T04:02:01.127896+00:00"
+    },
+    "4922130": {
+      "app_id": "4922130",
+      "title": "Puzzle Cottage",
+      "title_norm": "puzzle cottage",
+      "developer": "Adib Boutros",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4922130",
+      "message_id": 377,
+      "suggested_at": "2026-09-30T04:02:02.513678+00:00"
+    },
+    "3197490": {
+      "app_id": "3197490",
+      "title": "Puzzle Milk Tea",
+      "title_norm": "puzzle milk tea",
+      "developer": "Sunday Brunch Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3197490",
+      "message_id": 378,
+      "suggested_at": "2026-09-30T04:02:03.893755+00:00"
+    },
+    "3195070": {
+      "app_id": "3195070",
+      "title": "Paint Puzzle Quest",
+      "title_norm": "paint puzzle quest",
+      "developer": "Boogygames Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3195070",
+      "message_id": 379,
+      "suggested_at": "2026-09-30T04:02:04.590051+00:00"
+    },
+    "4018580": {
+      "app_id": "4018580",
+      "title": "Serenity Word - Relaxing Puzzle",
+      "title_norm": "serenity word relaxing puzzle",
+      "developer": "Playsimple Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4018580",
+      "message_id": 380,
+      "suggested_at": "2026-09-30T04:02:06.107416+00:00"
+    },
+    "4553840": {
+      "app_id": "4553840",
+      "title": "EraPuzzle: Grid & Glory",
+      "title_norm": "erapuzzle grid glory",
+      "developer": "JakeMakesGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4553840",
+      "message_id": 381,
+      "suggested_at": "2026-09-30T04:02:07.785261+00:00"
+    },
+    "1589880": {
+      "app_id": "1589880",
+      "title": "Tower Of Wishes: Match 3 Puzzle",
+      "title_norm": "tower of wishes match 3 puzzle",
+      "developer": "Ironcode Gaming",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1589880",
+      "message_id": 382,
+      "suggested_at": "2026-09-30T04:02:09.176200+00:00"
+    },
+    "3835650": {
+      "app_id": "3835650",
+      "title": "Cleaning Up!",
+      "title_norm": "cleaning up",
+      "developer": "Unbound Creations",
+      "reviews": 133,
+      "url": "https://store.steampowered.com/app/3835650",
+      "message_id": 383,
+      "suggested_at": "2026-09-30T04:02:10.205089+00:00"
+    },
+    "2072840": {
+      "app_id": "2072840",
+      "title": "Word Factori",
+      "title_norm": "word factori",
+      "developer": "Star Garden Games",
+      "reviews": 463,
+      "url": "https://store.steampowered.com/app/2072840",
+      "message_id": 384,
+      "suggested_at": "2026-09-30T04:02:11.261788+00:00"
+    },
+    "1355090": {
+      "app_id": "1355090",
+      "title": "RAILGRADE",
+      "title_norm": "railgrade",
+      "developer": "Minakata Dynamics",
+      "reviews": 1210,
+      "url": "https://store.steampowered.com/app/1355090",
+      "message_id": 385,
+      "suggested_at": "2026-09-30T04:02:12.343336+00:00"
+    },
+    "1953540": {
+      "app_id": "1953540",
+      "title": "Furry Shades of Gay 3: Still Gayer",
+      "title_norm": "furry shades of gay 3 still gayer",
+      "developer": "Furlough Games",
+      "reviews": 407,
+      "url": "https://store.steampowered.com/app/1953540",
+      "message_id": 386,
+      "suggested_at": "2026-09-30T04:02:13.453685+00:00"
     }
   }
 }
