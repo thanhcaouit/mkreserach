@@ -2477,6 +2477,34 @@
       "suggested_at": "2026-09-30T01:01:13.643654+00:00",
       "mechanic_vi": "Nối các chấm theo thứ tự số và màu để hé lộ bức tranh ẩn.",
       "why_vi": "Luật chơi đơn giản, mỗi màn chỉ cần nối đúng thứ tự, phù hợp với yêu cầu \"một quy tắc rõ ràng\" nhưng cơ chế đã khá phổ biến nên độ mới thấp hơn."
+    },
+    "com.conceptispuzzles.picapix": {
+      "app_id": "com.conceptispuzzles.picapix",
+      "title": "Pic-a-Pix: Nonogram Color",
+      "title_norm": "pic a pix nonogram color",
+      "developer": "Conceptis Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.71,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.picapix&hl=en",
+      "message_id": 356,
+      "suggested_at": "2026-09-30T02:00:59.095623+00:00",
+      "mechanic_vi": "Đánh dấu các ô theo chỉ dẫn để tạo nên hình ảnh pixel.",
+      "why_vi": "Mỗi màn là một bảng mới, yêu cầu logic và suy luận để hoàn thành."
+    },
+    "com.conceptispuzzles.linkapix": {
+      "app_id": "com.conceptispuzzles.linkapix",
+      "title": "Link-a-Pix: Nonogram Links",
+      "title_norm": "link a pix nonogram links",
+      "developer": "Conceptis Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.58,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.linkapix&hl=en",
+      "message_id": 357,
+      "suggested_at": "2026-09-30T02:01:00.509364+00:00",
+      "mechanic_vi": "Kết nối các cặp chỉ dẫn bằng đường vẽ trên lưới.",
+      "why_vi": "Mỗi màn cung cấp một hình ảnh ẩn, người chơi phải nối đúng số ô."
     }
   }
 }

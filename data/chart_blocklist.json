@@ -361,7 +361,8 @@
     "com.playrix.fishdomdd.gplay": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "linkdesks.storymatch": {
@@ -2111,6 +2112,12 @@
       ]
     },
     "com.ninjakiwi.bloonsblitz": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playdemic.golf.android": {
       "first_seen": "2026-09-30",
       "sources": [
         "GAME"
