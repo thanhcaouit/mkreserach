@@ -3457,6 +3457,76 @@
       "suggested_at": "2026-09-30T15:01:25.631341+00:00",
       "mechanic_vi": "Free to play the paranormal game of Mystery Tales: Art and Souls by Domini Games! Embark on a mystical adventure and discover a new dark tale with the supernatural. Detective, you have to investigate the grim unsolved ca",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.dominigames.mt14.free2play": {
+      "app_id": "com.dominigames.mt14.free2play",
+      "title": "Mystery Tales 14 f2p",
+      "title_norm": "mystery tales 14 f2p",
+      "developer": "Do Games Limited",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.5408807,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.mt14.free2play&hl=en",
+      "message_id": 560,
+      "suggested_at": "2026-09-30T16:01:20.528163+00:00",
+      "mechanic_vi": "Tìm kiếm và thu thập các vật phẩm ẩn trong các phòng, mỗi màn có mục tiêu rõ ràng.",
+      "why_vi": "Có nhiều màn với mục tiêu riêng, phù hợp với yêu cầu có level và luật chơi đơn giản."
+    },
+    "com.dominigames.mt14": {
+      "app_id": "com.dominigames.mt14",
+      "title": "Mystery Tales: Master",
+      "title_norm": "mystery tales master",
+      "developer": "Do Games Limited",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.2277226,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.mt14&hl=en",
+      "message_id": 561,
+      "suggested_at": "2026-09-30T16:01:22.053158+00:00",
+      "mechanic_vi": "Giải đố ẩn vật, mỗi cấp độ yêu cầu người chơi tìm các đối tượng cụ thể trong cảnh.",
+      "why_vi": "Mỗi màn đề ra một nhiệm vụ duy nhất, đáp ứng tiêu chí một luật rõ ràng cho mỗi level."
+    },
+    "com.dominigames.mt11": {
+      "app_id": "com.dominigames.mt11",
+      "title": "Mystery Tales: Dealer’s Choice",
+      "title_norm": "mystery tales dealer s choice",
+      "developer": "Do Games Limited",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.39,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.mt11&hl=en",
+      "message_id": 562,
+      "suggested_at": "2026-09-30T16:01:23.582324+00:00",
+      "mechanic_vi": "Tìm và thu thập các vật phẩm ẩn trong môi trường, với các cấp độ có cốt truyện riêng.",
+      "why_vi": "Có cấu trúc cấp độ rõ ràng, mỗi màn có mục tiêu tìm kiếm riêng biệt."
+    },
+    "com.dominigames.dr6.free2play": {
+      "app_id": "com.dominigames.dr6.free2play",
+      "title": "Dark Romance 6 f2p",
+      "title_norm": "dark romance 6 f2p",
+      "developer": "Do Games Limited",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.97,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.dr6.free2play&hl=en",
+      "message_id": 563,
+      "suggested_at": "2026-09-30T16:01:24.962331+00:00",
+      "mechanic_vi": "Tìm kiếm ẩn vật trong các cảnh, mỗi cấp độ cung cấp một loạt các câu đố và thử thách.",
+      "why_vi": "Được chia thành nhiều màn với mục tiêu tìm kiếm cụ thể, phù hợp với yêu cầu có level."
+    },
+    "com.dominigames.ek6.free2play": {
+      "app_id": "com.dominigames.ek6.free2play",
+      "title": "Enchanted Kingdom 6 f2p",
+      "title_norm": "enchanted kingdom 6 f2p",
+      "developer": "Do Games Limited",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.45,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.ek6.free2play&hl=en",
+      "message_id": 564,
+      "suggested_at": "2026-09-30T16:01:26.411332+00:00",
+      "mechanic_vi": "Giải đố ẩn vật và mini‑game, mỗi màn có mục tiêu và câu đố riêng.",
+      "why_vi": "Có cấu trúc cấp độ rõ ràng, mỗi màn đưa ra một nhiệm vụ duy nhất."
     }
   }
 }
