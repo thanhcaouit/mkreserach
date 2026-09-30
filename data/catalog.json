@@ -2575,6 +2575,76 @@
       "suggested_at": "2026-09-30T03:01:16.107978+00:00",
       "mechanic_vi": "Giải nonogram bằng cách tô các ô dựa trên các chỉ số ở hàng và cột.",
       "why_vi": "Mỗi câu đố là một màn độc lập với cùng một quy tắc, phù hợp với sở thích có một luật duy nhất cho mỗi cấp độ."
+    },
+    "com.cozyground.valleyofstars": {
+      "app_id": "com.cozyground.valleyofstars",
+      "title": "Valley of Stars - Nonogram",
+      "title_norm": "valley of stars nonogram",
+      "developer": "COZY GROUND Co., Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.641892,
+      "url": "https://play.google.com/store/apps/details?id=com.cozyground.valleyofstars&hl=en",
+      "message_id": 370,
+      "suggested_at": "2026-09-30T04:01:08.304098+00:00",
+      "mechanic_vi": "Giải Nonogram – điền ô màu dựa trên các số gợi ý để tạo ra hình ảnh.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất (đánh dấu ô đúng) và có hàng trăm cấp độ, phù hợp với sở thích “một luật rõ ràng mỗi màn”."
+    },
+    "com.gamefox.wolfandmoonnonogram": {
+      "app_id": "com.gamefox.wolfandmoonnonogram",
+      "title": "Wolf And Moon : Nonogram",
+      "title_norm": "wolf and moon nonogram",
+      "developer": "COZY GROUND Co., Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.52,
+      "url": "https://play.google.com/store/apps/details?id=com.gamefox.wolfandmoonnonogram&hl=en",
+      "message_id": 371,
+      "suggested_at": "2026-09-30T04:01:09.578134+00:00",
+      "mechanic_vi": "Nonogram dạng câu đố hình ảnh, người chơi tô màu các ô theo chỉ dẫn số.",
+      "why_vi": "Cũng cung cấp nhiều cấp độ với một luật duy nhất, đáp ứng yêu cầu có mức độ và luật chơi rõ ràng."
+    },
+    "com.Papps.Nonogram": {
+      "app_id": "com.Papps.Nonogram",
+      "title": "Nonogram",
+      "title_norm": "nonogram",
+      "developer": "1kpapps",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 2.4705882,
+      "url": "https://play.google.com/store/apps/details?id=com.Papps.Nonogram&hl=en",
+      "message_id": 372,
+      "suggested_at": "2026-09-30T04:01:10.450967+00:00",
+      "mechanic_vi": "Puzzle Picross – ghép ô màu với các chỉ số để hé lộ bức tranh pixel.",
+      "why_vi": "Có ba độ khó và hàng trăm cấp độ, mỗi màn chỉ có một quy tắc duy nhất, phù hợp với tiêu chí “một luật mỗi màn”."
+    },
+    "com.fathillgames.minesweeper.world.puzzle.free": {
+      "app_id": "com.fathillgames.minesweeper.world.puzzle.free",
+      "title": "Minesweeper: World",
+      "title_norm": "minesweeper world",
+      "developer": "FATHILLL GAMES",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.0666666,
+      "url": "https://play.google.com/store/apps/details?id=com.fathillgames.minesweeper.world.puzzle.free&hl=en",
+      "message_id": 373,
+      "suggested_at": "2026-09-30T04:01:11.369632+00:00",
+      "mechanic_vi": "Minesweeper – khám phá lưới, dùng các số để xác định vị trí mìn và mở toàn bộ ô an toàn.",
+      "why_vi": "Cung cấp rất nhiều cấp độ với luật chơi duy nhất, đáp ứng nhu cầu có mục tiêu từng màn và luật rõ ràng."
+    },
+    "com.ericcbm.minesweeper": {
+      "app_id": "com.ericcbm.minesweeper",
+      "title": "Minesweeper",
+      "title_norm": "minesweeper",
+      "developer": "Infinità Game Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.6,
+      "url": "https://play.google.com/store/apps/details?id=com.ericcbm.minesweeper&hl=en",
+      "message_id": 374,
+      "suggested_at": "2026-09-30T04:01:12.415769+00:00",
+      "mechanic_vi": "Minesweeper truyền thống – mở ô, dùng các chỉ số để tránh mìn và hoàn thành cấp độ.",
+      "why_vi": "Có ba mức độ khó và nhiều cấp độ, mỗi màn chỉ có một quy tắc duy nhất, phù hợp với sở thích puzzle có luật rõ ràng và tiến độ cấp độ."
     }
   }
 }
