@@ -2757,6 +2757,20 @@
       "suggested_at": "2026-09-30T06:01:48.984369+00:00",
       "mechanic_vi": "Mở các ô an toàn và cô lập các ô mìn trên lưới.",
       "why_vi": "Có các mức độ khó (Noob, Beginner, …) tạo thành chuỗi màn, luật duy nhất là tránh mìn, đáp ứng cơ chế “bao vây hoặc cô lập”."
+    },
+    "com.crackthelock": {
+      "app_id": "com.crackthelock",
+      "title": "Crack The Lock - Demo",
+      "title_norm": "crack the lock demo",
+      "developer": "Classic Puzzle Australia",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.25,
+      "url": "https://play.google.com/store/apps/details?id=com.crackthelock&hl=en",
+      "message_id": 441,
+      "suggested_at": "2026-09-30T09:00:59.769077+00:00",
+      "mechanic_vi": "Giải các câu đố khóa với nhiều chế độ",
+      "why_vi": "Có nhiều chế độ và quy tắc, không tập trung vào một luật duy nhất mỗi màn."
     }
   }
 }
