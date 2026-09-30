@@ -1739,6 +1739,86 @@
       "url": "https://store.steampowered.com/app/1560940",
       "message_id": 417,
       "suggested_at": "2026-09-30T06:02:31.523894+00:00"
+    },
+    "1793240": {
+      "app_id": "1793240",
+      "title": "Destroy The Cubes 2",
+      "title_norm": "destroy the cubes 2",
+      "developer": "Sprovieri Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1793240",
+      "message_id": 419,
+      "suggested_at": "2026-09-30T07:01:43.734591+00:00"
+    },
+    "1559330": {
+      "app_id": "1559330",
+      "title": "Destroy The Hexons",
+      "title_norm": "destroy the hexons",
+      "developer": "Sprovieri Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1559330",
+      "message_id": 420,
+      "suggested_at": "2026-09-30T07:01:45.711940+00:00"
+    },
+    "1542850": {
+      "app_id": "1542850",
+      "title": "Destroy The Cubes",
+      "title_norm": "destroy the cubes",
+      "developer": "Sprovieri Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1542850",
+      "message_id": 421,
+      "suggested_at": "2026-09-30T07:01:47.631920+00:00"
+    },
+    "1532780": {
+      "app_id": "1532780",
+      "title": "The Magnets",
+      "title_norm": "the magnets",
+      "developer": "Onuralp Kanatsz",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1532780",
+      "message_id": 422,
+      "suggested_at": "2026-09-30T07:01:49.539177+00:00"
+    },
+    "1081990": {
+      "app_id": "1081990",
+      "title": "jwing - the next puzzle game",
+      "title_norm": "jwing the next puzzle game",
+      "developer": "Games with Colours",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1081990",
+      "message_id": 423,
+      "suggested_at": "2026-09-30T07:01:51.598477+00:00"
+    },
+    "2816390": {
+      "app_id": "2816390",
+      "title": "Paintball - the puzzle game",
+      "title_norm": "paintball the puzzle game",
+      "developer": "Debuff Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2816390",
+      "message_id": 424,
+      "suggested_at": "2026-09-30T07:01:53.193037+00:00"
+    },
+    "3134730": {
+      "app_id": "3134730",
+      "title": "The Doors",
+      "title_norm": "the doors",
+      "developer": "Slay Buherman",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3134730",
+      "message_id": 425,
+      "suggested_at": "2026-09-30T07:01:54.357999+00:00"
+    },
+    "2312360": {
+      "app_id": "2312360",
+      "title": "THE ABYSS",
+      "title_norm": "the abyss",
+      "developer": "Ilya873",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2312360",
+      "message_id": 426,
+      "suggested_at": "2026-09-30T07:01:55.602122+00:00"
     }
   }
 }
