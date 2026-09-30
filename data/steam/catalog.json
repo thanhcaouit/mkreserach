@@ -2919,6 +2919,96 @@
       "url": "https://store.steampowered.com/app/965590",
       "message_id": 617,
       "suggested_at": "2026-09-30T18:02:17.955812+00:00"
+    },
+    "1234830": {
+      "app_id": "1234830",
+      "title": "Warmth",
+      "title_norm": "warmth",
+      "developer": "Spreadable Fruit Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1234830",
+      "message_id": 622,
+      "suggested_at": "2026-09-30T19:02:46.437375+00:00"
+    },
+    "1348240": {
+      "app_id": "1348240",
+      "title": "Snow Trail",
+      "title_norm": "snow trail",
+      "developer": "Benjamin Kerr",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1348240",
+      "message_id": 623,
+      "suggested_at": "2026-09-30T19:02:47.397596+00:00"
+    },
+    "2231550": {
+      "app_id": "2231550",
+      "title": "The Traveler's Path",
+      "title_norm": "the traveler s path",
+      "developer": "White Rose Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2231550",
+      "message_id": 624,
+      "suggested_at": "2026-09-30T19:02:48.874876+00:00"
+    },
+    "1837920": {
+      "app_id": "1837920",
+      "title": "Mining Cats",
+      "title_norm": "mining cats",
+      "developer": "Minicactus Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1837920",
+      "message_id": 625,
+      "suggested_at": "2026-09-30T19:02:49.833258+00:00"
+    },
+    "755150": {
+      "app_id": "755150",
+      "title": "Aurora Trail",
+      "title_norm": "aurora trail",
+      "developer": "Screenhit Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/755150",
+      "message_id": 626,
+      "suggested_at": "2026-09-30T19:02:51.017954+00:00"
+    },
+    "293740": {
+      "app_id": "293740",
+      "title": "Road Not Taken",
+      "title_norm": "road not taken",
+      "developer": "Spry Fox",
+      "reviews": 252,
+      "url": "https://store.steampowered.com/app/293740",
+      "message_id": 627,
+      "suggested_at": "2026-09-30T19:02:52.055825+00:00"
+    },
+    "567140": {
+      "app_id": "567140",
+      "title": "Mahjong Magic Journey",
+      "title_norm": "mahjong magic journey",
+      "developer": "Creobit",
+      "reviews": 136,
+      "url": "https://store.steampowered.com/app/567140",
+      "message_id": 628,
+      "suggested_at": "2026-09-30T19:02:52.771572+00:00"
+    },
+    "2163790": {
+      "app_id": "2163790",
+      "title": "Lighten Up",
+      "title_norm": "lighten up",
+      "developer": "Snowdrop",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2163790",
+      "message_id": 629,
+      "suggested_at": "2026-09-30T19:02:53.317905+00:00"
+    },
+    "1395010": {
+      "app_id": "1395010",
+      "title": "Magic Griddlers",
+      "title_norm": "magic griddlers",
+      "developer": "New Bridge Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1395010",
+      "message_id": 630,
+      "suggested_at": "2026-09-30T19:02:54.709391+00:00"
     }
   }
 }
