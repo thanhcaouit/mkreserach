@@ -1,5 +1,5 @@
-# Một từ mỗi lượt, ghép thành "{từ} puzzle levels".
-# Không đưa từ đã có trong ignore_keywords.yaml.
+# Một mục mỗi lượt, có thể là một từ hoặc một cụm. Ghép thành "{mục} puzzle levels".
+# Không đưa mục dính ignore_keywords.yaml, tag Steam, sokoban hoặc sudoku.
 words:
   - gravity
   - laser
@@ -41,3 +41,203 @@ words:
   - melt
   - grow
   - shrink
+  - jump
+  - run
+  - climb
+  - push
+  - pull
+  - drag
+  - drop
+  - lift
+  - throw
+  - catch
+  - roll
+  - spin
+  - flip
+  - turn
+  - swap
+  - stack
+  - carry
+  - dig
+  - pour
+  - fill
+  - drain
+  - flow
+  - drip
+  - sink
+  - float
+  - rise
+  - fall
+  - burn
+  - cool
+  - heat
+  - blow
+  - suck
+  - stick
+  - split
+  - merge
+  - link
+  - connect
+  - open
+  - close
+  - lock
+  - cut
+  - draw
+  - trace
+  - aim
+  - charge
+  - release
+  - hold
+  - tap
+  - shove
+  - nudge
+  - guide the herd
+  - cut the rope
+  - roll the ball
+  - pour the water
+  - light the lamp
+  - open the gate
+  - close the gate
+  - build a bridge
+  - swing the hook
+  - freeze the path
+  - melt the ice
+  - grow the vine
+  - shrink the gap
+  - bounce the orb
+  - reflect the beam
+  - flood the room
+  - wind the crank
+  - pull the lever
+  - push the crate
+  - drag the box
+  - stack the crates
+  - carry the key
+  - throw the key
+  - jump the gap
+  - run to the exit
+  - climb the wall
+  - dig a tunnel
+  - fill the tank
+  - drain the tank
+  - flow downhill
+  - float upward
+  - sink the weight
+  - burn the rope
+  - blow the fan
+  - stick together
+  - split apart
+  - swap places
+  - turn the dial
+  - spin the wheel
+  - flip the panel
+  - lift the platform
+  - drop the weight
+  - aim the mirror
+  - charge the magnet
+  - hold the door
+  - tap the switch
+  - nudge the ball
+  - shove the statue
+  - link the pipes
+  - connect the wires
+  - herd sheep
+  - stain glass
+  - ink the path
+  - dye the river
+  - pollen trail
+  - spore cloud
+  - moss growth
+  - vine choke
+  - root bridge
+  - sap flow
+  - resin seal
+  - wax seal
+  - clay mold
+  - sand pour
+  - dust settle
+  - ash cover
+  - ember trail
+  - spark chain
+  - prism split
+  - lens focus
+  - echo locate
+  - whistle pitch
+  - drum rhythm
+  - bell toll
+  - gear mesh
+  - cog turn
+  - pulley lift
+  - lever latch
+  - latch the gate
+  - hinge swing
+  - pendulum swing
+  - catapult launch
+  - sling the stone
+  - bow the string
+  - reel the line
+  - knot the rope
+  - weave the net
+  - thread the needle
+  - sew the cloth
+  - fold the paper
+  - crease the map
+  - stamp the seal
+  - press the plate
+  - weigh the scale
+  - balance the scale
+  - tilt the bowl
+  - siphon the pool
+  - pump the bellows
+  - valve the pipe
+  - gasket seal
+  - shepherd the flock
+  - corral the sheep
+  - bait the fish
+  - lure the moth
+  - trap the fly
+  - smoke the hive
+  - honey the comb
+  - milk the cow
+  - herd the crabs
+  - guide the ants
+  - pheromone trail
+  - colony path
+  - nest the birds
+  - perch the birds
+  - roost the bats
+  - web the spiders
+  - silk the bridge
+  - cocoon wrap
+  - chrysalis wait
+  - burrow the mole
+  - dam the beavers
+  - gnaw the log
+  - fell the tree
+  - plant the seed
+  - harvest the crop
+  - irrigate the field
+  - terrace the hill
+  - levee the flood
+  - canal the water
+  - aqueduct flow
+  - cistern fill
+  - well the bucket
+  - pulley the bucket
+  - winch the crate
+  - capstan turn
+  - anchor the boat
+  - moor the boat
+  - ferry across
+  - raft the river
+  - ford the stream
+  - stepping stones
+  - lily pad hop
+  - hop the pads
+  - leap the chasm
+  - vault the fence
+  - crawl the duct
+  - squeeze the gap
+  - inflate the raft
+  - deflate the bag
+  - patch the leak

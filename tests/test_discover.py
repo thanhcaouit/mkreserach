@@ -11,6 +11,7 @@ from mkresearch.discover import (
 )
 from mkresearch.filters import title_ignored
 from mkresearch.learn import apply_profile, build_learn_prompt
+from mkresearch.steam.store import SteamData
 from mkresearch.store import Store
 
 
@@ -339,6 +340,10 @@ def test_search_word_file_avoids_ignore_keywords():
     root = Path(__file__).resolve().parents[1] / "data"
     words = Store(root).load_search_words()
     keywords = Store(root).load_ignore_keywords()
+    tags = SteamData(root / "steam").load_ignore_tags()
+    banned = [*keywords, *tags, "sokoban", "sudoku"]
     assert "gravity" in words
-    assert words
-    assert all(not title_ignored(word, keywords) for word in words)
+    assert "jump" in words
+    assert "guide the herd" in words
+    assert len(words) == len(set(words)) == 240
+    assert all(not title_ignored(word, banned) for word in words)
