@@ -2079,6 +2079,136 @@
       "url": "https://store.steampowered.com/app/1806110",
       "message_id": 455,
       "suggested_at": "2026-09-30T09:02:00.630441+00:00"
+    },
+    "1437200": {
+      "app_id": "1437200",
+      "title": "ZAVOD: Conveyor Logic",
+      "title_norm": "zavod conveyor logic",
+      "developer": "Growfall Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1437200",
+      "message_id": 459,
+      "suggested_at": "2026-09-30T10:01:32.201160+00:00"
+    },
+    "1888660": {
+      "app_id": "1888660",
+      "title": "Mini Pipes - A Logic Puzzle Pipes Game",
+      "title_norm": "mini pipes a logic puzzle pipes game",
+      "developer": "Sprovieri Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1888660",
+      "message_id": 460,
+      "suggested_at": "2026-09-30T10:01:37.912184+00:00"
+    },
+    "2240720": {
+      "app_id": "2240720",
+      "title": "NONOTOWN: Nonogram Logic Puzzle",
+      "title_norm": "nonotown nonogram logic puzzle",
+      "developer": "bazoosoft",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2240720",
+      "message_id": 461,
+      "suggested_at": "2026-09-30T10:01:39.447371+00:00"
+    },
+    "1327600": {
+      "app_id": "1327600",
+      "title": "Logic - Electrons Connect",
+      "title_norm": "logic electrons connect",
+      "developer": "StationGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1327600",
+      "message_id": 462,
+      "suggested_at": "2026-09-30T10:01:41.198019+00:00"
+    },
+    "4297410": {
+      "app_id": "4297410",
+      "title": "Dot Art Logic",
+      "title_norm": "dot art logic",
+      "developer": "tagumahi",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4297410",
+      "message_id": 463,
+      "suggested_at": "2026-09-30T10:01:42.901658+00:00"
+    },
+    "1158290": {
+      "app_id": "1158290",
+      "title": "Mini Words - minimalist puzzle",
+      "title_norm": "mini words minimalist puzzle",
+      "developer": "Mens Sana Interactive",
+      "reviews": 161,
+      "url": "https://store.steampowered.com/app/1158290",
+      "message_id": 464,
+      "suggested_at": "2026-09-30T10:01:43.947122+00:00"
+    },
+    "1742620": {
+      "app_id": "1742620",
+      "title": "Sudoku Minimalist Infinite",
+      "title_norm": "sudoku minimalist infinite",
+      "developer": "Espectro Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1742620",
+      "message_id": 465,
+      "suggested_at": "2026-09-30T10:01:45.124458+00:00"
+    },
+    "1861500": {
+      "app_id": "1861500",
+      "title": "Pure Logic",
+      "title_norm": "pure logic",
+      "developer": "Sigmund Hoien",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1861500",
+      "message_id": 466,
+      "suggested_at": "2026-09-30T10:01:46.174789+00:00"
+    },
+    "2614980": {
+      "app_id": "2614980",
+      "title": "Square Logic",
+      "title_norm": "square logic",
+      "developer": "Climbing Goat Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2614980",
+      "message_id": 467,
+      "suggested_at": "2026-09-30T10:01:47.387085+00:00"
+    },
+    "4033020": {
+      "app_id": "4033020",
+      "title": "Logic Deck",
+      "title_norm": "logic deck",
+      "developer": "Boogygames Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4033020",
+      "message_id": 468,
+      "suggested_at": "2026-09-30T10:01:48.747164+00:00"
+    },
+    "1032240": {
+      "app_id": "1032240",
+      "title": "Line Loops - Logic Puzzles",
+      "title_norm": "line loops logic puzzles",
+      "developer": "Final Game Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1032240",
+      "message_id": 469,
+      "suggested_at": "2026-09-30T10:01:49.804970+00:00"
+    },
+    "563150": {
+      "app_id": "563150",
+      "title": "interLOGIC",
+      "title_norm": "interlogic",
+      "developer": "phime studio LLC",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/563150",
+      "message_id": 470,
+      "suggested_at": "2026-09-30T10:01:51.277171+00:00"
+    },
+    "539460": {
+      "app_id": "539460",
+      "title": "Puzzle Cube",
+      "title_norm": "puzzle cube",
+      "developer": "ThinkOfGames",
+      "reviews": 159,
+      "url": "https://store.steampowered.com/app/539460",
+      "message_id": 471,
+      "suggested_at": "2026-09-30T10:01:52.140878+00:00"
     }
   }
 }
