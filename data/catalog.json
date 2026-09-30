@@ -2841,6 +2841,20 @@
       "suggested_at": "2026-09-30T11:01:02.549740+00:00",
       "mechanic_vi": "Train your brain with Pattern Lock: Brain Games! It's free and offline! Two engaging games will challenge your memory, attention span, and problem-solving skills. Whether you're on your daily commute or winding down befo",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.dominigames.mor2.free2play": {
+      "app_id": "com.dominigames.mor2.free2play",
+      "title": "Maze Of Realities 2 f2p",
+      "title_norm": "maze of realities 2 f2p",
+      "developer": "Do Games Limited",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.15,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.mor2.free2play&hl=en",
+      "message_id": 487,
+      "suggested_at": "2026-09-30T12:00:59.764034+00:00",
+      "mechanic_vi": "Giải các câu đố ánh sáng và bóng tối trong các thế giới khác nhau",
+      "why_vi": "Trò chơi cung cấp nhiều màn khám phá và giải đố, nhưng không có một quy tắc duy nhất cho mỗi màn."
     }
   }
 }

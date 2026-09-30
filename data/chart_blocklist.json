@@ -2170,6 +2170,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.farlightgames.igame.gp": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
