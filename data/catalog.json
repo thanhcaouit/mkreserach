@@ -2701,6 +2701,62 @@
       "suggested_at": "2026-09-30T05:01:09.191991+00:00",
       "mechanic_vi": "Khám phá ô mà không chạm mìn, dùng cờ để đánh dấu.",
       "why_vi": "Mỗi bảng là một màn chơi độc lập với luật duy nhất là tránh mìn."
+    },
+    "com.healingjjam.picrossluna3": {
+      "app_id": "com.healingjjam.picrossluna3",
+      "title": "Luna Story III (nonogram)",
+      "title_norm": "luna story iii nonogram",
+      "developer": "Floralmong company",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.51,
+      "url": "https://play.google.com/store/apps/details?id=com.healingjjam.picrossluna3&hl=en",
+      "message_id": 406,
+      "suggested_at": "2026-09-30T06:01:44.216003+00:00",
+      "mechanic_vi": "Điền ô để tạo hình ảnh, cô lập các ô màu trong lưới.",
+      "why_vi": "Mỗi câu đố là một màn độc lập với một quy tắc duy nhất – điền đúng các ô, phù hợp với sở thích “bao vây hoặc cô lập” và có tiến độ qua nhiều màn."
+    },
+    "com.healingjjam.lunastory0": {
+      "app_id": "com.healingjjam.lunastory0",
+      "title": "Luna Story Prologue (nonogram)",
+      "title_norm": "luna story prologue nonogram",
+      "developer": "Floralmong company",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.62,
+      "url": "https://play.google.com/store/apps/details?id=com.healingjjam.lunastory0&hl=en",
+      "message_id": 407,
+      "suggested_at": "2026-09-30T06:01:45.895778+00:00",
+      "mechanic_vi": "Giải nonogram bằng cách đánh dấu ô trắng hoặc đen để hoàn thành hình ảnh.",
+      "why_vi": "Cung cấp hàng trăm câu đố dạng màn, mỗi màn có một luật duy nhất, đáp ứng yêu cầu “một quy tắc rõ ràng mỗi màn” và cơ chế cô lập."
+    },
+    "com.healingjjam.skycastle2": {
+      "app_id": "com.healingjjam.skycastle2",
+      "title": "Sky Castle2 - (nonogram)",
+      "title_norm": "sky castle2 nonogram",
+      "developer": "Everydaysense Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.41,
+      "url": "https://play.google.com/store/apps/details?id=com.healingjjam.skycastle2&hl=en",
+      "message_id": 408,
+      "suggested_at": "2026-09-30T06:01:47.883836+00:00",
+      "mechanic_vi": "Giải nonogram trên các lưới kích thước khác nhau, cô lập các ô màu để tạo hình.",
+      "why_vi": "Nhiều cấp độ khó khác nhau, mỗi màn là một thử thách độc lập, phù hợp với việc dẫn người chơi qua các màn có luật duy nhất."
+    },
+    "com.ssaurel.minesweeper": {
+      "app_id": "com.ssaurel.minesweeper",
+      "title": "Minesweeper Classic",
+      "title_norm": "minesweeper classic",
+      "developer": "Maple Media",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.41,
+      "url": "https://play.google.com/store/apps/details?id=com.ssaurel.minesweeper&hl=en",
+      "message_id": 409,
+      "suggested_at": "2026-09-30T06:01:48.984369+00:00",
+      "mechanic_vi": "Mở các ô an toàn và cô lập các ô mìn trên lưới.",
+      "why_vi": "Có các mức độ khó (Noob, Beginner, …) tạo thành chuỗi màn, luật duy nhất là tránh mìn, đáp ứng cơ chế “bao vây hoặc cô lập”."
     }
   }
 }
