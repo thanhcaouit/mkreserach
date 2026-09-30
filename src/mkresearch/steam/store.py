@@ -69,6 +69,19 @@ class SteamData:
     def save_offset(self, offset: int) -> None:
         _write_json(self.root / "telegram_offset.json", {"offset": offset})
 
+    def load_queries(self) -> dict:
+        return _read_json(self.root / "queries.json", {"exhausted": []})
+
+    def save_queries(self, queries: dict) -> None:
+        _write_json(self.root / "queries.json", queries)
+
+    def load_search_words(self) -> list[str]:
+        path = self.root.parent / "search_words.yaml"
+        if not path.exists():
+            return []
+        raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        return [str(item).strip() for item in (raw.get("words") or []) if str(item).strip()]
+
     def load_seen(self) -> dict:
         return _read_json(self.root / "seen.json", {"apps": {}})
 

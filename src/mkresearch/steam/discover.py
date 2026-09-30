@@ -10,6 +10,7 @@ PUZZLE_TAG = "1664"
 APP_ID_RE = re.compile(r"/apps/(\d+)/")
 APP_TAG_RE = re.compile(r'<a\b[^>]*class="[^"]*\bapp_tag\b[^"]*"[^>]*>\s*([^<]+?)\s*</a>', re.I)
 DETAIL_CAP = 20
+PASS_TARGET = 5
 
 
 class DetailLimit(RuntimeError):

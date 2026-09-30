@@ -1,3 +1,4 @@
+import random
 from pathlib import Path
 
 from mkresearch.steam.__main__ import gather_passed
@@ -87,12 +88,18 @@ class FakeSteam:
     def begin_batch(self) -> None:
         self.detail_calls = 0
 
+    def search_hits(self, queries: list[str]) -> dict[str, list[str]]:
+        found: dict[str, list[str]] = {}
+        for query in queries:
+            self.searches.append(query)
+            found[query] = list(self.pages.get(query, []))
+        return found
+
     def search_ids(self, queries: list[str]) -> list[str]:
         found: list[str] = []
         seen: set[str] = set()
-        for query in list(queries)[:6]:
-            self.searches.append(query)
-            for app_id in self.pages.get(query, []):
+        for ids in self.search_hits(queries).values():
+            for app_id in ids:
                 if app_id not in seen:
                     seen.add(app_id)
                     found.append(app_id)
@@ -110,20 +117,21 @@ def _steam_catalog(title: str) -> dict:
     return {"apps": {"1": {"title": title, "suggested_at": "2026-09-27T00:00:00Z"}}}
 
 
-def test_second_steam_batch_finds_a_game_and_skips_the_third():
+def test_one_steam_passer_keeps_searching_until_five():
     client = FakeSteam()
     client.pages["q"] = ["a", "b", "c"]
     client.details["a"] = _app(appId="a", reviews=20_001)
     client.details["b"] = _app(appId="b", reviews=20_001)
     client.details["c"] = _app(appId="c", title="Fresh Puzzle")
     client.pages["Newest"] = ["later"]
-    passed, scanned, opened = gather_passed(
+    client.details["later"] = _app(appId="later", reviews=20_001)
+    passed, scanned, opened, _retired = gather_passed(
         client, ["q"], _steam_catalog("Newest"), [], [], set(), {"apps": {}}, [], set(), ["Newest"]
     )
     assert [app["appId"] for app in passed] == ["c"]
-    assert scanned == 3
-    assert opened == ["a", "b", "c"]
-    assert "Newest" not in client.searches
+    assert scanned == 4
+    assert opened == ["a", "b", "c", "later"]
+    assert "Newest" in client.searches
 
 
 def test_three_steam_batches_when_nothing_passes():
@@ -132,7 +140,7 @@ def test_three_steam_batches_when_nothing_passes():
     client.pages["Newest"] = ["e"]
     for app_id in ("a", "b", "c", "d", "e"):
         client.details[app_id] = _app(appId=app_id, reviews=20_001)
-    passed, _scanned, opened = gather_passed(
+    passed, _scanned, opened, _retired = gather_passed(
         client, ["q"], _steam_catalog("Newest"), [], [], set(), {"apps": {}}, [], set(), ["Newest"]
     )
     assert passed == []
@@ -145,12 +153,80 @@ def test_seen_steam_ids_are_not_opened_again():
     client.pages["q"] = ["old", "new"]
     client.details["old"] = _app(appId="old")
     client.details["new"] = _app(appId="new", reviews=20_001)
-    _passed, _scanned, opened = gather_passed(
+    _passed, _scanned, opened, _retired = gather_passed(
         client, ["q"], {"apps": {}}, [], [], set(), {"apps": {}}, [], {"old"}, []
     )
     assert opened == ["new"]
     seen = remember_seen({"apps": {}}, opened, "2026-09-29")
     assert seen["apps"]["new"]["seen"] == "2026-09-29"
+
+
+def test_five_steam_games_stop_the_later_batches():
+    client = FakeSteam(cap=20)
+    hits = [f"p.{index}" for index in range(6)]
+    client.pages["q"] = hits
+    for app_id in hits:
+        client.details[app_id] = _app(appId=app_id)
+    client.pages["Newest"] = ["later"]
+    client.details["later"] = _app(appId="later")
+    passed, _scanned, opened, retired = gather_passed(
+        client, ["q"], _steam_catalog("Newest"), [], [], set(), {"apps": {}}, [], set(), ["Newest"]
+    )
+    assert [app["appId"] for app in passed] == hits
+    assert "later" not in opened
+    assert "Newest" not in client.searches
+    assert retired == []
+
+
+def test_exhausted_steam_query_is_not_searched_again():
+    client = FakeSteam(cap=20)
+    client.pages["stale query"] = ["old"]
+    client.details["old"] = _app(appId="old")
+    _passed, _scanned, opened, retired = gather_passed(
+        client, ["stale query"], {"apps": {}}, [], [], set(), {"apps": {}}, [], {"old"}, []
+    )
+    assert opened == []
+    assert retired == ["stale query"]
+    client.searches.clear()
+    _passed, _scanned, opened, retired_again = gather_passed(
+        client,
+        ["stale query"],
+        {"apps": {}},
+        [],
+        [],
+        set(),
+        {"apps": {}},
+        [],
+        {"old"},
+        [],
+        exhausted=retired,
+    )
+    assert opened == []
+    assert retired_again == []
+    assert "stale query" not in client.searches
+
+
+def test_each_steam_run_searches_one_play_word():
+    client = FakeSteam(cap=20)
+    words = ["gravity", "laser", "rope"]
+    expected = random.Random(0).choice([f"{word} puzzle levels" for word in words])
+    _passed, _scanned, _opened, _retired = gather_passed(
+        client,
+        ["profile query"],
+        {"apps": {}},
+        [],
+        [],
+        set(),
+        {"apps": {}},
+        [],
+        set(),
+        [],
+        search_words=words,
+        rng=random.Random(0),
+    )
+    extra = {term for term in client.searches if term.endswith(" puzzle levels")}
+    assert extra == {expected}
+    assert client.searches.count("profile query") == 2
 
 
 def test_ignored_tags_drop_action_views_and_keep_adventure():

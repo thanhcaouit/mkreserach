@@ -41,14 +41,24 @@ class SteamClient:
     def search_ids(self, queries: list[str]) -> list[str]:
         found: list[str] = []
         seen: set[str] = set()
-        for query in queries[:6]:
-            if self.halted:
-                break
-            for item in self._search(term=query):
-                app_id = item["appId"]
+        for ids in self.search_hits(queries).values():
+            for app_id in ids:
                 if app_id not in seen:
                     seen.add(app_id)
                     found.append(app_id)
+        return found
+
+    def search_hits(self, queries: list[str]) -> dict[str, list[str]]:
+        found: dict[str, list[str]] = {}
+        for query in queries:
+            if self.halted:
+                break
+            ids: list[str] = []
+            for item in self._search(term=query):
+                app_id = item["appId"]
+                if app_id not in ids:
+                    ids.append(app_id)
+            found[query] = ids
         return found
 
     def begin_batch(self) -> None:

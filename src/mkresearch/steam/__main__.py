@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import random
 import sys
 import traceback
 from datetime import datetime, timezone
@@ -8,9 +9,12 @@ from pathlib import Path
 
 from mkresearch.cooldown import Guard, LimitReached
 from mkresearch.dedupe import normalize_title
+from mkresearch.discover import _retire_queries, choose_random_query, normalize_query, remember_queries
 from mkresearch.llm import LlmClient
 from mkresearch.steam.client import SteamClient
 from mkresearch.steam.discover import (
+    DETAIL_CAP,
+    PASS_TARGET,
     DetailLimit,
     blocked_ids,
     merge_blocklist,
@@ -83,7 +87,7 @@ def run_research(data: SteamData, client: SteamClient, llm: LlmClient, telegram:
     profile = data.load_profile()
     if changed and not _llm_paused(llm):
         try:
-            profile = update_profile(llm, seeds, ratings["items"], profile)
+            profile = update_profile(llm, seeds, ratings["items"], profile, _exhausted_queries(data))
             data.save_profile(profile)
         except LimitReached:
             raise
@@ -103,7 +107,8 @@ def run_research(data: SteamData, client: SteamClient, llm: LlmClient, telegram:
     play_catalog, play_seeds = data.load_play_reference()
     queries = [str(item) for item in profile.get("search_queries") or []]
     seen = data.load_seen()
-    passed, scanned, opened = gather_passed(
+    saved_queries = data.load_queries()
+    passed, scanned, opened, retired = gather_passed(
         client,
         queries,
         catalog,
@@ -115,15 +120,18 @@ def run_research(data: SteamData, client: SteamClient, llm: LlmClient, telegram:
         seen_ids(seen),
         recent_match_titles(catalog),
         data.load_ignore_tags(),
+        _exhausted_queries(data),
+        data.load_search_words(),
     )
     data.save_seen(remember_seen(seen, opened, datetime.now(timezone.utc).date().isoformat()))
+    data.save_queries(remember_queries(saved_queries, retired))
     if client.halted and not passed:
         print("Steam bị chặn, dừng lượt này.")
         return 0
     print(f"Đã lấy chi tiết {scanned}, qua lọc {len(passed)}")
     for app in passed:
         print(f"qua lọc: {app.get('title')} | {app.get('appId')} | {app.get('developer')} | {app.get('reviews')}")
-    picks = judge(llm, passed, seeds, profile)
+    picks = judge(llm, passed, seeds, profile, limit=len(passed) or 5)
     by_id = {str(app.get("appId")): app for app in passed}
     sent = 0
     for pick in picks:
@@ -242,19 +250,48 @@ def gather_passed(
     already_seen: set[str],
     match_titles: list[str],
     ignore_tags: list[str] | None = None,
-) -> tuple[list[dict], int, list[str]]:
+    exhausted: list[str] | None = None,
+    search_words: list[str] | None = None,
+    rng: random.Random | None = None,
+) -> tuple[list[dict], int, list[str], list[str]]:
     exclude = set(already_seen)
     passed: list[dict] = []
     scanned = 0
     opened: list[str] = []
-    query_sets = (list(queries), list(queries), list(match_titles))
+    dead = {normalize_query(item) for item in (exhausted or [])}
+    cleaned: list[str] = []
+    seen_queries: set[str] = set()
+    for query in queries:
+        text = " ".join(str(query).split())
+        key = normalize_query(text)
+        if not text or key in dead or key in seen_queries:
+            continue
+        cleaned.append(text)
+        seen_queries.add(key)
+    extra = choose_random_query(search_words or [], [], dead | seen_queries, rng or random.Random())
+    if extra:
+        cleaned.append(extra)
+    titles = [" ".join(title.split()) for title in match_titles if str(title).strip()]
+    query_sets = (cleaned, cleaned, titles)
+    productive: set[str] = set()
+    retired: list[str] = []
     for index, batch_queries in enumerate(query_sets, start=1):
-        if passed or client.halted:
+        if len(passed) >= PASS_TARGET or client.halted:
             break
         client.begin_batch()
-        app_ids = [app_id for app_id in client.search_ids(batch_queries) if app_id not in exclude]
+        hits = client.search_hits(batch_queries)
+        app_ids: list[str] = []
+        seen_ids_now: set[str] = set()
+        for ids in hits.values():
+            for app_id in ids:
+                if app_id in exclude or app_id in seen_ids_now:
+                    continue
+                seen_ids_now.add(app_id)
+                app_ids.append(app_id)
         if not app_ids:
             print(f"đợt {index}: hết ứng viên mới")
+            if index == 2 and not client.halted:
+                retired.extend(_retire_queries(hits, productive, set(), exclude))
             continue
         batch_passed, batch_scanned, batch_opened, handled = shortlist(
             client,
@@ -266,13 +303,23 @@ def gather_passed(
             play_catalog,
             play_seeds,
             ignore_tags,
+            limit=DETAIL_CAP,
         )
+        if index <= 2:
+            opened_now = set(batch_opened)
+            for query, ids in hits.items():
+                if any(app_id in opened_now for app_id in ids):
+                    productive.add(normalize_query(query))
+        if index == 2 and not client.halted:
+            retired.extend(_retire_queries(hits, productive, set(handled), exclude))
         passed.extend(batch_passed)
         scanned += batch_scanned
         opened.extend(batch_opened)
         exclude.update(handled)
         print(f"đợt {index}: ứng viên {len(app_ids)}, đã lấy chi tiết {batch_scanned}, qua lọc {len(batch_passed)}")
-    return passed, scanned, opened
+    if retired:
+        print(f"bỏ câu tìm: {retired}")
+    return passed, scanned, opened, retired
 
 
 def _pull_ratings(data: SteamData, telegram: Telegram) -> tuple[dict, bool]:
@@ -296,6 +343,10 @@ def _pull_ratings(data: SteamData, telegram: Telegram) -> tuple[dict, bool]:
         data.save_offset(max(offset, next_offset))
     print(f"Telegram Steam: {len(updates)} update, {added} điểm mới")
     return ratings, changed
+
+
+def _exhausted_queries(data: SteamData) -> list[str]:
+    return [str(item) for item in (data.load_queries().get("exhausted") or []) if str(item).strip()]
 
 
 def _remember(catalog: dict, app: dict, message_id: int) -> None:
