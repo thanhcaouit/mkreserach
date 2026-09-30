@@ -2339,6 +2339,66 @@
       "url": "https://store.steampowered.com/app/1707320",
       "message_id": 486,
       "suggested_at": "2026-09-30T11:01:54.288512+00:00"
+    },
+    "1607040": {
+      "app_id": "1607040",
+      "title": "Evertried",
+      "title_norm": "evertried",
+      "developer": "Lunic Games / Danilo Domingues",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1607040",
+      "message_id": 488,
+      "suggested_at": "2026-09-30T12:01:37.010234+00:00"
+    },
+    "1888130": {
+      "app_id": "1888130",
+      "title": "ALAN-13 Reformation",
+      "title_norm": "alan 13 reformation",
+      "developer": "Viktor Kovács",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1888130",
+      "message_id": 489,
+      "suggested_at": "2026-09-30T12:01:38.489652+00:00"
+    },
+    "421260": {
+      "app_id": "421260",
+      "title": "Militia",
+      "title_norm": "militia",
+      "developer": "BrainGoodGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/421260",
+      "message_id": 490,
+      "suggested_at": "2026-09-30T12:01:39.832548+00:00"
+    },
+    "369310": {
+      "app_id": "369310",
+      "title": "Monstro: Battle Tactics",
+      "title_norm": "monstro battle tactics",
+      "developer": "Retrocade.net",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/369310",
+      "message_id": 491,
+      "suggested_at": "2026-09-30T12:01:41.761556+00:00"
+    },
+    "2020080": {
+      "app_id": "2020080",
+      "title": "Chess Dungeons",
+      "title_norm": "chess dungeons",
+      "developer": "Remix Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2020080",
+      "message_id": 492,
+      "suggested_at": "2026-09-30T12:01:43.538999+00:00"
+    },
+    "4017500": {
+      "app_id": "4017500",
+      "title": "Battle Architect: Dalasito",
+      "title_norm": "battle architect dalasito",
+      "developer": "Dalas",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4017500",
+      "message_id": 493,
+      "suggested_at": "2026-09-30T12:01:44.871467+00:00"
     }
   }
 }
