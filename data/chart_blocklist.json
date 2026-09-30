@@ -2230,6 +2230,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.HoYoverse.hkrpgoversea": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
