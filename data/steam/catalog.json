@@ -2209,6 +2209,136 @@
       "url": "https://store.steampowered.com/app/539460",
       "message_id": 471,
       "suggested_at": "2026-09-30T10:01:52.140878+00:00"
+    },
+    "2596420": {
+      "app_id": "2596420",
+      "title": "Arranger: A Role-Puzzling Adventure",
+      "title_norm": "arranger a role puzzling adventure",
+      "developer": "Furniture & Mattress LLC",
+      "reviews": 344,
+      "url": "https://store.steampowered.com/app/2596420",
+      "message_id": 474,
+      "suggested_at": "2026-09-30T11:01:39.043402+00:00"
+    },
+    "2301210": {
+      "app_id": "2301210",
+      "title": "Busway Islands - Puzzle",
+      "title_norm": "busway islands puzzle",
+      "developer": "Rising Moon Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2301210",
+      "message_id": 475,
+      "suggested_at": "2026-09-30T11:01:40.798033+00:00"
+    },
+    "1807930": {
+      "app_id": "1807930",
+      "title": "Railway Islands - Puzzle",
+      "title_norm": "railway islands puzzle",
+      "developer": "Rising Moon Games",
+      "reviews": 230,
+      "url": "https://store.steampowered.com/app/1807930",
+      "message_id": 476,
+      "suggested_at": "2026-09-30T11:01:41.618905+00:00"
+    },
+    "1547340": {
+      "app_id": "1547340",
+      "title": "Puzzle Car",
+      "title_norm": "puzzle car",
+      "developer": "Rising Moon Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1547340",
+      "message_id": 477,
+      "suggested_at": "2026-09-30T11:01:43.384686+00:00"
+    },
+    "1513310": {
+      "app_id": "1513310",
+      "title": "Blockee - Sliding Puzzle",
+      "title_norm": "blockee sliding puzzle",
+      "developer": "White Rose Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1513310",
+      "message_id": 478,
+      "suggested_at": "2026-09-30T11:01:44.220599+00:00"
+    },
+    "3135170": {
+      "app_id": "3135170",
+      "title": "Orbit Puzzle",
+      "title_norm": "orbit puzzle",
+      "developer": "clrmt",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3135170",
+      "message_id": 479,
+      "suggested_at": "2026-09-30T11:01:45.517615+00:00"
+    },
+    "1466450": {
+      "app_id": "1466450",
+      "title": "Puzzle - LINES AND KNOTS 2",
+      "title_norm": "puzzle lines and knots 2",
+      "developer": "PlayToday",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1466450",
+      "message_id": 480,
+      "suggested_at": "2026-09-30T11:01:47.052269+00:00"
+    },
+    "1329030": {
+      "app_id": "1329030",
+      "title": "Puzzle - LINES AND KNOTS 3",
+      "title_norm": "puzzle lines and knots 3",
+      "developer": "PlayToday",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1329030",
+      "message_id": 481,
+      "suggested_at": "2026-09-30T11:01:48.553505+00:00"
+    },
+    "1600820": {
+      "app_id": "1600820",
+      "title": "Pill Puzzle",
+      "title_norm": "pill puzzle",
+      "developer": "Coffee Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1600820",
+      "message_id": 482,
+      "suggested_at": "2026-09-30T11:01:49.506763+00:00"
+    },
+    "1698640": {
+      "app_id": "1698640",
+      "title": "Pill Puzzle 2",
+      "title_norm": "pill puzzle 2",
+      "developer": "Coffee Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1698640",
+      "message_id": 483,
+      "suggested_at": "2026-09-30T11:01:50.799415+00:00"
+    },
+    "1349000": {
+      "app_id": "1349000",
+      "title": "Jigsaw Puzzle - Animals",
+      "title_norm": "jigsaw puzzle animals",
+      "developer": "Tribus Games Indie",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1349000",
+      "message_id": 484,
+      "suggested_at": "2026-09-30T11:01:51.751942+00:00"
+    },
+    "1377120": {
+      "app_id": "1377120",
+      "title": "Your Music Puzzle",
+      "title_norm": "your music puzzle",
+      "developer": "Mighty Fox Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1377120",
+      "message_id": 485,
+      "suggested_at": "2026-09-30T11:01:53.026981+00:00"
+    },
+    "1707320": {
+      "app_id": "1707320",
+      "title": "Lovely Girls Puzzle",
+      "title_norm": "lovely girls puzzle",
+      "developer": "AFBIK Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1707320",
+      "message_id": 486,
+      "suggested_at": "2026-09-30T11:01:54.288512+00:00"
     }
   }
 }
