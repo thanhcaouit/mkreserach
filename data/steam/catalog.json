@@ -3009,6 +3009,76 @@
       "url": "https://store.steampowered.com/app/1395010",
       "message_id": 630,
       "suggested_at": "2026-09-30T19:02:54.709391+00:00"
+    },
+    "2856040": {
+      "app_id": "2856040",
+      "title": "Zink",
+      "title_norm": "zink",
+      "developer": "Yprac Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2856040",
+      "message_id": 639,
+      "suggested_at": "2026-09-30T20:01:56.367253+00:00"
+    },
+    "29180": {
+      "app_id": "29180",
+      "title": "Osmos",
+      "title_norm": "osmos",
+      "developer": "Hemisphere Games",
+      "reviews": 694,
+      "url": "https://store.steampowered.com/app/29180",
+      "message_id": 640,
+      "suggested_at": "2026-09-30T20:01:57.460795+00:00"
+    },
+    "4572880": {
+      "app_id": "4572880",
+      "title": "Radiation Caterpillar",
+      "title_norm": "radiation caterpillar",
+      "developer": "ZERO5GAMES",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4572880",
+      "message_id": 641,
+      "suggested_at": "2026-09-30T20:01:59.361390+00:00"
+    },
+    "72400": {
+      "app_id": "72400",
+      "title": "Clones",
+      "title_norm": "clones",
+      "developer": "Tomkorp Computer Solutions Inc.",
+      "reviews": 335,
+      "url": "https://store.steampowered.com/app/72400",
+      "message_id": 642,
+      "suggested_at": "2026-09-30T20:02:00.808201+00:00"
+    },
+    "1333910": {
+      "app_id": "1333910",
+      "title": "Sizeable",
+      "title_norm": "sizeable",
+      "developer": "Business Goose Studios",
+      "reviews": 3132,
+      "url": "https://store.steampowered.com/app/1333910",
+      "message_id": 643,
+      "suggested_at": "2026-09-30T20:02:01.941433+00:00"
+    },
+    "460250": {
+      "app_id": "460250",
+      "title": "🔴 Circles",
+      "title_norm": "circles",
+      "developer": "Jeroen Wimmers",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/460250",
+      "message_id": 644,
+      "suggested_at": "2026-09-30T20:02:03.167900+00:00"
+    },
+    "3296300": {
+      "app_id": "3296300",
+      "title": "Scale Mail",
+      "title_norm": "scale mail",
+      "developer": "Jam Jar Game Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3296300",
+      "message_id": 645,
+      "suggested_at": "2026-09-30T20:02:05.000287+00:00"
     }
   }
 }
