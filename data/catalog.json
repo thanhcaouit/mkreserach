@@ -2407,6 +2407,76 @@
       "suggested_at": "2026-09-30T00:01:16.744247+00:00",
       "mechanic_vi": "Nối các chấm cùng màu bằng đường không giao nhau, hoàn thành mọi chấm trên bảng.",
       "why_vi": "Luật chơi đơn giản, mỗi màn chỉ có một mục tiêu duy nhất và độ khó tăng dần, đáp ứng tiêu chí một quy tắc rõ ràng mỗi level."
+    },
+    "com.ecstudiosystems.electricpuzzles": {
+      "app_id": "com.ecstudiosystems.electricpuzzles",
+      "title": "Electric Puzzles",
+      "title_norm": "electric puzzles",
+      "developer": "ECStudio Systems",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4,
+      "url": "https://play.google.com/store/apps/details?id=com.ecstudiosystems.electricpuzzles&hl=en",
+      "message_id": 350,
+      "suggested_at": "2026-09-30T01:01:08.325386+00:00",
+      "mechanic_vi": "Xoay các thành phần điện (dây, bóng đèn, diode, cổng logic) để tạo mạch hoàn chỉnh và bật hết bóng đèn.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất: kết nối nguồn điện tới mọi bóng đèn, phù hợp với sở thích \"đóng khối để cô lập\" và có mục tiêu rõ ràng cho từng cấp độ."
+    },
+    "com.exectech.connectdots": {
+      "app_id": "com.exectech.connectdots",
+      "title": "Connect the Dots - Color Lines",
+      "title_norm": "connect the dots color lines",
+      "developer": "Exec Tech Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.72,
+      "url": "https://play.google.com/store/apps/details?id=com.exectech.connectdots&hl=en",
+      "message_id": 351,
+      "suggested_at": "2026-09-30T01:01:10.185383+00:00",
+      "mechanic_vi": "Nối các chấm cùng màu thành một đường liên tục để hoàn thành hình.",
+      "why_vi": "Luật chơi đơn giản, mỗi màn chỉ cần nối đúng màu, đáp ứng yêu cầu \"một quy tắc rõ ràng cho mỗi màn\" và không thuộc các thể loại không thích."
+    },
+    "game.puzzle.connect.dots.line": {
+      "app_id": "game.puzzle.connect.dots.line",
+      "title": "Connect the Dots: Line Puzzle",
+      "title_norm": "connect the dots line puzzle",
+      "developer": "Puzzle Go",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.57,
+      "url": "https://play.google.com/store/apps/details?id=game.puzzle.connect.dots.line&hl=en",
+      "message_id": 352,
+      "suggested_at": "2026-09-30T01:01:11.364898+00:00",
+      "mechanic_vi": "Vẽ đường nối giữa các chấm màu sao cho mọi chấm đều được kết nối mà không giao nhau.",
+      "why_vi": "Cơ chế duy nhất cho mỗi cấp độ, yêu cầu tư duy logic và phù hợp với sở thích \"đóng khối/đóng gói\" mà không là match‑3."
+    },
+    "com.mobirix.olk": {
+      "app_id": "com.mobirix.olk",
+      "title": "One Connect Puzzle",
+      "title_norm": "one connect puzzle",
+      "developer": "mobirixsub",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.4117646,
+      "url": "https://play.google.com/store/apps/details?id=com.mobirix.olk&hl=en",
+      "message_id": 353,
+      "suggested_at": "2026-09-30T01:01:12.226796+00:00",
+      "mechanic_vi": "Kết nối tất cả các điểm bằng một đường duy nhất, đường không được cắt nhau và mỗi điểm phải được đi qua một lần.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất – nối hết điểm – đáp ứng tiêu chí \"một quy tắc rõ ràng cho mỗi màn\" và không thuộc thể loại bị ghét."
+    },
+    "com.conceptispuzzles.dotapix": {
+      "app_id": "com.conceptispuzzles.dotapix",
+      "title": "Dot-a-Pix: Connect the Dots",
+      "title_norm": "dot a pix connect the dots",
+      "developer": "Conceptis Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.65,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.dotapix&hl=en",
+      "message_id": 354,
+      "suggested_at": "2026-09-30T01:01:13.643654+00:00",
+      "mechanic_vi": "Nối các chấm theo thứ tự số và màu để hé lộ bức tranh ẩn.",
+      "why_vi": "Luật chơi đơn giản, mỗi màn chỉ cần nối đúng thứ tự, phù hợp với yêu cầu \"một quy tắc rõ ràng\" nhưng cơ chế đã khá phổ biến nên độ mới thấp hơn."
     }
   }
 }
