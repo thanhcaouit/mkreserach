@@ -3863,6 +3863,62 @@
       "suggested_at": "2026-09-30T18:01:24.662448+00:00",
       "mechanic_vi": "Bubble Tap is a bubble popper / bubble breaker game where tapping on groups of 2 or more adjacent bubbles of the same color causes them to pop. The bigger the group you pop, the more you score! Play either Standard, Colo",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.dominigames.cl2": {
+      "app_id": "com.dominigames.cl2",
+      "title": "Hidden Objects: City Legends 2",
+      "title_norm": "hidden objects city legends 2",
+      "developer": "Do Games Limited",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.117647,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.cl2&hl=en",
+      "message_id": 618,
+      "suggested_at": "2026-09-30T19:01:36.994802+00:00",
+      "mechanic_vi": "Tìm và phát hiện các vật phẩm ẩn trong cảnh.",
+      "why_vi": "Mỗi màn chỉ yêu cầu người chơi khám phá và tìm kiếm, không có quy tắc duy nhất phức tạp."
+    },
+    "com.dominigames.sc4": {
+      "app_id": "com.dominigames.sc4",
+      "title": "Secret City: Chalk of Fate",
+      "title_norm": "secret city chalk of fate",
+      "developer": "Do Games Limited",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.3,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.sc4&hl=en",
+      "message_id": 619,
+      "suggested_at": "2026-09-30T19:01:38.192443+00:00",
+      "mechanic_vi": "Tìm và phát hiện các vật phẩm ẩn trong cảnh.",
+      "why_vi": "Mỗi màn chỉ yêu cầu người chơi khám phá và tìm kiếm, không có quy tắc duy nhất phức tạp."
+    },
+    "com.dominigames.sc5": {
+      "app_id": "com.dominigames.sc5",
+      "title": "Secret City: Collection",
+      "title_norm": "secret city collection",
+      "developer": "Do Games Limited",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.277228,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.sc5&hl=en",
+      "message_id": 620,
+      "suggested_at": "2026-09-30T19:01:39.797884+00:00",
+      "mechanic_vi": "Tìm và phát hiện các vật phẩm ẩn trong cảnh.",
+      "why_vi": "Mỗi màn chỉ yêu cầu người chơi khám phá và tìm kiếm, không có quy tắc duy nhất phức tạp."
+    },
+    "com.dominigames.tm4.ext.free2play": {
+      "app_id": "com.dominigames.tm4.ext.free2play",
+      "title": "Twin Mind 4 f2p",
+      "title_norm": "twin mind 4 f2p",
+      "developer": "Do Games Limited",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.125,
+      "url": "https://play.google.com/store/apps/details?id=com.dominigames.tm4.ext.free2play&hl=en",
+      "message_id": 621,
+      "suggested_at": "2026-09-30T19:01:40.687942+00:00",
+      "mechanic_vi": "Tìm và phát hiện các vật phẩm ẩn trong cảnh.",
+      "why_vi": "Mỗi màn chỉ yêu cầu người chơi khám phá và tìm kiếm, không có quy tắc duy nhất phức tạp."
     }
   }
 }
