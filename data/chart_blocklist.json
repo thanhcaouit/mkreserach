@@ -2146,6 +2146,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "linkdesks.classicsolitaire.klondike.cardgames": {
+      "first_seen": "2026-09-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
