@@ -3159,6 +3159,116 @@
       "url": "https://store.steampowered.com/app/1549220",
       "message_id": 660,
       "suggested_at": "2026-09-30T21:02:03.917903+00:00"
+    },
+    "550590": {
+      "app_id": "550590",
+      "title": "Archaica: The Path of Light",
+      "title_norm": "archaica the path of light",
+      "developer": "Two Mammoths",
+      "reviews": 218,
+      "url": "https://store.steampowered.com/app/550590",
+      "message_id": 669,
+      "suggested_at": "2026-09-30T22:02:19.515527+00:00"
+    },
+    "3891940": {
+      "app_id": "3891940",
+      "title": "Path of the Sphere",
+      "title_norm": "path of the sphere",
+      "developer": "IllazaGaming",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3891940",
+      "message_id": 670,
+      "suggested_at": "2026-09-30T22:02:20.504562+00:00"
+    },
+    "1172510": {
+      "app_id": "1172510",
+      "title": "Unlock The King",
+      "title_norm": "unlock the king",
+      "developer": "Minimol Games",
+      "reviews": 329,
+      "url": "https://store.steampowered.com/app/1172510",
+      "message_id": 671,
+      "suggested_at": "2026-09-30T22:02:21.303088+00:00"
+    },
+    "1201810": {
+      "app_id": "1201810",
+      "title": "Unlock The King 2",
+      "title_norm": "unlock the king 2",
+      "developer": "Minimol Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1201810",
+      "message_id": 672,
+      "suggested_at": "2026-09-30T22:02:22.193525+00:00"
+    },
+    "1255130": {
+      "app_id": "1255130",
+      "title": "Unlock The King 3",
+      "title_norm": "unlock the king 3",
+      "developer": "Minimol Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1255130",
+      "message_id": 673,
+      "suggested_at": "2026-09-30T22:02:23.405081+00:00"
+    },
+    "781670": {
+      "app_id": "781670",
+      "title": "The Directed",
+      "title_norm": "the directed",
+      "developer": "Magnolia Art",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/781670",
+      "message_id": 674,
+      "suggested_at": "2026-09-30T22:02:24.795050+00:00"
+    },
+    "548320": {
+      "app_id": "548320",
+      "title": "Magical Mysteries: Path of the Sorceress",
+      "title_norm": "magical mysteries path of the sorceress",
+      "developer": "Alder Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/548320",
+      "message_id": 675,
+      "suggested_at": "2026-09-30T22:02:25.855390+00:00"
+    },
+    "4358380": {
+      "app_id": "4358380",
+      "title": "Qianli: The Vastscape Scroll",
+      "title_norm": "qianli the vastscape scroll",
+      "developer": "Betobe Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4358380",
+      "message_id": 676,
+      "suggested_at": "2026-09-30T22:02:27.245968+00:00"
+    },
+    "1199660": {
+      "app_id": "1199660",
+      "title": "The Answer Is 42",
+      "title_norm": "the answer is 42",
+      "developer": "Mens Sana Interactive",
+      "reviews": 138,
+      "url": "https://store.steampowered.com/app/1199660",
+      "message_id": 677,
+      "suggested_at": "2026-09-30T22:02:28.057874+00:00"
+    },
+    "839850": {
+      "app_id": "839850",
+      "title": "Lenin - The Lion",
+      "title_norm": "lenin the lion",
+      "developer": "Lornyon",
+      "reviews": 102,
+      "url": "https://store.steampowered.com/app/839850",
+      "message_id": 678,
+      "suggested_at": "2026-09-30T22:02:28.922811+00:00"
+    },
+    "1383250": {
+      "app_id": "1383250",
+      "title": "Please Fix The Road",
+      "title_norm": "please fix the road",
+      "developer": "ARIELEK",
+      "reviews": 262,
+      "url": "https://store.steampowered.com/app/1383250",
+      "message_id": 679,
+      "suggested_at": "2026-09-30T22:02:30.093790+00:00"
     }
   }
 }
