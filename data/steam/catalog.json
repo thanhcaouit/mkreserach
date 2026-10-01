@@ -3789,6 +3789,46 @@
       "url": "https://store.steampowered.com/app/3703730",
       "message_id": 740,
       "suggested_at": "2026-10-01T07:01:33.713030+00:00"
+    },
+    "2297210": {
+      "app_id": "2297210",
+      "title": "Plungeroo",
+      "title_norm": "plungeroo",
+      "developer": "Little Crown Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2297210",
+      "message_id": 742,
+      "suggested_at": "2026-10-01T08:01:42.884364+00:00"
+    },
+    "5153610": {
+      "app_id": "5153610",
+      "title": "Gizmo",
+      "title_norm": "gizmo",
+      "developer": "9900 Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/5153610",
+      "message_id": 743,
+      "suggested_at": "2026-10-01T08:01:44.944340+00:00"
+    },
+    "2984360": {
+      "app_id": "2984360",
+      "title": "The Lost Penguin",
+      "title_norm": "the lost penguin",
+      "developer": "OddGinger",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2984360",
+      "message_id": 744,
+      "suggested_at": "2026-10-01T08:01:46.410338+00:00"
+    },
+    "1738850": {
+      "app_id": "1738850",
+      "title": "Plumber 3",
+      "title_norm": "plumber 3",
+      "developer": "anyfreegame",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1738850",
+      "message_id": 745,
+      "suggested_at": "2026-10-01T08:01:47.987882+00:00"
     }
   }
 }
