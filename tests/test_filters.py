@@ -89,9 +89,14 @@ def test_ignore_keywords_match_block_and_phrases_but_not_reptile():
     assert title_ignored("Tile Sort", keywords)
     assert not title_ignored("Reptile", keywords)
     assert not title_ignored("Snakebird", keywords)
+    assert title_ignored("Furry SexyTails", ["sexy"])
+    assert title_ignored("NSFW Gallery", ["nsfw"])
+    assert hard_reject(_app(summary="A jigsaw of cute photos."), NAMES, set(), ["jigsaw"]) == "keyword"
+    assert publisher_blocked("Do Games Limited", ["Do Games Limited"])
     assert hard_reject(_app(title="Block Puzzle"), NAMES, set(), keywords) == "keyword"
     names = Store(ROOT / "data").load_ignore_keywords()
     assert names[:5] == ["block", "arrow", "match 3", "tile", "screw"]
+    assert {"sexy", "nsfw", "jigsaw"} <= set(names)
     assert strip_ignored("physics block placement puzzle levels", keywords) == "physics placement puzzle levels"
     assert strip_ignored("Match-3 Garden", keywords) == "Garden"
     assert strip_ignored("Reptile", keywords) == "Reptile"
@@ -99,5 +104,5 @@ def test_ignore_keywords_match_block_and_phrases_but_not_reptile():
 
 def test_default_publisher_file_lists_the_named_studios():
     names = [name.casefold() for name in Store(ROOT / "data").load_publishers()]
-    for needle in ("voodoo", "lion studios", "abi", "falcon"):
+    for needle in ("voodoo", "lion studios", "abi", "falcon", "do games limited"):
         assert any(needle == name or needle in name for name in names)

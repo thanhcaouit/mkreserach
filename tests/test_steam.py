@@ -37,6 +37,9 @@ IGNORED_TAGS = [
     "Idle",
     "Historical",
     "Demons",
+    "sexy",
+    "nsfw",
+    "jigsaw",
 ]
 
 
@@ -227,6 +230,12 @@ def test_each_steam_run_searches_one_play_word():
     extra = {term for term in client.searches if term.endswith(" puzzle levels")}
     assert extra == {expected}
     assert client.searches.count("profile query") == 2
+
+
+def test_adult_words_in_the_title_or_blurb_are_rejected():
+    assert hard_reject(_app(title="Furry SexyTails"), [], set()) == "keyword"
+    assert hard_reject(_app(description="A simple jigsaw puzzle on a train."), [], set()) == "keyword"
+    assert hard_reject(_app(title="Sweet Train", description="Girls on a train."), [], set()) is None
 
 
 def test_ignored_tags_drop_action_views_and_keep_adventure():

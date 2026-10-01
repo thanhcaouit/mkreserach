@@ -432,8 +432,8 @@ def _partial_rejected(
     chart_ids: set[str],
     keywords: list[str],
 ) -> bool:
-    title = str(partial.get("title") or "")
-    if title and title_ignored(title, keywords):
+    text = " ".join(str(partial.get(key) or "") for key in ("title", "summary"))
+    if text.strip() and title_ignored(text, keywords):
         return True
     developer = str(partial.get("developer") or "")
     if developer and publisher_blocked(developer, publisher_names):

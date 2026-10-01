@@ -132,7 +132,7 @@ def title_ignored(title: str, keywords: list[str]) -> bool:
                 return True
             continue
         token = parts[0]
-        if len(token) >= 5:
+        if len(token) >= 5 or token in {"sexy", "nsfw"}:
             if token in compact:
                 return True
         elif token in words:
@@ -170,7 +170,8 @@ def hard_reject(
         return "chart"
     if not is_puzzle(app):
         return "genre"
-    if title_ignored(str(app.get("title") or ""), keywords or []):
+    text = " ".join(str(app.get(key) or "") for key in ("title", "summary"))
+    if title_ignored(text, keywords or []):
         return "keyword"
     if released_too_recent(app.get("released")):
         return "recent"

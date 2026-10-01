@@ -1,5 +1,6 @@
-# Từ trong tên game hoặc câu tìm. Sửa file này khi muốn thêm.
+# Từ trong tên game, mô tả ngắn, hoặc câu tìm. Sửa file này khi muốn thêm.
 # Từ dài từ 5 ký tự khớp cả khi nằm trong từ khác. Từ ngắn hơn phải là cả một từ.
+# sexy và nsfw khớp cả khi nằm trong một từ dài hơn, ví dụ SexyTails.
 keywords:
   - block
   - arrow
@@ -21,3 +22,5 @@ keywords:
   - mania
   - jigsaw
   - sudoku
+  - sexy
+  - nsfw
