@@ -3959,6 +3959,26 @@
       "url": "https://store.steampowered.com/app/4114330",
       "message_id": 764,
       "suggested_at": "2026-10-01T13:01:53.609249+00:00"
+    },
+    "386900": {
+      "app_id": "386900",
+      "title": "The Cat Machine",
+      "title_norm": "the cat machine",
+      "developer": "Cranktrain",
+      "reviews": 123,
+      "url": "https://store.steampowered.com/app/386900",
+      "message_id": 766,
+      "suggested_at": "2026-10-01T14:01:45.090630+00:00"
+    },
+    "2085970": {
+      "app_id": "2085970",
+      "title": "Cracking the Cryptic",
+      "title_norm": "cracking the cryptic",
+      "developer": "Studio Goya",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2085970",
+      "message_id": 767,
+      "suggested_at": "2026-10-01T14:01:46.457314+00:00"
     }
   }
 }
