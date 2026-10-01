@@ -4079,6 +4079,36 @@
       "url": "https://store.steampowered.com/app/3605120",
       "message_id": 786,
       "suggested_at": "2026-10-01T19:02:18.655112+00:00"
+    },
+    "2943520": {
+      "app_id": "2943520",
+      "title": "Tamaniwatori's Puzzle",
+      "title_norm": "tamaniwatori s puzzle",
+      "developer": "KIMI's Project",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2943520",
+      "message_id": 788,
+      "suggested_at": "2026-10-01T20:01:55.102116+00:00"
+    },
+    "1541730": {
+      "app_id": "1541730",
+      "title": "Candy Fall",
+      "title_norm": "candy fall",
+      "developer": "Fortcullis Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1541730",
+      "message_id": 789,
+      "suggested_at": "2026-10-01T20:01:56.409004+00:00"
+    },
+    "2757480": {
+      "app_id": "2757480",
+      "title": "Hiddenverse: Kingdom Fall",
+      "title_norm": "hiddenverse kingdom fall",
+      "developer": "Shaman Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2757480",
+      "message_id": 790,
+      "suggested_at": "2026-10-01T20:01:58.236013+00:00"
     }
   }
 }
