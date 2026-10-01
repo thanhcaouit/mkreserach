@@ -3979,6 +3979,46 @@
       "url": "https://store.steampowered.com/app/2085970",
       "message_id": 767,
       "suggested_at": "2026-10-01T14:01:46.457314+00:00"
+    },
+    "385310": {
+      "app_id": "385310",
+      "title": "The Land Of Lamia",
+      "title_norm": "the land of lamia",
+      "developer": "Eddy Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/385310",
+      "message_id": 772,
+      "suggested_at": "2026-10-01T17:01:57.931267+00:00"
+    },
+    "1327970": {
+      "app_id": "1327970",
+      "title": "Paco and the Tumbling Seed Box",
+      "title_norm": "paco and the tumbling seed box",
+      "developer": "Gopherwood Studios LLC",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1327970",
+      "message_id": 773,
+      "suggested_at": "2026-10-01T17:01:59.935999+00:00"
+    },
+    "351320": {
+      "app_id": "351320",
+      "title": "DROD: The Second Sky",
+      "title_norm": "drod the second sky",
+      "developer": "Caravel Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/351320",
+      "message_id": 774,
+      "suggested_at": "2026-10-01T17:02:00.860906+00:00"
+    },
+    "3449030": {
+      "app_id": "3449030",
+      "title": "Upwards, Rain! The Post Office of Farewells",
+      "title_norm": "upwards rain the post office of farewells",
+      "developer": "Studio Élan",
+      "reviews": 131,
+      "url": "https://store.steampowered.com/app/3449030",
+      "message_id": 775,
+      "suggested_at": "2026-10-01T17:02:01.801297+00:00"
     }
   }
 }
