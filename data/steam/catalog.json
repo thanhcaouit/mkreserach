@@ -3489,6 +3489,116 @@
       "url": "https://store.steampowered.com/app/3278980",
       "message_id": 704,
       "suggested_at": "2026-10-01T01:02:06.506110+00:00"
+    },
+    "675620": {
+      "app_id": "675620",
+      "title": "Alter Cosmos",
+      "title_norm": "alter cosmos",
+      "developer": "Pyramid Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/675620",
+      "message_id": 706,
+      "suggested_at": "2026-10-01T02:01:27.520463+00:00"
+    },
+    "2369100": {
+      "app_id": "2369100",
+      "title": "Cities of the World Jigsaw Puzzles",
+      "title_norm": "cities of the world jigsaw puzzles",
+      "developer": "Boogygames Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2369100",
+      "message_id": 707,
+      "suggested_at": "2026-10-01T02:01:29.277057+00:00"
+    },
+    "2341870": {
+      "app_id": "2341870",
+      "title": "1001 Jigsaw. Cute Cats 5",
+      "title_norm": "1001 jigsaw cute cats 5",
+      "developer": "8floor",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2341870",
+      "message_id": 708,
+      "suggested_at": "2026-10-01T02:01:31.822489+00:00"
+    },
+    "2074190": {
+      "app_id": "2074190",
+      "title": "1001 Jigsaw. Cute Cats 2",
+      "title_norm": "1001 jigsaw cute cats 2",
+      "developer": "8floor",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2074190",
+      "message_id": 709,
+      "suggested_at": "2026-10-01T02:01:33.400346+00:00"
+    },
+    "2074200": {
+      "app_id": "2074200",
+      "title": "1001 Jigsaw. Cute Cats 3",
+      "title_norm": "1001 jigsaw cute cats 3",
+      "developer": "8floor",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2074200",
+      "message_id": 710,
+      "suggested_at": "2026-10-01T02:01:35.159810+00:00"
+    },
+    "970870": {
+      "app_id": "970870",
+      "title": "1001 Jigsaw. Earth Chronicles",
+      "title_norm": "1001 jigsaw earth chronicles",
+      "developer": "Creobit",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/970870",
+      "message_id": 711,
+      "suggested_at": "2026-10-01T02:01:37.707443+00:00"
+    },
+    "2925310": {
+      "app_id": "2925310",
+      "title": "Cats Around Us: Giant Cat",
+      "title_norm": "cats around us giant cat",
+      "developer": "Noobzilla",
+      "reviews": 118,
+      "url": "https://store.steampowered.com/app/2925310",
+      "message_id": 712,
+      "suggested_at": "2026-10-01T02:01:39.097149+00:00"
+    },
+    "3426090": {
+      "app_id": "3426090",
+      "title": "Cats Around Us: Black Cat",
+      "title_norm": "cats around us black cat",
+      "developer": "Noobzilla",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3426090",
+      "message_id": 713,
+      "suggested_at": "2026-10-01T02:01:44.968162+00:00"
+    },
+    "1949330": {
+      "app_id": "1949330",
+      "title": "Jigsaw Savant",
+      "title_norm": "jigsaw savant",
+      "developer": "Infinity Apparatus",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1949330",
+      "message_id": 714,
+      "suggested_at": "2026-10-01T02:01:47.107827+00:00"
+    },
+    "1716160": {
+      "app_id": "1716160",
+      "title": "Photo Puzzles HD",
+      "title_norm": "photo puzzles hd",
+      "developer": "BrainVM Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1716160",
+      "message_id": 715,
+      "suggested_at": "2026-10-01T02:01:49.055587+00:00"
+    },
+    "3598210": {
+      "app_id": "3598210",
+      "title": "Sweet Train",
+      "title_norm": "sweet train",
+      "developer": "King Kong",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3598210",
+      "message_id": 716,
+      "suggested_at": "2026-10-01T02:01:51.036489+00:00"
     }
   }
 }
