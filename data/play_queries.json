@@ -149,16 +149,21 @@
     "spinx mobile app",
     "spinblitz",
     "spin the bottle",
-    "spinquest"
-  ],
-  "pending": [
-    "stack sort",
+    "spinquest",
     "run to the exit puzzle levels",
-    "bounce the orb puzzle levels",
     "vault the fence puzzle levels",
     "drain puzzle levels",
     "pheromone trail puzzle levels",
     "knot the rope puzzle levels",
+    "stepping stones",
+    "stepping stones school app",
+    "stepping stones to aiapget",
+    "stepping stones school pad",
+    "stepping stones aiapget",
+    "stepping stone app"
+  ],
+  "pending": [
+    "stack sort",
     "magnet puzzle levels",
     "tapo",
     "taptap send",
@@ -175,12 +180,13 @@
     "close camera",
     "close all apps",
     "close crm",
-    "stepping stones",
-    "stepping stones school app",
-    "stepping stones to aiapget",
-    "stepping stones school pad",
-    "stepping stones aiapget",
-    "stepping stone app",
-    "catch the candy"
+    "catch the candy",
+    "rotate screen",
+    "rotate",
+    "rotate control",
+    "rotate video",
+    "rotate photo",
+    "rotate ring game",
+    "bounce the orb puzzle levels"
   ]
 }
