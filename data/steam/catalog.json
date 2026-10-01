@@ -3869,6 +3869,36 @@
       "url": "https://store.steampowered.com/app/2740260",
       "message_id": 751,
       "suggested_at": "2026-10-01T10:01:54.996112+00:00"
+    },
+    "671330": {
+      "app_id": "671330",
+      "title": "Lit the Torch",
+      "title_norm": "lit the torch",
+      "developer": "Corn Entertainment",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/671330",
+      "message_id": 754,
+      "suggested_at": "2026-10-01T11:01:51.798968+00:00"
+    },
+    "4683320": {
+      "app_id": "4683320",
+      "title": "Percorso - The Retraced Steps",
+      "title_norm": "percorso the retraced steps",
+      "developer": "M. Girotto",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4683320",
+      "message_id": 755,
+      "suggested_at": "2026-10-01T11:01:53.392251+00:00"
+    },
+    "4906520": {
+      "app_id": "4906520",
+      "title": "Pixel: The Challenge",
+      "title_norm": "pixel the challenge",
+      "developer": "pixelplenum.com",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4906520",
+      "message_id": 756,
+      "suggested_at": "2026-10-01T11:01:54.781798+00:00"
     }
   }
 }
