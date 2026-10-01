@@ -1,4 +1,4 @@
-# Một mục mỗi lượt, có thể là một từ hoặc một cụm. Ghép thành "{mục} puzzle levels".
+# Seed cho gợi ý tìm kiếm của Play. Nếu gợi ý lỗi, ghép "{mục} puzzle levels".
 # Không đưa mục dính ignore_keywords.yaml, tag Steam, sokoban hoặc sudoku.
 words:
   - gravity

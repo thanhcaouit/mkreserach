@@ -132,7 +132,8 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
     queries = [str(item) for item in profile.get("search_queries") or []]
     seen = store.load_seen()
     saved_queries = store.load_queries()
-    passed, scanned, opened, retired = gather_passed(
+    mechanics = [str(item).strip() for item in (profile.get("liked_mechanics") or []) if str(item).strip()]
+    passed, scanned, opened, retired, pending = gather_passed(
         play,
         anchors,
         queries,
@@ -145,9 +146,11 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
         keywords,
         _exhausted_queries(store),
         store.load_search_words(),
+        pending=[str(item) for item in (saved_queries.get("pending") or []) if str(item).strip()],
+        liked=mechanics[0] if mechanics else None,
     )
     store.save_seen(remember_seen(seen, opened, datetime.now(timezone.utc).date().isoformat()))
-    store.save_queries(remember_queries(saved_queries, retired))
+    store.save_queries(remember_queries(saved_queries, retired, pending))
     if play.halted and not passed:
         print("Play bị chặn, dừng lượt này.")
         return 0

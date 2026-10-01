@@ -1,13 +1,15 @@
 from __future__ import annotations
 
+import json
 import random
 import re
 import time
+from urllib.parse import urlencode
 
 from google_play_scraper import app as fetch_app
 from google_play_scraper import search as fetch_search
 from google_play_scraper.exceptions import NotFoundError
-from google_play_scraper.utils.request import get
+from google_play_scraper.utils.request import get, post
 
 from mkresearch.cooldown import Guard, limit_kind
 from mkresearch.dedupe import is_duplicate
@@ -26,11 +28,10 @@ SKIP_PREFIXES = ("com.google.android", "com.android.", "androidx.")
 LOCALES = (("en", "us"),)
 DETAIL_BATCH = 80
 PASS_TARGET = 5
-DETAIL_ATTEMPTS = (
-    (15, True),
-    (40, False),
-    (20, False),
-)
+QUERY_TARGET = 6
+SUGGEST_SEEDS = 3
+SUGGEST_URL = "https://play.google.com/_/PlayStoreUi/data/batchexecute?rpcids=IJ4APc&hl=en&gl=us&rt=c"
+INTENT_FILLER = {"puzzle", "level", "levels", "game", "games"}
 CHART_PAGES = {
     "GAME_PUZZLE": "https://play.google.com/store/apps/category/GAME_PUZZLE?hl=en&gl=us",
     "GAME": "https://play.google.com/store/games?hl=en&gl=us",
@@ -100,6 +101,19 @@ class PlayStore:
                 return []
             print(f"search lỗi '{term}' {lang}/{country}: {exc}")
             return []
+
+    def suggestions(self, term: str) -> list[str]:
+        if self._halted() or not str(term).strip():
+            return []
+        self.sleeper(0.4)
+        try:
+            raw = post(SUGGEST_URL, _suggest_body(term), {"Content-Type": "application/x-www-form-urlencoded"})
+        except Exception as exc:
+            if self._watch(exc):
+                return []
+            print(f"gợi ý lỗi '{term}': {exc}")
+            return []
+        return parse_play_suggestions(raw)
 
     def similar_ids(self, app_id: str, lang: str, country: str) -> list[str]:
         if self._halted():
@@ -173,7 +187,7 @@ def normalize_query(text: str) -> str:
     return " ".join(text.casefold().split())
 
 
-def remember_queries(saved: dict, queries: list[str]) -> dict:
+def remember_queries(saved: dict, queries: list[str], pending: list[str] | None = None) -> dict:
     existing = [str(item).strip() for item in (saved.get("exhausted") or []) if str(item).strip()]
     seen = {normalize_query(item) for item in existing}
     merged = list(existing)
@@ -184,7 +198,12 @@ def remember_queries(saved: dict, queries: list[str]) -> dict:
             continue
         merged.append(token)
         seen.add(key)
-    return {"exhausted": merged}
+    if pending is None:
+        kept = [str(item).strip() for item in (saved.get("pending") or []) if str(item).strip()]
+    else:
+        kept = [str(item).strip() for item in pending if str(item).strip()]
+    kept = [item for item in kept if normalize_query(item) not in seen]
+    return {"exhausted": merged, "pending": kept}
 
 
 def choose_random_query(
@@ -206,6 +225,200 @@ def choose_random_query(
     if not pool:
         return None
     return rng.choice(pool)
+
+
+def query_intent(text: str) -> tuple[str, ...]:
+    tokens = normalize_query(text).split()
+    return tuple(token for token in tokens if token not in INTENT_FILLER)
+
+
+def parse_play_suggestions(text: str) -> list[str]:
+    found: list[str] = []
+    seen: set[str] = set()
+    for line in text.splitlines():
+        chunk = line.strip()
+        if not chunk.startswith("["):
+            continue
+        try:
+            payload = json.loads(chunk)
+        except json.JSONDecodeError:
+            continue
+        for name in _suggestion_names(payload):
+            key = normalize_query(name)
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            found.append(name.strip())
+    return found
+
+
+def _suggest_body(term: str) -> bytes:
+    inner = json.dumps([[None, [term], [10], [2], 4]])
+    envelope = json.dumps([[["IJ4APc", inner, None, "generic"]]])
+    return urlencode({"f.req": envelope}).encode()
+
+
+def _suggestion_names(node: object) -> list[str]:
+    if isinstance(node, str):
+        if not node.startswith("["):
+            return []
+        try:
+            return _suggestion_names(json.loads(node))
+        except json.JSONDecodeError:
+            return []
+    if not isinstance(node, list):
+        return []
+    found: list[str] = []
+    for child in node:
+        found.extend(_suggestion_names(child))
+    if found:
+        return found
+    if node and isinstance(node[0], str) and _contains_search(node[1:]):
+        return [node[0]]
+    return []
+
+
+def _contains_search(node: object) -> bool:
+    if isinstance(node, str):
+        return "/store/search" in node
+    if isinstance(node, list):
+        return any(_contains_search(child) for child in node)
+    return False
+
+
+def _accept_query(text: str, keywords: list[str], blocked: set[str], chosen: list[str], drop_ignored: bool) -> str | None:
+    cleaned = " ".join(str(text).split())
+    if not cleaned:
+        return None
+    if drop_ignored:
+        if title_ignored(cleaned, keywords):
+            return None
+    else:
+        cleaned = strip_ignored(cleaned, keywords)
+    key = normalize_query(cleaned)
+    if not cleaned or not key or key in blocked:
+        return None
+    intent = query_intent(cleaned)
+    if any(query_intent(item) == intent for item in chosen):
+        return None
+    return cleaned
+
+
+def suggestion_seeds(
+    words: list[str],
+    keywords: list[str],
+    blocked: set[str],
+    rng: random.Random,
+    liked: str | None = None,
+    limit: int = SUGGEST_SEEDS,
+) -> list[str]:
+    pool: list[str] = []
+    for raw in words:
+        word = str(raw).strip()
+        if not word or title_ignored(word, keywords):
+            continue
+        fallback = normalize_query(strip_ignored(f"{word} puzzle levels", keywords))
+        if normalize_query(word) in blocked or fallback in blocked:
+            continue
+        pool.append(word)
+    rng.shuffle(pool)
+    chosen: list[str] = []
+    token = str(liked or "").strip()
+    if token and not title_ignored(token, keywords) and normalize_query(token) not in blocked:
+        chosen.append(token)
+    extra = 0
+    seen = {normalize_query(item) for item in chosen}
+    for word in pool:
+        if extra >= limit:
+            break
+        key = normalize_query(word)
+        if key in seen:
+            continue
+        chosen.append(word)
+        seen.add(key)
+        extra += 1
+    return chosen
+
+
+def collect_suggestions(play: PlayStore, seeds: list[str]) -> list[str]:
+    found: list[str] = []
+    seen: set[str] = set()
+    method = getattr(play, "suggestions", None)
+    if method is None:
+        return []
+    for seed in seeds:
+        for term in (seed, f"{seed} "):
+            try:
+                names = list(method(term) or [])
+            except Exception as exc:
+                print(f"gợi ý lỗi '{term}': {exc}")
+                names = []
+            for name in names:
+                key = normalize_query(str(name))
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                found.append(str(name).strip())
+    return found
+
+
+def _fallback_query(
+    words: list[str],
+    keywords: list[str],
+    blocked: set[str],
+    chosen: list[str],
+    rng: random.Random,
+) -> str | None:
+    skipped = set(blocked)
+    while True:
+        extra = choose_random_query(words, keywords, skipped, rng)
+        if not extra:
+            return None
+        if any(query_intent(item) == query_intent(extra) for item in chosen):
+            skipped.add(normalize_query(extra))
+            continue
+        return extra
+
+
+def _fill_queries(
+    play: PlayStore,
+    sources: list[str],
+    words: list[str],
+    keywords: list[str],
+    blocked: set[str],
+    rng: random.Random,
+    liked: str | None,
+    limit: int,
+) -> tuple[list[str], list[str], list[str]]:
+    chosen: list[str] = []
+    used_blocked = set(blocked)
+    for text in sources:
+        accepted = _accept_query(text, keywords, used_blocked, chosen, False)
+        if not accepted:
+            continue
+        chosen.append(accepted)
+        used_blocked.add(normalize_query(accepted))
+        if len(chosen) >= limit:
+            return chosen, [], []
+    seeds = suggestion_seeds(words, keywords, used_blocked, rng, liked)
+    suggestions = collect_suggestions(play, seeds)
+    leftover: list[str] = []
+    for text in suggestions:
+        if len(chosen) >= limit:
+            leftover.append(text)
+            continue
+        accepted = _accept_query(text, keywords, used_blocked, chosen, True)
+        if not accepted:
+            continue
+        chosen.append(accepted)
+        used_blocked.add(normalize_query(accepted))
+    while len(chosen) < limit:
+        extra = _fallback_query(words, keywords, used_blocked, chosen, rng)
+        if not extra:
+            break
+        chosen.append(extra)
+        used_blocked.add(normalize_query(extra))
+    return chosen, seeds, leftover
 
 
 def _retire_queries(
@@ -358,33 +571,45 @@ def gather_passed(
     exhausted: list[str] | None = None,
     search_words: list[str] | None = None,
     rng: random.Random | None = None,
-) -> tuple[list[dict], int, list[str], list[str]]:
+    pending: list[str] | None = None,
+    liked: str | None = None,
+) -> tuple[list[dict], int, list[str], list[str], list[str]]:
     play.app_limit = DETAIL_BATCH
     exclude = set(already_seen)
     passed: list[dict] = []
     scanned = 0
     opened: list[str] = []
+    words = list(search_words or [])
+    keyword_list = list(keywords or [])
+    picker = rng or random.Random()
     dead = {normalize_query(item) for item in (exhausted or [])}
-    cleaned: list[str] = []
-    seen_queries: set[str] = set()
-    for text in (strip_ignored(query, keywords or []) for query in queries):
-        key = normalize_query(text)
-        if not text or key in dead or key in seen_queries:
+    profile_keys: set[str] = set()
+    sources: list[str] = []
+    for text in [*(pending or []), *queries]:
+        accepted = _accept_query(text, keyword_list, dead, sources, False)
+        if not accepted:
             continue
-        cleaned.append(text)
-        seen_queries.add(key)
-    extra = choose_random_query(search_words or [], keywords or [], dead | seen_queries, rng or random.Random())
-    if extra:
-        cleaned.append(extra)
-    titles = [text for text in (strip_ignored(title, keywords or []) for title in match_titles) if text]
-    query_sets = (cleaned, cleaned, titles)
+        if normalize_query(text) not in {normalize_query(item) for item in (pending or [])}:
+            profile_keys.add(normalize_query(accepted))
+        sources.append(accepted)
+        if len(sources) >= QUERY_TARGET:
+            break
+    chosen, used_seeds, leftover = _fill_queries(
+        play, sources, words, keyword_list, dead, picker, liked, QUERY_TARGET
+    )
+    for query in chosen:
+        if normalize_query(query) in {normalize_query(item) for item in queries}:
+            profile_keys.add(normalize_query(query))
+    titles = [text for text in (strip_ignored(title, keyword_list) for title in match_titles) if text]
     productive: set[str] = set()
     retired: list[str] = []
-    for index, ((n_hits, include_similar), batch_queries) in enumerate(
-        zip(DETAIL_ATTEMPTS, query_sets), start=1
-    ):
-        if len(passed) >= PASS_TARGET or play.halted:
-            break
+    searched: list[str] = []
+
+    def run_batch(index: int, n_hits: int, include_similar: bool, batch_queries: list[str], retire: bool) -> None:
+        nonlocal scanned
+        if not batch_queries and not include_similar:
+            return
+        searched.extend(batch_queries)
         play.app_calls = 0
         partials, returned = collect_partials(
             play,
@@ -396,9 +621,9 @@ def gather_passed(
         )
         if not partials:
             print(f"đợt {index}: hết ứng viên mới")
-            if index == 2 and not play.halted:
+            if retire and not play.halted:
                 retired.extend(_retire_queries(returned, productive, set(), exclude))
-            continue
+            return
         batch_passed, batch_scanned, batch_opened, handled = shortlist(
             play,
             partials,
@@ -406,24 +631,54 @@ def gather_passed(
             seeds,
             publisher_names,
             chart_ids,
-            keywords or [],
+            keyword_list,
             limit=DETAIL_BATCH,
         )
-        if index <= 2:
-            opened_now = set(batch_opened)
-            for query, ids in returned.items():
-                if any(app_id in opened_now for app_id in ids):
-                    productive.add(normalize_query(query))
-        if index == 2 and not play.halted:
+        opened_now = set(batch_opened)
+        for query, ids in returned.items():
+            if any(app_id in opened_now for app_id in ids):
+                productive.add(normalize_query(query))
+        if retire and not play.halted:
             retired.extend(_retire_queries(returned, productive, set(handled), exclude))
         passed.extend(batch_passed)
         scanned += batch_scanned
         opened.extend(batch_opened)
         exclude.update(handled)
         print(f"đợt {index}: ứng viên {len(partials)}, đã lấy chi tiết {batch_scanned}, qua lọc {len(batch_passed)}")
+
+    for index, (n_hits, include_similar) in enumerate(((15, True), (40, False)), start=1):
+        if len(passed) >= PASS_TARGET or play.halted:
+            break
+        run_batch(index, n_hits, include_similar, chosen, retire=index == 2)
+    unused: list[str] = []
+    if len(passed) < PASS_TARGET and not play.halted:
+        blocked = dead | {normalize_query(item) for item in chosen} | {normalize_query(item) for item in used_seeds}
+        third, _seeds, unused = _fill_queries(
+            play, leftover, words, keyword_list, blocked, picker, None, QUERY_TARGET
+        )
+        if third:
+            run_batch(3, 40, False, third, retire=True)
+        else:
+            run_batch(3, 20, False, titles, retire=True)
+    retired_keys = {normalize_query(item) for item in retired}
+    searched_keys = {normalize_query(item) for item in searched}
+    kept: list[str] = []
+    seen_pending: set[str] = set()
+    for query in [*(pending or []), *unused]:
+        key = normalize_query(query)
+        if not key or key in dead or key in retired_keys or key in searched_keys or key in seen_pending:
+            continue
+        kept.append(query)
+        seen_pending.add(key)
+    for query in searched:
+        key = normalize_query(query)
+        if not key or key in retired_keys or key in profile_keys or key in seen_pending:
+            continue
+        kept.append(query)
+        seen_pending.add(key)
     if retired:
         print(f"bỏ câu tìm: {retired}")
-    return passed, scanned, opened, retired
+    return passed, scanned, opened, retired, kept
 
 
 def _partial_rejected(

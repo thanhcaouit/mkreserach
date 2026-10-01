@@ -1,3 +1,4 @@
+import json
 import random
 from pathlib import Path
 
@@ -5,6 +6,8 @@ from mkresearch.discover import (
     DetailLimit,
     choose_random_query,
     gather_passed,
+    parse_play_suggestions,
+    query_intent,
     recent_match_titles,
     remember_queries,
     remember_seen,
@@ -45,6 +48,12 @@ class FakePlay:
         self.details: dict[str, dict] = {}
         self.opened: list[str] = []
         self.searches: list[tuple[str, int]] = []
+        self.hint_list: list[str] = []
+        self.suggest_terms: list[str] = []
+
+    def suggestions(self, term: str) -> list[str]:
+        self.suggest_terms.append(term)
+        return list(self.hint_list)
 
     def similar_ids(self, app_id: str, lang: str, country: str) -> list[str]:
         return list(self.similar.get(app_id, []))
@@ -81,7 +90,7 @@ def test_one_passer_keeps_searching_until_five():
     play.pages["Spooky Express"] = ["later.1"]
     play.details["later.1"] = _fail("later.1")
     catalog = _catalog([("Spooky Express", "2026-09-27T00:00:00Z")])
-    passed, scanned, opened, _retired = gather_passed(
+    passed, scanned, opened, _retired, _pending = gather_passed(
         play,
         ["anchor"],
         ["indie puzzle"],
@@ -114,7 +123,7 @@ def test_batch_two_over_five_returns_all_and_skips_the_third():
     play.pages["Spooky Express"] = ["later.1"]
     play.details["later.1"] = _pass("later.1", "Later")
     catalog = _catalog([("Spooky Express", "2026-09-27T00:00:00Z")])
-    passed, _scanned, opened, _retired = gather_passed(
+    passed, _scanned, opened, _retired, _pending = gather_passed(
         play,
         ["anchor"],
         ["indie puzzle"],
@@ -143,7 +152,7 @@ def test_short_batch_two_continues_and_batch_three_returns_all():
     play.pages["q"] = [*misses, "b.1", "b.2"]
     play.pages["Newest"] = third
     catalog = _catalog([("Newest", "2026-09-27T00:00:00Z")])
-    passed, _scanned, opened, _retired = gather_passed(
+    passed, _scanned, opened, _retired, _pending = gather_passed(
         play,
         ["anchor"],
         ["q"],
@@ -166,7 +175,7 @@ def test_three_batches_when_nothing_passes_and_ids_stay_unique():
     for app_id in ["sim.1", "title.1", *[f"q.{index}" for index in range(20)]]:
         play.details[app_id] = _fail(app_id)
     catalog = _catalog([("Newest", "2026-09-27T00:00:00Z")])
-    passed, _scanned, opened, _retired = gather_passed(
+    passed, _scanned, opened, _retired, _pending = gather_passed(
         play,
         ["anchor"],
         ["q"],
@@ -190,7 +199,7 @@ def test_empty_second_batch_does_not_reopen_the_first():
     for app_id in ("sim.1", "q.1", "title.1"):
         play.details[app_id] = _fail(app_id)
     catalog = _catalog([("Newest", "2026-09-27T00:00:00Z")])
-    _passed, _scanned, opened, _retired = gather_passed(
+    _passed, _scanned, opened, _retired, _pending = gather_passed(
         play,
         ["anchor"],
         ["q"],
@@ -219,7 +228,7 @@ def test_previously_seen_ids_are_not_opened_again():
     play.similar["anchor"] = ["old.id", "new.id"]
     play.details["old.id"] = _fail("old.id")
     play.details["new.id"] = _fail("new.id")
-    _passed, _scanned, opened, _retired = gather_passed(
+    _passed, _scanned, opened, _retired, _pending = gather_passed(
         play, ["anchor"], [], {"apps": {}}, [], [], set(), {"old.id"}, []
     )
     assert opened == ["new.id"]
@@ -237,7 +246,7 @@ def test_remember_seen_keeps_the_first_day(tmp_path):
 def test_query_with_no_new_app_is_retired_and_skipped_next_run():
     play = FakePlay()
     play.pages["stale query"] = ["old.id"]
-    _passed, _scanned, opened, retired = gather_passed(
+    _passed, _scanned, opened, retired, _pending = gather_passed(
         play, ["anchor"], ["stale query"], {"apps": {}}, [], [], set(), {"old.id"}, []
     )
     assert opened == []
@@ -245,7 +254,7 @@ def test_query_with_no_new_app_is_retired_and_skipped_next_run():
     assert ("stale query", 40) in play.searches
 
     play.searches.clear()
-    _passed, _scanned, opened, retired_again = gather_passed(
+    _passed, _scanned, opened, retired_again, _pending = gather_passed(
         play,
         ["anchor"],
         ["stale query"],
@@ -262,11 +271,10 @@ def test_query_with_no_new_app_is_retired_and_skipped_next_run():
     assert all(term != "stale query" for term, _n_hits in play.searches)
 
 
-def test_each_run_searches_one_new_word():
+def test_suggestions_fill_six_queries_and_batch_three_stays_off_catalog_titles():
     play = FakePlay()
-    words = ["gravity", "laser", "rope"]
-    expected = random.Random(0).choice([f"{word} puzzle levels" for word in words])
-    _passed, _scanned, _opened, _retired = gather_passed(
+    play.hint_list = [f"rule {index} maze" for index in range(12)]
+    gather_passed(
         play,
         ["anchor"],
         ["profile query"],
@@ -275,14 +283,120 @@ def test_each_run_searches_one_new_word():
         [],
         set(),
         set(),
+        ["Old Title"],
+        search_words=["gravity", "laser", "rope"],
+        rng=random.Random(0),
+        liked="tilt gravity",
+    )
+    first = [term for term, n_hits in play.searches if n_hits == 15]
+    wide = [term for term, n_hits in play.searches if n_hits == 40]
+    assert first[0] == "profile query"
+    assert len(first) == 6
+    assert all(not term.endswith(" puzzle levels") for term in first)
+    assert wide[:6] == first
+    assert len(wide) == 12
+    assert wide[6:] == [f"rule {index} maze" for index in range(5, 11)]
+    assert "Old Title" not in {term for term, _n_hits in play.searches}
+    assert "gravity " in play.suggest_terms
+
+
+def test_suggestion_failure_falls_back_to_puzzle_levels():
+    play = FakePlay()
+    words = [f"word{index}" for index in range(8)]
+    gather_passed(
+        play,
+        ["anchor"],
         [],
+        {"apps": {}},
+        [],
+        [],
+        set(),
+        set(),
+        ["Old Title"],
         search_words=words,
         rng=random.Random(0),
     )
-    extra = {term for term, _n_hits in play.searches if term.endswith(" puzzle levels")}
-    assert extra == {expected}
-    assert ("profile query", 15) in play.searches
-    assert ("profile query", 40) in play.searches
+    first = [term for term, n_hits in play.searches if n_hits == 15]
+    assert len(first) == 6
+    assert all(term.endswith(" puzzle levels") for term in first)
+    assert "Old Title" not in {term for term, _n_hits in play.searches}
+
+
+def test_same_intent_and_ignored_suggestions_are_skipped():
+    assert query_intent("orbit puzzle levels") == query_intent("orbit")
+    assert query_intent("laser puzzle") != query_intent("gravity puzzle")
+    play = FakePlay()
+    play.hint_list = ["orbit puzzle levels", "orbit", "block puzzle", "fresh maze"]
+    _passed, _scanned, _opened, _retired, _pending = gather_passed(
+        play,
+        ["anchor"],
+        [],
+        {"apps": {}},
+        [],
+        [],
+        set(),
+        set(),
+        [],
+        keywords=["block"],
+        search_words=["gravity"],
+        rng=random.Random(0),
+    )
+    first = [term for term, n_hits in play.searches if n_hits == 15]
+    assert "orbit puzzle levels" in first
+    assert "orbit" not in first
+    assert "block puzzle" not in first
+    assert "fresh maze" in first
+
+
+def test_unfinished_suggestion_is_pending_and_searched_first():
+    play = FakePlay()
+    play.hint_list = ["kept query"]
+    play.pages["kept query"] = ["new.id"]
+    play.details["new.id"] = _fail("new.id")
+    _passed, _scanned, opened, retired, pending = gather_passed(
+        play,
+        ["anchor"],
+        [],
+        {"apps": {}},
+        [],
+        [],
+        set(),
+        set(),
+        [],
+        search_words=["gravity"],
+        rng=random.Random(0),
+    )
+    assert opened == ["new.id"]
+    assert "kept query" not in retired
+    assert pending[0] == "kept query"
+
+    play.searches.clear()
+    play.hint_list = ["later maze"]
+    gather_passed(
+        play,
+        ["anchor"],
+        [],
+        {"apps": {}},
+        [],
+        [],
+        set(),
+        {"new.id"},
+        [],
+        search_words=["gravity"],
+        rng=random.Random(1),
+        pending=pending,
+    )
+    assert [term for term, n_hits in play.searches if n_hits == 15][0] == "kept query"
+
+
+def test_play_suggestion_payload_keeps_the_query_text():
+    inner = [[
+        ["orbit maze", None, [None, None, "/store/search?q=orbit+maze"]],
+        ["orbit puzzle levels", None, [None, None, "/store/search?q=orbit"]],
+    ]]
+    frame = [["wrb.fr", "IJ4APc", json.dumps(inner), None, None, None, "generic"]]
+    payload = ")]}'\n\n" + json.dumps(frame)
+    assert parse_play_suggestions(payload) == ["orbit maze", "orbit puzzle levels"]
 
 
 def test_five_games_do_not_retire_a_query_before_the_wide_search():
@@ -293,7 +407,7 @@ def test_five_games_do_not_retire_a_query_before_the_wide_search():
         play.details[app_id] = _pass(app_id)
     play.pages["quiet query"] = ["old.id"]
     play.details["old.id"] = _fail("old.id")
-    _passed, _scanned, _opened, retired = gather_passed(
+    _passed, _scanned, _opened, retired, _pending = gather_passed(
         play, ["anchor"], ["quiet query"], {"apps": {}}, [], [], set(), set(), ["Later Title"]
     )
     assert retired == []
@@ -329,8 +443,9 @@ def test_learn_prompt_rejects_exhausted_queries():
 
 
 def test_remember_queries_keeps_the_first_spelling(tmp_path):
-    updated = remember_queries({"exhausted": ["Stale Query"]}, ["stale query", "gravity puzzle levels"])
+    updated = remember_queries({"exhausted": ["Stale Query"]}, ["stale query", "gravity puzzle levels"], ["fresh query", "stale query"])
     assert updated["exhausted"] == ["Stale Query", "gravity puzzle levels"]
+    assert updated["pending"] == ["fresh query"]
     store = Store(tmp_path)
     store.save_queries(updated)
     assert store.load_queries()["exhausted"] == ["Stale Query", "gravity puzzle levels"]
