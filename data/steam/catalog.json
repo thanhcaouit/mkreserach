@@ -3409,6 +3409,86 @@
       "url": "https://store.steampowered.com/app/2290650",
       "message_id": 695,
       "suggested_at": "2026-10-01T00:01:44.208819+00:00"
+    },
+    "1992560": {
+      "app_id": "1992560",
+      "title": "Memory Puzzle - Neko Girls",
+      "title_norm": "memory puzzle neko girls",
+      "developer": "EroticGamesClub",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1992560",
+      "message_id": 697,
+      "suggested_at": "2026-10-01T01:01:56.419149+00:00"
+    },
+    "1922140": {
+      "app_id": "1922140",
+      "title": "1001 Jigsaw. Cute Cats",
+      "title_norm": "1001 jigsaw cute cats",
+      "developer": "8floor",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1922140",
+      "message_id": 698,
+      "suggested_at": "2026-10-01T01:01:57.619625+00:00"
+    },
+    "2341860": {
+      "app_id": "2341860",
+      "title": "1001 Jigsaw. Cute Cats 4",
+      "title_norm": "1001 jigsaw cute cats 4",
+      "developer": "8floor",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2341860",
+      "message_id": 699,
+      "suggested_at": "2026-10-01T01:01:59.264498+00:00"
+    },
+    "954860": {
+      "app_id": "954860",
+      "title": "Mad Cat's World. Act - 1: Not by meat alone...",
+      "title_norm": "mad cat s world act 1 not by meat alone",
+      "developer": "PhobiaGamesNet",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/954860",
+      "message_id": 700,
+      "suggested_at": "2026-10-01T01:02:00.872567+00:00"
+    },
+    "1567080": {
+      "app_id": "1567080",
+      "title": "Furry SexyTails",
+      "title_norm": "furry sexytails",
+      "developer": "Furlough Games",
+      "reviews": 528,
+      "url": "https://store.steampowered.com/app/1567080",
+      "message_id": 701,
+      "suggested_at": "2026-10-01T01:02:02.016565+00:00"
+    },
+    "979480": {
+      "app_id": "979480",
+      "title": "Born Punk",
+      "title_norm": "born punk",
+      "developer": "Insert Disk 22",
+      "reviews": 113,
+      "url": "https://store.steampowered.com/app/979480",
+      "message_id": 702,
+      "suggested_at": "2026-10-01T01:02:03.461089+00:00"
+    },
+    "490220": {
+      "app_id": "490220",
+      "title": "Prismata",
+      "title_norm": "prismata",
+      "developer": "Lunarch Studios",
+      "reviews": 116,
+      "url": "https://store.steampowered.com/app/490220",
+      "message_id": 703,
+      "suggested_at": "2026-10-01T01:02:05.102466+00:00"
+    },
+    "3278980": {
+      "app_id": "3278980",
+      "title": "Budget Guardian: Health Realm",
+      "title_norm": "budget guardian health realm",
+      "developer": "CDH Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3278980",
+      "message_id": 704,
+      "suggested_at": "2026-10-01T01:02:06.506110+00:00"
     }
   }
 }
