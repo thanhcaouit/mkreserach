@@ -4283,6 +4283,34 @@
       "suggested_at": "2026-10-01T03:00:54.388522+00:00",
       "mechanic_vi": "Giải đố dựa trên việc khám phá môi trường và sử dụng cảm biến, mỗi màn có một cách giải duy nhất.",
       "why_vi": "Có 90 màn với luật riêng, đáp ứng yêu cầu có level và luật rõ ràng, phù hợp với sở thích khám phá đa dạng."
+    },
+    "com.steptwo.drawpuzzle": {
+      "app_id": "com.steptwo.drawpuzzle",
+      "title": "Draw Puzzle - Draw the Line",
+      "title_norm": "draw puzzle draw the line",
+      "developer": "Step Two Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.73,
+      "url": "https://play.google.com/store/apps/details?id=com.steptwo.drawpuzzle&hl=en",
+      "message_id": 752,
+      "suggested_at": "2026-10-01T11:01:15.340297+00:00",
+      "mechanic_vi": "Vẽ đường thẳng để kết nối các điểm và hoàn thành câu chuyện.",
+      "why_vi": "Mỗi cấp độ yêu cầu vẽ đúng hình dạng, luật duy nhất là vẽ đường."
+    },
+    "com.puzzle.oneline": {
+      "app_id": "com.puzzle.oneline",
+      "title": "Line puzzle-Logical Practice",
+      "title_norm": "line puzzle logical practice",
+      "developer": "Red cat studio-focused puzzle game",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4,
+      "url": "https://play.google.com/store/apps/details?id=com.puzzle.oneline&hl=en",
+      "message_id": 753,
+      "suggested_at": "2026-10-01T11:01:16.774058+00:00",
+      "mechanic_vi": "Kéo và chia đường để tạo hình dạng mục tiêu, không cho phép chồng lặp.",
+      "why_vi": "Mỗi màn đòi hỏi tái tạo mẫu hình, luật duy nhất là di chuyển đường."
     }
   }
 }

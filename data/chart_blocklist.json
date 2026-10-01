@@ -2272,6 +2272,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sports.real.golf.rival.online": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bubadu.bubbu2": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
