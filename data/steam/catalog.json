@@ -3769,6 +3769,26 @@
       "url": "https://store.steampowered.com/app/333120",
       "message_id": 737,
       "suggested_at": "2026-10-01T06:01:23.711328+00:00"
+    },
+    "304500": {
+      "app_id": "304500",
+      "title": "Rooms: The Main Building",
+      "title_norm": "rooms the main building",
+      "developer": "HandMade Game",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/304500",
+      "message_id": 739,
+      "suggested_at": "2026-10-01T07:01:31.255750+00:00"
+    },
+    "3703730": {
+      "app_id": "3703730",
+      "title": "Tezzel: The Tilemaker's Tale",
+      "title_norm": "tezzel the tilemaker s tale",
+      "developer": "Old Mayor Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3703730",
+      "message_id": 740,
+      "suggested_at": "2026-10-01T07:01:33.713030+00:00"
     }
   }
 }
