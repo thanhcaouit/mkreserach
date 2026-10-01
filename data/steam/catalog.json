@@ -3759,6 +3759,16 @@
       "url": "https://store.steampowered.com/app/655930",
       "message_id": 735,
       "suggested_at": "2026-10-01T05:01:38.848451+00:00"
+    },
+    "333120": {
+      "app_id": "333120",
+      "title": "Inside The Gear",
+      "title_norm": "inside the gear",
+      "developer": "Mykhail Konokh",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/333120",
+      "message_id": 737,
+      "suggested_at": "2026-10-01T06:01:23.711328+00:00"
     }
   }
 }
