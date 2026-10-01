@@ -3829,6 +3829,36 @@
       "url": "https://store.steampowered.com/app/1738850",
       "message_id": 745,
       "suggested_at": "2026-10-01T08:01:47.987882+00:00"
+    },
+    "692950": {
+      "app_id": "692950",
+      "title": "The Dew",
+      "title_norm": "the dew",
+      "developer": "ZZICON",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/692950",
+      "message_id": 747,
+      "suggested_at": "2026-10-01T09:03:47.937242+00:00"
+    },
+    "674440": {
+      "app_id": "674440",
+      "title": "Skipper - Puzzle Across The Sea",
+      "title_norm": "skipper puzzle across the sea",
+      "developer": "2xMilk",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/674440",
+      "message_id": 748,
+      "suggested_at": "2026-10-01T09:03:49.515077+00:00"
+    },
+    "2334280": {
+      "app_id": "2334280",
+      "title": "Stick to the Plan",
+      "title_norm": "stick to the plan",
+      "developer": "Dead Pixel Tales",
+      "reviews": 126,
+      "url": "https://store.steampowered.com/app/2334280",
+      "message_id": 749,
+      "suggested_at": "2026-10-01T09:03:51.807017+00:00"
     }
   }
 }
