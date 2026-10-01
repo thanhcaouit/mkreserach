@@ -3919,6 +3919,46 @@
       "url": "https://store.steampowered.com/app/1221600",
       "message_id": 759,
       "suggested_at": "2026-10-01T12:01:52.092886+00:00"
+    },
+    "348430": {
+      "app_id": "348430",
+      "title": "Quell Reflect",
+      "title_norm": "quell reflect",
+      "developer": "Fallen Tree Games Ltd",
+      "reviews": 128,
+      "url": "https://store.steampowered.com/app/348430",
+      "message_id": 761,
+      "suggested_at": "2026-10-01T13:01:49.143264+00:00"
+    },
+    "1190160": {
+      "app_id": "1190160",
+      "title": "LIT: Bend the Light",
+      "title_norm": "lit bend the light",
+      "developer": "Copperglass",
+      "reviews": 257,
+      "url": "https://store.steampowered.com/app/1190160",
+      "message_id": 762,
+      "suggested_at": "2026-10-01T13:01:51.335003+00:00"
+    },
+    "845270": {
+      "app_id": "845270",
+      "title": "Mirror Drop",
+      "title_norm": "mirror drop",
+      "developer": "Ian Lilley",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/845270",
+      "message_id": 763,
+      "suggested_at": "2026-10-01T13:01:52.326889+00:00"
+    },
+    "4114330": {
+      "app_id": "4114330",
+      "title": "Velvet",
+      "title_norm": "velvet",
+      "developer": "Inspite",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4114330",
+      "message_id": 764,
+      "suggested_at": "2026-10-01T13:01:53.609249+00:00"
     }
   }
 }
