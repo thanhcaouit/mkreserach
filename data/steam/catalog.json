@@ -4019,6 +4019,46 @@
       "url": "https://store.steampowered.com/app/3449030",
       "message_id": 775,
       "suggested_at": "2026-10-01T17:02:01.801297+00:00"
+    },
+    "792100": {
+      "app_id": "792100",
+      "title": "7 Billion Humans",
+      "title_norm": "7 billion humans",
+      "developer": "Tomorrow Corporation",
+      "reviews": 1866,
+      "url": "https://store.steampowered.com/app/792100",
+      "message_id": 780,
+      "suggested_at": "2026-10-01T18:02:12.682506+00:00"
+    },
+    "1559620": {
+      "app_id": "1559620",
+      "title": "Gooper",
+      "title_norm": "gooper",
+      "developer": "CactusJock",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1559620",
+      "message_id": 781,
+      "suggested_at": "2026-10-01T18:02:13.697819+00:00"
+    },
+    "512740": {
+      "app_id": "512740",
+      "title": "Flat Path",
+      "title_norm": "flat path",
+      "developer": "GooDCrafter",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/512740",
+      "message_id": 782,
+      "suggested_at": "2026-10-01T18:02:14.655768+00:00"
+    },
+    "2638340": {
+      "app_id": "2638340",
+      "title": "The Legend of Lumina",
+      "title_norm": "the legend of lumina",
+      "developer": "Wizbane",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2638340",
+      "message_id": 783,
+      "suggested_at": "2026-10-01T18:02:15.781722+00:00"
     }
   }
 }
