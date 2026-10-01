@@ -4269,6 +4269,20 @@
       "suggested_at": "2026-10-01T01:01:16.303890+00:00",
       "mechanic_vi": "Đặt tháp vào ô trống để xây dựng cấu trúc",
       "why_vi": "Có nhiều cấp độ, nhưng luật chơi không độc đáo và không tập trung vào cách cô lập hay dẫn hướng."
+    },
+    "com.kk.absurdpuzzle": {
+      "app_id": "com.kk.absurdpuzzle",
+      "title": "Absurd Puzzle",
+      "title_norm": "absurd puzzle",
+      "developer": ".kk",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.822222,
+      "url": "https://play.google.com/store/apps/details?id=com.kk.absurdpuzzle&hl=en",
+      "message_id": 717,
+      "suggested_at": "2026-10-01T03:00:54.388522+00:00",
+      "mechanic_vi": "Giải đố dựa trên việc khám phá môi trường và sử dụng cảm biến, mỗi màn có một cách giải duy nhất.",
+      "why_vi": "Có 90 màn với luật riêng, đáp ứng yêu cầu có level và luật rõ ràng, phù hợp với sở thích khám phá đa dạng."
     }
   }
 }
