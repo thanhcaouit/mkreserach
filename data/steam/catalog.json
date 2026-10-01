@@ -3729,6 +3729,36 @@
       "url": "https://store.steampowered.com/app/3693650",
       "message_id": 731,
       "suggested_at": "2026-10-01T04:01:51.309141+00:00"
+    },
+    "1138990": {
+      "app_id": "1138990",
+      "title": "Block in the Lock",
+      "title_norm": "block in the lock",
+      "developer": "Petorio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1138990",
+      "message_id": 733,
+      "suggested_at": "2026-10-01T05:01:35.131294+00:00"
+    },
+    "5147730": {
+      "app_id": "5147730",
+      "title": "Puckey: The Puzzle Game",
+      "title_norm": "puckey the puzzle game",
+      "developer": "Shredtastic Software LLC",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/5147730",
+      "message_id": 734,
+      "suggested_at": "2026-10-01T05:01:36.904527+00:00"
+    },
+    "655930": {
+      "app_id": "655930",
+      "title": "Merri Puzzle",
+      "title_norm": "merri puzzle",
+      "developer": "Merriman Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/655930",
+      "message_id": 735,
+      "suggested_at": "2026-10-01T05:01:38.848451+00:00"
     }
   }
 }
