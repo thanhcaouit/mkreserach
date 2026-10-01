@@ -3659,6 +3659,76 @@
       "url": "https://store.steampowered.com/app/3075710",
       "message_id": 723,
       "suggested_at": "2026-10-01T03:01:32.989601+00:00"
+    },
+    "4983250": {
+      "app_id": "4983250",
+      "title": "Whispers in Clay",
+      "title_norm": "whispers in clay",
+      "developer": "lughandpiv",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4983250",
+      "message_id": 725,
+      "suggested_at": "2026-10-01T04:01:42.672189+00:00"
+    },
+    "2303290": {
+      "app_id": "2303290",
+      "title": "A Slug's Dream",
+      "title_norm": "a slug s dream",
+      "developer": "Marcos Donnantuoni",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2303290",
+      "message_id": 726,
+      "suggested_at": "2026-10-01T04:01:44.480242+00:00"
+    },
+    "3240350": {
+      "app_id": "3240350",
+      "title": "Spore Valley",
+      "title_norm": "spore valley",
+      "developer": "Lystrosaurus Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3240350",
+      "message_id": 727,
+      "suggested_at": "2026-10-01T04:01:47.032240+00:00"
+    },
+    "2939180": {
+      "app_id": "2939180",
+      "title": "Hentai Luna",
+      "title_norm": "hentai luna",
+      "developer": "H.S.F.W",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2939180",
+      "message_id": 728,
+      "suggested_at": "2026-10-01T04:01:48.499508+00:00"
+    },
+    "4939350": {
+      "app_id": "4939350",
+      "title": "Hyetyn: The Last Charge",
+      "title_norm": "hyetyn the last charge",
+      "developer": "KGitaGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4939350",
+      "message_id": 729,
+      "suggested_at": "2026-10-01T04:01:49.207946+00:00"
+    },
+    "868160": {
+      "app_id": "868160",
+      "title": "Code: Terraform",
+      "title_norm": "code terraform",
+      "developer": "AppsMafia",
+      "reviews": 315,
+      "url": "https://store.steampowered.com/app/868160",
+      "message_id": 730,
+      "suggested_at": "2026-10-01T04:01:50.278170+00:00"
+    },
+    "3693650": {
+      "app_id": "3693650",
+      "title": "Thrifty Business",
+      "title_norm": "thrifty business",
+      "developer": "Spellgarden Games",
+      "reviews": 1260,
+      "url": "https://store.steampowered.com/app/3693650",
+      "message_id": 731,
+      "suggested_at": "2026-10-01T04:01:51.309141+00:00"
     }
   }
 }
