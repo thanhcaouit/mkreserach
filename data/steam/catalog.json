@@ -4109,6 +4109,96 @@
       "url": "https://store.steampowered.com/app/2757480",
       "message_id": 790,
       "suggested_at": "2026-10-01T20:01:58.236013+00:00"
+    },
+    "464900": {
+      "app_id": "464900",
+      "title": "Pitfall Planet",
+      "title_norm": "pitfall planet",
+      "developer": "Bonfire Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/464900",
+      "message_id": 796,
+      "suggested_at": "2026-10-01T23:01:48.791359+00:00"
+    },
+    "583930": {
+      "app_id": "583930",
+      "title": "Faerie Solitaire Remastered",
+      "title_norm": "faerie solitaire remastered",
+      "developer": "Subsoap",
+      "reviews": 394,
+      "url": "https://store.steampowered.com/app/583930",
+      "message_id": 797,
+      "suggested_at": "2026-10-01T23:01:50.432829+00:00"
+    },
+    "733070": {
+      "app_id": "733070",
+      "title": "Sudoku Universe / 数独宇宙",
+      "title_norm": "sudoku universe 数独宇宙",
+      "developer": "Konstructors",
+      "reviews": 3016,
+      "url": "https://store.steampowered.com/app/733070",
+      "message_id": 798,
+      "suggested_at": "2026-10-01T23:01:51.970875+00:00"
+    },
+    "742490": {
+      "app_id": "742490",
+      "title": "Nonogram - The Greatest Painter",
+      "title_norm": "nonogram the greatest painter",
+      "developer": "Konstructors",
+      "reviews": 355,
+      "url": "https://store.steampowered.com/app/742490",
+      "message_id": 799,
+      "suggested_at": "2026-10-01T23:01:53.365137+00:00"
+    },
+    "966630": {
+      "app_id": "966630",
+      "title": "qop 4",
+      "title_norm": "qop 4",
+      "developer": "Quiet River",
+      "reviews": 367,
+      "url": "https://store.steampowered.com/app/966630",
+      "message_id": 800,
+      "suggested_at": "2026-10-01T23:01:53.942158+00:00"
+    },
+    "973220": {
+      "app_id": "973220",
+      "title": "SiNKR 2",
+      "title_norm": "sinkr 2",
+      "developer": "Robert Wahler",
+      "reviews": 264,
+      "url": "https://store.steampowered.com/app/973220",
+      "message_id": 801,
+      "suggested_at": "2026-10-01T23:01:55.843367+00:00"
+    },
+    "367580": {
+      "app_id": "367580",
+      "title": "Hook",
+      "title_norm": "hook",
+      "developer": "Maciej Targoni",
+      "reviews": 7924,
+      "url": "https://store.steampowered.com/app/367580",
+      "message_id": 802,
+      "suggested_at": "2026-10-01T23:01:56.787247+00:00"
+    },
+    "676420": {
+      "app_id": "676420",
+      "title": "SiNKR",
+      "title_norm": "sinkr",
+      "developer": "Robert Wahler",
+      "reviews": 535,
+      "url": "https://store.steampowered.com/app/676420",
+      "message_id": 803,
+      "suggested_at": "2026-10-01T23:01:58.287674+00:00"
+    },
+    "1613050": {
+      "app_id": "1613050",
+      "title": "Flex hooks",
+      "title_norm": "flex hooks",
+      "developer": "Thedox Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1613050",
+      "message_id": 804,
+      "suggested_at": "2026-10-01T23:01:59.191461+00:00"
     }
   }
 }
