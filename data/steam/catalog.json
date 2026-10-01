@@ -4059,6 +4059,26 @@
       "url": "https://store.steampowered.com/app/2638340",
       "message_id": 783,
       "suggested_at": "2026-10-01T18:02:15.781722+00:00"
+    },
+    "3320520": {
+      "app_id": "3320520",
+      "title": "cat lines",
+      "title_norm": "cat lines",
+      "developer": "Tribus Games Indie",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3320520",
+      "message_id": 785,
+      "suggested_at": "2026-10-01T19:02:16.822436+00:00"
+    },
+    "3605120": {
+      "app_id": "3605120",
+      "title": "Trails",
+      "title_norm": "trails",
+      "developer": "PurpleSloth",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3605120",
+      "message_id": 786,
+      "suggested_at": "2026-10-01T19:02:18.655112+00:00"
     }
   }
 }
