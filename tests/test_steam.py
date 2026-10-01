@@ -11,7 +11,7 @@ from mkresearch.steam.discover import (
     remember_seen,
 )
 from mkresearch.steam.filters import hard_reject, in_review_band
-from mkresearch.steam.judge import complete_picks, select_picks
+from mkresearch.steam.judge import judge
 from mkresearch.steam.report import format_report
 from mkresearch.steam.store import SteamData, already_sent
 
@@ -40,6 +40,11 @@ IGNORED_TAGS = [
     "sexy",
     "nsfw",
     "jigsaw",
+    "Hentai",
+    "Endless",
+    "Open World",
+    "Sandbox",
+    "Walking Simulator",
 ]
 
 
@@ -235,6 +240,7 @@ def test_each_steam_run_searches_one_play_word():
 def test_adult_words_in_the_title_or_blurb_are_rejected():
     assert hard_reject(_app(title="Furry SexyTails"), [], set()) == "keyword"
     assert hard_reject(_app(description="A simple jigsaw puzzle on a train."), [], set()) == "keyword"
+    assert hard_reject(_app(title="Hentai Puzzle"), [], set()) == "keyword"
     assert hard_reject(_app(title="Sweet Train", description="Girls on a train."), [], set()) is None
 
 
@@ -247,6 +253,11 @@ def test_ignored_tags_drop_action_views_and_keep_adventure():
     assert hard_reject(_app(tags=["Survival Horror"]), [], set(), IGNORED_TAGS) == "tag"
     assert hard_reject(_app(tags=["Puzzle"], genres=["Indie"]), [], set(), IGNORED_TAGS) is None
     assert hard_reject(_app(genres=["Adventure", "Indie"]), [], set(), IGNORED_TAGS) is None
+    assert hard_reject(_app(tags=["Endless Runner"]), [], set(), IGNORED_TAGS) == "tag"
+    assert hard_reject(_app(tags=["Open World"]), [], set(), IGNORED_TAGS) == "tag"
+    assert hard_reject(_app(description="An endless desert you never finish."), [], set()) == "keyword"
+    assert hard_reject(_app(description="Build in an open world sandbox."), [], set()) == "keyword"
+    assert hard_reject(_app(title="Snakebird", description="Many short puzzles, one clear rule."), [], set()) is None
 
 
 def test_store_page_tags_skip_the_add_button():
@@ -304,16 +315,26 @@ def test_report_is_steam_link_without_description():
     assert "Vì sao" not in text
 
 
-def test_select_picks_fills_five():
-    payload = {
-        "picks": [
-            {"app_id": "1", "has_levels": True, "novelty": 5, "near_seed": "Snakebird"},
-            {"app_id": "2", "has_levels": "true", "novelty": "4"},
-        ]
-    }
+class _FakeLlm:
+    def __init__(self, raw: str) -> None:
+        self.raw = raw
+
+    def complete(self, prompt: str) -> str:
+        return self.raw
+
+
+def test_judge_keeps_only_level_picks():
+    raw = (
+        '{"picks":['
+        '{"app_id":"1","has_levels":true,"novelty":5,"near_seed":"Snakebird"},'
+        '{"app_id":"2","has_levels":false,"novelty":4},'
+        '{"app_id":"3","has_levels":true,"novelty":2}'
+        "]}"
+    )
     candidates = [{"appId": str(i), "title": f"Game {i}"} for i in range(1, 8)]
-    picks = complete_picks(select_picks(payload, {c["appId"] for c in candidates}), candidates)
-    assert [item["app_id"] for item in picks] == ["1", "2", "3", "4", "5"]
+    picks = judge(_FakeLlm(raw), candidates, [], {}, limit=len(candidates))
+    assert [item["app_id"] for item in picks] == ["1", "3"]
+    assert judge(_FakeLlm("not json"), candidates, [], {}) == []
 
 
 def test_research_workflow_keeps_play_job_and_commits_only_steam_data():

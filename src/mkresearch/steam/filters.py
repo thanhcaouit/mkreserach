@@ -4,7 +4,8 @@ import re
 
 from mkresearch.filters import title_ignored
 
-TEXT_KEYWORDS = ["sexy", "nsfw", "jigsaw"]
+TEXT_KEYWORDS = ["sexy", "nsfw", "jigsaw", "hentai"]
+LEVEL_KEYWORDS = ["endless", "open world", "sandbox"]
 
 REVIEW_MIN = 0
 REVIEW_MAX = 20_000
@@ -80,7 +81,7 @@ def hard_reject(
     if app_id and app_id in blocked_ids:
         return "chart"
     text = " ".join(str(app.get(key) or "") for key in ("title", "description"))
-    if title_ignored(text, TEXT_KEYWORDS):
+    if title_ignored(text, TEXT_KEYWORDS) or title_ignored(text, LEVEL_KEYWORDS):
         return "keyword"
     labels = [str(item) for item in app.get("genres") or []]
     labels.extend(str(item) for item in app.get("tags") or [])

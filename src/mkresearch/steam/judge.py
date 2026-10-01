@@ -20,8 +20,8 @@ def build_judge_prompt(candidates: list[dict], seeds: list[dict], profile: dict)
     return (
         "Bạn chọn puzzle Steam có level và luật chơi lạ, gần tinh thần game mẫu.\n"
         "Game mẫu là Snakebird, Stephen's Sausage Roll, World of Goo và World of Goo 2: nhiều màn, một luật rõ.\n"
-        "Mọi mức giá đều được. Loại match-3, screw puzzle, sort puzzle, idle, endless một vòng, "
-        "jigsaw ghép ảnh, unblock thuần, mahjong cổ điển không có luật mới.\n"
+        "Mọi mức giá đều được. Loại match-3, screw puzzle, sort puzzle, idle, endless, "
+        "game chơi một mạch không chia màn, jigsaw ghép ảnh, unblock thuần, mahjong cổ điển không có luật mới.\n"
         "Chỉ trả JSON dạng "
         '{"picks":[{"app_id":"","has_levels":true,"novelty":1,"near_seed":""}]}.\n'
         "novelty là số nguyên 1-5. has_levels true chỉ khi chơi theo màn hoặc mục tiêu từng màn.\n"
@@ -65,27 +65,6 @@ def select_picks(payload: dict, allowed_ids: set[str], limit: int = 5) -> list[d
     return chosen[:limit]
 
 
-def complete_picks(picks: list[dict], candidates: list[dict], limit: int = 5) -> list[dict]:
-    chosen = list(picks)
-    have = {item["app_id"] for item in chosen}
-    for app in candidates:
-        if len(chosen) >= limit:
-            break
-        app_id = str(app.get("appId") or "")
-        if not app_id or app_id in have:
-            continue
-        chosen.append(
-            {
-                "app_id": app_id,
-                "has_levels": True,
-                "novelty": 3,
-                "near_seed": "Snakebird",
-            }
-        )
-        have.add(app_id)
-    return chosen[:limit]
-
-
 def judge(llm: LlmClient, candidates: list[dict], seeds: list[dict], profile: dict, limit: int = 5) -> list[dict]:
     if not candidates:
         return []
@@ -95,8 +74,8 @@ def judge(llm: LlmClient, candidates: list[dict], seeds: list[dict], profile: di
         payload = parse_json_object(raw)
     except Exception as exc:
         print(f"LLM JSON lỗi: {exc}. Raw: {raw[:800]}")
-        return complete_picks([], candidates, limit)
-    picks = complete_picks(select_picks(payload, allowed, limit), candidates, limit)
+        return []
+    picks = select_picks(payload, allowed, limit)
     if not picks:
         print(f"LLM không chọn game. Raw: {raw[:800]}")
     return picks
