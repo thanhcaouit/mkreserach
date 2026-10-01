@@ -2236,6 +2236,42 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.jumpgames.rswrb": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.YoStarEN.MahjongSoul": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.wondergames.warpath.gp": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "net.wargaming.wot.blitz": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.jarvigames.viceonline": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pikpok.hrc.play": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
