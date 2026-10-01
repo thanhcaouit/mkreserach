@@ -3899,6 +3899,26 @@
       "url": "https://store.steampowered.com/app/4906520",
       "message_id": 756,
       "suggested_at": "2026-10-01T11:01:54.781798+00:00"
+    },
+    "3726790": {
+      "app_id": "3726790",
+      "title": "Fill The Fox",
+      "title_norm": "fill the fox",
+      "developer": "Mafia Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3726790",
+      "message_id": 758,
+      "suggested_at": "2026-10-01T12:01:49.826177+00:00"
+    },
+    "1221600": {
+      "app_id": "1221600",
+      "title": "Raccoon The Miner",
+      "title_norm": "raccoon the miner",
+      "developer": "Andrii Lazariev",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1221600",
+      "message_id": 759,
+      "suggested_at": "2026-10-01T12:01:52.092886+00:00"
     }
   }
 }
