@@ -108,16 +108,17 @@
     "flip diving",
     "herd puzzle levels",
     "goo puzzle levels",
-    "drag puzzle levels"
-  ],
-  "pending": [
-    "stack sort",
+    "drag puzzle levels",
     "flip master",
     "flip clock",
     "flip 7",
     "stack smash",
     "turn based strategy",
     "turn based games",
+    "nudge puzzle levels"
+  ],
+  "pending": [
+    "stack sort",
     "hook up anonymous",
     "hook and reel app",
     "hook game",
@@ -137,6 +138,11 @@
     "rewind voice",
     "thread the needle puzzle levels",
     "run to the exit puzzle levels",
-    "bounce the orb puzzle levels"
+    "bounce the orb puzzle levels",
+    "vault the fence puzzle levels",
+    "drain puzzle levels",
+    "pheromone trail puzzle levels",
+    "knot the rope puzzle levels",
+    "magnet puzzle levels"
   ]
 }
