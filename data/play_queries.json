@@ -126,16 +126,21 @@
     "drain simulator",
     "drawing",
     "drain the lake",
-    "drain battery"
-  ],
-  "pending": [
-    "stack sort",
+    "drain battery",
     "catchback",
-    "catch the candy",
     "catch teenieping",
     "catch up",
     "rewind",
     "rewindpix",
+    "closed camera",
+    "closet app",
+    "close app",
+    "closeknit health",
+    "closed caption app",
+    "close apps running in background"
+  ],
+  "pending": [
+    "stack sort",
     "rewind 1039",
     "rewind game",
     "rewind app",
@@ -160,6 +165,16 @@
     "tap to pay",
     "tap tile",
     "connect the wires",
-    "hook game"
+    "hook game",
+    "close camera",
+    "close all apps",
+    "close crm",
+    "stepping stones",
+    "stepping stones school app",
+    "stepping stones to aiapget",
+    "stepping stones school pad",
+    "stepping stones aiapget",
+    "stepping stone app",
+    "catch the candy"
   ]
 }
