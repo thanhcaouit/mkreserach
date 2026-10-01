@@ -137,16 +137,22 @@
     "close app",
     "closeknit health",
     "closed caption app",
-    "close apps running in background"
-  ],
-  "pending": [
-    "stack sort",
+    "close apps running in background",
     "rewind 1039",
     "rewind game",
     "rewind app",
     "rewind ai",
     "rewind voice",
     "thread the needle puzzle levels",
+    "spin scooter",
+    "spin to rich",
+    "spinx mobile app",
+    "spinblitz",
+    "spin the bottle",
+    "spinquest"
+  ],
+  "pending": [
+    "stack sort",
     "run to the exit puzzle levels",
     "bounce the orb puzzle levels",
     "vault the fence puzzle levels",
