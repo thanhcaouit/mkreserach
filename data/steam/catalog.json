@@ -3859,6 +3859,16 @@
       "url": "https://store.steampowered.com/app/2334280",
       "message_id": 749,
       "suggested_at": "2026-10-01T09:03:51.807017+00:00"
+    },
+    "2740260": {
+      "app_id": "2740260",
+      "title": "Stickin' the Landing",
+      "title_norm": "stickin the landing",
+      "developer": "Adrift Team",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2740260",
+      "message_id": 751,
+      "suggested_at": "2026-10-01T10:01:54.996112+00:00"
     }
   }
 }
