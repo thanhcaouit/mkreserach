@@ -112,7 +112,8 @@
     "com.abi.colony.flow": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "net.peakgames.match": {
@@ -1166,7 +1167,8 @@
     "triple.sorting.bubble.fish.match": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "sheep.animal.parking.puzzle.game.jam": {
@@ -2280,6 +2282,42 @@
       ]
     },
     "com.bubadu.bubbu2": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.candyroom.clubcraft": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.cedargames.mysterytown": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.moonactive.cmboard": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "global.hotel.twgame": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.liteorange.hometopia": {
+      "first_seen": "2026-10-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.slg.policewar": {
       "first_seen": "2026-10-01",
       "sources": [
         "GAME"
