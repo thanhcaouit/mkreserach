@@ -31,16 +31,27 @@
     "reflect app",
     "reflect health",
     "open the gate",
-    "stickman"
-  ],
-  "pending": [
+    "stickman",
     "stick war",
     "stickman fight",
-    "sticker",
     "sticky notes",
     "stick nodes",
     "stick war saga",
+    "trace",
+    "trace art",
+    "tracer voice",
+    "tracer light box",
+    "trace and draw app",
+    "trace teams app"
+  ],
+  "pending": [
     "stick man",
-    "stick fight"
+    "stick fight",
+    "trace app",
+    "trace table",
+    "lens camera focus dslr blur",
+    "focus lens camera",
+    "focus lens",
+    "sticker"
   ]
 }
