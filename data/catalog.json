@@ -4311,6 +4311,34 @@
       "suggested_at": "2026-10-01T11:01:16.774058+00:00",
       "mechanic_vi": "Kéo và chia đường để tạo hình dạng mục tiêu, không cho phép chồng lặp.",
       "why_vi": "Mỗi màn đòi hỏi tái tạo mẫu hình, luật duy nhất là di chuyển đường."
+    },
+    "com.gogonz.energyorb": {
+      "app_id": "com.gogonz.energyorb",
+      "title": "Energy Orb: Physics Puzzle",
+      "title_norm": "energy orb physics puzzle",
+      "developer": "GoGonz",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.5940595,
+      "url": "https://play.google.com/store/apps/details?id=com.gogonz.energyorb&hl=en",
+      "message_id": 770,
+      "suggested_at": "2026-10-01T17:01:21.636359+00:00",
+      "mechanic_vi": "Xoay các ô lục giác để tạo đường dẫn, sau đó thả quả cầu để trọng lực kéo nó tới lỗ đen.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất là đưa quả cầu tới điểm cuối, luật chơi đơn giản và rõ ràng."
+    },
+    "air.com.hfg.unrevealedenigma": {
+      "app_id": "air.com.hfg.unrevealedenigma",
+      "title": "Escape Room Unrevealed Mystery",
+      "title_norm": "escape room unrevealed mystery",
+      "developer": "HFG Entertainments",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.41,
+      "url": "https://play.google.com/store/apps/details?id=air.com.hfg.unrevealedenigma&hl=en",
+      "message_id": 771,
+      "suggested_at": "2026-10-01T17:01:23.819235+00:00",
+      "mechanic_vi": "Tìm các vật ẩn và giải đố trong mỗi phòng để mở khóa tiến tới phòng tiếp theo.",
+      "why_vi": "Mỗi cấp độ là một câu đố độc lập với mục tiêu duy nhất là thoát khỏi phòng, phù hợp với yêu cầu luật đơn giản."
     }
   }
 }
