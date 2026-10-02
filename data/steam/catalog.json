@@ -4199,6 +4199,16 @@
       "url": "https://store.steampowered.com/app/1613050",
       "message_id": 804,
       "suggested_at": "2026-10-01T23:01:59.191461+00:00"
+    },
+    "1602770": {
+      "app_id": "1602770",
+      "title": "Dream of Bells",
+      "title_norm": "dream of bells",
+      "developer": "Mika Pi",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1602770",
+      "message_id": 806,
+      "suggested_at": "2026-10-02T00:01:59.893891+00:00"
     }
   }
 }
