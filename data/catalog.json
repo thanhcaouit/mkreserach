@@ -4647,6 +4647,76 @@
       "suggested_at": "2026-10-02T07:01:17.328316+00:00",
       "mechanic_vi": "Sắp xếp gương để phản xạ tia laser tới mục tiêu.",
       "why_vi": "Luật đơn giản mỗi màn, yêu cầu cô lập và định hướng tia, gần với cơ chế bao vây của Cross Virus."
+    },
+    "com.fireinfoxstudios.TrickyCups": {
+      "app_id": "com.fireinfoxstudios.TrickyCups",
+      "title": "Tricky Cups: Brain Puzzle",
+      "title_norm": "tricky cups brain puzzle",
+      "developer": "BlackByte Games",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.3846154,
+      "url": "https://play.google.com/store/apps/details?id=com.fireinfoxstudios.TrickyCups&hl=en",
+      "message_id": 860,
+      "suggested_at": "2026-10-02T12:01:31.660319+00:00",
+      "mechanic_vi": "Theo dõi vị trí của quả bóng dưới các cốc và chọn cốc đúng sau khi chúng được trộn.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất là nhớ vị trí bóng, tạo thách thức dựa trên trí nhớ và phản xạ."
+    },
+    "com.mustachegamestudio.boxbox": {
+      "app_id": "com.mustachegamestudio.boxbox",
+      "title": "Box Box - Push box puzzle",
+      "title_norm": "box box push box puzzle",
+      "developer": "Mustache Game Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.5,
+      "url": "https://play.google.com/store/apps/details?id=com.mustachegamestudio.boxbox&hl=en",
+      "message_id": 861,
+      "suggested_at": "2026-10-02T12:01:33.309022+00:00",
+      "mechanic_vi": "Đẩy hộp và tương tác với các vật thể như cổng, xoáy, và khóa để mở đường tới vị trí đích.",
+      "why_vi": "Mỗi màn giới thiệu một quy tắc duy nhất nhưng kết hợp nhiều yếu tố, tạo cảm giác mới lạ so với các trò đẩy hộp truyền thống."
+    },
+    "com.duoduo.games.pushbox": {
+      "app_id": "com.duoduo.games.pushbox",
+      "title": "Push Box：Logical Puzzle Game",
+      "title_norm": "push box logical puzzle game",
+      "developer": "DuDu Kids",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.duoduo.games.pushbox&hl=en",
+      "message_id": 862,
+      "suggested_at": "2026-10-02T12:01:35.063869+00:00",
+      "mechanic_vi": "Đẩy các khối vào vị trí mục tiêu trong một khu vực giới hạn, không được kéo hoặc đi qua tường.",
+      "why_vi": "Mỗi cấp độ có một mục tiêu rõ ràng và yêu cầu người chơi cách ly các khối để mở đường, phù hợp với sở thích bao vây."
+    },
+    "com.jchip.sokomon": {
+      "app_id": "com.jchip.sokomon",
+      "title": "Sokomon (Boxman) Classic",
+      "title_norm": "sokomon boxman classic",
+      "developer": "JChip Games",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.611111,
+      "url": "https://play.google.com/store/apps/details?id=com.jchip.sokomon&hl=en",
+      "message_id": 863,
+      "suggested_at": "2026-10-02T12:01:36.400289+00:00",
+      "mechanic_vi": "Đẩy các hộp đến vị trí đích trong mê cung, chỉ được di chuyển hoặc đẩy, không được kéo hoặc đi qua tường.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất và độ khó tăng dần, đáp ứng yêu cầu một luật rõ ràng cho mỗi cấp độ."
+    },
+    "com.jchip.sokomon.collection": {
+      "app_id": "com.jchip.sokomon.collection",
+      "title": "Sokomon (Boxman) Collection",
+      "title_norm": "sokomon boxman collection",
+      "developer": "JChip Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.6153846,
+      "url": "https://play.google.com/store/apps/details?id=com.jchip.sokomon.collection&hl=en",
+      "message_id": 864,
+      "suggested_at": "2026-10-02T12:01:37.853591+00:00",
+      "mechanic_vi": "Đẩy các hộp đến vị trí đích trong mê cung, chỉ được di chuyển hoặc đẩy, không được kéo hoặc đi qua tường.",
+      "why_vi": "Cùng luật chơi với phiên bản classic nhưng có số lượng cấp độ rất lớn, mang lại trải nghiệm kéo dài mà không thay đổi cơ chế."
     }
   }
 }

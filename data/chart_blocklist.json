@@ -2388,6 +2388,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.newmoonproduction.bigfarmhomestead": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

@@ -287,18 +287,24 @@
     "pushclock",
     "stained glass pattern maker",
     "stained glass color by number",
-    "freeze puzzle levels"
-  ],
-  "pending": [
-    "stack sort",
-    "tap tile",
+    "freeze puzzle levels",
     "push the coin",
     "push press",
     "push up",
     "push clock",
     "push up rpg",
     "stained glass",
+    "bow the string puzzle levels"
+  ],
+  "pending": [
+    "stack sort",
+    "tap tile",
     "stained glass coloring",
-    "stack puzzle levels"
+    "stack puzzle levels",
+    "tilt the bowl puzzle levels",
+    "harvest the crop puzzle levels",
+    "cistern fill puzzle levels",
+    "spin the wheel puzzle levels",
+    "push puzzle levels"
   ]
 }
