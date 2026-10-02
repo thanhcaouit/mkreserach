@@ -4819,6 +4819,86 @@
       "url": "https://store.steampowered.com/app/4660500",
       "message_id": 903,
       "suggested_at": "2026-10-02T18:02:07.717024+00:00"
+    },
+    "286300": {
+      "app_id": "286300",
+      "title": "Algo Bot",
+      "title_norm": "algo bot",
+      "developer": "Fishing Cactus",
+      "reviews": 150,
+      "url": "https://store.steampowered.com/app/286300",
+      "message_id": 909,
+      "suggested_at": "2026-10-02T19:02:03.646989+00:00"
+    },
+    "1800910": {
+      "app_id": "1800910",
+      "title": "Bot Patrol",
+      "title_norm": "bot patrol",
+      "developer": "a.mighty.dish",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1800910",
+      "message_id": 910,
+      "suggested_at": "2026-10-02T19:02:04.598663+00:00"
+    },
+    "1182470": {
+      "app_id": "1182470",
+      "title": "reky",
+      "title_norm": "reky",
+      "developer": "beyondthosehills",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1182470",
+      "message_id": 911,
+      "suggested_at": "2026-10-02T19:02:05.582220+00:00"
+    },
+    "1349070": {
+      "app_id": "1349070",
+      "title": "Rollfall: Quest of Acceleration",
+      "title_norm": "rollfall quest of acceleration",
+      "developer": "Ethan Ines",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1349070",
+      "message_id": 912,
+      "suggested_at": "2026-10-02T19:02:06.678522+00:00"
+    },
+    "2597340": {
+      "app_id": "2597340",
+      "title": "The Alchemist's Apprentice in the Maze of Madness",
+      "title_norm": "the alchemist s apprentice in the maze of madness",
+      "developer": "ERMedia",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2597340",
+      "message_id": 913,
+      "suggested_at": "2026-10-02T19:02:07.693899+00:00"
+    },
+    "388620": {
+      "app_id": "388620",
+      "title": "DungeonUp",
+      "title_norm": "dungeonup",
+      "developer": "Clewcat Games",
+      "reviews": 417,
+      "url": "https://store.steampowered.com/app/388620",
+      "message_id": 914,
+      "suggested_at": "2026-10-02T19:02:08.883948+00:00"
+    },
+    "602430": {
+      "app_id": "602430",
+      "title": "Yono and the Celestial Elephants",
+      "title_norm": "yono and the celestial elephants",
+      "developer": "Neckbolt",
+      "reviews": 201,
+      "url": "https://store.steampowered.com/app/602430",
+      "message_id": 915,
+      "suggested_at": "2026-10-02T19:02:09.855853+00:00"
+    },
+    "1391650": {
+      "app_id": "1391650",
+      "title": "Loch Mess",
+      "title_norm": "loch mess",
+      "developer": "Ailurux",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1391650",
+      "message_id": 916,
+      "suggested_at": "2026-10-02T19:02:10.730516+00:00"
     }
   }
 }
