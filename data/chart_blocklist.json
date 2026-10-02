@@ -1330,7 +1330,8 @@
     "com.fc.goods.sort.matching.puzzle.triplemaster": {
       "first_seen": "2026-09-28",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.gamovation.tileclub": {

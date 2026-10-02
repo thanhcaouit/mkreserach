@@ -4857,6 +4857,48 @@
       "suggested_at": "2026-10-02T19:01:26.630893+00:00",
       "mechanic_vi": "Kids puzzles is an educational game for kids of all ages. The goal of the puzzles games is known to almost everyone: to collect a picture from various fragments. 🧩 Kids puzzles is interesting pictures on various themes -",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.greatefin.savefish.happyglasspuzzle": {
+      "app_id": "com.greatefin.savefish.happyglasspuzzle",
+      "title": "Save The Fish - Physics Puzzle",
+      "title_norm": "save the fish physics puzzle",
+      "developer": "GreatFin Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 2.1875,
+      "url": "https://play.google.com/store/apps/details?id=com.greatefin.savefish.happyglasspuzzle&hl=en",
+      "message_id": 917,
+      "suggested_at": "2026-10-02T20:01:17.037322+00:00",
+      "mechanic_vi": "Vẽ đường để tạo luồng nước, cách ly khu vực và dẫn nước tới cá.",
+      "why_vi": "Cơ chế vật lý vẽ đường độc đáo, mỗi màn có một quy tắc duy nhất, phù hợp với sở thích \"enclose or isolate\" và \"tilt gravity\"."
+    },
+    "com.soralapps.savethefish": {
+      "app_id": "com.soralapps.savethefish",
+      "title": "Save the Fish - Puzzle Game",
+      "title_norm": "save the fish puzzle game",
+      "developer": "SoralApps",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 2.7142856,
+      "url": "https://play.google.com/store/apps/details?id=com.soralapps.savethefish&hl=en",
+      "message_id": 918,
+      "suggested_at": "2026-10-02T20:01:18.469683+00:00",
+      "mechanic_vi": "Kéo các chốt để mở đường cho cá di chuyển tới mục tiêu.",
+      "why_vi": "Mỗi màn yêu cầu dẫn cá qua một lối đi duy nhất, đáp ứng nguyên tắc \"guide units to a goal\" và có luật chơi rõ ràng."
+    },
+    "com.BlackGames.SeasonsPuzzles": {
+      "app_id": "com.BlackGames.SeasonsPuzzles",
+      "title": "Seasons Puzzles | Mind Games",
+      "title_norm": "seasons puzzles mind games",
+      "developer": "Black Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.5,
+      "url": "https://play.google.com/store/apps/details?id=com.BlackGames.SeasonsPuzzles&hl=en",
+      "message_id": 919,
+      "suggested_at": "2026-10-02T20:01:19.809987+00:00",
+      "mechanic_vi": "Mỗi mùa là một loại câu đố độc lập, yêu cầu người chơi giải một quy tắc duy nhất cho mỗi màn.",
+      "why_vi": "Dù đa dạng, mỗi màn vẫn có một luật duy nhất, phù hợp với yêu cầu \"one clear rule per level\" nhưng ít mới lạ hơn các đề xuất khác."
     }
   }
 }

@@ -375,19 +375,25 @@
     "swap",
     "cool games",
     "heat puzzle levels",
-    "jump the gap puzzle levels"
-  ],
-  "pending": [
-    "stack sort",
-    "tap tile",
-    "light-hearted",
+    "jump the gap puzzle levels",
     "cool vpn",
     "cool wallpapers",
     "coolled1248",
     "cool survey",
     "gear mesh puzzle levels",
     "fill the tank puzzle levels",
+    "carry puzzle levels",
+    "pulley lift puzzle levels"
+  ],
+  "pending": [
+    "stack sort",
+    "tap tile",
+    "light-hearted",
     "pour the water puzzle levels",
-    "float puzzle levels"
+    "float puzzle levels",
+    "grow the vine puzzle levels",
+    "bait the fish puzzle levels",
+    "leap the chasm puzzle levels",
+    "draw puzzle levels"
   ]
 }
