@@ -4717,6 +4717,20 @@
       "suggested_at": "2026-10-02T12:01:37.853591+00:00",
       "mechanic_vi": "Đẩy các hộp đến vị trí đích trong mê cung, chỉ được di chuyển hoặc đẩy, không được kéo hoặc đi qua tường.",
       "why_vi": "Cùng luật chơi với phiên bản classic nhưng có số lượng cấp độ rất lớn, mang lại trải nghiệm kéo dài mà không thay đổi cơ chế."
+    },
+    "com.AnionSoftware.LightHaze": {
+      "app_id": "com.AnionSoftware.LightHaze",
+      "title": "Light Haze",
+      "title_norm": "light haze",
+      "developer": "Anion Software",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.2352943,
+      "url": "https://play.google.com/store/apps/details?id=com.AnionSoftware.LightHaze&hl=en",
+      "message_id": 886,
+      "suggested_at": "2026-10-02T14:48:22.369437+00:00",
+      "mechanic_vi": "Kết nối dây điện để bật tất cả các đèn trong màn.",
+      "why_vi": "Mỗi màn chỉ có một mục tiêu duy nhất: nối các dây sao cho mọi đèn đều sáng, tạo luật chơi rõ ràng và lặp lại qua các level."
     }
   }
 }

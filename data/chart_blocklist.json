@@ -2394,6 +2394,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.jc.matchgame.puzzle": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.Zeeppo.DonutDrop": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.association.bubble.wordgame.puzzle": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
