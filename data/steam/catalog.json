@@ -4909,6 +4909,46 @@
       "url": "https://store.steampowered.com/app/347790",
       "message_id": 928,
       "suggested_at": "2026-10-02T22:01:52.942348+00:00"
+    },
+    "3582540": {
+      "app_id": "3582540",
+      "title": "Foxxel Quest - A Puzzle Adventure",
+      "title_norm": "foxxel quest a puzzle adventure",
+      "developer": "Shivary Game Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3582540",
+      "message_id": 930,
+      "suggested_at": "2026-10-02T23:01:46.220222+00:00"
+    },
+    "4551800": {
+      "app_id": "4551800",
+      "title": "A Bit Dicey",
+      "title_norm": "a bit dicey",
+      "developer": "Andy Zawadzki",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4551800",
+      "message_id": 931,
+      "suggested_at": "2026-10-02T23:01:47.716397+00:00"
+    },
+    "701910": {
+      "app_id": "701910",
+      "title": "Dawn of a Soul",
+      "title_norm": "dawn of a soul",
+      "developer": "Waldemar Umaniz",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/701910",
+      "message_id": 932,
+      "suggested_at": "2026-10-02T23:01:48.827576+00:00"
+    },
+    "796840": {
+      "app_id": "796840",
+      "title": "Molecule - a chemical challenge",
+      "title_norm": "molecule a chemical challenge",
+      "developer": "a.mighty.dish",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/796840",
+      "message_id": 933,
+      "suggested_at": "2026-10-02T23:01:50.042566+00:00"
     }
   }
 }
