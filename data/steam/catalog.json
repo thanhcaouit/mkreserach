@@ -4339,6 +4339,56 @@
       "url": "https://store.steampowered.com/app/1943490",
       "message_id": 835,
       "suggested_at": "2026-10-02T05:02:01.355863+00:00"
+    },
+    "2594110": {
+      "app_id": "2594110",
+      "title": "Endure The Swarm",
+      "title_norm": "endure the swarm",
+      "developer": "Ternary Designs",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2594110",
+      "message_id": 837,
+      "suggested_at": "2026-10-02T06:01:50.676267+00:00"
+    },
+    "3334190": {
+      "app_id": "3334190",
+      "title": "Thinking Inside The Box",
+      "title_norm": "thinking inside the box",
+      "developer": "Neckbeard Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3334190",
+      "message_id": 838,
+      "suggested_at": "2026-10-02T06:01:52.790819+00:00"
+    },
+    "292090": {
+      "app_id": "292090",
+      "title": "Rube Works: The Official Rube Goldberg Invention Game",
+      "title_norm": "rube works the official rube goldberg invention game",
+      "developer": "Electric Eggplant",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/292090",
+      "message_id": 839,
+      "suggested_at": "2026-10-02T06:01:55.324107+00:00"
+    },
+    "402170": {
+      "app_id": "402170",
+      "title": "Puzzle Ball",
+      "title_norm": "puzzle ball",
+      "developer": "Почежерцев Влад",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/402170",
+      "message_id": 840,
+      "suggested_at": "2026-10-02T06:01:58.021252+00:00"
+    },
+    "849000": {
+      "app_id": "849000",
+      "title": "Open The Door",
+      "title_norm": "open the door",
+      "developer": "Individual233",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/849000",
+      "message_id": 841,
+      "suggested_at": "2026-10-02T06:01:58.800576+00:00"
     }
   }
 }
