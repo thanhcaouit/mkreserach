@@ -13,7 +13,9 @@
     "turn‑based puzzle game",
     "spatial manipulation puzzle",
     "single rule per level puzzle",
-    "object routing puzzle"
+    "object routing puzzle",
+    "goal based puzzle game",
+    "hook puzzle levels"
   ],
   "pending": []
 }

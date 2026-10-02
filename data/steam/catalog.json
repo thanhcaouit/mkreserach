@@ -4649,6 +4649,56 @@
       "url": "https://store.steampowered.com/app/1946970",
       "message_id": 879,
       "suggested_at": "2026-10-02T13:02:05.522478+00:00"
+    },
+    "662410": {
+      "app_id": "662410",
+      "title": "Circuit Dude",
+      "title_norm": "circuit dude",
+      "developer": "Jonathan Holmes (crait)",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/662410",
+      "message_id": 881,
+      "suggested_at": "2026-10-02T14:02:13.397324+00:00"
+    },
+    "1987470": {
+      "app_id": "1987470",
+      "title": "Gem Setter",
+      "title_norm": "gem setter",
+      "developer": "Onefin",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1987470",
+      "message_id": 882,
+      "suggested_at": "2026-10-02T14:02:14.760935+00:00"
+    },
+    "583270": {
+      "app_id": "583270",
+      "title": "Cosmic Express",
+      "title_norm": "cosmic express",
+      "developer": "Cosmic Engineers",
+      "reviews": 480,
+      "url": "https://store.steampowered.com/app/583270",
+      "message_id": 883,
+      "suggested_at": "2026-10-02T14:02:16.001252+00:00"
+    },
+    "4279050": {
+      "app_id": "4279050",
+      "title": "Stinky Cat",
+      "title_norm": "stinky cat",
+      "developer": "Utterly Useless",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4279050",
+      "message_id": 884,
+      "suggested_at": "2026-10-02T14:02:19.903838+00:00"
+    },
+    "3827340": {
+      "app_id": "3827340",
+      "title": "Blobun Mini",
+      "title_norm": "blobun mini",
+      "developer": "CyanSorcery",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3827340",
+      "message_id": 885,
+      "suggested_at": "2026-10-02T14:02:20.657672+00:00"
     }
   }
 }
