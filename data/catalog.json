@@ -4731,6 +4731,34 @@
       "suggested_at": "2026-10-02T14:48:22.369437+00:00",
       "mechanic_vi": "Kết nối dây điện để bật tất cả các đèn trong màn.",
       "why_vi": "Mỗi màn chỉ có một mục tiêu duy nhất: nối các dây sao cho mọi đèn đều sáng, tạo luật chơi rõ ràng và lặp lại qua các level."
+    },
+    "com.rvappstudios.veggies.cut.logic.puzzle.adult.game": {
+      "app_id": "com.rvappstudios.veggies.cut.logic.puzzle.adult.game",
+      "title": "Veggies Cut: Logic Puzzle Game",
+      "title_norm": "veggies cut logic puzzle game",
+      "developer": "RV AppStudios",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.148148,
+      "url": "https://play.google.com/store/apps/details?id=com.rvappstudios.veggies.cut.logic.puzzle.adult.game&hl=en",
+      "message_id": 887,
+      "suggested_at": "2026-10-02T15:01:17.453961+00:00",
+      "mechanic_vi": "Cắt các lát rau củ thành các hình dạng yêu cầu.",
+      "why_vi": "Có hơn 1000 màn, mỗi màn chỉ có một quy tắc duy nhất là cắt hết các miếng rau củ."
+    },
+    "com.alexuvarov.android.kropki.puzzle": {
+      "app_id": "com.alexuvarov.android.kropki.puzzle",
+      "title": "Kropki Puzzle",
+      "title_norm": "kropki puzzle",
+      "developer": "Aliaksandr Uvarau",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.7722774,
+      "url": "https://play.google.com/store/apps/details?id=com.alexuvarov.android.kropki.puzzle&hl=en",
+      "message_id": 888,
+      "suggested_at": "2026-10-02T15:01:18.668207+00:00",
+      "mechanic_vi": "Điền số vào lưới sao cho các dấu trắng và đen giữa ô đáp ứng các quy tắc về hiệu số.",
+      "why_vi": "Mỗi màn là một bảng số độc lập, luật duy nhất là tuân thủ các quy tắc dấu trắng/đen và không trùng số trong hàng, cột."
     }
   }
 }
