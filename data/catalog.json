@@ -4787,6 +4787,76 @@
       "suggested_at": "2026-10-02T17:01:11.858249+00:00",
       "mechanic_vi": "Di chuyển các khối để giải phóng khối mục tiêu, một quy tắc duy nhất cho mỗi màn.",
       "why_vi": "Mỗi màn yêu cầu người chơi suy nghĩ cách sắp xếp khối để mở đường, phù hợp với sở thích “enclose or isolate” và luật rõ ràng."
+    },
+    "com.jankerekes.puzzlegear": {
+      "app_id": "com.jankerekes.puzzlegear",
+      "title": "Spin Those Gears",
+      "title_norm": "spin those gears",
+      "developer": "Jan Kerekes",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 3.4375,
+      "url": "https://play.google.com/store/apps/details?id=com.jankerekes.puzzlegear&hl=en",
+      "message_id": 904,
+      "suggested_at": "2026-10-02T19:01:20.261697+00:00",
+      "mechanic_vi": "Xây dựng bộ bánh răng để đạt tốc độ quay mục tiêu.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất – tạo tỉ lệ bánh răng đúng – và có tiến độ cấp độ rõ ràng."
+    },
+    "com.cellcrowd.gearbox.cog.puzzle": {
+      "app_id": "com.cellcrowd.gearbox.cog.puzzle",
+      "title": "Crazy Gears Box: Connect cogs",
+      "title_norm": "crazy gears box connect cogs",
+      "developer": "Cellcrowd",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.090909,
+      "url": "https://play.google.com/store/apps/details?id=com.cellcrowd.gearbox.cog.puzzle&hl=en",
+      "message_id": 905,
+      "suggested_at": "2026-10-02T19:01:21.942159+00:00",
+      "mechanic_vi": "Kết nối các bánh răng trên khối lập phương để hoàn thành chuỗi quay.",
+      "why_vi": "Luật chơi đơn giản, mỗi cấp độ yêu cầu một cách sắp xếp duy nhất, với hơn 1000 màn."
+    },
+    "com.hundong.chilun": {
+      "app_id": "com.hundong.chilun",
+      "title": "Gear Enigmas: Puzzle Escape",
+      "title_norm": "gear enigmas puzzle escape",
+      "developer": "SurvivalGame",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.38,
+      "url": "https://play.google.com/store/apps/details?id=com.hundong.chilun&hl=en",
+      "message_id": 906,
+      "suggested_at": "2026-10-02T19:01:23.623190+00:00",
+      "mechanic_vi": "Giải các cơ chế ẩn và mở khóa các phòng bằng cách cô lập, di chuyển các vật thể.",
+      "why_vi": "Mỗi cảnh là một màn có mục tiêu duy nhất – mở khóa bí mật – phù hợp với sở thích “đóng gói/ cô lập”."
+    },
+    "com.puzzle.waterpour": {
+      "app_id": "com.puzzle.waterpour",
+      "title": "Water Pour Puzzle",
+      "title_norm": "water pour puzzle",
+      "developer": "starstudiobox",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.puzzle.waterpour&hl=en",
+      "message_id": 907,
+      "suggested_at": "2026-10-02T19:01:24.790478+00:00",
+      "mechanic_vi": "Water Pour Puzzle is a relaxing yet brain-stimulating water sorting game. Simply tap the bottles to pour different colored liquids into the right places, ensuring every bottle is filled with the same color! 🌈 Easy to pla",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "skywave.puzzles": {
+      "app_id": "skywave.puzzles",
+      "title": "Kids puzzles",
+      "title_norm": "kids puzzles",
+      "developer": "SkyWave",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.6666665,
+      "url": "https://play.google.com/store/apps/details?id=skywave.puzzles&hl=en",
+      "message_id": 908,
+      "suggested_at": "2026-10-02T19:01:26.630893+00:00",
+      "mechanic_vi": "Kids puzzles is an educational game for kids of all ages. The goal of the puzzles games is known to almost everyone: to collect a picture from various fragments. 🧩 Kids puzzles is interesting pictures on various themes -",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
