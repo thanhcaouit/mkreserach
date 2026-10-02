@@ -4209,6 +4209,56 @@
       "url": "https://store.steampowered.com/app/1602770",
       "message_id": 806,
       "suggested_at": "2026-10-02T00:01:59.893891+00:00"
+    },
+    "3500640": {
+      "app_id": "3500640",
+      "title": "Arithmetic",
+      "title_norm": "arithmetic",
+      "developer": "SheepGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3500640",
+      "message_id": 810,
+      "suggested_at": "2026-10-02T01:01:47.511513+00:00"
+    },
+    "2686980": {
+      "app_id": "2686980",
+      "title": "Planet Suika",
+      "title_norm": "planet suika",
+      "developer": "design.reject",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2686980",
+      "message_id": 811,
+      "suggested_at": "2026-10-02T01:01:48.939638+00:00"
+    },
+    "3655610": {
+      "app_id": "3655610",
+      "title": "PancitoMerge",
+      "title_norm": "pancitomerge",
+      "developer": "Fáyer",
+      "reviews": 163,
+      "url": "https://store.steampowered.com/app/3655610",
+      "message_id": 812,
+      "suggested_at": "2026-10-02T01:01:50.829725+00:00"
+    },
+    "4575650": {
+      "app_id": "4575650",
+      "title": "Cosy Puzzle Cabin",
+      "title_norm": "cosy puzzle cabin",
+      "developer": "Andrew Misselbrook",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4575650",
+      "message_id": 813,
+      "suggested_at": "2026-10-02T01:01:52.062643+00:00"
+    },
+    "5005590": {
+      "app_id": "5005590",
+      "title": "Sudoku Mansion",
+      "title_norm": "sudoku mansion",
+      "developer": "Vault Door Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/5005590",
+      "message_id": 814,
+      "suggested_at": "2026-10-02T01:01:52.855208+00:00"
     }
   }
 }
