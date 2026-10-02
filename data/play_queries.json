@@ -192,17 +192,15 @@
     "pullz",
     "pullybuzz",
     "pull up",
-    "pull and bear"
+    "pull and bear",
+    "rotate control",
+    "rotate video",
+    "rotate photo",
+    "bounce the orb puzzle levels"
   ],
   "pending": [
     "stack sort",
     "tap tile",
-    "rotate",
-    "rotate control",
-    "rotate video",
-    "rotate photo",
-    "rotate ring game",
-    "bounce the orb puzzle levels",
     "jumpcloud protect",
     "jumpstart rewards",
     "jumping games",
@@ -232,6 +230,8 @@
     "shadow fight 3",
     "shadow hunter",
     "close knit",
-    "pull the pin"
+    "pull the pin",
+    "rotate",
+    "rotate ring game"
   ]
 }

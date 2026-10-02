@@ -4451,6 +4451,76 @@
       "suggested_at": "2026-10-02T01:01:16.090261+00:00",
       "mechanic_vi": "Kéo các chốt để giải phóng nhân vật chính, đồng thời tránh các quái vật và chướng ngại vật.",
       "why_vi": "Mặc dù có nhiều màn, cơ chế vẫn dựa trên việc kéo chốt để dẫn nhân vật tới mục tiêu, phù hợp với nguyên tắc \"guide units to a goal\" nhưng ít mới lạ hơn."
+    },
+    "com.cellcrowd.unlock.rings": {
+      "app_id": "com.cellcrowd.unlock.rings",
+      "title": "Untie The Rings: Circle Rotate",
+      "title_norm": "untie the rings circle rotate",
+      "developer": "Cellcrowd",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.2376237,
+      "url": "https://play.google.com/store/apps/details?id=com.cellcrowd.unlock.rings&hl=en",
+      "message_id": 815,
+      "suggested_at": "2026-10-02T02:01:04.994722+00:00",
+      "mechanic_vi": "Xoay vòng tròn để căn chỉnh các vòng và mở khóa các vòng khác.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất – xoay để tạo khoảng trống – phù hợp với sở thích yêu thích luật chơi đơn giản, rõ ràng."
+    },
+    "com.alcamasoft.hungarianrings": {
+      "app_id": "com.alcamasoft.hungarianrings",
+      "title": "Color Rings",
+      "title_norm": "color rings",
+      "developer": "AlcamaSoft",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.2,
+      "url": "https://play.google.com/store/apps/details?id=com.alcamasoft.hungarianrings&hl=en",
+      "message_id": 816,
+      "suggested_at": "2026-10-02T02:01:07.071889+00:00",
+      "mechanic_vi": "Xoay các vòng màu để đưa cùng màu vào một vòng duy nhất.",
+      "why_vi": "Cơ chế cổ điển nhưng được tái hiện với các cấp độ tăng dần, đáp ứng yêu cầu có nhiều màn và một luật duy nhất."
+    },
+    "com.techarts.rotate.ring.circle.unlock.puzzle.game": {
+      "app_id": "com.techarts.rotate.ring.circle.unlock.puzzle.game",
+      "title": "Rotate Rings - Circle Puzzle",
+      "title_norm": "rotate rings circle puzzle",
+      "developer": "TechArts Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.3888888,
+      "url": "https://play.google.com/store/apps/details?id=com.techarts.rotate.ring.circle.unlock.puzzle.game&hl=en",
+      "message_id": 817,
+      "suggested_at": "2026-10-02T02:01:08.877081+00:00",
+      "mechanic_vi": "Xoay các vòng để tìm khoảng trống và mở khóa các vòng tiếp theo.",
+      "why_vi": "Mỗi cấp độ có mục tiêu riêng, luật chơi duy nhất là xoay, tạo cảm giác tiến bộ qua các màn."
+    },
+    "com.lioncube.rotate.ring.circle.color.sort": {
+      "app_id": "com.lioncube.rotate.ring.circle.color.sort",
+      "title": "Rotate the Ring :Unlock Circle",
+      "title_norm": "rotate the ring unlock circle",
+      "developer": "Lion Cube Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.5,
+      "url": "https://play.google.com/store/apps/details?id=com.lioncube.rotate.ring.circle.color.sort&hl=en",
+      "message_id": 818,
+      "suggested_at": "2026-10-02T02:01:10.354350+00:00",
+      "mechanic_vi": "Xoay vòng màu để khớp với mục tiêu trung tâm.",
+      "why_vi": "Cơ chế xoay vòng đơn giản, mỗi màn có một mục tiêu rõ ràng, phù hợp với tiêu chí luật chơi một‑luật‑một‑màn."
+    },
+    "com.aflatoon.rotatepuzzle": {
+      "app_id": "com.aflatoon.rotatepuzzle",
+      "title": "Rotate Puzzle for Kids",
+      "title_norm": "rotate puzzle for kids",
+      "developer": "Aflatoon Game",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.aflatoon.rotatepuzzle&hl=en",
+      "message_id": 819,
+      "suggested_at": "2026-10-02T02:01:11.377126+00:00",
+      "mechanic_vi": "Xoay các vòng để giải các câu đố giáo dục.",
+      "why_vi": "Mặc dù hướng tới trẻ em, trò chơi vẫn có các cấp độ riêng biệt và một quy tắc duy nhất – xoay để giải."
     }
   }
 }
