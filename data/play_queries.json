@@ -294,17 +294,23 @@
     "push clock",
     "push up rpg",
     "stained glass",
-    "bow the string puzzle levels"
-  ],
-  "pending": [
-    "stack sort",
-    "tap tile",
+    "bow the string puzzle levels",
     "stained glass coloring",
     "stack puzzle levels",
     "tilt the bowl puzzle levels",
     "harvest the crop puzzle levels",
     "cistern fill puzzle levels",
     "spin the wheel puzzle levels",
-    "push puzzle levels"
+    "bounce puzzle levels",
+    "pollen trail puzzle levels",
+    "switch puzzle levels",
+    "water puzzle levels",
+    "dig a tunnel puzzle levels"
+  ],
+  "pending": [
+    "stack sort",
+    "tap tile",
+    "push puzzle levels",
+    "trace puzzle levels"
   ]
 }
