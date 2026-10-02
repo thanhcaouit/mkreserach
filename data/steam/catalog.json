@@ -4309,6 +4309,36 @@
       "url": "https://store.steampowered.com/app/3869030",
       "message_id": 827,
       "suggested_at": "2026-10-02T04:01:46.092494+00:00"
+    },
+    "1878280": {
+      "app_id": "1878280",
+      "title": "Push the Box",
+      "title_norm": "push the box",
+      "developer": "SetimuStudio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1878280",
+      "message_id": 833,
+      "suggested_at": "2026-10-02T05:01:57.531325+00:00"
+    },
+    "3766130": {
+      "app_id": "3766130",
+      "title": "Mirror Atelier",
+      "title_norm": "mirror atelier",
+      "developer": "Beşinci Kural A.Ş.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3766130",
+      "message_id": 834,
+      "suggested_at": "2026-10-02T05:02:00.067819+00:00"
+    },
+    "1943490": {
+      "app_id": "1943490",
+      "title": "Magic Griddlers 2",
+      "title_norm": "magic griddlers 2",
+      "developer": "Creobit",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1943490",
+      "message_id": 835,
+      "suggested_at": "2026-10-02T05:02:01.355863+00:00"
     }
   }
 }
