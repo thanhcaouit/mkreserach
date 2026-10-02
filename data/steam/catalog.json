@@ -4569,6 +4569,86 @@
       "url": "https://store.steampowered.com/app/543040",
       "message_id": 870,
       "suggested_at": "2026-10-02T12:02:31.249952+00:00"
+    },
+    "2594020": {
+      "app_id": "2594020",
+      "title": "Oxytone",
+      "title_norm": "oxytone",
+      "developer": "OxGames",
+      "reviews": 119,
+      "url": "https://store.steampowered.com/app/2594020",
+      "message_id": 872,
+      "suggested_at": "2026-10-02T13:01:54.811810+00:00"
+    },
+    "1052760": {
+      "app_id": "1052760",
+      "title": "Hexa Path",
+      "title_norm": "hexa path",
+      "developer": "NanningsGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1052760",
+      "message_id": 873,
+      "suggested_at": "2026-10-02T13:01:56.047840+00:00"
+    },
+    "1701330": {
+      "app_id": "1701330",
+      "title": "Sokobond Express",
+      "title_norm": "sokobond express",
+      "developer": "José Hernández",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1701330",
+      "message_id": 874,
+      "suggested_at": "2026-10-02T13:01:57.421420+00:00"
+    },
+    "1705580": {
+      "app_id": "1705580",
+      "title": "SiNKR 3",
+      "title_norm": "sinkr 3",
+      "developer": "Robert Wahler",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1705580",
+      "message_id": 875,
+      "suggested_at": "2026-10-02T13:01:59.406703+00:00"
+    },
+    "3001370": {
+      "app_id": "3001370",
+      "title": "Meow Path",
+      "title_norm": "meow path",
+      "developer": "OKCITY",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3001370",
+      "message_id": 876,
+      "suggested_at": "2026-10-02T13:02:01.452484+00:00"
+    },
+    "4054100": {
+      "app_id": "4054100",
+      "title": "Sokogram",
+      "title_norm": "sokogram",
+      "developer": "PressGtoGeorge",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4054100",
+      "message_id": 877,
+      "suggested_at": "2026-10-02T13:02:02.497727+00:00"
+    },
+    "3284270": {
+      "app_id": "3284270",
+      "title": "Blobun",
+      "title_norm": "blobun",
+      "developer": "CyanSorcery",
+      "reviews": 151,
+      "url": "https://store.steampowered.com/app/3284270",
+      "message_id": 878,
+      "suggested_at": "2026-10-02T13:02:03.704592+00:00"
+    },
+    "1946970": {
+      "app_id": "1946970",
+      "title": "Isle of Arrows",
+      "title_norm": "isle of arrows",
+      "developer": "Gridpop",
+      "reviews": 941,
+      "url": "https://store.steampowered.com/app/1946970",
+      "message_id": 879,
+      "suggested_at": "2026-10-02T13:02:05.522478+00:00"
     }
   }
 }
