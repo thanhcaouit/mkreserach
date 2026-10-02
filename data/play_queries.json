@@ -196,17 +196,21 @@
     "rotate control",
     "rotate video",
     "rotate photo",
-    "bounce the orb puzzle levels"
+    "bounce the orb puzzle levels",
+    "jumpcloud protect",
+    "jumpstart rewards",
+    "jumping games",
+    "jump desktop",
+    "jump rope game",
+    "pull tabs games",
+    "portal",
+    "portal app",
+    "portal 2",
+    "portal gun"
   ],
   "pending": [
     "stack sort",
     "tap tile",
-    "jumpcloud protect",
-    "jumpstart rewards",
-    "jumping games",
-    "jump games",
-    "jump desktop",
-    "jump rope game",
     "jump rope",
     "connect iq",
     "connect team",
@@ -220,7 +224,6 @@
     "freezenova",
     "freeze dry buddy app",
     "tap tap",
-    "pull tabs games",
     "shadow fight",
     "shadow pc",
     "shadowverse",
@@ -230,8 +233,10 @@
     "shadow fight 3",
     "shadow hunter",
     "close knit",
-    "pull the pin",
     "rotate",
-    "rotate ring game"
+    "rotate ring game",
+    "portal survivor",
+    "jump games",
+    "pull the pin"
   ]
 }

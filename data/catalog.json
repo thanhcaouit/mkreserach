@@ -4521,6 +4521,20 @@
       "suggested_at": "2026-10-02T02:01:11.377126+00:00",
       "mechanic_vi": "Xoay các vòng để giải các câu đố giáo dục.",
       "why_vi": "Mặc dù hướng tới trẻ em, trò chơi vẫn có các cấp độ riêng biệt và một quy tắc duy nhất – xoay để giải."
+    },
+    "com.rescue.princess.HeroWarrior": {
+      "app_id": "com.rescue.princess.HeroWarrior",
+      "title": "Princess Rescue: Pull the Pin",
+      "title_norm": "princess rescue pull the pin",
+      "developer": "HighLoadIT",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 3.5,
+      "url": "https://play.google.com/store/apps/details?id=com.rescue.princess.HeroWarrior&hl=en",
+      "message_id": 822,
+      "suggested_at": "2026-10-02T03:01:25.482690+00:00",
+      "mechanic_vi": "Kéo chốt (pin) để giải cứu công chúa, mỗi màn có một hướng kéo duy nhất.",
+      "why_vi": "Có nhiều màn với một luật duy nhất mỗi level, phù hợp với sở thích puzzle có quy tắc rõ ràng và tiến độ theo màn."
     }
   }
 }
