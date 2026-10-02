@@ -4899,6 +4899,76 @@
       "suggested_at": "2026-10-02T20:01:19.809987+00:00",
       "mechanic_vi": "Mỗi mùa là một loại câu đố độc lập, yêu cầu người chơi giải một quy tắc duy nhất cho mỗi màn.",
       "why_vi": "Dù đa dạng, mỗi màn vẫn có một luật duy nhất, phù hợp với yêu cầu \"one clear rule per level\" nhưng ít mới lạ hơn các đề xuất khác."
+    },
+    "air.TTNG.EscapeGameA53": {
+      "app_id": "air.TTNG.EscapeGameA53",
+      "title": "100 doors Escape Room game",
+      "title_norm": "100 doors escape room game",
+      "developer": "TTN Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.114754,
+      "url": "https://play.google.com/store/apps/details?id=air.TTNG.EscapeGameA53&hl=en",
+      "message_id": 923,
+      "suggested_at": "2026-10-02T22:01:15.130646+00:00",
+      "mechanic_vi": "Giải đố phòng thoát, mở khóa từng cánh cửa bằng việc tìm đồ vật và giải câu đố.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất, phù hợp với sở thích các level có luật rõ ràng."
+    },
+    "air.com.escape.adventure.hidden.mystery.door.rooms.puzzle.game.level.exit": {
+      "app_id": "air.com.escape.adventure.hidden.mystery.door.rooms.puzzle.game.level.exit",
+      "title": "100 doors: mystery Escape Room",
+      "title_norm": "100 doors mystery escape room",
+      "developer": "TTN Fun Games",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 3.6923077,
+      "url": "https://play.google.com/store/apps/details?id=air.com.escape.adventure.hidden.mystery.door.rooms.puzzle.game.level.exit&hl=en",
+      "message_id": 924,
+      "suggested_at": "2026-10-02T22:01:16.934407+00:00",
+      "mechanic_vi": "Thám hiểm các phòng bí ẩn, thu thập manh mối và giải các câu đố để mở cửa.",
+      "why_vi": "Cấu trúc từng phòng là một level độc lập với một quy tắc duy nhất, đáp ứng yêu cầu \"one clear rule per level\"."
+    },
+    "air.TTNG.EscapeGameA54": {
+      "app_id": "air.TTNG.EscapeGameA54",
+      "title": "100 Doors Escape: mystery exit",
+      "title_norm": "100 doors escape mystery exit",
+      "developer": "TTN Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.081081,
+      "url": "https://play.google.com/store/apps/details?id=air.TTNG.EscapeGameA54&hl=en",
+      "message_id": 925,
+      "suggested_at": "2026-10-02T22:01:18.486834+00:00",
+      "mechanic_vi": "Giải đố point‑and‑click, mở khóa 100 cánh cửa qua các thử thách logic.",
+      "why_vi": "Có hơn 100 level, mỗi level yêu cầu một cách giải duy nhất, phù hợp với sở thích game dựa trên level."
+    },
+    "air.com.ttn.mysticalmanor.escape.rooms.challenge.game": {
+      "app_id": "air.com.ttn.mysticalmanor.escape.rooms.challenge.game",
+      "title": "100 Doors Game: Mystical Manor",
+      "title_norm": "100 doors game mystical manor",
+      "developer": "TTN Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.764706,
+      "url": "https://play.google.com/store/apps/details?id=air.com.ttn.mysticalmanor.escape.rooms.challenge.game&hl=en",
+      "message_id": 926,
+      "suggested_at": "2026-10-02T22:01:20.131401+00:00",
+      "mechanic_vi": "Thử thách phòng thoát với các câu đố, ẩn đồ vật và mở khóa từng cánh cửa.",
+      "why_vi": "Mỗi phòng là một level riêng biệt, luật chơi rõ ràng và có tiến độ cấp độ, đáp ứng tiêu chí \"level based puzzle\"."
+    },
+    "com.techarts.connect.collect.dots.match.color.puzzle": {
+      "app_id": "com.techarts.connect.collect.dots.match.color.puzzle",
+      "title": "Connect Em All! - 3 Dots Link",
+      "title_norm": "connect em all 3 dots link",
+      "developer": "TechArts Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.51,
+      "url": "https://play.google.com/store/apps/details?id=com.techarts.connect.collect.dots.match.color.puzzle&hl=en",
+      "message_id": 927,
+      "suggested_at": "2026-10-02T22:01:21.979358+00:00",
+      "mechanic_vi": "Connect the lines of dots with the same color and make the biggest chains to break them. About Game *~*~*~*~*~* Connecting the same color balls to crush them! Make the longest chains and break them to win faster. New opp",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
