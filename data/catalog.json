@@ -4535,6 +4535,34 @@
       "suggested_at": "2026-10-02T03:01:25.482690+00:00",
       "mechanic_vi": "Kéo chốt (pin) để giải cứu công chúa, mỗi màn có một hướng kéo duy nhất.",
       "why_vi": "Có nhiều màn với một luật duy nhất mỗi level, phù hợp với sở thích puzzle có quy tắc rõ ràng và tiến độ theo màn."
+    },
+    "com.conceptispuzzles.slitherlink": {
+      "app_id": "com.conceptispuzzles.slitherlink",
+      "title": "Slitherlink: Loop the Snake",
+      "title_norm": "slitherlink loop the snake",
+      "developer": "Conceptis Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.58,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.slitherlink&hl=en",
+      "message_id": 824,
+      "suggested_at": "2026-10-02T04:01:09.955723+00:00",
+      "mechanic_vi": "Bao vây các ô theo quy tắc một vòng liên tục, không giao nhau.",
+      "why_vi": "Mỗi màn chỉ có một luật duy nhất: tạo vòng kín quanh các số chỉ dẫn."
+    },
+    "net.shapkin.riddleswordquizru": {
+      "app_id": "net.shapkin.riddleswordquizru",
+      "title": "Головоломки: Загадки на Логику",
+      "title_norm": "головоломки загадки на логику",
+      "developer": "Beeks — Quizzes, Games, Tests",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=net.shapkin.riddleswordquizru&hl=en",
+      "message_id": 825,
+      "suggested_at": "2026-10-02T04:01:11.357185+00:00",
+      "mechanic_vi": "Giải các câu đố logic và câu hỏi trí tuệ.",
+      "why_vi": "Mỗi màn cung cấp nhiều dạng câu đố, không có luật duy nhất rõ ràng."
     }
   }
 }

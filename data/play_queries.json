@@ -206,17 +206,21 @@
     "portal",
     "portal app",
     "portal 2",
-    "portal gun"
-  ],
-  "pending": [
-    "stack sort",
-    "tap tile",
+    "portal gun",
     "jump rope",
     "connect iq",
     "connect team",
     "connect 4",
     "freezer",
     "freeze app",
+    "chains of ghost sparta",
+    "split puzzle levels",
+    "sink the weight puzzle levels",
+    "aim the mirror puzzle levels"
+  ],
+  "pending": [
+    "stack sort",
+    "tap tile",
     "freeze dry buddy",
     "freezer app",
     "freezeria",
@@ -237,6 +241,8 @@
     "rotate ring game",
     "portal survivor",
     "jump games",
-    "pull the pin"
+    "pull the pin",
+    "burrow the mole puzzle levels",
+    "irrigate the field puzzle levels"
   ]
 }
