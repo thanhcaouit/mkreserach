@@ -2322,6 +2322,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.kurechii.postknight2": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

@@ -4395,6 +4395,20 @@
       "suggested_at": "2026-10-01T18:01:24.555740+00:00",
       "mechanic_vi": "Bắn bi với vật lý, tạo chuỗi để phá và sử dụng vật phẩm hỗ trợ.",
       "why_vi": "Mỗi màn yêu cầu người chơi bắn bi để tạo chuỗi phá, đồng thời có thể dùng các vật phẩm để vượt qua thử thách."
+    },
+    "yuh.yuh.taptap": {
+      "app_id": "yuh.yuh.taptap",
+      "title": "Tap Tap",
+      "title_norm": "tap tap",
+      "developer": "YUH APPS",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.230769,
+      "url": "https://play.google.com/store/apps/details?id=yuh.yuh.taptap&hl=en",
+      "message_id": 805,
+      "suggested_at": "2026-10-02T00:01:09.046328+00:00",
+      "mechanic_vi": "Nhớ vị trí nhấp nháy và chạm theo thứ tự.",
+      "why_vi": "Có một luật duy nhất mỗi màn nhưng không liên quan tới bao vây hay dẫn đơn vị."
     }
   }
 }
