@@ -11,7 +11,8 @@
     "gridless physics puzzle",
     "unit movement puzzle",
     "turn‑based puzzle game",
-    "spatial manipulation puzzle"
+    "spatial manipulation puzzle",
+    "single rule per level puzzle"
   ],
   "pending": []
 }

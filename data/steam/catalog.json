@@ -4509,6 +4509,66 @@
       "url": "https://store.steampowered.com/app/1415570",
       "message_id": 859,
       "suggested_at": "2026-10-02T11:01:41.911414+00:00"
+    },
+    "574030": {
+      "app_id": "574030",
+      "title": "Score a goal (Physical football)",
+      "title_norm": "score a goal physical football",
+      "developer": "BulatHard",
+      "reviews": 246,
+      "url": "https://store.steampowered.com/app/574030",
+      "message_id": 865,
+      "suggested_at": "2026-10-02T12:02:25.650266+00:00"
+    },
+    "1328410": {
+      "app_id": "1328410",
+      "title": "Newton's Cradle Puzzle Game",
+      "title_norm": "newton s cradle puzzle game",
+      "developer": "Peter Hijma",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1328410",
+      "message_id": 866,
+      "suggested_at": "2026-10-02T12:02:26.560269+00:00"
+    },
+    "2316750": {
+      "app_id": "2316750",
+      "title": "Finger Football: Goal in One",
+      "title_norm": "finger football goal in one",
+      "developer": "Headway Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2316750",
+      "message_id": 867,
+      "suggested_at": "2026-10-02T12:02:28.009775+00:00"
+    },
+    "2125370": {
+      "app_id": "2125370",
+      "title": "Cubenomics: A puzzle game",
+      "title_norm": "cubenomics a puzzle game",
+      "developer": "Nar",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2125370",
+      "message_id": 868,
+      "suggested_at": "2026-10-02T12:02:29.488914+00:00"
+    },
+    "654440": {
+      "app_id": "654440",
+      "title": "Isotiles - Isometric Puzzle Game",
+      "title_norm": "isotiles isometric puzzle game",
+      "developer": "Robert Alvarez",
+      "reviews": 225,
+      "url": "https://store.steampowered.com/app/654440",
+      "message_id": 869,
+      "suggested_at": "2026-10-02T12:02:30.410691+00:00"
+    },
+    "543040": {
+      "app_id": "543040",
+      "title": "ZHED - Puzzle Game",
+      "title_norm": "zhed puzzle game",
+      "developer": "Ground Control Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/543040",
+      "message_id": 870,
+      "suggested_at": "2026-10-02T12:02:31.249952+00:00"
     }
   }
 }
