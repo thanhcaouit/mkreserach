@@ -2334,6 +2334,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.beingame.zc.zombie.shelter.survival": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
