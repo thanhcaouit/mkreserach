@@ -4409,6 +4409,48 @@
       "suggested_at": "2026-10-02T00:01:09.046328+00:00",
       "mechanic_vi": "Nhớ vị trí nhấp nháy và chạm theo thứ tự.",
       "why_vi": "Có một luật duy nhất mỗi màn nhưng không liên quan tới bao vây hay dẫn đơn vị."
+    },
+    "com.PullThePin.PullingThePin2022": {
+      "app_id": "com.PullThePin.PullingThePin2022",
+      "title": "Pull Pin 2027",
+      "title_norm": "pull pin 2027",
+      "developer": "Loop Games Ltd",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.28,
+      "url": "https://play.google.com/store/apps/details?id=com.PullThePin.PullingThePin2022&hl=en",
+      "message_id": 807,
+      "suggested_at": "2026-10-02T01:01:13.586043+00:00",
+      "mechanic_vi": "Người chơi kéo các chốt ra để cho các viên bi rơi xuống cốc, dựa vào lực hấp dẫn và va chạm vật lý.",
+      "why_vi": "Luật duy nhất mỗi màn là kéo chốt đúng thứ tự, giúp hướng các viên bi tới mục tiêu, phù hợp với sở thích \"guide units to a goal\" và \"one clear rule per level\"."
+    },
+    "com.WZGames.pullpin": {
+      "app_id": "com.WZGames.pullpin",
+      "title": "Pull The Pin",
+      "title_norm": "pull the pin",
+      "developer": "WZ Games Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.764706,
+      "url": "https://play.google.com/store/apps/details?id=com.WZGames.pullpin&hl=en",
+      "message_id": 808,
+      "suggested_at": "2026-10-02T01:01:14.438732+00:00",
+      "mechanic_vi": "Kéo các chốt để mở đường cho các vật thể rơi, kết hợp các chướng ngại vật và bom để đạt mục tiêu.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất – kéo chốt sao cho các vật thể tới đích, đáp ứng yêu cầu về luật rõ ràng và hướng dẫn đơn vị."
+    },
+    "com.bd.game.pull.puzzle.pin": {
+      "app_id": "com.bd.game.pull.puzzle.pin",
+      "title": "Save The Cat-Pull The Pin",
+      "title_norm": "save the cat pull the pin",
+      "developer": "LazyNest Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.196429,
+      "url": "https://play.google.com/store/apps/details?id=com.bd.game.pull.puzzle.pin&hl=en",
+      "message_id": 809,
+      "suggested_at": "2026-10-02T01:01:16.090261+00:00",
+      "mechanic_vi": "Kéo các chốt để giải phóng nhân vật chính, đồng thời tránh các quái vật và chướng ngại vật.",
+      "why_vi": "Mặc dù có nhiều màn, cơ chế vẫn dựa trên việc kéo chốt để dẫn nhân vật tới mục tiêu, phù hợp với nguyên tắc \"guide units to a goal\" nhưng ít mới lạ hơn."
     }
   }
 }

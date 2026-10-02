@@ -182,17 +182,21 @@
     "connect ebt",
     "connect network",
     "connecteam",
-    "connect"
-  ],
-  "pending": [
-    "stack sort",
-    "tap tile",
+    "connect",
     "hook game",
     "close camera",
     "close all apps",
     "close crm",
     "catch the candy",
     "rotate screen",
+    "pullz",
+    "pullybuzz",
+    "pull up",
+    "pull and bear"
+  ],
+  "pending": [
+    "stack sort",
+    "tap tile",
     "rotate",
     "rotate control",
     "rotate video",
@@ -217,6 +221,17 @@
     "freeze screen",
     "freezenova",
     "freeze dry buddy app",
-    "tap tap"
+    "tap tap",
+    "pull tabs games",
+    "shadow fight",
+    "shadow pc",
+    "shadowverse",
+    "shadowrocket",
+    "shadowgun legends",
+    "shadow fight 4",
+    "shadow fight 3",
+    "shadow hunter",
+    "close knit",
+    "pull the pin"
   ]
 }
