@@ -4419,6 +4419,66 @@
       "url": "https://store.steampowered.com/app/1155460",
       "message_id": 846,
       "suggested_at": "2026-10-02T08:02:21.061044+00:00"
+    },
+    "2699950": {
+      "app_id": "2699950",
+      "title": "Rated Sudoku",
+      "title_norm": "rated sudoku",
+      "developer": "Sand Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2699950",
+      "message_id": 849,
+      "suggested_at": "2026-10-02T09:01:36.474644+00:00"
+    },
+    "2134030": {
+      "app_id": "2134030",
+      "title": "Picma - Picture Enigmas",
+      "title_norm": "picma picture enigmas",
+      "developer": "Moonberry Arcade",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2134030",
+      "message_id": 850,
+      "suggested_at": "2026-10-02T09:01:38.523846+00:00"
+    },
+    "3812620": {
+      "app_id": "3812620",
+      "title": "Brain School",
+      "title_norm": "brain school",
+      "developer": "Sokpop Collective",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3812620",
+      "message_id": 851,
+      "suggested_at": "2026-10-02T09:01:40.275354+00:00"
+    },
+    "742380": {
+      "app_id": "742380",
+      "title": "Spreadstorm",
+      "title_norm": "spreadstorm",
+      "developer": "unbeGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/742380",
+      "message_id": 852,
+      "suggested_at": "2026-10-02T09:01:41.575802+00:00"
+    },
+    "771010": {
+      "app_id": "771010",
+      "title": "Containment",
+      "title_norm": "containment",
+      "developer": "Finite Reflection Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/771010",
+      "message_id": 853,
+      "suggested_at": "2026-10-02T09:01:43.193789+00:00"
+    },
+    "1340920": {
+      "app_id": "1340920",
+      "title": "Piggy Gambit",
+      "title_norm": "piggy gambit",
+      "developer": "Tofu Soup",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1340920",
+      "message_id": 854,
+      "suggested_at": "2026-10-02T09:01:44.675221+00:00"
     }
   }
 }

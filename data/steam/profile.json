@@ -12,20 +12,20 @@
     "endless one-tap"
   ],
   "search_queries": [
-    "single rule puzzle levels",
-    "minimalist logic puzzle",
-    "gridless physics puzzle",
-    "unit movement puzzle",
-    "turn‑based puzzle game",
-    "spatial manipulation puzzle"
+    "single rule per level puzzle",
+    "object routing puzzle",
+    "goal based puzzle game",
+    "path planning puzzle",
+    "mechanical contraption puzzle"
   ],
   "anchor_app_ids": [
     "357300",
     "353540",
     "22000",
     "3385670",
-    "794940"
+    "794940",
+    "551110"
   ],
-  "updated_at": "2026-09-30T09:01:16.404651+00:00",
-  "notes": "Added game 794940 (score 5, very good) to the liked list. Continue targeting puzzle games that present one clear rule per level and require guiding units or objects to a goal."
+  "updated_at": "2026-10-02T09:01:15.633959+00:00",
+  "notes": "Added game 551110 (score 5) to the liked collection. Continue focusing on puzzle titles that enforce one clear rule per level and require guiding units or objects to a specific goal."
 }
