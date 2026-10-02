@@ -4479,6 +4479,16 @@
       "url": "https://store.steampowered.com/app/1340920",
       "message_id": 854,
       "suggested_at": "2026-10-02T09:01:44.675221+00:00"
+    },
+    "4624460": {
+      "app_id": "4624460",
+      "title": "Puzzle ATLAS",
+      "title_norm": "puzzle atlas",
+      "developer": "Watercolor Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4624460",
+      "message_id": 856,
+      "suggested_at": "2026-10-02T10:01:36.286302+00:00"
     }
   }
 }
