@@ -4409,6 +4409,16 @@
       "url": "https://store.steampowered.com/app/551110",
       "message_id": 844,
       "suggested_at": "2026-10-02T07:01:49.690990+00:00"
+    },
+    "1155460": {
+      "app_id": "1155460",
+      "title": "The Academy: The First Riddle",
+      "title_norm": "the academy the first riddle",
+      "developer": "Pine Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1155460",
+      "message_id": 846,
+      "suggested_at": "2026-10-02T08:02:21.061044+00:00"
     }
   }
 }
