@@ -4389,6 +4389,26 @@
       "url": "https://store.steampowered.com/app/849000",
       "message_id": 841,
       "suggested_at": "2026-10-02T06:01:58.800576+00:00"
+    },
+    "585950": {
+      "app_id": "585950",
+      "title": "Wayout 2: Hex",
+      "title_norm": "wayout 2 hex",
+      "developer": "Konstructors",
+      "reviews": 358,
+      "url": "https://store.steampowered.com/app/585950",
+      "message_id": 843,
+      "suggested_at": "2026-10-02T07:01:47.974463+00:00"
+    },
+    "551110": {
+      "app_id": "551110",
+      "title": "Wayout",
+      "title_norm": "wayout",
+      "developer": "Konstructors",
+      "reviews": 975,
+      "url": "https://store.steampowered.com/app/551110",
+      "message_id": 844,
+      "suggested_at": "2026-10-02T07:01:49.690990+00:00"
     }
   }
 }
