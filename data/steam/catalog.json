@@ -4289,6 +4289,26 @@
       "url": "https://store.steampowered.com/app/1549620",
       "message_id": 823,
       "suggested_at": "2026-10-02T03:01:58.284298+00:00"
+    },
+    "2101710": {
+      "app_id": "2101710",
+      "title": "Cube Farmer - Puzzle",
+      "title_norm": "cube farmer puzzle",
+      "developer": "Colossus Game Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2101710",
+      "message_id": 826,
+      "suggested_at": "2026-10-02T04:01:44.281158+00:00"
+    },
+    "3869030": {
+      "app_id": "3869030",
+      "title": "Enchanted Valley: Fantasy Slide Puzzle",
+      "title_norm": "enchanted valley fantasy slide puzzle",
+      "developer": "Spectral Elixir Software",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3869030",
+      "message_id": 827,
+      "suggested_at": "2026-10-02T04:01:46.092494+00:00"
     }
   }
 }
