@@ -383,17 +383,25 @@
     "gear mesh puzzle levels",
     "fill the tank puzzle levels",
     "carry puzzle levels",
-    "pulley lift puzzle levels"
-  ],
-  "pending": [
-    "stack sort",
-    "tap tile",
-    "light-hearted",
+    "pulley lift puzzle levels",
     "pour the water puzzle levels",
     "float puzzle levels",
     "grow the vine puzzle levels",
     "bait the fish puzzle levels",
     "leap the chasm puzzle levels",
-    "draw puzzle levels"
+    "draw puzzle levels",
+    "blower",
+    "blow up",
+    "blowing games",
+    "blower speaker cleaner",
+    "blow horn app",
+    "blow out candle app"
+  ],
+  "pending": [
+    "stack sort",
+    "tap tile",
+    "light-hearted",
+    "blow up building games",
+    "blow up go viral with ai"
   ]
 }
