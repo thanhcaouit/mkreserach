@@ -4759,6 +4759,20 @@
       "suggested_at": "2026-10-02T15:01:18.668207+00:00",
       "mechanic_vi": "Điền số vào lưới sao cho các dấu trắng và đen giữa ô đáp ứng các quy tắc về hiệu số.",
       "why_vi": "Mỗi màn là một bảng số độc lập, luật duy nhất là tuân thủ các quy tắc dấu trắng/đen và không trùng số trong hàng, cột."
+    },
+    "com.game.kkiruk.catsarepop": {
+      "app_id": "com.game.kkiruk.catsarepop",
+      "title": "Cats are Cute: Pop Time!",
+      "title_norm": "cats are cute pop time",
+      "developer": "kkiruk studio GAMES",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.75,
+      "url": "https://play.google.com/store/apps/details?id=com.game.kkiruk.catsarepop&hl=en",
+      "message_id": 891,
+      "suggested_at": "2026-10-02T16:01:09.970833+00:00",
+      "mechanic_vi": "🍉 A cozy Suika-style cat merge puzzle! Cats are Cute: Pop Time! is a relaxing watermelon-game–style merge puzzle where you drop adorable cat balls, merge identical ones, and evolve them into bigger, fluffier friends. Sim",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
