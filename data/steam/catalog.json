@@ -4719,6 +4719,26 @@
       "url": "https://store.steampowered.com/app/1081550",
       "message_id": 890,
       "suggested_at": "2026-10-02T15:01:52.299075+00:00"
+    },
+    "3491490": {
+      "app_id": "3491490",
+      "title": "Will The King Escape?",
+      "title_norm": "will the king escape",
+      "developer": "Giuseppe Praticò",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3491490",
+      "message_id": 892,
+      "suggested_at": "2026-10-02T16:01:47.438495+00:00"
+    },
+    "1852060": {
+      "app_id": "1852060",
+      "title": "Pushing Crates",
+      "title_norm": "pushing crates",
+      "developer": "Apes of the Screen",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1852060",
+      "message_id": 893,
+      "suggested_at": "2026-10-02T16:01:48.997285+00:00"
     }
   }
 }
