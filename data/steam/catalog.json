@@ -4899,6 +4899,16 @@
       "url": "https://store.steampowered.com/app/1391650",
       "message_id": 916,
       "suggested_at": "2026-10-02T19:02:10.730516+00:00"
+    },
+    "347790": {
+      "app_id": "347790",
+      "title": "Terraform",
+      "title_norm": "terraform",
+      "developer": "Holgersson Entertainment",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/347790",
+      "message_id": 928,
+      "suggested_at": "2026-10-02T22:01:52.942348+00:00"
     }
   }
 }
