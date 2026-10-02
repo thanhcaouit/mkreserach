@@ -243,17 +243,22 @@
     "rotate ring game",
     "link puzzle levels",
     "moss growth puzzle levels",
-    "moor the boat puzzle levels"
-  ],
-  "pending": [
-    "stack sort",
-    "tap tile",
+    "moor the boat puzzle levels",
     "portal survivor",
     "jump games",
     "pull the pin",
     "burrow the mole puzzle levels",
     "irrigate the field puzzle levels",
     "corral the sheep puzzle levels",
+    "pour over",
+    "pour over news",
+    "pouring liquid game",
+    "pour",
+    "pour cost"
+  ],
+  "pending": [
+    "stack sort",
+    "tap tile",
     "milk the cow puzzle levels",
     "honey the comb puzzle levels",
     "connect the wires puzzle levels",
@@ -262,6 +267,8 @@
     "glue up",
     "laser puzzle levels",
     "swing puzzle levels",
-    "nest the birds puzzle levels"
+    "nest the birds puzzle levels",
+    "pour over app",
+    "pouring water sorting"
   ]
 }
