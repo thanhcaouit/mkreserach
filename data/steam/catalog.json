@@ -4749,6 +4749,76 @@
       "url": "https://store.steampowered.com/app/377660",
       "message_id": 895,
       "suggested_at": "2026-10-02T17:01:46.298270+00:00"
+    },
+    "3684370": {
+      "app_id": "3684370",
+      "title": "Rabbit's Hop",
+      "title_norm": "rabbit s hop",
+      "developer": "Triomatica Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3684370",
+      "message_id": 897,
+      "suggested_at": "2026-10-02T18:01:58.914414+00:00"
+    },
+    "4297110": {
+      "app_id": "4297110",
+      "title": "Hopping Out",
+      "title_norm": "hopping out",
+      "developer": "KamilFirma",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4297110",
+      "message_id": 898,
+      "suggested_at": "2026-10-02T18:02:00.552384+00:00"
+    },
+    "1741480": {
+      "app_id": "1741480",
+      "title": "Ultimaze",
+      "title_norm": "ultimaze",
+      "developer": "Solarshaper",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1741480",
+      "message_id": 899,
+      "suggested_at": "2026-10-02T18:02:01.644154+00:00"
+    },
+    "4307500": {
+      "app_id": "4307500",
+      "title": "Soko Pirates",
+      "title_norm": "soko pirates",
+      "developer": "Matrix Reliability",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4307500",
+      "message_id": 900,
+      "suggested_at": "2026-10-02T18:02:03.679674+00:00"
+    },
+    "3359440": {
+      "app_id": "3359440",
+      "title": "Soko Spectacle",
+      "title_norm": "soko spectacle",
+      "developer": "Jeremy Bouin",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3359440",
+      "message_id": 901,
+      "suggested_at": "2026-10-02T18:02:04.998960+00:00"
+    },
+    "5005560": {
+      "app_id": "5005560",
+      "title": "PLUG IN",
+      "title_norm": "plug in",
+      "developer": "9900 Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/5005560",
+      "message_id": 902,
+      "suggested_at": "2026-10-02T18:02:06.170624+00:00"
+    },
+    "4660500": {
+      "app_id": "4660500",
+      "title": "3D Sokoban Quest",
+      "title_norm": "3d sokoban quest",
+      "developer": "Zeta Dev",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4660500",
+      "message_id": 903,
+      "suggested_at": "2026-10-02T18:02:07.717024+00:00"
     }
   }
 }
