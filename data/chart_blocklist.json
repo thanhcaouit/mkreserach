@@ -2412,6 +2412,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.herocraft.game.free.armorage": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.geargames.aow": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

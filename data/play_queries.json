@@ -345,23 +345,32 @@
     "lock apps",
     "lock screen",
     "lock",
-    "lock me out"
+    "lock me out",
+    "cut",
+    "shrink puzzle levels",
+    "wax seal puzzle levels",
+    "lock star",
+    "fill the fridge",
+    "swappa",
+    "swapx pro",
+    "swap face",
+    "swapcard",
+    "swap no root"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
-    "cut",
-    "shrink puzzle levels",
-    "slide puzzle levels",
-    "wax seal puzzle levels",
-    "lock star",
-    "fill the fridge",
     "fill and sign",
     "filling station",
     "fill in puzzles free",
     "fill it forward app",
     "fill and sign free",
-    "cute"
+    "cute",
+    "swap x pro ai",
+    "swap x pro",
+    "swap ai",
+    "slide puzzle levels",
+    "swap"
   ]
 }

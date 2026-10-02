@@ -4773,6 +4773,20 @@
       "suggested_at": "2026-10-02T16:01:09.970833+00:00",
       "mechanic_vi": "🍉 A cozy Suika-style cat merge puzzle! Cats are Cute: Pop Time! is a relaxing watermelon-game–style merge puzzle where you drop adorable cat balls, merge identical ones, and evolve them into bigger, fluffier friends. Sim",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.GiTeam.SuperSlide": {
+      "app_id": "com.GiTeam.SuperSlide",
+      "title": "Super Slide - by GiiKER",
+      "title_norm": "super slide by giiker",
+      "developer": "GiiKER",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.53,
+      "url": "https://play.google.com/store/apps/details?id=com.GiTeam.SuperSlide&hl=en",
+      "message_id": 894,
+      "suggested_at": "2026-10-02T17:01:11.858249+00:00",
+      "mechanic_vi": "Di chuyển các khối để giải phóng khối mục tiêu, một quy tắc duy nhất cho mỗi màn.",
+      "why_vi": "Mỗi màn yêu cầu người chơi suy nghĩ cách sắp xếp khối để mở đường, phù hợp với sở thích “enclose or isolate” và luật rõ ràng."
     }
   }
 }
