@@ -4739,6 +4739,16 @@
       "url": "https://store.steampowered.com/app/1852060",
       "message_id": 893,
       "suggested_at": "2026-10-02T16:01:48.997285+00:00"
+    },
+    "377660": {
+      "app_id": "377660",
+      "title": "Blockwick 2",
+      "title_norm": "blockwick 2",
+      "developer": "Kieffer Bros.",
+      "reviews": 118,
+      "url": "https://store.steampowered.com/app/377660",
+      "message_id": 895,
+      "suggested_at": "2026-10-02T17:01:46.298270+00:00"
     }
   }
 }

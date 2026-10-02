@@ -15,7 +15,10 @@
     "single rule per level puzzle",
     "object routing puzzle",
     "goal based puzzle game",
-    "hook puzzle levels"
+    "hook puzzle levels",
+    "path planning puzzle",
+    "mechanical contraption puzzle",
+    "pump the bellows puzzle levels"
   ],
   "pending": []
 }
