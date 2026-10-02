@@ -4699,6 +4699,26 @@
       "url": "https://store.steampowered.com/app/3827340",
       "message_id": 885,
       "suggested_at": "2026-10-02T14:02:20.657672+00:00"
+    },
+    "1713140": {
+      "app_id": "1713140",
+      "title": "Arctictopia",
+      "title_norm": "arctictopia",
+      "developer": "Gamtropy",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1713140",
+      "message_id": 889,
+      "suggested_at": "2026-10-02T15:01:50.926089+00:00"
+    },
+    "1081550": {
+      "app_id": "1081550",
+      "title": "Caliper 2",
+      "title_norm": "caliper 2",
+      "developer": "Tort",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1081550",
+      "message_id": 890,
+      "suggested_at": "2026-10-02T15:01:52.299075+00:00"
     }
   }
 }
