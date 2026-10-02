@@ -4279,6 +4279,16 @@
       "url": "https://store.steampowered.com/app/3345810",
       "message_id": 821,
       "suggested_at": "2026-10-02T02:02:07.837791+00:00"
+    },
+    "1549620": {
+      "app_id": "1549620",
+      "title": "Push The Box 3D",
+      "title_norm": "push the box 3d",
+      "developer": "NanningsGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1549620",
+      "message_id": 823,
+      "suggested_at": "2026-10-02T03:01:58.284298+00:00"
     }
   }
 }
