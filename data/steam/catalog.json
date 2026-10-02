@@ -4489,6 +4489,26 @@
       "url": "https://store.steampowered.com/app/4624460",
       "message_id": 856,
       "suggested_at": "2026-10-02T10:01:36.286302+00:00"
+    },
+    "1493400": {
+      "app_id": "1493400",
+      "title": "Jack's Labyrinth",
+      "title_norm": "jack s labyrinth",
+      "developer": "Welland",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1493400",
+      "message_id": 858,
+      "suggested_at": "2026-10-02T11:01:40.334147+00:00"
+    },
+    "1415570": {
+      "app_id": "1415570",
+      "title": "Tell Me Your Story",
+      "title_norm": "tell me your story",
+      "developer": "RedDeer.Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1415570",
+      "message_id": 859,
+      "suggested_at": "2026-10-02T11:01:41.911414+00:00"
     }
   }
 }
