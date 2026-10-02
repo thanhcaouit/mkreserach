@@ -234,17 +234,20 @@
     "glue up app",
     "gluroo",
     "glue up manager",
-    "glue cafe"
-  ],
-  "pending": [
-    "stack sort",
-    "tap tile",
+    "glue cafe",
     "shadow fight 4",
     "shadow fight 3",
     "shadow hunter",
     "close knit",
     "rotate",
     "rotate ring game",
+    "link puzzle levels",
+    "moss growth puzzle levels",
+    "moor the boat puzzle levels"
+  ],
+  "pending": [
+    "stack sort",
+    "tap tile",
     "portal survivor",
     "jump games",
     "pull the pin",
@@ -256,6 +259,9 @@
     "connect the wires puzzle levels",
     "glue gun game",
     "glue",
-    "glue up"
+    "glue up",
+    "laser puzzle levels",
+    "swing puzzle levels",
+    "nest the birds puzzle levels"
   ]
 }
