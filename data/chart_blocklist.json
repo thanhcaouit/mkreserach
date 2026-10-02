@@ -2328,6 +2328,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.tapblaze.pizzabusiness": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
