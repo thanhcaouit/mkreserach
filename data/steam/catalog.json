@@ -4259,6 +4259,26 @@
       "url": "https://store.steampowered.com/app/5005590",
       "message_id": 814,
       "suggested_at": "2026-10-02T01:01:52.855208+00:00"
+    },
+    "2844290": {
+      "app_id": "2844290",
+      "title": "Hard Chip",
+      "title_norm": "hard chip",
+      "developer": "Elorth",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2844290",
+      "message_id": 820,
+      "suggested_at": "2026-10-02T02:02:06.542338+00:00"
+    },
+    "3345810": {
+      "app_id": "3345810",
+      "title": "E9uations",
+      "title_norm": "e9uations",
+      "developer": "9npotato",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3345810",
+      "message_id": 821,
+      "suggested_at": "2026-10-02T02:02:07.837791+00:00"
     }
   }
 }
