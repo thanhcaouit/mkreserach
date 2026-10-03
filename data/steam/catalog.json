@@ -5149,6 +5149,66 @@
       "url": "https://store.steampowered.com/app/786990",
       "message_id": 991,
       "suggested_at": "2026-10-03T11:01:52.412472+00:00"
+    },
+    "923710": {
+      "app_id": "923710",
+      "title": "uFactory",
+      "title_norm": "ufactory",
+      "developer": "Lucid Silence Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/923710",
+      "message_id": 994,
+      "suggested_at": "2026-10-03T12:01:47.145201+00:00"
+    },
+    "4012320": {
+      "app_id": "4012320",
+      "title": "Outpacked",
+      "title_norm": "outpacked",
+      "developer": "Antikythera Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4012320",
+      "message_id": 995,
+      "suggested_at": "2026-10-03T12:01:48.305385+00:00"
+    },
+    "562050": {
+      "app_id": "562050",
+      "title": "Liquid Pinball",
+      "title_norm": "liquid pinball",
+      "developer": "RunServer",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/562050",
+      "message_id": 996,
+      "suggested_at": "2026-10-03T12:01:49.676016+00:00"
+    },
+    "340200": {
+      "app_id": "340200",
+      "title": "Bloop",
+      "title_norm": "bloop",
+      "developer": "2SD",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/340200",
+      "message_id": 997,
+      "suggested_at": "2026-10-03T12:01:51.059531+00:00"
+    },
+    "1900930": {
+      "app_id": "1900930",
+      "title": "DANGO!",
+      "title_norm": "dango",
+      "developer": "TheBoys",
+      "reviews": 406,
+      "url": "https://store.steampowered.com/app/1900930",
+      "message_id": 998,
+      "suggested_at": "2026-10-03T12:01:52.416723+00:00"
+    },
+    "877300": {
+      "app_id": "877300",
+      "title": "Liquid Sunshine",
+      "title_norm": "liquid sunshine",
+      "developer": "God As A Cucumber",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/877300",
+      "message_id": 999,
+      "suggested_at": "2026-10-03T12:01:53.654506+00:00"
     }
   }
 }
