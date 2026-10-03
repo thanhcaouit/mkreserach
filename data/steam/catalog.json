@@ -4979,6 +4979,76 @@
       "url": "https://store.steampowered.com/app/754830",
       "message_id": 949,
       "suggested_at": "2026-10-03T01:02:19.469278+00:00"
+    },
+    "1542490": {
+      "app_id": "1542490",
+      "title": "Laser Chess (Prologue)",
+      "title_norm": "laser chess prologue",
+      "developer": "Coreffect Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1542490",
+      "message_id": 956,
+      "suggested_at": "2026-10-03T03:01:49.708589+00:00"
+    },
+    "1993190": {
+      "app_id": "1993190",
+      "title": "LaserPoint",
+      "title_norm": "laserpoint",
+      "developer": "GraphXGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1993190",
+      "message_id": 957,
+      "suggested_at": "2026-10-03T03:01:50.700515+00:00"
+    },
+    "1709290": {
+      "app_id": "1709290",
+      "title": "Laser Bounce",
+      "title_norm": "laser bounce",
+      "developer": "Aecert Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1709290",
+      "message_id": 958,
+      "suggested_at": "2026-10-03T03:01:51.925593+00:00"
+    },
+    "1475000": {
+      "app_id": "1475000",
+      "title": "Laser Burst",
+      "title_norm": "laser burst",
+      "developer": "Never Mind Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1475000",
+      "message_id": 959,
+      "suggested_at": "2026-10-03T03:01:52.801524+00:00"
+    },
+    "80300": {
+      "app_id": "80300",
+      "title": "Puzzle Bots",
+      "title_norm": "puzzle bots",
+      "developer": "Ivy Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/80300",
+      "message_id": 960,
+      "suggested_at": "2026-10-03T03:01:53.534208+00:00"
+    },
+    "2206560": {
+      "app_id": "2206560",
+      "title": "Zup! Q",
+      "title_norm": "zup q",
+      "developer": "Quiet River",
+      "reviews": 799,
+      "url": "https://store.steampowered.com/app/2206560",
+      "message_id": 961,
+      "suggested_at": "2026-10-03T03:01:54.712233+00:00"
+    },
+    "2160470": {
+      "app_id": "2160470",
+      "title": "Zup! Y",
+      "title_norm": "zup y",
+      "developer": "Quiet River",
+      "reviews": 385,
+      "url": "https://store.steampowered.com/app/2160470",
+      "message_id": 962,
+      "suggested_at": "2026-10-03T03:01:55.605502+00:00"
     }
   }
 }
