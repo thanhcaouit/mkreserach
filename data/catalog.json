@@ -5277,6 +5277,62 @@
       "suggested_at": "2026-10-03T07:01:11.672972+00:00",
       "mechanic_vi": "Tìm và thu thập các mảnh cổ vật trên các bản đồ cấp độ khác nhau.",
       "why_vi": "Mỗi màn có mục tiêu thu thập cụ thể, cung cấp tiến trình cấp độ và luật chơi đơn giản – “tìm và thu thập”."
+    },
+    "com.brennerd.grid_puzzle.tents": {
+      "app_id": "com.brennerd.grid_puzzle.tents",
+      "title": "Trees and Tents: Logic Puzzles",
+      "title_norm": "trees and tents logic puzzles",
+      "developer": "brennerd",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.7524753,
+      "url": "https://play.google.com/store/apps/details?id=com.brennerd.grid_puzzle.tents&hl=en",
+      "message_id": 976,
+      "suggested_at": "2026-10-03T07:52:29.888111+00:00",
+      "mechanic_vi": "Đặt lều cạnh cây, không cho lều chạm nhau (định luật cô lập).",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất rõ ràng và có hàng trăm cấp độ logic, phù hợp với sở thích \"enclose or isolate\"."
+    },
+    "com.skylinkstudio.tangle.bridge": {
+      "app_id": "com.skylinkstudio.tangle.bridge",
+      "title": "Tangle Bridge Puzzle 3D",
+      "title_norm": "tangle bridge puzzle 3d",
+      "developer": "25.studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 2.625,
+      "url": "https://play.google.com/store/apps/details?id=com.skylinkstudio.tangle.bridge&hl=en",
+      "message_id": 977,
+      "suggested_at": "2026-10-03T07:52:31.472816+00:00",
+      "mechanic_vi": "Tháo gỡ các cây cầu rối để dẫn nhân vật qua phía bên kia.",
+      "why_vi": "Luật chơi duy nhất mỗi màn là giải quyết nút thắt, đồng thời hướng đơn vị tới mục tiêu, giống như Lemmings."
+    },
+    "com.spellbound.hidden.letters.word.puzzle.and": {
+      "app_id": "com.spellbound.hidden.letters.word.puzzle.and",
+      "title": "Tree Forest: Detective Words",
+      "title_norm": "tree forest detective words",
+      "developer": "Mangoing Game Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.spellbound.hidden.letters.word.puzzle.and&hl=en",
+      "message_id": 978,
+      "suggested_at": "2026-10-03T07:52:32.468520+00:00",
+      "mechanic_vi": "Tìm từ ẩn trong lưới chữ bằng cách nhấn vào các chữ cái.",
+      "why_vi": "Có nhiều màn với một quy tắc duy nhất là giải mật thư, nhưng cơ chế không liên quan tới \"enclose\" hay \"tilt\" nên độ mới thấp."
+    },
+    "com.takeonecompany.ppa": {
+      "app_id": "com.takeonecompany.ppa",
+      "title": "Puzzle & Wonderland X QQu Ent",
+      "title_norm": "puzzle wonderland x qqu ent",
+      "developer": "TakeOne Company",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.207921,
+      "url": "https://play.google.com/store/apps/details?id=com.takeonecompany.ppa&hl=en",
+      "message_id": 979,
+      "suggested_at": "2026-10-03T07:52:33.979687+00:00",
+      "mechanic_vi": "QQu Entertainment is here in the world of Puzzle & Adventure! Do you want to meet these cute characters trying to make their debut on earth? Join us in this exciting tale as they struggle to make their debut! -----------",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
