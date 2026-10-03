@@ -5389,6 +5389,20 @@
       "suggested_at": "2026-10-03T10:01:20.246498+00:00",
       "mechanic_vi": "Kết nối các ống cùng màu để cho nước chảy qua toàn bộ lưới.",
       "why_vi": "Luật đơn giản – nối màu đúng – và có hàng ngàn cấp độ, đáp ứng tiêu chí “một luật rõ ràng mỗi màn” mà không rơi vào dạng match‑3."
+    },
+    "com.xsgames.mysteryboxthejourney": {
+      "app_id": "com.xsgames.mysteryboxthejourney",
+      "title": "Mystery Box 4: The Journey",
+      "title_norm": "mystery box 4 the journey",
+      "developer": "XSGames",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 3.8837209,
+      "url": "https://play.google.com/store/apps/details?id=com.xsgames.mysteryboxthejourney&hl=en",
+      "message_id": 989,
+      "suggested_at": "2026-10-03T11:01:16.012448+00:00",
+      "mechanic_vi": "Giải đố dạng escape‑room, mở từng hộp bằng việc khám phá và tương tác vật lý.",
+      "why_vi": "Mỗi hộp là một level rõ ràng, luật chơi duy nhất cho mỗi màn, đáp ứng yêu cầu có luật đơn giản và tiến độ cấp độ."
     }
   }
 }
