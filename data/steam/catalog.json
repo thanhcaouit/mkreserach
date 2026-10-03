@@ -5359,6 +5359,16 @@
       "url": "https://store.steampowered.com/app/738480",
       "message_id": 1030,
       "suggested_at": "2026-10-03T17:02:09.545929+00:00"
+    },
+    "38720": {
+      "app_id": "38720",
+      "title": "RUSH",
+      "title_norm": "rush",
+      "developer": "Two Tribes",
+      "reviews": 1089,
+      "url": "https://store.steampowered.com/app/38720",
+      "message_id": 1033,
+      "suggested_at": "2026-10-03T19:01:55.410206+00:00"
     }
   }
 }
