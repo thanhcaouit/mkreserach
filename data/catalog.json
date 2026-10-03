@@ -5669,6 +5669,20 @@
       "suggested_at": "2026-10-03T20:01:10.571840+00:00",
       "mechanic_vi": "Kết nối dây điện để truyền năng lượng tới các bóng đèn, tạo một đường dẫn duy nhất.",
       "why_vi": "Cơ chế dẫn luồng năng lượng tới mục tiêu tương tự Slimbo, phù hợp với “guide units to a goal”."
+    },
+    "com.kima.chatnoirhex": {
+      "app_id": "com.kima.chatnoirhex",
+      "title": "Trap the Cat",
+      "title_norm": "trap the cat",
+      "developer": "Orestis Zambounis",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.7654321,
+      "url": "https://play.google.com/store/apps/details?id=com.kima.chatnoirhex&hl=en",
+      "message_id": 1045,
+      "suggested_at": "2026-10-03T22:01:10.450135+00:00",
+      "mechanic_vi": "Keep the cunning cat contained! In Chat Noir - Hexagon, your goal is to trap the cat by clicking on bright green hexagons, effectively stopping it from escaping the screen. Sounds simple? It's trickier than you think; th",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
