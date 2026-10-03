@@ -5403,6 +5403,34 @@
       "suggested_at": "2026-10-03T11:01:16.012448+00:00",
       "mechanic_vi": "Giải đố dạng escape‑room, mở từng hộp bằng việc khám phá và tương tác vật lý.",
       "why_vi": "Mỗi hộp là một level rõ ràng, luật chơi duy nhất cho mỗi màn, đáp ứng yêu cầu có luật đơn giản và tiến độ cấp độ."
+    },
+    "com.xscoder.mysteryboxevo": {
+      "app_id": "com.xscoder.mysteryboxevo",
+      "title": "Mystery Box 2: Evolution",
+      "title_norm": "mystery box 2 evolution",
+      "developer": "XSGames",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.25,
+      "url": "https://play.google.com/store/apps/details?id=com.xscoder.mysteryboxevo&hl=en",
+      "message_id": 992,
+      "suggested_at": "2026-10-03T12:01:14.185055+00:00",
+      "mechanic_vi": "Giải đố kiểu escape‑room, người chơi tương tác với bánh xe, cần gạt, nút bấm trên hộp để mở các bí mật.",
+      "why_vi": "Mỗi màn có một mục tiêu cuối cùng nhưng yêu cầu nhiều thao tác khác nhau, không phải một quy tắc duy nhất."
+    },
+    "com.xscoder.mysterybox": {
+      "app_id": "com.xscoder.mysterybox",
+      "title": "Mystery Box: Hidden Secrets",
+      "title_norm": "mystery box hidden secrets",
+      "developer": "XSGames",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4,
+      "url": "https://play.google.com/store/apps/details?id=com.xscoder.mysterybox&hl=en",
+      "message_id": 993,
+      "suggested_at": "2026-10-03T12:01:15.490183+00:00",
+      "mechanic_vi": "Puzzle điểm‑và‑nhấp, người chơi khám phá các công cụ trên hộp để giải các câu đố từng cấp.",
+      "why_vi": "Có nhiều bước và công cụ trong mỗi màn, nên không hoàn toàn theo quy tắc đơn giản nhưng vẫn có mục tiêu rõ ràng."
     }
   }
 }
