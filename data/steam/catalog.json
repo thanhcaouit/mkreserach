@@ -4949,6 +4949,36 @@
       "url": "https://store.steampowered.com/app/796840",
       "message_id": 933,
       "suggested_at": "2026-10-02T23:01:50.042566+00:00"
+    },
+    "3550300": {
+      "app_id": "3550300",
+      "title": "Through the Trees",
+      "title_norm": "through the trees",
+      "developer": "Nitrox Nova",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3550300",
+      "message_id": 947,
+      "suggested_at": "2026-10-03T01:02:16.426621+00:00"
+    },
+    "1300200": {
+      "app_id": "1300200",
+      "title": "Express Thru",
+      "title_norm": "express thru",
+      "developer": "5minlab Corp.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1300200",
+      "message_id": 948,
+      "suggested_at": "2026-10-03T01:02:17.605529+00:00"
+    },
+    "754830": {
+      "app_id": "754830",
+      "title": "Travel Mosaics 6: Christmas Around the World",
+      "title_norm": "travel mosaics 6 christmas around the world",
+      "developer": "Jetdogs Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/754830",
+      "message_id": 949,
+      "suggested_at": "2026-10-03T01:02:19.469278+00:00"
     }
   }
 }
