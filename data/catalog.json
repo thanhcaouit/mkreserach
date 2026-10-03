@@ -5249,6 +5249,34 @@
       "suggested_at": "2026-10-03T04:01:13.813157+00:00",
       "mechanic_vi": "Khám phá và tương tác với các cơ chế trong phòng để mở khóa.",
       "why_vi": "Mỗi phòng là một cấp độ độc lập với mục tiêu duy nhất là thoát ra."
+    },
+    "com.FlyCarpet.CubicPuzzle": {
+      "app_id": "com.FlyCarpet.CubicPuzzle",
+      "title": "Cubic Puzzle: 3D Maze Escape",
+      "title_norm": "cubic puzzle 3d maze escape",
+      "developer": "Lynx Eye Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.2173915,
+      "url": "https://play.google.com/store/apps/details?id=com.FlyCarpet.CubicPuzzle&hl=en",
+      "message_id": 973,
+      "suggested_at": "2026-10-03T07:01:09.945221+00:00",
+      "mechanic_vi": "Lăn khối trong mê cung 3‑D, khối sẽ trượt cho đến khi chạm vào vật cản.",
+      "why_vi": "Luật duy nhất “trượt cho đến khi dừng” và có hàng chục màn, phù hợp với yêu cầu một quy tắc rõ ràng cho mỗi cấp."
+    },
+    "com.bnicesoft.tag_stones": {
+      "app_id": "com.bnicesoft.tag_stones",
+      "title": "TagStones - on Treasure Hunt!",
+      "title_norm": "tagstones on treasure hunt",
+      "developer": "B-nice soft",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.5833335,
+      "url": "https://play.google.com/store/apps/details?id=com.bnicesoft.tag_stones&hl=en",
+      "message_id": 974,
+      "suggested_at": "2026-10-03T07:01:11.672972+00:00",
+      "mechanic_vi": "Tìm và thu thập các mảnh cổ vật trên các bản đồ cấp độ khác nhau.",
+      "why_vi": "Mỗi màn có mục tiêu thu thập cụ thể, cung cấp tiến trình cấp độ và luật chơi đơn giản – “tìm và thu thập”."
     }
   }
 }
