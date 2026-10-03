@@ -2477,6 +2477,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.dragonscapes.global": {
+      "first_seen": "2026-10-03",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
