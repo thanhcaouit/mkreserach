@@ -607,13 +607,24 @@
     "prism split puzzle levels",
     "drop the weight puzzle levels",
     "release puzzle levels",
-    "lift the platform puzzle levels"
+    "lift the platform puzzle levels",
+    "trap the fly puzzle levels",
+    "valve the pipe puzzle levels",
+    "shove puzzle levels",
+    "build a bridge puzzle levels",
+    "drip puzzle levels",
+    "cut the rope puzzle levels",
+    "ink the path puzzle levels"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
     "roll blocks",
-    "trap the fly puzzle levels"
+    "light the lamp game",
+    "raft the river puzzle levels",
+    "weave the net puzzle levels",
+    "burn the rope puzzle levels",
+    "tap puzzle levels"
   ]
 }

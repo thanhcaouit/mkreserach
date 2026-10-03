@@ -5683,6 +5683,48 @@
       "suggested_at": "2026-10-03T22:01:10.450135+00:00",
       "mechanic_vi": "Keep the cunning cat contained! In Chat Noir - Hexagon, your goal is to trap the cat by clicking on bright green hexagons, effectively stopping it from escaping the screen. Sounds simple? It's trickier than you think; th",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.Nemonics.RiverCrossing": {
+      "app_id": "com.Nemonics.RiverCrossing",
+      "title": "River Crossing",
+      "title_norm": "river crossing",
+      "developer": "Medicoo",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.Nemonics.RiverCrossing&hl=en",
+      "message_id": 1051,
+      "suggested_at": "2026-10-03T23:01:13.936337+00:00",
+      "mechanic_vi": "Di chuyển các vật thể qua thuyền, tuân theo các quy tắc giới hạn vị trí.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất là đưa mọi vật sang bờ kia, phù hợp với sở thích hướng dẫn đơn vị tới mục tiêu."
+    },
+    "com.infinitygames.poweron": {
+      "app_id": "com.infinitygames.poweron",
+      "title": "Power On: Energy Flow",
+      "title_norm": "power on energy flow",
+      "developer": "Infinity Games, Lda",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.64,
+      "url": "https://play.google.com/store/apps/details?id=com.infinitygames.poweron&hl=en",
+      "message_id": 1052,
+      "suggested_at": "2026-10-03T23:01:15.358751+00:00",
+      "mechanic_vi": "Xoay các đoạn dây để tạo đường dẫn điện từ nguồn tới đèn.",
+      "why_vi": "Luật duy nhất mỗi màn là kết nối nguồn, đáp ứng yêu cầu một quy tắc rõ ràng và có các cấp độ."
+    },
+    "com.katsroomcreations.lightsout": {
+      "app_id": "com.katsroomcreations.lightsout",
+      "title": "Lights Out - confetti",
+      "title_norm": "lights out confetti",
+      "developer": "katsapps",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.652174,
+      "url": "https://play.google.com/store/apps/details?id=com.katsroomcreations.lightsout&hl=en",
+      "message_id": 1053,
+      "suggested_at": "2026-10-03T23:01:16.427076+00:00",
+      "mechanic_vi": "Nhấn một ô để bật/tắt nó và các ô kề, mục tiêu tắt hết đèn.",
+      "why_vi": "Mỗi màn chỉ có một luật duy nhất, nhưng cơ chế đã quá quen thuộc và ít mới lạ."
     }
   }
 }

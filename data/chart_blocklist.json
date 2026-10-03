@@ -2489,6 +2489,36 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.netmarble.monster2": {
+      "first_seen": "2026-10-03",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bandainamcogames.dbzdokkanww": {
+      "first_seen": "2026-10-03",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.supercell.boombeach": {
+      "first_seen": "2026-10-03",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ProjectMoon.LimbusCompany": {
+      "first_seen": "2026-10-03",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gameberry.sorry.card.board.game": {
+      "first_seen": "2026-10-03",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
