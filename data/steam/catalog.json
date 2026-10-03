@@ -5089,6 +5089,16 @@
       "url": "https://store.steampowered.com/app/3844900",
       "message_id": 968,
       "suggested_at": "2026-10-03T04:01:50.038065+00:00"
+    },
+    "348440": {
+      "app_id": "348440",
+      "title": "Quell Memento",
+      "title_norm": "quell memento",
+      "developer": "Fallen Tree Games Ltd",
+      "reviews": 166,
+      "url": "https://store.steampowered.com/app/348440",
+      "message_id": 970,
+      "suggested_at": "2026-10-03T05:01:46.119697+00:00"
     }
   }
 }
