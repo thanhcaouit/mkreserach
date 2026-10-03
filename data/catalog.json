@@ -5431,6 +5431,20 @@
       "suggested_at": "2026-10-03T12:01:15.490183+00:00",
       "mechanic_vi": "Puzzle điểm‑và‑nhấp, người chơi khám phá các công cụ trên hộp để giải các câu đố từng cấp.",
       "why_vi": "Có nhiều bước và công cụ trong mỗi màn, nên không hoàn toàn theo quy tắc đơn giản nhưng vẫn có mục tiêu rõ ràng."
+    },
+    "com.wetpalm.colorflood2": {
+      "app_id": "com.wetpalm.colorflood2",
+      "title": "Color Flood 2",
+      "title_norm": "color flood 2",
+      "developer": "Bitwise Tech",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.4444444,
+      "url": "https://play.google.com/store/apps/details?id=com.wetpalm.colorflood2&hl=en",
+      "message_id": 1000,
+      "suggested_at": "2026-10-03T13:01:20.842186+00:00",
+      "mechanic_vi": "Đổ màu để lấp đầy toàn bộ bảng trong giới hạn bước di chuyển.",
+      "why_vi": "Luật chơi đơn giản, mỗi màn chỉ yêu cầu một màu duy nhất, có nhiều cấp độ tăng độ khó."
     }
   }
 }

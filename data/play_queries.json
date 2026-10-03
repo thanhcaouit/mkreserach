@@ -531,7 +531,11 @@
     "drum rhythm trainer",
     "drum beats rhythm machine",
     "float upward puzzle levels",
-    "wire puzzle levels"
+    "wire puzzle levels",
+    "drag the box puzzle levels",
+    "stack the crates puzzle levels",
+    "capstan turn puzzle levels",
+    "lock puzzle levels"
   ],
   "pending": [
     "stack sort",
@@ -539,7 +543,13 @@
     "light-hearted",
     "shove ha'penny",
     "roll blocks",
-    "drag the box puzzle levels",
-    "stack the crates puzzle levels"
+    "ember trail puzzle levels",
+    "conveyor puzzle levels",
+    "path puzzle levels",
+    "fall games",
+    "bell toll puzzle levels",
+    "levee the flood puzzle levels",
+    "pendulum swing puzzle levels",
+    "flood puzzle levels"
   ]
 }
