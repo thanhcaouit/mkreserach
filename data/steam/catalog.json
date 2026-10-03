@@ -5049,6 +5049,46 @@
       "url": "https://store.steampowered.com/app/2160470",
       "message_id": 962,
       "suggested_at": "2026-10-03T03:01:55.605502+00:00"
+    },
+    "679300": {
+      "app_id": "679300",
+      "title": "PATHOS",
+      "title_norm": "pathos",
+      "developer": "The Brofessionals",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/679300",
+      "message_id": 965,
+      "suggested_at": "2026-10-03T04:01:45.305127+00:00"
+    },
+    "4302340": {
+      "app_id": "4302340",
+      "title": "Fold To Shapes",
+      "title_norm": "fold to shapes",
+      "developer": "Bakpia Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4302340",
+      "message_id": 966,
+      "suggested_at": "2026-10-03T04:01:47.446075+00:00"
+    },
+    "1421790": {
+      "app_id": "1421790",
+      "title": "Labyrinth City: Pierre the Maze Detective",
+      "title_norm": "labyrinth city pierre the maze detective",
+      "developer": "Darjeeling",
+      "reviews": 1904,
+      "url": "https://store.steampowered.com/app/1421790",
+      "message_id": 967,
+      "suggested_at": "2026-10-03T04:01:48.924765+00:00"
+    },
+    "3844900": {
+      "app_id": "3844900",
+      "title": "Checkmate in the Wild West - Chess Adventure",
+      "title_norm": "checkmate in the wild west chess adventure",
+      "developer": "Grouper Games LLC",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3844900",
+      "message_id": 968,
+      "suggested_at": "2026-10-03T04:01:50.038065+00:00"
     }
   }
 }
