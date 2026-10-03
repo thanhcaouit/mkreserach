@@ -5129,6 +5129,26 @@
       "url": "https://store.steampowered.com/app/3560370",
       "message_id": 988,
       "suggested_at": "2026-10-03T10:01:52.841937+00:00"
+    },
+    "2666840": {
+      "app_id": "2666840",
+      "title": "Robot Detour",
+      "title_norm": "robot detour",
+      "developer": "Nozomu Games",
+      "reviews": 176,
+      "url": "https://store.steampowered.com/app/2666840",
+      "message_id": 990,
+      "suggested_at": "2026-10-03T11:01:50.081646+00:00"
+    },
+    "786990": {
+      "app_id": "786990",
+      "title": "SpellKeeper",
+      "title_norm": "spellkeeper",
+      "developer": "Studio Gier",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/786990",
+      "message_id": 991,
+      "suggested_at": "2026-10-03T11:01:52.412472+00:00"
     }
   }
 }
