@@ -119,7 +119,8 @@
     "net.peakgames.match": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.easybrain.art.puzzle": {
@@ -381,7 +382,8 @@
     "linkdesks.tile.match.fun": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.cookapps.ff.moderncity": {
@@ -1337,13 +1339,15 @@
     "com.gamovation.tileclub": {
       "first_seen": "2026-09-28",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.triple.match.goods.sort.puzzle.game": {
       "first_seen": "2026-09-28",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.hypervation.goodssort": {
@@ -2445,6 +2449,18 @@
       ]
     },
     "com.dwus.gp": {
+      "first_seen": "2026-10-03",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "net.peakgames.amy": {
+      "first_seen": "2026-10-03",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.matchinggo.puzzlegames": {
       "first_seen": "2026-10-03",
       "sources": [
         "GAME"

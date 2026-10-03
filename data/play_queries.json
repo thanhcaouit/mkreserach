@@ -444,19 +444,23 @@
     "fill puzzle levels",
     "lever latch puzzle levels",
     "catapult launch puzzle levels",
-    "melt the ice puzzle levels"
+    "melt the ice puzzle levels",
+    "rolling sky",
+    "roller coaster",
+    "roll the dice",
+    "roll 20",
+    "roll",
+    "blow puzzle levels",
+    "gravity puzzle levels",
+    "ford the stream puzzle levels",
+    "roll the ball puzzle levels"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
     "shove ha'penny",
-    "rolling sky",
-    "roller coaster",
-    "rolling ball",
     "roller coaster games",
-    "roll the dice",
-    "roll 20",
     "roll blocks",
     "roll the ball",
     "roll a dice",
@@ -464,6 +468,9 @@
     "flood",
     "flood simulation",
     "chrysalis wait puzzle levels",
-    "roost the bats puzzle levels"
+    "roost the bats puzzle levels",
+    "rolling ball",
+    "sink puzzle levels",
+    "close the gate puzzle levels"
   ]
 }

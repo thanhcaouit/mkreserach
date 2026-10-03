@@ -5221,6 +5221,34 @@
       "suggested_at": "2026-10-03T03:01:15.236746+00:00",
       "mechanic_vi": "Làm đầy bảng bằng một màu trong số bước cho phép, với chế độ phiêu lưu qua nhiều cấp.",
       "why_vi": "Cơ chế tương tự Flood It, có nhiều cấp độ nhưng không mang lại trải nghiệm độc đáo mới."
+    },
+    "com.movisoft.rollingball": {
+      "app_id": "com.movisoft.rollingball",
+      "title": "Rolling Ball",
+      "title_norm": "rolling ball",
+      "developer": "MoviSoft Co., Ltd.",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.movisoft.rollingball&hl=en",
+      "message_id": 963,
+      "suggested_at": "2026-10-03T04:01:12.925578+00:00",
+      "mechanic_vi": "Di chuyển các ô để mở đường cho quả bóng lăn.",
+      "why_vi": "Mỗi màn chỉ yêu cầu tạo một lối đi duy nhất, phù hợp với nguyên tắc một luật."
+    },
+    "com.xsgames.mysteryboxtheroom": {
+      "app_id": "com.xsgames.mysteryboxtheroom",
+      "title": "Mystery Box 3: Escape The Room",
+      "title_norm": "mystery box 3 escape the room",
+      "developer": "XSGames",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.76,
+      "url": "https://play.google.com/store/apps/details?id=com.xsgames.mysteryboxtheroom&hl=en",
+      "message_id": 964,
+      "suggested_at": "2026-10-03T04:01:13.813157+00:00",
+      "mechanic_vi": "Khám phá và tương tác với các cơ chế trong phòng để mở khóa.",
+      "why_vi": "Mỗi phòng là một cấp độ độc lập với mục tiêu duy nhất là thoát ra."
     }
   }
 }
