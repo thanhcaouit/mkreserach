@@ -5099,6 +5099,16 @@
       "url": "https://store.steampowered.com/app/348440",
       "message_id": 970,
       "suggested_at": "2026-10-03T05:01:46.119697+00:00"
+    },
+    "4507960": {
+      "app_id": "4507960",
+      "title": "Capture The Mouse",
+      "title_norm": "capture the mouse",
+      "developer": "Urban Isotope",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4507960",
+      "message_id": 982,
+      "suggested_at": "2026-10-03T09:02:02.897600+00:00"
     }
   }
 }
