@@ -5151,6 +5151,34 @@
       "suggested_at": "2026-10-03T01:01:25.770899+00:00",
       "mechanic_vi": "Gập các hình dạng giấy để hoàn thành các cấp độ.",
       "why_vi": "Mỗi cấp độ có một hình dạng mục tiêu, người chơi phải gập đúng thứ tự."
+    },
+    "org.emunix.floodit": {
+      "app_id": "org.emunix.floodit",
+      "title": "flood-it",
+      "title_norm": "flood it",
+      "developer": "Boris Timofeev",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.595238,
+      "url": "https://play.google.com/store/apps/details?id=org.emunix.floodit&hl=en",
+      "message_id": 950,
+      "suggested_at": "2026-10-03T02:01:16.472598+00:00",
+      "mechanic_vi": "Bao phủ toàn bộ bảng bằng một màu duy nhất trong số bước giới hạn.",
+      "why_vi": "Mỗi cấp độ tăng độ khó bằng số màu và kích thước lưới, luật đơn giản."
+    },
+    "com.fva.flood.wars": {
+      "app_id": "com.fva.flood.wars",
+      "title": "Flood Wars",
+      "title_norm": "flood wars",
+      "developer": "Viacheslav Filonenko",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.769231,
+      "url": "https://play.google.com/store/apps/details?id=com.fva.flood.wars&hl=en",
+      "message_id": 951,
+      "suggested_at": "2026-10-03T02:01:17.908885+00:00",
+      "mechanic_vi": "Chiếm lãnh thổ bằng cách chọn màu để lan màu từ góc của mình.",
+      "why_vi": "Chơi đa người hoặc AI, mỗi trận là một màn với mục tiêu chiếm hết bảng."
     }
   }
 }
