@@ -2471,6 +2471,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.playgames.block": {
+      "first_seen": "2026-10-03",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
