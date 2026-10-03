@@ -5419,6 +5419,26 @@
       "url": "https://store.steampowered.com/app/62100",
       "message_id": 1041,
       "suggested_at": "2026-10-03T20:02:05.358079+00:00"
+    },
+    "433480": {
+      "app_id": "433480",
+      "title": "Rayon Riddles - Rise of the Goblin King",
+      "title_norm": "rayon riddles rise of the goblin king",
+      "developer": "Lost The Game Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/433480",
+      "message_id": 1043,
+      "suggested_at": "2026-10-03T21:02:08.432691+00:00"
+    },
+    "397430": {
+      "app_id": "397430",
+      "title": "Zoombinis",
+      "title_norm": "zoombinis",
+      "developer": "TERC, Inc.",
+      "reviews": 1132,
+      "url": "https://store.steampowered.com/app/397430",
+      "message_id": 1044,
+      "suggested_at": "2026-10-03T21:02:09.661575+00:00"
     }
   }
 }
