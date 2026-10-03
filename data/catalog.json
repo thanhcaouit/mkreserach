@@ -5179,6 +5179,48 @@
       "suggested_at": "2026-10-03T02:01:17.908885+00:00",
       "mechanic_vi": "Chiếm lãnh thổ bằng cách chọn màu để lan màu từ góc của mình.",
       "why_vi": "Chơi đa người hoặc AI, mỗi trận là một màn với mục tiêu chiếm hết bảng."
+    },
+    "net.playtouch.chroma": {
+      "app_id": "net.playtouch.chroma",
+      "title": "Flood it ! Chroma : the game",
+      "title_norm": "flood it chroma the game",
+      "developer": "PLAYTOUCH",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.3636365,
+      "url": "https://play.google.com/store/apps/details?id=net.playtouch.chroma&hl=en",
+      "message_id": 953,
+      "suggested_at": "2026-10-03T03:01:11.959311+00:00",
+      "mechanic_vi": "Thay đổi màu của ô để mở rộng khu vực màu đồng nhất, cố gắng bao phủ toàn bộ lưới.",
+      "why_vi": "Có nhiều cấp độ và luật đơn giản, nhưng cơ chế đã phổ biến, ít mới lạ."
+    },
+    "com.rmaalouf.floodit": {
+      "app_id": "com.rmaalouf.floodit",
+      "title": "Flood It – Color Puzzle Game",
+      "title_norm": "flood it color puzzle game",
+      "developer": "rmaalouf",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.7524753,
+      "url": "https://play.google.com/store/apps/details?id=com.rmaalouf.floodit&hl=en",
+      "message_id": 954,
+      "suggested_at": "2026-10-03T03:01:13.591805+00:00",
+      "mechanic_vi": "Chọn màu để lan rộng từ góc trên‑trái, mục tiêu là làm toàn bộ bảng cùng màu.",
+      "why_vi": "Mỗi màn có mục tiêu duy nhất, nhưng đây là dạng puzzle màu đã xuất hiện rộng rãi, nên độ mới lạ thấp."
+    },
+    "com.kasuroid.floodextreme": {
+      "app_id": "com.kasuroid.floodextreme",
+      "title": "Flood Extreme",
+      "title_norm": "flood extreme",
+      "developer": "Kasur Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.4,
+      "url": "https://play.google.com/store/apps/details?id=com.kasuroid.floodextreme&hl=en",
+      "message_id": 955,
+      "suggested_at": "2026-10-03T03:01:15.236746+00:00",
+      "mechanic_vi": "Làm đầy bảng bằng một màu trong số bước cho phép, với chế độ phiêu lưu qua nhiều cấp.",
+      "why_vi": "Cơ chế tương tự Flood It, có nhiều cấp độ nhưng không mang lại trải nghiệm độc đáo mới."
     }
   }
 }
