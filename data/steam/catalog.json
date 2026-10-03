@@ -5489,6 +5489,46 @@
       "url": "https://store.steampowered.com/app/2562870",
       "message_id": 1050,
       "suggested_at": "2026-10-03T22:01:45.866090+00:00"
+    },
+    "370150": {
+      "app_id": "370150",
+      "title": "LOOP: A Tranquil Puzzle Game",
+      "title_norm": "loop a tranquil puzzle game",
+      "developer": "John Cullen",
+      "reviews": 123,
+      "url": "https://store.steampowered.com/app/370150",
+      "message_id": 1054,
+      "suggested_at": "2026-10-03T23:01:55.533392+00:00"
+    },
+    "1560730": {
+      "app_id": "1560730",
+      "title": "Replay-A Puzzle Game",
+      "title_norm": "replay a puzzle game",
+      "developer": "CodingApe Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1560730",
+      "message_id": 1055,
+      "suggested_at": "2026-10-03T23:01:56.391820+00:00"
+    },
+    "873160": {
+      "app_id": "873160",
+      "title": "SPECKLE: Chill Puzzle Game",
+      "title_norm": "speckle chill puzzle game",
+      "developer": "DEEP Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/873160",
+      "message_id": 1056,
+      "suggested_at": "2026-10-03T23:01:57.584998+00:00"
+    },
+    "3885740": {
+      "app_id": "3885740",
+      "title": "BeetleWorld : the Puzzle Game",
+      "title_norm": "beetleworld the puzzle game",
+      "developer": "Fasold Publishing",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3885740",
+      "message_id": 1057,
+      "suggested_at": "2026-10-03T23:01:59.139613+00:00"
     }
   }
 }
