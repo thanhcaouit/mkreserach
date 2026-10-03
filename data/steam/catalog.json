@@ -5369,6 +5369,56 @@
       "url": "https://store.steampowered.com/app/38720",
       "message_id": 1033,
       "suggested_at": "2026-10-03T19:01:55.410206+00:00"
+    },
+    "755530": {
+      "app_id": "755530",
+      "title": "Factorybelts 2",
+      "title_norm": "factorybelts 2",
+      "developer": "Robin Hänni",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/755530",
+      "message_id": 1037,
+      "suggested_at": "2026-10-03T20:02:00.354688+00:00"
+    },
+    "3147300": {
+      "app_id": "3147300",
+      "title": "Entwined Time",
+      "title_norm": "entwined time",
+      "developer": "Patashu",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3147300",
+      "message_id": 1038,
+      "suggested_at": "2026-10-03T20:02:01.428326+00:00"
+    },
+    "2674040": {
+      "app_id": "2674040",
+      "title": "NBody Gravitation",
+      "title_norm": "nbody gravitation",
+      "developer": "Sean Frett",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2674040",
+      "message_id": 1039,
+      "suggested_at": "2026-10-03T20:02:02.835535+00:00"
+    },
+    "278440": {
+      "app_id": "278440",
+      "title": "0RBITALIS",
+      "title_norm": "0rbitalis",
+      "developer": "Alan Zucconi",
+      "reviews": 145,
+      "url": "https://store.steampowered.com/app/278440",
+      "message_id": 1040,
+      "suggested_at": "2026-10-03T20:02:04.119371+00:00"
+    },
+    "62100": {
+      "app_id": "62100",
+      "title": "Chime",
+      "title_norm": "chime",
+      "developer": "Zoë Mode",
+      "reviews": 652,
+      "url": "https://store.steampowered.com/app/62100",
+      "message_id": 1041,
+      "suggested_at": "2026-10-03T20:02:05.358079+00:00"
     }
   }
 }
