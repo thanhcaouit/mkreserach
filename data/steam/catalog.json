@@ -5319,6 +5319,46 @@
       "url": "https://store.steampowered.com/app/977230",
       "message_id": 1022,
       "suggested_at": "2026-10-03T16:02:01.035938+00:00"
+    },
+    "2341100": {
+      "app_id": "2341100",
+      "title": "Lost in Cheese",
+      "title_norm": "lost in cheese",
+      "developer": "SnøVittra",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2341100",
+      "message_id": 1027,
+      "suggested_at": "2026-10-03T17:02:04.584311+00:00"
+    },
+    "2310810": {
+      "app_id": "2310810",
+      "title": "Tents and Trees",
+      "title_norm": "tents and trees",
+      "developer": "Frozax Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2310810",
+      "message_id": 1028,
+      "suggested_at": "2026-10-03T17:02:06.277955+00:00"
+    },
+    "3363810": {
+      "app_id": "3363810",
+      "title": "Hidden Dogs",
+      "title_norm": "hidden dogs",
+      "developer": "Admiral Egg Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3363810",
+      "message_id": 1029,
+      "suggested_at": "2026-10-03T17:02:08.493197+00:00"
+    },
+    "738480": {
+      "app_id": "738480",
+      "title": "Find Pixel",
+      "title_norm": "find pixel",
+      "developer": "Denis Mikheikin",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/738480",
+      "message_id": 1030,
+      "suggested_at": "2026-10-03T17:02:09.545929+00:00"
     }
   }
 }
