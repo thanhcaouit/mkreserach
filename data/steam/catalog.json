@@ -5249,6 +5249,76 @@
       "url": "https://store.steampowered.com/app/659940",
       "message_id": 1004,
       "suggested_at": "2026-10-03T13:01:58.981686+00:00"
+    },
+    "923260": {
+      "app_id": "923260",
+      "title": "Golf Peaks",
+      "title_norm": "golf peaks",
+      "developer": "Afterburn",
+      "reviews": 1080,
+      "url": "https://store.steampowered.com/app/923260",
+      "message_id": 1016,
+      "suggested_at": "2026-10-03T16:01:52.995056+00:00"
+    },
+    "18400": {
+      "app_id": "18400",
+      "title": "Crazy Machines 2",
+      "title_norm": "crazy machines 2",
+      "developer": "Fakt Software",
+      "reviews": 119,
+      "url": "https://store.steampowered.com/app/18400",
+      "message_id": 1017,
+      "suggested_at": "2026-10-03T16:01:54.380696+00:00"
+    },
+    "3198680": {
+      "app_id": "3198680",
+      "title": "Puttler",
+      "title_norm": "puttler",
+      "developer": "Bean Juice Studios",
+      "reviews": 244,
+      "url": "https://store.steampowered.com/app/3198680",
+      "message_id": 1018,
+      "suggested_at": "2026-10-03T16:01:55.639495+00:00"
+    },
+    "4757460": {
+      "app_id": "4757460",
+      "title": "ThouSandSand",
+      "title_norm": "thousandsand",
+      "developer": "YaaaJi",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4757460",
+      "message_id": 1019,
+      "suggested_at": "2026-10-03T16:01:57.204668+00:00"
+    },
+    "2150490": {
+      "app_id": "2150490",
+      "title": "Gnomdom",
+      "title_norm": "gnomdom",
+      "developer": "Vivi",
+      "reviews": 127,
+      "url": "https://store.steampowered.com/app/2150490",
+      "message_id": 1020,
+      "suggested_at": "2026-10-03T16:01:58.445691+00:00"
+    },
+    "851730": {
+      "app_id": "851730",
+      "title": "Sandmade",
+      "title_norm": "sandmade",
+      "developer": "Manic Hyena",
+      "reviews": 235,
+      "url": "https://store.steampowered.com/app/851730",
+      "message_id": 1021,
+      "suggested_at": "2026-10-03T16:01:59.476268+00:00"
+    },
+    "977230": {
+      "app_id": "977230",
+      "title": "Mars Power Industries Deluxe",
+      "title_norm": "mars power industries deluxe",
+      "developer": "7A Games",
+      "reviews": 621,
+      "url": "https://store.steampowered.com/app/977230",
+      "message_id": 1022,
+      "suggested_at": "2026-10-03T16:02:01.035938+00:00"
     }
   }
 }
