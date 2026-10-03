@@ -5109,6 +5109,26 @@
       "url": "https://store.steampowered.com/app/4507960",
       "message_id": 982,
       "suggested_at": "2026-10-03T09:02:02.897600+00:00"
+    },
+    "1560450": {
+      "app_id": "1560450",
+      "title": "the Sequence [2]",
+      "title_norm": "the sequence 2",
+      "developer": "[OneManBand]",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1560450",
+      "message_id": 987,
+      "suggested_at": "2026-10-03T10:01:50.966021+00:00"
+    },
+    "3560370": {
+      "app_id": "3560370",
+      "title": "Éalú",
+      "title_norm": "éalú",
+      "developer": "Beyond the Bark",
+      "reviews": 259,
+      "url": "https://store.steampowered.com/app/3560370",
+      "message_id": 988,
+      "suggested_at": "2026-10-03T10:01:52.841937+00:00"
     }
   }
 }
