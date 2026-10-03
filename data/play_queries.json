@@ -584,7 +584,19 @@
     "aimp music player for android",
     "turn puzzle levels",
     "shove the statue puzzle levels",
-    "hook puzzle levels"
+    "hook puzzle levels",
+    "build a bridge simulator",
+    "build a bridge offline",
+    "latch the gate puzzle levels",
+    "swap places puzzle levels",
+    "pull puzzle levels",
+    "dye the river puzzle levels",
+    "ice puzzle levels",
+    "drum rhythm puzzle levels",
+    "aim puzzle levels",
+    "split apart puzzle levels",
+    "cool puzzle levels",
+    "shadow puzzle levels"
   ],
   "pending": [
     "stack sort",
@@ -592,12 +604,6 @@
     "light-hearted",
     "shove ha'penny",
     "roll blocks",
-    "build a bridge simulator",
-    "build a bridge offline",
-    "latch the gate puzzle levels",
-    "swap places puzzle levels",
-    "pull puzzle levels",
-    "dye the river puzzle levels",
     "light puzzle levels"
   ]
 }
