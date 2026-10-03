@@ -5627,6 +5627,48 @@
       "suggested_at": "2026-10-03T19:01:20.117271+00:00",
       "mechanic_vi": "Mở cánh cửa bằng cách kích hoạt công tắc sử dụng các vật phẩm xung quanh.",
       "why_vi": "Luật duy nhất mỗi màn là mở cánh cửa, tạo cảm giác hướng dẫn đơn giản và có nhiều level để khám phá."
+    },
+    "xega.studio.riveriq": {
+      "app_id": "xega.studio.riveriq",
+      "title": "River Puzzle - IQ Test Mind",
+      "title_norm": "river puzzle iq test mind",
+      "developer": "Xega Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 2.5714285,
+      "url": "https://play.google.com/store/apps/details?id=xega.studio.riveriq&hl=en",
+      "message_id": 1034,
+      "suggested_at": "2026-10-03T20:01:06.876022+00:00",
+      "mechanic_vi": "Giải các bài toán logic dạng cô lập, di chuyển các khối để tạo ra các đường đi hợp lệ.",
+      "why_vi": "Cơ chế cô lập và giải quyết từng màn một phù hợp với sở thích “enclose or isolate”."
+    },
+    "zl.puzzle.riveriq2": {
+      "app_id": "zl.puzzle.riveriq2",
+      "title": "River Crossing IQ 2 - IQ Test",
+      "title_norm": "river crossing iq 2 iq test",
+      "developer": "zlMobile Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.3428574,
+      "url": "https://play.google.com/store/apps/details?id=zl.puzzle.riveriq2&hl=en",
+      "message_id": 1035,
+      "suggested_at": "2026-10-03T20:01:08.763873+00:00",
+      "mechanic_vi": "Giải các câu đố chuyển vật qua sông, yêu cầu người chơi sắp xếp và cô lập các đối tượng.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất, tập trung vào việc cô lập và di chuyển, gần giống Cross Virus."
+    },
+    "com.bhima.lightbulb": {
+      "app_id": "com.bhima.lightbulb",
+      "title": "Light Bulb Puzzle Game",
+      "title_norm": "light bulb puzzle game",
+      "developer": "Bhima Apps",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.36,
+      "url": "https://play.google.com/store/apps/details?id=com.bhima.lightbulb&hl=en",
+      "message_id": 1036,
+      "suggested_at": "2026-10-03T20:01:10.571840+00:00",
+      "mechanic_vi": "Kết nối dây điện để truyền năng lượng tới các bóng đèn, tạo một đường dẫn duy nhất.",
+      "why_vi": "Cơ chế dẫn luồng năng lượng tới mục tiêu tương tự Slimbo, phù hợp với “guide units to a goal”."
     }
   }
 }

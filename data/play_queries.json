@@ -574,7 +574,17 @@
     "build a bridge 2",
     "sap flow puzzle levels",
     "melt puzzle levels",
-    "stain glass puzzle levels"
+    "stain glass puzzle levels",
+    "build a bridge game",
+    "aqueduct flow puzzle levels",
+    "portal puzzle levels",
+    "balance puzzle levels",
+    "pipe game",
+    "pipes",
+    "aimp music player for android",
+    "turn puzzle levels",
+    "shove the statue puzzle levels",
+    "hook puzzle levels"
   ],
   "pending": [
     "stack sort",
@@ -582,16 +592,12 @@
     "light-hearted",
     "shove ha'penny",
     "roll blocks",
-    "build a bridge game",
-    "aqueduct flow puzzle levels",
-    "portal puzzle levels",
-    "balance puzzle levels",
-    "pipe game",
-    "pipes",
     "build a bridge simulator",
     "build a bridge offline",
     "latch the gate puzzle levels",
     "swap places puzzle levels",
-    "pull puzzle levels"
+    "pull puzzle levels",
+    "dye the river puzzle levels",
+    "light puzzle levels"
   ]
 }
