@@ -502,7 +502,17 @@
     "liquid",
     "liquid glass launcher",
     "liquid launcher",
-    "dig puzzle levels"
+    "dig puzzle levels",
+    "wire guard",
+    "wire tun",
+    "paint by number",
+    "sand pour puzzle levels",
+    "winch the crate puzzle levels",
+    "stick puzzle levels",
+    "stamp the seal puzzle levels",
+    "bridge puzzle levels",
+    "wind the crank puzzle levels",
+    "rise puzzle levels"
   ],
   "pending": [
     "stack sort",
@@ -510,15 +520,9 @@
     "light-hearted",
     "shove ha'penny",
     "roll blocks",
-    "wire guard",
-    "wire tun",
-    "paint by number",
-    "sand pour puzzle levels",
-    "winch the crate puzzle levels",
-    "stick puzzle levels",
     "fell the tree puzzle levels",
-    "wind the crank puzzle levels",
     "spin puzzle levels",
-    "bridge puzzle levels"
+    "anchor the boat puzzle levels",
+    "siphon the pool puzzle levels"
   ]
 }

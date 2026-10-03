@@ -5333,6 +5333,62 @@
       "suggested_at": "2026-10-03T07:52:33.979687+00:00",
       "mechanic_vi": "QQu Entertainment is here in the world of Puzzle & Adventure! Do you want to meet these cute characters trying to make their debut on earth? Join us in this exciting tale as they struggle to make their debut! -----------",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.kenji.savethetree": {
+      "app_id": "com.kenji.savethetree",
+      "title": "Water flow puzzle: Pipe Games",
+      "title_norm": "water flow puzzle pipe games",
+      "developer": "Kenji Solutions",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.9729729,
+      "url": "https://play.google.com/store/apps/details?id=com.kenji.savethetree&hl=en",
+      "message_id": 983,
+      "suggested_at": "2026-10-03T10:01:14.712810+00:00",
+      "mechanic_vi": "Dẫn luồng nước qua các ống xoay để đưa nước tới cây.",
+      "why_vi": "Luật duy nhất là kết nối đúng các ống, giúp người chơi hướng dẫn “đơn vị” (nước) tới mục tiêu, phù hợp với sở thích hướng dẫn đơn vị tới đích."
+    },
+    "com.conceptispuzzles.battleships": {
+      "app_id": "com.conceptispuzzles.battleships",
+      "title": "SeaBattle: Warships Puzzle",
+      "title_norm": "seabattle warships puzzle",
+      "developer": "Conceptis Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.58,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.battleships&hl=en",
+      "message_id": 984,
+      "suggested_at": "2026-10-03T10:01:16.580327+00:00",
+      "mechanic_vi": "Đóng gói tàu trên lưới bằng cách cô lập các đoạn tàu dựa trên số lượng hàng và cột.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất – xác định vị trí tàu – đáp ứng yêu cầu “một luật rõ ràng mỗi màn” và có yếu tố cô lập."
+    },
+    "com.neopop.castlesroyale": {
+      "app_id": "com.neopop.castlesroyale",
+      "title": "IQ Puzzles Swimming Pool",
+      "title_norm": "iq puzzles swimming pool",
+      "developer": "NeoPOP",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.neopop.castlesroyale&hl=en",
+      "message_id": 985,
+      "suggested_at": "2026-10-03T10:01:17.864461+00:00",
+      "mechanic_vi": "Xếp các khối hình đa dạng vào lưới để lấp đầy hình dạng mục tiêu.",
+      "why_vi": "Mặc dù là dạng xếp khối, mỗi cấp độ chỉ có một quy tắc duy nhất và có hơn 1.000 màn, phù hợp với mong muốn có tiến độ cấp độ."
+    },
+    "pipe.line.puzzle.connect.plumber.flow.color.path.brain.train.game": {
+      "app_id": "pipe.line.puzzle.connect.plumber.flow.color.path.brain.train.game",
+      "title": "Pipe Line Puzzle - Water Game",
+      "title_norm": "pipe line puzzle water game",
+      "developer": "People Lovin Games",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.111111,
+      "url": "https://play.google.com/store/apps/details?id=pipe.line.puzzle.connect.plumber.flow.color.path.brain.train.game&hl=en",
+      "message_id": 986,
+      "suggested_at": "2026-10-03T10:01:20.246498+00:00",
+      "mechanic_vi": "Kết nối các ống cùng màu để cho nước chảy qua toàn bộ lưới.",
+      "why_vi": "Luật đơn giản – nối màu đúng – và có hàng ngàn cấp độ, đáp ứng tiêu chí “một luật rõ ràng mỗi màn” mà không rơi vào dạng match‑3."
     }
   }
 }
