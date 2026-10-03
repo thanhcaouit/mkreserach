@@ -5439,6 +5439,56 @@
       "url": "https://store.steampowered.com/app/397430",
       "message_id": 1044,
       "suggested_at": "2026-10-03T21:02:09.661575+00:00"
+    },
+    "2749730": {
+      "app_id": "2749730",
+      "title": "Piccadilly's Puzzle Museum",
+      "title_norm": "piccadilly s puzzle museum",
+      "developer": "Novelline, Inc.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2749730",
+      "message_id": 1046,
+      "suggested_at": "2026-10-03T22:01:39.768347+00:00"
+    },
+    "3022750": {
+      "app_id": "3022750",
+      "title": "Rune Stones",
+      "title_norm": "rune stones",
+      "developer": "Hardi",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3022750",
+      "message_id": 1047,
+      "suggested_at": "2026-10-03T22:01:41.844966+00:00"
+    },
+    "3784090": {
+      "app_id": "3784090",
+      "title": "Gnomes Garden: Black Stones",
+      "title_norm": "gnomes garden black stones",
+      "developer": "8floor ltd",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3784090",
+      "message_id": 1048,
+      "suggested_at": "2026-10-03T22:01:43.364423+00:00"
+    },
+    "607670": {
+      "app_id": "607670",
+      "title": "Puzzle Guardians",
+      "title_norm": "puzzle guardians",
+      "developer": "Miryn Innovation",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/607670",
+      "message_id": 1049,
+      "suggested_at": "2026-10-03T22:01:44.464042+00:00"
+    },
+    "2562870": {
+      "app_id": "2562870",
+      "title": "Puzzle Game",
+      "title_norm": "puzzle game",
+      "developer": "Patryk Kamionka",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2562870",
+      "message_id": 1050,
+      "suggested_at": "2026-10-03T22:01:45.866090+00:00"
     }
   }
 }
