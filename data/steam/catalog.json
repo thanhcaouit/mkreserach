@@ -5209,6 +5209,46 @@
       "url": "https://store.steampowered.com/app/877300",
       "message_id": 999,
       "suggested_at": "2026-10-03T12:01:53.654506+00:00"
+    },
+    "16500": {
+      "app_id": "16500",
+      "title": "Chaos Theory",
+      "title_norm": "chaos theory",
+      "developer": "blurredVision",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/16500",
+      "message_id": 1001,
+      "suggested_at": "2026-10-03T13:01:53.928381+00:00"
+    },
+    "1089600": {
+      "app_id": "1089600",
+      "title": "LYSER",
+      "title_norm": "lyser",
+      "developer": "Growfall Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1089600",
+      "message_id": 1002,
+      "suggested_at": "2026-10-03T13:01:56.221184+00:00"
+    },
+    "787260": {
+      "app_id": "787260",
+      "title": "Universe Balancing Bureau",
+      "title_norm": "universe balancing bureau",
+      "developer": "Game Kombinat",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/787260",
+      "message_id": 1003,
+      "suggested_at": "2026-10-03T13:01:57.653400+00:00"
+    },
+    "659940": {
+      "app_id": "659940",
+      "title": "Travel Riddles: Trip To France",
+      "title_norm": "travel riddles trip to france",
+      "developer": "Notus Games Ltd",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/659940",
+      "message_id": 1004,
+      "suggested_at": "2026-10-03T13:01:58.981686+00:00"
     }
   }
 }
