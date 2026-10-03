@@ -5095,6 +5095,62 @@
       "suggested_at": "2026-10-03T00:01:33.555698+00:00",
       "mechanic_vi": "Pipes is a plumbing simulator where you have to build and connect all of the pipes in a puzzle type of game. You are the cultivator of this relaxed zen garden. Close the divide and link the water source to the plants. Fo",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.panagola.game.mappuzzleusa": {
+      "app_id": "com.panagola.game.mappuzzleusa",
+      "title": "USA Map Puzzle | All US States",
+      "title_norm": "usa map puzzle all us states",
+      "developer": "Panagola Private Limited",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.07,
+      "url": "https://play.google.com/store/apps/details?id=com.panagola.game.mappuzzleusa&hl=en",
+      "message_id": 943,
+      "suggested_at": "2026-10-03T01:01:22.092660+00:00",
+      "mechanic_vi": "Bảo vệ và lắp ghép các khu vực trên bản đồ theo từng cấp độ.",
+      "why_vi": "Mỗi màn yêu cầu người chơi ghép đúng các bang hoặc quận, luật chơi đơn giản và rõ ràng."
+    },
+    "com.skygo.paperpuzzle2023": {
+      "app_id": "com.skygo.paperpuzzle2023",
+      "title": "Paper Puzzle 2024",
+      "title_norm": "paper puzzle 2024",
+      "developer": "Skygo",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.skygo.paperpuzzle2023&hl=en",
+      "message_id": 944,
+      "suggested_at": "2026-10-03T01:01:23.414229+00:00",
+      "mechanic_vi": "Ghép các mảnh giấy rách thành hình ảnh hoàn chỉnh.",
+      "why_vi": "Mỗi cấp độ có một hình ảnh mục tiêu, người chơi phải sắp xếp các mảnh sao cho khớp."
+    },
+    "com.romainimberti.paper.fold.puzzle": {
+      "app_id": "com.romainimberti.paper.fold.puzzle",
+      "title": "Paper Fold - Puzzle",
+      "title_norm": "paper fold puzzle",
+      "developer": "RomainImberti",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.2,
+      "url": "https://play.google.com/store/apps/details?id=com.romainimberti.paper.fold.puzzle&hl=en",
+      "message_id": 945,
+      "suggested_at": "2026-10-03T01:01:24.965139+00:00",
+      "mechanic_vi": "Gấp giấy theo thứ tự đúng để tạo hình.",
+      "why_vi": "Mỗi màn đòi hỏi người chơi thực hiện chuỗi gấp chính xác, sai sẽ phải bắt đầu lại."
+    },
+    "com.mobirix.origamiking": {
+      "app_id": "com.mobirix.origamiking",
+      "title": "Paper Folding Puzzle",
+      "title_norm": "paper folding puzzle",
+      "developer": "mobirixsub",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.65,
+      "url": "https://play.google.com/store/apps/details?id=com.mobirix.origamiking&hl=en",
+      "message_id": 946,
+      "suggested_at": "2026-10-03T01:01:25.770899+00:00",
+      "mechanic_vi": "Gập các hình dạng giấy để hoàn thành các cấp độ.",
+      "why_vi": "Mỗi cấp độ có một hình dạng mục tiêu, người chơi phải gập đúng thứ tự."
     }
   }
 }
