@@ -5599,6 +5599,34 @@
       "suggested_at": "2026-10-03T17:01:24.450497+00:00",
       "mechanic_vi": "Kết nối các ống nước để tạo dòng chảy tới điểm cuối.",
       "why_vi": "Luật duy nhất là nối các đoạn ống sao cho nước chảy liên tục qua mọi ô."
+    },
+    "com.ulkaden.bridgebuilder": {
+      "app_id": "com.ulkaden.bridgebuilder",
+      "title": "Bridge Builder",
+      "title_norm": "bridge builder",
+      "developer": "Taranau Aliaksei",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 1.1904762,
+      "url": "https://play.google.com/store/apps/details?id=com.ulkaden.bridgebuilder&hl=en",
+      "message_id": 1031,
+      "suggested_at": "2026-10-03T19:01:18.048267+00:00",
+      "mechanic_vi": "Xây cầu bằng các khối và ray, bố trí cấu trúc để tàu có thể băng qua hẻm núi.",
+      "why_vi": "Mỗi màn có mục tiêu duy nhất là đưa tàu qua, luật chơi rõ ràng và tiến độ level giúp người chơi cảm nhận sự tiến bộ."
+    },
+    "com.marothiatechs.gatepuzzle": {
+      "app_id": "com.marothiatechs.gatepuzzle",
+      "title": "Gate Puzzle",
+      "title_norm": "gate puzzle",
+      "developer": "Marothia Techs",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3,
+      "url": "https://play.google.com/store/apps/details?id=com.marothiatechs.gatepuzzle&hl=en",
+      "message_id": 1032,
+      "suggested_at": "2026-10-03T19:01:20.117271+00:00",
+      "mechanic_vi": "Mở cánh cửa bằng cách kích hoạt công tắc sử dụng các vật phẩm xung quanh.",
+      "why_vi": "Luật duy nhất mỗi màn là mở cánh cửa, tạo cảm giác hướng dẫn đơn giản và có nhiều level để khám phá."
     }
   }
 }
