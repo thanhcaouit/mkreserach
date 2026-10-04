@@ -6029,6 +6029,26 @@
       "url": "https://store.steampowered.com/app/2826150",
       "message_id": 1145,
       "suggested_at": "2026-10-04T21:01:21.459889+00:00"
+    },
+    "1997550": {
+      "app_id": "1997550",
+      "title": "Square Journey",
+      "title_norm": "square journey",
+      "developer": "Solo Philosopher",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1997550",
+      "message_id": 1147,
+      "suggested_at": "2026-10-04T22:01:23.934158+00:00"
+    },
+    "448530": {
+      "app_id": "448530",
+      "title": "Square's Route",
+      "title_norm": "square s route",
+      "developer": "Black Death Apps Limited",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/448530",
+      "message_id": 1148,
+      "suggested_at": "2026-10-04T22:01:25.840353+00:00"
     }
   }
 }
