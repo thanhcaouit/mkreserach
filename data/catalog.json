@@ -5823,6 +5823,48 @@
       "suggested_at": "2026-10-04T07:01:00.602638+00:00",
       "mechanic_vi": "Nhấn ô để tắt đèn, đồng thời ảnh hưởng tới các ô kề ngang và dọc.",
       "why_vi": "Mặc dù là một luật cổ điển, trò chơi có 179 cấp độ và đáp ứng yêu cầu có cấp độ rõ ràng."
+    },
+    "com.oldduckgames.rollyballs": {
+      "app_id": "com.oldduckgames.rollyballs",
+      "title": "Roll Balls 3D:Rotate Maze Game",
+      "title_norm": "roll balls 3d rotate maze game",
+      "developer": "Old Duck Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.8888888,
+      "url": "https://play.google.com/store/apps/details?id=com.oldduckgames.rollyballs&hl=en",
+      "message_id": 1086,
+      "suggested_at": "2026-10-04T08:01:06.633381+00:00",
+      "mechanic_vi": "Xoay mê cung để dùng trọng lực kéo bóng ra khỏi mê cung.",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất: xoay để đưa bóng tới lối ra, tạo cảm giác vật lý thú vị."
+    },
+    "com.thedragon.loveballs": {
+      "app_id": "com.thedragon.loveballs",
+      "title": "Love Balls in the maze",
+      "title_norm": "love balls in the maze",
+      "developer": "TheDragon2",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.thedragon.loveballs&hl=en",
+      "message_id": 1087,
+      "suggested_at": "2026-10-04T08:01:08.119927+00:00",
+      "mechanic_vi": "Lệch nghiêng điện thoại để di chuyển hai quả bóng trái tim qua mê cung và gặp nhau.",
+      "why_vi": "Mục tiêu duy nhất là dẫn hai bóng tới cùng một vị trí, mỗi màn có bố cục mê cung khác nhau."
+    },
+    "com.if060051.maze": {
+      "app_id": "com.if060051.maze",
+      "title": "Exit Classic Maze Labyrinth",
+      "title_norm": "exit classic maze labyrinth",
+      "developer": "Liutauras Stravinskas",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.if060051.maze&hl=en",
+      "message_id": 1088,
+      "suggested_at": "2026-10-04T08:01:09.953369+00:00",
+      "mechanic_vi": "Tìm lối ra trong mê cung bằng cách di chuyển qua các ô.",
+      "why_vi": "Luật chơi đơn giản, mỗi màn tăng độ phức tạp của mê cung, yêu cầu người chơi suy luận đường đi."
     }
   }
 }
