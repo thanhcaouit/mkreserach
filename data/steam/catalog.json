@@ -5659,6 +5659,26 @@
       "url": "https://store.steampowered.com/app/879850",
       "message_id": 1085,
       "suggested_at": "2026-10-04T07:01:22.919022+00:00"
+    },
+    "1574910": {
+      "app_id": "1574910",
+      "title": "The Bart Bonte collection",
+      "title_norm": "the bart bonte collection",
+      "developer": "Bart Bonte",
+      "reviews": 141,
+      "url": "https://store.steampowered.com/app/1574910",
+      "message_id": 1089,
+      "suggested_at": "2026-10-04T08:01:57.762724+00:00"
+    },
+    "1410860": {
+      "app_id": "1410860",
+      "title": "Puzzle Box Palace",
+      "title_norm": "puzzle box palace",
+      "developer": "SMU Guildhall",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1410860",
+      "message_id": 1090,
+      "suggested_at": "2026-10-04T08:01:59.699413+00:00"
     }
   }
 }
