@@ -6009,6 +6009,16 @@
       "url": "https://store.steampowered.com/app/428830",
       "message_id": 1141,
       "suggested_at": "2026-10-04T19:01:24.763476+00:00"
+    },
+    "471810": {
+      "app_id": "471810",
+      "title": "Death Squared",
+      "title_norm": "death squared",
+      "developer": "SMG Studio",
+      "reviews": 471,
+      "url": "https://store.steampowered.com/app/471810",
+      "message_id": 1143,
+      "suggested_at": "2026-10-04T20:01:23.045599+00:00"
     }
   }
 }
