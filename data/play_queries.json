@@ -692,13 +692,14 @@
     "Classic Labyrinth",
     "Love Balls in the maze",
     "EXIT the MAZE 3D labyrinth",
-    "Two Love Balls Brain Puzzle"
+    "Two Love Balls Brain Puzzle",
+    "3D Maze Lost in the Labyrinth",
+    "3D Maze Labyrinth"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
-    "roll blocks",
-    "3D Maze Lost in the Labyrinth"
+    "roll blocks"
   ]
 }
