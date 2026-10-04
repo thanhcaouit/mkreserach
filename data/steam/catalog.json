@@ -5819,6 +5819,26 @@
       "url": "https://store.steampowered.com/app/680730",
       "message_id": 1109,
       "suggested_at": "2026-10-04T10:01:51.571235+00:00"
+    },
+    "4086260": {
+      "app_id": "4086260",
+      "title": "Guess The Password",
+      "title_norm": "guess the password",
+      "developer": "PadGames",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4086260",
+      "message_id": 1111,
+      "suggested_at": "2026-10-04T11:01:44.973771+00:00"
+    },
+    "1191650": {
+      "app_id": "1191650",
+      "title": "Time Travel Trainer",
+      "title_norm": "time travel trainer",
+      "developer": "Time Travel Trainer",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1191650",
+      "message_id": 1112,
+      "suggested_at": "2026-10-04T11:01:47.509992+00:00"
     }
   }
 }
