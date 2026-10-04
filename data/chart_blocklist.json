@@ -2543,6 +2543,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.idleif.abyssrium": {
+      "first_seen": "2026-10-04",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

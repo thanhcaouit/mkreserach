@@ -660,14 +660,24 @@
     "canal the water puzzle levels",
     "silk the bridge puzzle levels",
     "dam the beavers puzzle levels",
-    "flow downhill puzzle levels"
+    "flow downhill puzzle levels",
+    "cocoon wrap puzzle levels",
+    "whistle pitch puzzle levels",
+    "close puzzle levels",
+    "climb puzzle levels",
+    "tap the switch puzzle levels",
+    "spore cloud puzzle levels",
+    "flood the room puzzle levels",
+    "lens focus puzzle levels"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
     "roll blocks",
-    "cocoon wrap puzzle levels",
-    "guide the ants puzzle levels"
+    "guide the ants puzzle levels",
+    "lure the moth puzzle levels",
+    "root bridge puzzle levels",
+    "glue puzzle levels"
   ]
 }

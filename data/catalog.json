@@ -5753,6 +5753,34 @@
       "suggested_at": "2026-10-04T01:01:24.803737+00:00",
       "mechanic_vi": "Xoay toàn bộ mê cung để bóng di chuyển theo trọng lực và ra khỏi màn.",
       "why_vi": "Luật chơi đơn giản – xoay để dùng trọng lực đưa bóng tới đích, đáp ứng yêu cầu “định luật duy nhất mỗi màn” và “nghiêng trọng lực”."
+    },
+    "com.jellycrew.jellynopuzzle": {
+      "app_id": "com.jellycrew.jellynopuzzle",
+      "title": "Jelly no Puzzle - Puzzle Game",
+      "title_norm": "jelly no puzzle puzzle game",
+      "developer": "Jelly Crew",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.53,
+      "url": "https://play.google.com/store/apps/details?id=com.jellycrew.jellynopuzzle&hl=en",
+      "message_id": 1077,
+      "suggested_at": "2026-10-04T05:01:14.516841+00:00",
+      "mechanic_vi": "Di chuyển các khối gel sang trái hoặc phải để gom các khối cùng màu lại với nhau.",
+      "why_vi": "Có 10 cấp độ miễn phí, mỗi cấp độ một mục tiêu duy nhất, phù hợp với yêu cầu có luật rõ ràng cho từng màn."
+    },
+    "com.mobiltr.butterflykyodai": {
+      "app_id": "com.mobiltr.butterflykyodai",
+      "title": "Butterfly Kyodai",
+      "title_norm": "butterfly kyodai",
+      "developer": "Mobil-TR",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.857143,
+      "url": "https://play.google.com/store/apps/details?id=com.mobiltr.butterflykyodai&hl=en",
+      "message_id": 1078,
+      "suggested_at": "2026-10-04T05:01:16.659522+00:00",
+      "mechanic_vi": "Butterfly Kyodai is a solitaire mahjong and connect puzzle game. It’s free and best to play! Can you solve every Mahjong Butterfly puzzle? Match and connect the kyodai butterfly tiles and have fun. Tap on a butterfly win",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
