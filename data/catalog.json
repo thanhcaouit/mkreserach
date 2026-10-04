@@ -5865,6 +5865,48 @@
       "suggested_at": "2026-10-04T08:01:09.953369+00:00",
       "mechanic_vi": "Tìm lối ra trong mê cung bằng cách di chuyển qua các ô.",
       "why_vi": "Luật chơi đơn giản, mỗi màn tăng độ phức tạp của mê cung, yêu cầu người chơi suy luận đường đi."
+    },
+    "com.moigner.labyrinth": {
+      "app_id": "com.moigner.labyrinth",
+      "title": "Classic Labyrinth",
+      "title_norm": "classic labyrinth",
+      "developer": "GOODFOX GAMES",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.125,
+      "url": "https://play.google.com/store/apps/details?id=com.moigner.labyrinth&hl=en",
+      "message_id": 1091,
+      "suggested_at": "2026-10-04T09:01:04.225800+00:00",
+      "mechanic_vi": "Lắc thiết bị để đưa quả bóng qua mê cung gỗ, tránh bẫy và chướng ngại vật.",
+      "why_vi": "Thỏa mãn yêu cầu “tilt gravity”, có 827 màn với độ khó tăng dần, mỗi màn một mục tiêu rõ ràng."
+    },
+    "com.StudioGyeonggi.ETM": {
+      "app_id": "com.StudioGyeonggi.ETM",
+      "title": "EXIT the MAZE: 3D labyrinth",
+      "title_norm": "exit the maze 3d labyrinth",
+      "developer": "Studio Gyeonggi",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.StudioGyeonggi.ETM&hl=en",
+      "message_id": 1092,
+      "suggested_at": "2026-10-04T09:01:05.681597+00:00",
+      "mechanic_vi": "Dẫn người dẫn đường qua mê cung 3D, mở khóa bí mật và tiến bộ qua các cấp.",
+      "why_vi": "Cơ chế dẫn đơn vị tới mục tiêu, mỗi màn có mục tiêu riêng và có hệ thống mở khóa cấp độ."
+    },
+    "air.CreativeTech.Maze": {
+      "app_id": "air.CreativeTech.Maze",
+      "title": "Maze - Logic puzzles",
+      "title_norm": "maze logic puzzles",
+      "developer": "App2Eleven",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.3703704,
+      "url": "https://play.google.com/store/apps/details?id=air.CreativeTech.Maze&hl=en",
+      "message_id": 1093,
+      "suggested_at": "2026-10-04T09:01:06.737682+00:00",
+      "mechanic_vi": "Đặt khối chặn và kích hoạt công tắc để mở/đóng các phần của mê cung.",
+      "why_vi": "Mang lại luật duy nhất mỗi màn – cô lập/đóng khối để giải quyết, phù hợp với sở thích “enclose or isolate”."
     }
   }
 }
