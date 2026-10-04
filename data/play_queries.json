@@ -650,18 +650,24 @@
     "patch the leak puzzle levels",
     "carry the key puzzle levels",
     "light the lamp puzzle levels",
-    "lily pad hop puzzle levels"
+    "lily pad hop puzzle levels",
+    "guide the herd puzzle levels",
+    "cog turn puzzle levels",
+    "swap puzzle levels",
+    "climb the wall puzzle levels",
+    "crawl the duct puzzle levels",
+    "turn the dial puzzle levels",
+    "canal the water puzzle levels",
+    "silk the bridge puzzle levels",
+    "dam the beavers puzzle levels",
+    "flow downhill puzzle levels"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
     "roll blocks",
-    "guide the herd puzzle levels",
-    "cog turn puzzle levels",
-    "swap puzzle levels",
-    "climb the wall puzzle levels",
-    "crawl the duct puzzle levels",
-    "turn the dial puzzle levels"
+    "cocoon wrap puzzle levels",
+    "guide the ants puzzle levels"
   ]
 }
