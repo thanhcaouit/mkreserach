@@ -2549,6 +2549,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "org.herozero": {
+      "first_seen": "2026-10-04",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
