@@ -5839,6 +5839,86 @@
       "url": "https://store.steampowered.com/app/1191650",
       "message_id": 1112,
       "suggested_at": "2026-10-04T11:01:47.509992+00:00"
+    },
+    "573060": {
+      "app_id": "573060",
+      "title": "LOGistICAL",
+      "title_norm": "logistical",
+      "developer": "Sacada",
+      "reviews": 247,
+      "url": "https://store.steampowered.com/app/573060",
+      "message_id": 1120,
+      "suggested_at": "2026-10-04T15:01:33.594266+00:00"
+    },
+    "1561090": {
+      "app_id": "1561090",
+      "title": "Sweet Dreams Alex",
+      "title_norm": "sweet dreams alex",
+      "developer": "Clarity Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1561090",
+      "message_id": 1121,
+      "suggested_at": "2026-10-04T15:01:35.341374+00:00"
+    },
+    "340700": {
+      "app_id": "340700",
+      "title": "Aqua Panic !",
+      "title_norm": "aqua panic",
+      "developer": "Eko Software",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/340700",
+      "message_id": 1122,
+      "suggested_at": "2026-10-04T15:01:37.202685+00:00"
+    },
+    "2587260": {
+      "app_id": "2587260",
+      "title": "Chill Seekers",
+      "title_norm": "chill seekers",
+      "developer": "Lime Blossom Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2587260",
+      "message_id": 1123,
+      "suggested_at": "2026-10-04T15:01:38.610270+00:00"
+    },
+    "2396530": {
+      "app_id": "2396530",
+      "title": "Brainroll",
+      "title_norm": "brainroll",
+      "developer": "Nullsson",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2396530",
+      "message_id": 1124,
+      "suggested_at": "2026-10-04T15:01:40.185037+00:00"
+    },
+    "1867610": {
+      "app_id": "1867610",
+      "title": "SokoWinter",
+      "title_norm": "sokowinter",
+      "developer": "Gray Boss",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1867610",
+      "message_id": 1125,
+      "suggested_at": "2026-10-04T15:01:41.093839+00:00"
+    },
+    "2157860": {
+      "app_id": "2157860",
+      "title": "IceLine",
+      "title_norm": "iceline",
+      "developer": "GMGame",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2157860",
+      "message_id": 1126,
+      "suggested_at": "2026-10-04T15:01:43.344871+00:00"
+    },
+    "3150660": {
+      "app_id": "3150660",
+      "title": "Gulping snake",
+      "title_norm": "gulping snake",
+      "developer": "Dramir",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3150660",
+      "message_id": 1127,
+      "suggested_at": "2026-10-04T15:01:44.340646+00:00"
     }
   }
 }
