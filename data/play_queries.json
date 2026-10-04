@@ -644,13 +644,24 @@
     "herd sheep puzzle levels",
     "squeeze the gap puzzle levels",
     "clay mold puzzle levels",
-    "throw the key puzzle levels"
+    "throw the key puzzle levels",
+    "sew the cloth puzzle levels",
+    "pulley the bucket puzzle levels",
+    "patch the leak puzzle levels",
+    "carry the key puzzle levels",
+    "light the lamp puzzle levels",
+    "lily pad hop puzzle levels"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
     "roll blocks",
-    "sew the cloth puzzle levels"
+    "guide the herd puzzle levels",
+    "cog turn puzzle levels",
+    "swap puzzle levels",
+    "climb the wall puzzle levels",
+    "crawl the duct puzzle levels",
+    "turn the dial puzzle levels"
   ]
 }
