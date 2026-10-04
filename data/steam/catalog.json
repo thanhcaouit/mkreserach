@@ -6019,6 +6019,16 @@
       "url": "https://store.steampowered.com/app/471810",
       "message_id": 1143,
       "suggested_at": "2026-10-04T20:01:23.045599+00:00"
+    },
+    "2826150": {
+      "app_id": "2826150",
+      "title": "Sprout of Control",
+      "title_norm": "sprout of control",
+      "developer": "T.E.R. Yarally",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2826150",
+      "message_id": 1145,
+      "suggested_at": "2026-10-04T21:01:21.459889+00:00"
     }
   }
 }
