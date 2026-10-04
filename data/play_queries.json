@@ -626,12 +626,24 @@
     "climb and jump obby 3d tower",
     "climb credit union",
     "climb jump",
-    "climb racing"
+    "climb racing",
+    "gnaw the log puzzle levels",
+    "nudge the ball puzzle levels",
+    "tilt puzzle levels",
+    "freeze the path puzzle levels",
+    "hop the pads puzzle levels",
+    "press the plate puzzle levels",
+    "shepherd the flock puzzle levels"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
-    "roll blocks"
+    "roll blocks",
+    "jump puzzle levels",
+    "fall puzzle levels",
+    "pipe puzzle levels",
+    "spark chain puzzle levels",
+    "rotate puzzle levels"
   ]
 }
