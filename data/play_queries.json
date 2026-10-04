@@ -633,17 +633,24 @@
     "freeze the path puzzle levels",
     "hop the pads puzzle levels",
     "press the plate puzzle levels",
-    "shepherd the flock puzzle levels"
+    "shepherd the flock puzzle levels",
+    "jump puzzle levels",
+    "fall puzzle levels",
+    "pipe puzzle levels",
+    "spark chain puzzle levels",
+    "rotate puzzle levels",
+    "climb",
+    "sling the stone puzzle levels",
+    "herd sheep puzzle levels",
+    "squeeze the gap puzzle levels",
+    "clay mold puzzle levels",
+    "throw the key puzzle levels"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
     "roll blocks",
-    "jump puzzle levels",
-    "fall puzzle levels",
-    "pipe puzzle levels",
-    "spark chain puzzle levels",
-    "rotate puzzle levels"
+    "sew the cloth puzzle levels"
   ]
 }
