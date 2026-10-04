@@ -5969,6 +5969,36 @@
       "url": "https://store.steampowered.com/app/1543470",
       "message_id": 1135,
       "suggested_at": "2026-10-04T17:01:39.689032+00:00"
+    },
+    "496930": {
+      "app_id": "496930",
+      "title": "Sumeru",
+      "title_norm": "sumeru",
+      "developer": "BigCheeseGames",
+      "reviews": 135,
+      "url": "https://store.steampowered.com/app/496930",
+      "message_id": 1137,
+      "suggested_at": "2026-10-04T18:01:34.704789+00:00"
+    },
+    "405950": {
+      "app_id": "405950",
+      "title": "Lowglow",
+      "title_norm": "lowglow",
+      "developer": "Rockodile",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/405950",
+      "message_id": 1138,
+      "suggested_at": "2026-10-04T18:01:36.311227+00:00"
+    },
+    "1275390": {
+      "app_id": "1275390",
+      "title": "City Destructor",
+      "title_norm": "city destructor",
+      "developer": "NODETRACK",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1275390",
+      "message_id": 1139,
+      "suggested_at": "2026-10-04T18:01:37.881297+00:00"
     }
   }
 }
