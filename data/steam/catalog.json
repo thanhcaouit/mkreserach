@@ -5649,6 +5649,16 @@
       "url": "https://store.steampowered.com/app/290380",
       "message_id": 1081,
       "suggested_at": "2026-10-04T06:01:42.277039+00:00"
+    },
+    "879850": {
+      "app_id": "879850",
+      "title": "Box: The Game",
+      "title_norm": "box the game",
+      "developer": "Heekdevelopment",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/879850",
+      "message_id": 1085,
+      "suggested_at": "2026-10-04T07:01:22.919022+00:00"
     }
   }
 }
