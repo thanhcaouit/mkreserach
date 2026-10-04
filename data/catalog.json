@@ -5781,6 +5781,48 @@
       "suggested_at": "2026-10-04T05:01:16.659522+00:00",
       "mechanic_vi": "Butterfly Kyodai is a solitaire mahjong and connect puzzle game. It’s free and best to play! Can you solve every Mahjong Butterfly puzzle? Match and connect the kyodai butterfly tiles and have fun. Tap on a butterfly win",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.bugivugigames.maze": {
+      "app_id": "com.bugivugigames.maze",
+      "title": "Mazes with Levels: Labyrinths",
+      "title_norm": "mazes with levels labyrinths",
+      "developer": "Bugi Vugi Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.bugivugigames.maze&hl=en",
+      "message_id": 1082,
+      "suggested_at": "2026-10-04T07:00:58.483570+00:00",
+      "mechanic_vi": "Kéo bóng qua mê cung để tìm lối ra.",
+      "why_vi": "Có hơn 100 màn, mỗi màn là một mê cung riêng, đáp ứng yêu cầu có cấp độ và luật chơi đơn giản."
+    },
+    "coolmathgames.color.ball.paint.maze.square.puzzle": {
+      "app_id": "coolmathgames.color.ball.paint.maze.square.puzzle",
+      "title": "Color Maze Ball: Relax Puzzle",
+      "title_norm": "color maze ball relax puzzle",
+      "developer": "brainly game",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.2105265,
+      "url": "https://play.google.com/store/apps/details?id=coolmathgames.color.ball.paint.maze.square.puzzle&hl=en",
+      "message_id": 1083,
+      "suggested_at": "2026-10-04T07:00:59.793587+00:00",
+      "mechanic_vi": "Vuốt bóng qua mê cung, tô màu từng ô cho đến khi đầy.",
+      "why_vi": "Mỗi màn cung cấp một mê cung mới với mục tiêu duy nhất là tô đầy, phù hợp với tiêu chí \"one clear rule per level\"."
+    },
+    "arnaud.desombre.lightsout": {
+      "app_id": "arnaud.desombre.lightsout",
+      "title": "Lights Out!",
+      "title_norm": "lights out",
+      "developer": "Arnaud Desombre",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.58,
+      "url": "https://play.google.com/store/apps/details?id=arnaud.desombre.lightsout&hl=en",
+      "message_id": 1084,
+      "suggested_at": "2026-10-04T07:01:00.602638+00:00",
+      "mechanic_vi": "Nhấn ô để tắt đèn, đồng thời ảnh hưởng tới các ô kề ngang và dọc.",
+      "why_vi": "Mặc dù là một luật cổ điển, trò chơi có 179 cấp độ và đáp ứng yêu cầu có cấp độ rõ ràng."
     }
   }
 }
