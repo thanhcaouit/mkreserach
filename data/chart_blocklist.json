@@ -2519,6 +2519,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "gridplus.busjam.carpuzzle": {
+      "first_seen": "2026-10-04",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sinyee.babybus.diet": {
+      "first_seen": "2026-10-04",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tapps.virtual.pet.games.myboo2": {
+      "first_seen": "2026-10-04",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
