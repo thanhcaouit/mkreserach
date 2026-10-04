@@ -5629,6 +5629,16 @@
       "url": "https://store.steampowered.com/app/1706190",
       "message_id": 1070,
       "suggested_at": "2026-10-04T01:02:04.737342+00:00"
+    },
+    "3428890": {
+      "app_id": "3428890",
+      "title": "Waste Sorting",
+      "title_norm": "waste sorting",
+      "developer": "Debuff Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3428890",
+      "message_id": 1072,
+      "suggested_at": "2026-10-04T02:01:50.209747+00:00"
     }
   }
 }
