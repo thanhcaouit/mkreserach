@@ -5919,6 +5919,56 @@
       "url": "https://store.steampowered.com/app/3150660",
       "message_id": 1127,
       "suggested_at": "2026-10-04T15:01:44.340646+00:00"
+    },
+    "3434710": {
+      "app_id": "3434710",
+      "title": "Black Pieces Move First",
+      "title_norm": "black pieces move first",
+      "developer": "Enchant Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3434710",
+      "message_id": 1131,
+      "suggested_at": "2026-10-04T17:01:33.488760+00:00"
+    },
+    "1054770": {
+      "app_id": "1054770",
+      "title": "Gear：治愈齿轮",
+      "title_norm": "gear 治愈齿轮",
+      "developer": "SpriteStudio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1054770",
+      "message_id": 1132,
+      "suggested_at": "2026-10-04T17:01:34.443695+00:00"
+    },
+    "806850": {
+      "app_id": "806850",
+      "title": "aMAZE Gears",
+      "title_norm": "amaze gears",
+      "developer": "Blender Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/806850",
+      "message_id": 1133,
+      "suggested_at": "2026-10-04T17:01:36.489041+00:00"
+    },
+    "1181220": {
+      "app_id": "1181220",
+      "title": "aMAZE Gears 2",
+      "title_norm": "amaze gears 2",
+      "developer": "Blender Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1181220",
+      "message_id": 1134,
+      "suggested_at": "2026-10-04T17:01:38.048393+00:00"
+    },
+    "1543470": {
+      "app_id": "1543470",
+      "title": "aMAZE Gears 3",
+      "title_norm": "amaze gears 3",
+      "developer": "Blender Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1543470",
+      "message_id": 1135,
+      "suggested_at": "2026-10-04T17:01:39.689032+00:00"
     }
   }
 }
