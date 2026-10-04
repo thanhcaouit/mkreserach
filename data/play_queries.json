@@ -668,16 +668,20 @@
     "tap the switch puzzle levels",
     "spore cloud puzzle levels",
     "flood the room puzzle levels",
-    "lens focus puzzle levels"
+    "lens focus puzzle levels",
+    "guide the ants puzzle levels",
+    "lure the moth puzzle levels",
+    "root bridge puzzle levels",
+    "glue puzzle levels",
+    "reflect the beam puzzle levels",
+    "charge the magnet puzzle levels",
+    "gasket seal puzzle levels"
   ],
   "pending": [
     "stack sort",
     "tap tile",
     "light-hearted",
     "roll blocks",
-    "guide the ants puzzle levels",
-    "lure the moth puzzle levels",
-    "root bridge puzzle levels",
-    "glue puzzle levels"
+    "vine choke puzzle levels"
   ]
 }
