@@ -5529,6 +5529,46 @@
       "url": "https://store.steampowered.com/app/3885740",
       "message_id": 1057,
       "suggested_at": "2026-10-03T23:01:59.139613+00:00"
+    },
+    "856600": {
+      "app_id": "856600",
+      "title": "Fur the Game",
+      "title_norm": "fur the game",
+      "developer": "Fur Dev Team",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/856600",
+      "message_id": 1059,
+      "suggested_at": "2026-10-04T00:01:47.684126+00:00"
+    },
+    "3473800": {
+      "app_id": "3473800",
+      "title": "Collect Honey",
+      "title_norm": "collect honey",
+      "developer": "Taranau Aliaksei",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3473800",
+      "message_id": 1060,
+      "suggested_at": "2026-10-04T00:01:49.215918+00:00"
+    },
+    "536680": {
+      "app_id": "536680",
+      "title": "Miniature - The Story Puzzle",
+      "title_norm": "miniature the story puzzle",
+      "developer": "purpleElephant",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/536680",
+      "message_id": 1061,
+      "suggested_at": "2026-10-04T00:01:51.491551+00:00"
+    },
+    "2508960": {
+      "app_id": "2508960",
+      "title": "Calculator: The Game",
+      "title_norm": "calculator the game",
+      "developer": "Kurtiswow",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2508960",
+      "message_id": 1062,
+      "suggested_at": "2026-10-04T00:01:52.222679+00:00"
     }
   }
 }
