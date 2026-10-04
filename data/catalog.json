@@ -5935,6 +5935,20 @@
       "suggested_at": "2026-10-04T10:01:05.011381+00:00",
       "mechanic_vi": "Điều hướng nhân vật qua mê cung 3D, sử dụng cần gạt, khóa và đĩa quay để mở đường.",
       "why_vi": "Mỗi mê cung là một màn độc lập, yêu cầu người chơi cô lập và tìm lối ra, phù hợp với cơ chế bao vây và mục tiêu từng màn."
+    },
+    "com.gameboxmini.maze3d": {
+      "app_id": "com.gameboxmini.maze3d",
+      "title": "3D Maze Labyrinth",
+      "title_norm": "3d maze labyrinth",
+      "developer": "GameBoxMini",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.gameboxmini.maze3d&hl=en",
+      "message_id": 1110,
+      "suggested_at": "2026-10-04T11:00:59.693095+00:00",
+      "mechanic_vi": "Đi qua mê cung 3D, tìm lối ra trong mỗi môi trường.",
+      "why_vi": "Có nhiều môi trường và 170 mê cung, mỗi mê cung là một level với luật duy nhất: di chuyển tới lối ra."
     }
   }
 }
