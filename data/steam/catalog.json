@@ -6049,6 +6049,56 @@
       "url": "https://store.steampowered.com/app/448530",
       "message_id": 1148,
       "suggested_at": "2026-10-04T22:01:25.840353+00:00"
+    },
+    "4614710": {
+      "app_id": "4614710",
+      "title": "AfterMove",
+      "title_norm": "aftermove",
+      "developer": "Colin Ord",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4614710",
+      "message_id": 1150,
+      "suggested_at": "2026-10-04T23:01:30.131275+00:00"
+    },
+    "2337140": {
+      "app_id": "2337140",
+      "title": "Can't Live Without Electricity",
+      "title_norm": "can t live without electricity",
+      "developer": "MELOVITY",
+      "reviews": 231,
+      "url": "https://store.steampowered.com/app/2337140",
+      "message_id": 1151,
+      "suggested_at": "2026-10-04T23:01:32.143441+00:00"
+    },
+    "2686640": {
+      "app_id": "2686640",
+      "title": "The Mouse The Merrier",
+      "title_norm": "the mouse the merrier",
+      "developer": "Heartshield Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2686640",
+      "message_id": 1152,
+      "suggested_at": "2026-10-04T23:01:33.602690+00:00"
+    },
+    "2251740": {
+      "app_id": "2251740",
+      "title": "A Simple Square",
+      "title_norm": "a simple square",
+      "developer": "Antharuu",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2251740",
+      "message_id": 1153,
+      "suggested_at": "2026-10-04T23:01:35.040470+00:00"
+    },
+    "2784500": {
+      "app_id": "2784500",
+      "title": "FourKnightVariant",
+      "title_norm": "fourknightvariant",
+      "developer": "WhimSoul Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2784500",
+      "message_id": 1154,
+      "suggested_at": "2026-10-04T23:01:36.614042+00:00"
     }
   }
 }
