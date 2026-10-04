@@ -5679,6 +5679,56 @@
       "url": "https://store.steampowered.com/app/1410860",
       "message_id": 1090,
       "suggested_at": "2026-10-04T08:01:59.699413+00:00"
+    },
+    "338110": {
+      "app_id": "338110",
+      "title": "Khaba",
+      "title_norm": "khaba",
+      "developer": "Hello There Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/338110",
+      "message_id": 1094,
+      "suggested_at": "2026-10-04T09:01:41.679523+00:00"
+    },
+    "987710": {
+      "app_id": "987710",
+      "title": "BLASK",
+      "title_norm": "blask",
+      "developer": "SmallBigSquare",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/987710",
+      "message_id": 1095,
+      "suggested_at": "2026-10-04T09:01:43.480273+00:00"
+    },
+    "2109660": {
+      "app_id": "2109660",
+      "title": "Beam Splitter",
+      "title_norm": "beam splitter",
+      "developer": "Andrew Hess",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2109660",
+      "message_id": 1096,
+      "suggested_at": "2026-10-04T09:01:45.173525+00:00"
+    },
+    "666010": {
+      "app_id": "666010",
+      "title": "Refract",
+      "title_norm": "refract",
+      "developer": "Renaissance Game Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/666010",
+      "message_id": 1097,
+      "suggested_at": "2026-10-04T09:01:46.880495+00:00"
+    },
+    "4304270": {
+      "app_id": "4304270",
+      "title": "Lightsaver",
+      "title_norm": "lightsaver",
+      "developer": "Ichigo33",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4304270",
+      "message_id": 1098,
+      "suggested_at": "2026-10-04T09:01:48.324135+00:00"
     }
   }
 }
