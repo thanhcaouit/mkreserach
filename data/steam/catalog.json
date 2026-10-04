@@ -5569,6 +5569,66 @@
       "url": "https://store.steampowered.com/app/2508960",
       "message_id": 1062,
       "suggested_at": "2026-10-04T00:01:52.222679+00:00"
+    },
+    "2869960": {
+      "app_id": "2869960",
+      "title": "Animal Shake",
+      "title_norm": "animal shake",
+      "developer": "G.H Theory",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2869960",
+      "message_id": 1065,
+      "suggested_at": "2026-10-04T01:01:57.459277+00:00"
+    },
+    "1079910": {
+      "app_id": "1079910",
+      "title": "BloXoR",
+      "title_norm": "bloxor",
+      "developer": "Terminal Core Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1079910",
+      "message_id": 1066,
+      "suggested_at": "2026-10-04T01:01:59.186043+00:00"
+    },
+    "1736670": {
+      "app_id": "1736670",
+      "title": "Tilting Tiles",
+      "title_norm": "tilting tiles",
+      "developer": "TreeFall Studios L.L.C.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1736670",
+      "message_id": 1067,
+      "suggested_at": "2026-10-04T01:02:00.781722+00:00"
+    },
+    "4489330": {
+      "app_id": "4489330",
+      "title": "Inclination",
+      "title_norm": "inclination",
+      "developer": "Laura Hughes",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4489330",
+      "message_id": 1068,
+      "suggested_at": "2026-10-04T01:02:02.020127+00:00"
+    },
+    "1090790": {
+      "app_id": "1090790",
+      "title": "Magicolors",
+      "title_norm": "magicolors",
+      "developer": "Virtual Arts Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1090790",
+      "message_id": 1069,
+      "suggested_at": "2026-10-04T01:02:02.997905+00:00"
+    },
+    "1706190": {
+      "app_id": "1706190",
+      "title": "SudoKats",
+      "title_norm": "sudokats",
+      "developer": "Mandinga",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1706190",
+      "message_id": 1070,
+      "suggested_at": "2026-10-04T01:02:04.737342+00:00"
     }
   }
 }
