@@ -5729,6 +5729,96 @@
       "url": "https://store.steampowered.com/app/4304270",
       "message_id": 1098,
       "suggested_at": "2026-10-04T09:01:48.324135+00:00"
+    },
+    "1511140": {
+      "app_id": "1511140",
+      "title": "Laser Attraction",
+      "title_norm": "laser attraction",
+      "developer": "Vectmatica",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1511140",
+      "message_id": 1101,
+      "suggested_at": "2026-10-04T10:01:40.678572+00:00"
+    },
+    "4504560": {
+      "app_id": "4504560",
+      "title": "One Degree Off",
+      "title_norm": "one degree off",
+      "developer": "Neutrino Interactive",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4504560",
+      "message_id": 1102,
+      "suggested_at": "2026-10-04T10:01:41.942041+00:00"
+    },
+    "4971600": {
+      "app_id": "4971600",
+      "title": "Flux Grid",
+      "title_norm": "flux grid",
+      "developer": "Ramadurgam Hrushikesh",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4971600",
+      "message_id": 1103,
+      "suggested_at": "2026-10-04T10:01:44.201296+00:00"
+    },
+    "787960": {
+      "app_id": "787960",
+      "title": "Prism",
+      "title_norm": "prism",
+      "developer": "Lightray Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/787960",
+      "message_id": 1104,
+      "suggested_at": "2026-10-04T10:01:45.157002+00:00"
+    },
+    "1517610": {
+      "app_id": "1517610",
+      "title": "Space 'n Lasers",
+      "title_norm": "space n lasers",
+      "developer": "Iron Jupiter",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1517610",
+      "message_id": 1105,
+      "suggested_at": "2026-10-04T10:01:46.555686+00:00"
+    },
+    "981620": {
+      "app_id": "981620",
+      "title": "Hexa",
+      "title_norm": "hexa",
+      "developer": "Salus Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/981620",
+      "message_id": 1106,
+      "suggested_at": "2026-10-04T10:01:47.637535+00:00"
+    },
+    "2643000": {
+      "app_id": "2643000",
+      "title": "Mirrors of Epiphany",
+      "title_norm": "mirrors of epiphany",
+      "developer": "Sigmund Hoien",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2643000",
+      "message_id": 1107,
+      "suggested_at": "2026-10-04T10:01:48.705722+00:00"
+    },
+    "3095910": {
+      "app_id": "3095910",
+      "title": "Prisnhax",
+      "title_norm": "prisnhax",
+      "developer": "Chequered Ink Ltd.",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3095910",
+      "message_id": 1108,
+      "suggested_at": "2026-10-04T10:01:50.142487+00:00"
+    },
+    "680730": {
+      "app_id": "680730",
+      "title": "Plight",
+      "title_norm": "plight",
+      "developer": "NewFort Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/680730",
+      "message_id": 1109,
+      "suggested_at": "2026-10-04T10:01:51.571235+00:00"
     }
   }
 }
