@@ -6119,6 +6119,26 @@
       "url": "https://store.steampowered.com/app/4364970",
       "message_id": 1157,
       "suggested_at": "2026-10-05T00:01:37.911017+00:00"
+    },
+    "1420540": {
+      "app_id": "1420540",
+      "title": "CATch the Stars",
+      "title_norm": "catch the stars",
+      "developer": "Pinel Games",
+      "reviews": 351,
+      "url": "https://store.steampowered.com/app/1420540",
+      "message_id": 1159,
+      "suggested_at": "2026-10-05T01:01:36.590813+00:00"
+    },
+    "1573580": {
+      "app_id": "1573580",
+      "title": "CATch the Stars: Japan",
+      "title_norm": "catch the stars japan",
+      "developer": "Pinel Games",
+      "reviews": 120,
+      "url": "https://store.steampowered.com/app/1573580",
+      "message_id": 1160,
+      "suggested_at": "2026-10-05T01:01:37.887929+00:00"
     }
   }
 }
