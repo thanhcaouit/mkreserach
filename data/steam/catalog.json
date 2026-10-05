@@ -6479,6 +6479,16 @@
       "url": "https://store.steampowered.com/app/870400",
       "message_id": 1211,
       "suggested_at": "2026-10-05T16:01:37.497216+00:00"
+    },
+    "3193980": {
+      "app_id": "3193980",
+      "title": "Place Icebergs Apart",
+      "title_norm": "place icebergs apart",
+      "developer": "Polar Bear Guardians",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3193980",
+      "message_id": 1221,
+      "suggested_at": "2026-10-05T23:01:23.999430+00:00"
     }
   }
 }
