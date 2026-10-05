@@ -6259,6 +6259,46 @@
       "url": "https://store.steampowered.com/app/3409620",
       "message_id": 1178,
       "suggested_at": "2026-10-05T07:01:38.501468+00:00"
+    },
+    "2671210": {
+      "app_id": "2671210",
+      "title": "Minesweeper Collector 2",
+      "title_norm": "minesweeper collector 2",
+      "developer": "Anton Kryukov",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2671210",
+      "message_id": 1180,
+      "suggested_at": "2026-10-05T08:01:29.028366+00:00"
+    },
+    "4452660": {
+      "app_id": "4452660",
+      "title": "SpaceRiddle",
+      "title_norm": "spaceriddle",
+      "developer": "Takuma Onishi",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4452660",
+      "message_id": 1181,
+      "suggested_at": "2026-10-05T08:01:29.927109+00:00"
+    },
+    "323630": {
+      "app_id": "323630",
+      "title": "Ubinota",
+      "title_norm": "ubinota",
+      "developer": "Rotateam",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/323630",
+      "message_id": 1182,
+      "suggested_at": "2026-10-05T08:01:30.790892+00:00"
+    },
+    "1597720": {
+      "app_id": "1597720",
+      "title": "Feed All Monsters",
+      "title_norm": "feed all monsters",
+      "developer": "DU&I",
+      "reviews": 424,
+      "url": "https://store.steampowered.com/app/1597720",
+      "message_id": 1183,
+      "suggested_at": "2026-10-05T08:01:31.724257+00:00"
     }
   }
 }
