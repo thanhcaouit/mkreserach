@@ -6149,6 +6149,36 @@
       "url": "https://store.steampowered.com/app/1070790",
       "message_id": 1162,
       "suggested_at": "2026-10-05T02:01:17.757666+00:00"
+    },
+    "3074200": {
+      "app_id": "3074200",
+      "title": "The Rookery",
+      "title_norm": "the rookery",
+      "developer": "Glyder Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3074200",
+      "message_id": 1164,
+      "suggested_at": "2026-10-05T03:01:27.846483+00:00"
+    },
+    "297590": {
+      "app_id": "297590",
+      "title": "Monsters Ate My Birthday Cake",
+      "title_norm": "monsters ate my birthday cake",
+      "developer": "SleepNinja Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/297590",
+      "message_id": 1165,
+      "suggested_at": "2026-10-05T03:01:29.753924+00:00"
+    },
+    "2327730": {
+      "app_id": "2327730",
+      "title": "Draft - In the woods",
+      "title_norm": "draft in the woods",
+      "developer": "Maad Sheep",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2327730",
+      "message_id": 1166,
+      "suggested_at": "2026-10-05T03:01:31.058124+00:00"
     }
   }
 }
