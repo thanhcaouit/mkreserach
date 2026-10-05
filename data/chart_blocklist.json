@@ -2628,6 +2628,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.efun.eulqs": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
