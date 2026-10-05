@@ -2,7 +2,8 @@
   "liked_mechanics": [
     "enclose or isolate",
     "one clear rule per level",
-    "guide units to a goal"
+    "guide units to a goal",
+    "single rule per level"
   ],
   "disliked_mechanics": [
     "match-3",
@@ -12,11 +13,11 @@
     "endless one-tap"
   ],
   "search_queries": [
-    "single rule per level puzzle",
-    "object routing puzzle",
-    "goal based puzzle game",
-    "path planning puzzle",
-    "mechanical contraption puzzle"
+    "single rule level puzzle",
+    "guide characters to exit puzzle",
+    "one mechanic per stage puzzle",
+    "pathfinding puzzle game",
+    "unit delivery puzzle"
   ],
   "anchor_app_ids": [
     "357300",
@@ -24,8 +25,9 @@
     "22000",
     "3385670",
     "794940",
-    "551110"
+    "551110",
+    "428830"
   ],
-  "updated_at": "2026-10-02T09:01:15.633959+00:00",
-  "notes": "Added game 551110 (score 5) to the liked collection. Continue focusing on puzzle titles that enforce one clear rule per level and require guiding units or objects to a specific goal."
+  "updated_at": "2026-10-05T10:01:08.215944+00:00",
+  "notes": "Added game 428830 (score 5) to liked collection. Continue targeting Steam titles that present one clear rule per level and require guiding or isolating units toward a goal. Updated search queries to reflect these criteria while avoiding previously used or undesired terms."
 }

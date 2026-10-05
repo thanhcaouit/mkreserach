@@ -6299,6 +6299,66 @@
       "url": "https://store.steampowered.com/app/1597720",
       "message_id": 1183,
       "suggested_at": "2026-10-05T08:01:31.724257+00:00"
+    },
+    "3253700": {
+      "app_id": "3253700",
+      "title": "PalSync",
+      "title_norm": "palsync",
+      "developer": "Naladex Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3253700",
+      "message_id": 1186,
+      "suggested_at": "2026-10-05T10:01:43.817723+00:00"
+    },
+    "4511010": {
+      "app_id": "4511010",
+      "title": "Apple Faces Up",
+      "title_norm": "apple faces up",
+      "developer": "EASYHUMAN",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4511010",
+      "message_id": 1187,
+      "suggested_at": "2026-10-05T10:01:46.212464+00:00"
+    },
+    "593100": {
+      "app_id": "593100",
+      "title": "There Is a Way",
+      "title_norm": "there is a way",
+      "developer": "Bauble",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/593100",
+      "message_id": 1188,
+      "suggested_at": "2026-10-05T10:01:47.932662+00:00"
+    },
+    "336230": {
+      "app_id": "336230",
+      "title": "Way to Go!",
+      "title_norm": "way to go",
+      "developer": "Makivision Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/336230",
+      "message_id": 1189,
+      "suggested_at": "2026-10-05T10:01:49.260657+00:00"
+    },
+    "731770": {
+      "app_id": "731770",
+      "title": "Flightless Classic",
+      "title_norm": "flightless classic",
+      "developer": "Bristol Street Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/731770",
+      "message_id": 1190,
+      "suggested_at": "2026-10-05T10:01:50.470760+00:00"
+    },
+    "2983520": {
+      "app_id": "2983520",
+      "title": "Tile Tales: Pirate",
+      "title_norm": "tile tales pirate",
+      "developer": "NineZyme OÜ",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2983520",
+      "message_id": 1191,
+      "suggested_at": "2026-10-05T10:01:51.935749+00:00"
     }
   }
 }
