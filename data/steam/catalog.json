@@ -6189,6 +6189,36 @@
       "url": "https://store.steampowered.com/app/617630",
       "message_id": 1168,
       "suggested_at": "2026-10-05T04:01:26.081349+00:00"
+    },
+    "357600": {
+      "app_id": "357600",
+      "title": "Unium",
+      "title_norm": "unium",
+      "developer": "Kittehface Software",
+      "reviews": 227,
+      "url": "https://store.steampowered.com/app/357600",
+      "message_id": 1170,
+      "suggested_at": "2026-10-05T05:01:23.311108+00:00"
+    },
+    "1675270": {
+      "app_id": "1675270",
+      "title": "Hanoi Puzzles: Flip Match",
+      "title_norm": "hanoi puzzles flip match",
+      "developer": "Hanoi Studios",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1675270",
+      "message_id": 1171,
+      "suggested_at": "2026-10-05T05:01:25.273313+00:00"
+    },
+    "365510": {
+      "app_id": "365510",
+      "title": "Flip",
+      "title_norm": "flip",
+      "developer": "Perro Electrico",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/365510",
+      "message_id": 1172,
+      "suggested_at": "2026-10-05T05:01:27.077371+00:00"
     }
   }
 }
