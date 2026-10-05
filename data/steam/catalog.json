@@ -6399,6 +6399,36 @@
       "url": "https://store.steampowered.com/app/2533260",
       "message_id": 1196,
       "suggested_at": "2026-10-05T11:01:37.015977+00:00"
+    },
+    "1384480": {
+      "app_id": "1384480",
+      "title": "Pathfinder Puzzle",
+      "title_norm": "pathfinder puzzle",
+      "developer": "MrMiepo",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1384480",
+      "message_id": 1198,
+      "suggested_at": "2026-10-05T12:01:27.381221+00:00"
+    },
+    "3066360": {
+      "app_id": "3066360",
+      "title": "AmaZoo",
+      "title_norm": "amazoo",
+      "developer": "Turbo Soda Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3066360",
+      "message_id": 1199,
+      "suggested_at": "2026-10-05T12:01:29.482664+00:00"
+    },
+    "2144990": {
+      "app_id": "2144990",
+      "title": "Bryce Tiles",
+      "title_norm": "bryce tiles",
+      "developer": "Brilliance",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2144990",
+      "message_id": 1200,
+      "suggested_at": "2026-10-05T12:01:31.463877+00:00"
     }
   }
 }
