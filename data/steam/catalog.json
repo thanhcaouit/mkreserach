@@ -6139,6 +6139,16 @@
       "url": "https://store.steampowered.com/app/1573580",
       "message_id": 1160,
       "suggested_at": "2026-10-05T01:01:37.887929+00:00"
+    },
+    "1070790": {
+      "app_id": "1070790",
+      "title": "Freshly Frosted",
+      "title_norm": "freshly frosted",
+      "developer": "Ty Taylor",
+      "reviews": 331,
+      "url": "https://store.steampowered.com/app/1070790",
+      "message_id": 1162,
+      "suggested_at": "2026-10-05T02:01:17.757666+00:00"
     }
   }
 }
