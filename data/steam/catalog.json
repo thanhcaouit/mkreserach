@@ -6099,6 +6099,26 @@
       "url": "https://store.steampowered.com/app/2784500",
       "message_id": 1154,
       "suggested_at": "2026-10-04T23:01:36.614042+00:00"
+    },
+    "448800": {
+      "app_id": "448800",
+      "title": "Semispheres",
+      "title_norm": "semispheres",
+      "developer": "Vivid Helix",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/448800",
+      "message_id": 1156,
+      "suggested_at": "2026-10-05T00:01:36.562850+00:00"
+    },
+    "4364970": {
+      "app_id": "4364970",
+      "title": "Prime Prism",
+      "title_norm": "prime prism",
+      "developer": "Totori Works",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4364970",
+      "message_id": 1157,
+      "suggested_at": "2026-10-05T00:01:37.911017+00:00"
     }
   }
 }
