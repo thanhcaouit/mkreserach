@@ -6359,6 +6359,46 @@
       "url": "https://store.steampowered.com/app/2983520",
       "message_id": 1191,
       "suggested_at": "2026-10-05T10:01:51.935749+00:00"
+    },
+    "1316150": {
+      "app_id": "1316150",
+      "title": "IVAN POE",
+      "title_norm": "ivan poe",
+      "developer": "REACTOR PROJECTS LTD",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1316150",
+      "message_id": 1193,
+      "suggested_at": "2026-10-05T11:01:31.543162+00:00"
+    },
+    "3214530": {
+      "app_id": "3214530",
+      "title": "Treasure 'n Trio",
+      "title_norm": "treasure n trio",
+      "developer": "TNT",
+      "reviews": 244,
+      "url": "https://store.steampowered.com/app/3214530",
+      "message_id": 1194,
+      "suggested_at": "2026-10-05T11:01:33.996949+00:00"
+    },
+    "1001200": {
+      "app_id": "1001200",
+      "title": "ROWROW",
+      "title_norm": "rowrow",
+      "developer": "Wayway Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1001200",
+      "message_id": 1195,
+      "suggested_at": "2026-10-05T11:01:35.012423+00:00"
+    },
+    "2533260": {
+      "app_id": "2533260",
+      "title": "Simply Moose",
+      "title_norm": "simply moose",
+      "developer": "ENTI - Rafał Bar",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2533260",
+      "message_id": 1196,
+      "suggested_at": "2026-10-05T11:01:37.015977+00:00"
     }
   }
 }
