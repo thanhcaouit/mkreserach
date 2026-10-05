@@ -2634,6 +2634,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.goodville.goodgame": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
