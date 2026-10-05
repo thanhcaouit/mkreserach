@@ -6469,6 +6469,16 @@
       "url": "https://store.steampowered.com/app/2585110",
       "message_id": 1205,
       "suggested_at": "2026-10-05T13:01:45.370244+00:00"
+    },
+    "870400": {
+      "app_id": "870400",
+      "title": "Fugue",
+      "title_norm": "fugue",
+      "developer": "OriGaminc",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/870400",
+      "message_id": 1211,
+      "suggested_at": "2026-10-05T16:01:37.497216+00:00"
     }
   }
 }
