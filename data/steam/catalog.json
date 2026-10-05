@@ -6429,6 +6429,46 @@
       "url": "https://store.steampowered.com/app/2144990",
       "message_id": 1200,
       "suggested_at": "2026-10-05T12:01:31.463877+00:00"
+    },
+    "2359310": {
+      "app_id": "2359310",
+      "title": "Bale Out",
+      "title_norm": "bale out",
+      "developer": "Super J Digital LLC",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2359310",
+      "message_id": 1202,
+      "suggested_at": "2026-10-05T13:01:37.229317+00:00"
+    },
+    "4852970": {
+      "app_id": "4852970",
+      "title": "Select",
+      "title_norm": "select",
+      "developer": "NANAkobito",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/4852970",
+      "message_id": 1203,
+      "suggested_at": "2026-10-05T13:01:39.035181+00:00"
+    },
+    "3555370": {
+      "app_id": "3555370",
+      "title": "Atura",
+      "title_norm": "atura",
+      "developer": "Onatsu Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3555370",
+      "message_id": 1204,
+      "suggested_at": "2026-10-05T13:01:41.702938+00:00"
+    },
+    "2585110": {
+      "app_id": "2585110",
+      "title": "Last Stand Delivery",
+      "title_norm": "last stand delivery",
+      "developer": "CalypsoMini",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2585110",
+      "message_id": 1205,
+      "suggested_at": "2026-10-05T13:01:45.370244+00:00"
     }
   }
 }
