@@ -6229,6 +6229,36 @@
       "url": "https://store.steampowered.com/app/1295320",
       "message_id": 1174,
       "suggested_at": "2026-10-05T06:01:39.496904+00:00"
+    },
+    "1625190": {
+      "app_id": "1625190",
+      "title": "ANYEK - The Keyboard Puzzle",
+      "title_norm": "anyek the keyboard puzzle",
+      "developer": "Garage Studio",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1625190",
+      "message_id": 1176,
+      "suggested_at": "2026-10-05T07:01:35.422567+00:00"
+    },
+    "1771520": {
+      "app_id": "1771520",
+      "title": "Slap The Rocks",
+      "title_norm": "slap the rocks",
+      "developer": "Afil Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1771520",
+      "message_id": 1177,
+      "suggested_at": "2026-10-05T07:01:37.403303+00:00"
+    },
+    "3409620": {
+      "app_id": "3409620",
+      "title": "The Path Home",
+      "title_norm": "the path home",
+      "developer": "kakuhito",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3409620",
+      "message_id": 1178,
+      "suggested_at": "2026-10-05T07:01:38.501468+00:00"
     }
   }
 }
