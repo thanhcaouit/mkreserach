@@ -6179,6 +6179,16 @@
       "url": "https://store.steampowered.com/app/2327730",
       "message_id": 1166,
       "suggested_at": "2026-10-05T03:01:31.058124+00:00"
+    },
+    "617630": {
+      "app_id": "617630",
+      "title": "Shadow Mist",
+      "title_norm": "shadow mist",
+      "developer": "Tencent Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/617630",
+      "message_id": 1168,
+      "suggested_at": "2026-10-05T04:01:26.081349+00:00"
     }
   }
 }
