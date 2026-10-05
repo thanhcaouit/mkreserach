@@ -2556,6 +2556,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.carxtech.carxdr3": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.game.space.shooter2": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playrix.manormatters": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.zynga.farmville3": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
