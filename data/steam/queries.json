@@ -28,7 +28,11 @@
     "dam the beavers puzzle levels",
     "valve the pipe puzzle levels",
     "levee the flood puzzle levels",
-    "pulley the bucket puzzle levels"
+    "pulley the bucket puzzle levels",
+    "single rule level puzzle",
+    "guide characters to exit puzzle",
+    "one mechanic per stage puzzle",
+    "pathfinding puzzle game"
   ],
   "pending": []
 }
