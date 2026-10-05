@@ -2586,6 +2586,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.pandadagames.ninja.global": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
