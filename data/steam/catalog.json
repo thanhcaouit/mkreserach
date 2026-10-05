@@ -6219,6 +6219,16 @@
       "url": "https://store.steampowered.com/app/365510",
       "message_id": 1172,
       "suggested_at": "2026-10-05T05:01:27.077371+00:00"
+    },
+    "1295320": {
+      "app_id": "1295320",
+      "title": "Can of Wormholes",
+      "title_norm": "can of wormholes",
+      "developer": "munted finger",
+      "reviews": 568,
+      "url": "https://store.steampowered.com/app/1295320",
+      "message_id": 1174,
+      "suggested_at": "2026-10-05T06:01:39.496904+00:00"
     }
   }
 }
