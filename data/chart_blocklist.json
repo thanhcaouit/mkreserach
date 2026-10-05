@@ -2592,6 +2592,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.gofiveglobal.fashion.dress.up": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.kunpan.android.huaxia.tw": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "farm.parking.game": {
+      "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
