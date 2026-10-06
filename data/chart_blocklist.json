@@ -2659,6 +2659,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.ChillyRoom.DungeonShooter": {
+      "first_seen": "2026-10-06",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
