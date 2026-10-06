@@ -6609,6 +6609,46 @@
       "url": "https://store.steampowered.com/app/2143190",
       "message_id": 1241,
       "suggested_at": "2026-10-06T05:01:27.074391+00:00"
+    },
+    "2964540": {
+      "app_id": "2964540",
+      "title": "Nurikabe World",
+      "title_norm": "nurikabe world",
+      "developer": "Hemisquare",
+      "reviews": 189,
+      "url": "https://store.steampowered.com/app/2964540",
+      "message_id": 1243,
+      "suggested_at": "2026-10-06T06:01:43.370307+00:00"
+    },
+    "780210": {
+      "app_id": "780210",
+      "title": "Freeways",
+      "title_norm": "freeways",
+      "developer": "Captain Games",
+      "reviews": 2170,
+      "url": "https://store.steampowered.com/app/780210",
+      "message_id": 1244,
+      "suggested_at": "2026-10-06T06:01:44.988185+00:00"
+    },
+    "1040550": {
+      "app_id": "1040550",
+      "title": "Spring Falls",
+      "title_norm": "spring falls",
+      "developer": "SPARSE//GameDev",
+      "reviews": 992,
+      "url": "https://store.steampowered.com/app/1040550",
+      "message_id": 1245,
+      "suggested_at": "2026-10-06T06:01:46.689454+00:00"
+    },
+    "2452920": {
+      "app_id": "2452920",
+      "title": "Ouros",
+      "title_norm": "ouros",
+      "developer": "Michael Kamm",
+      "reviews": 275,
+      "url": "https://store.steampowered.com/app/2452920",
+      "message_id": 1246,
+      "suggested_at": "2026-10-06T06:01:47.988783+00:00"
     }
   }
 }
