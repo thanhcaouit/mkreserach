@@ -6849,6 +6849,16 @@
       "url": "https://store.steampowered.com/app/2834780",
       "message_id": 1281,
       "suggested_at": "2026-10-06T18:02:10.345192+00:00"
+    },
+    "306680": {
+      "app_id": "306680",
+      "title": "Lexica",
+      "title_norm": "lexica",
+      "developer": "d3t",
+      "reviews": 209,
+      "url": "https://store.steampowered.com/app/306680",
+      "message_id": 1283,
+      "suggested_at": "2026-10-06T19:02:03.286769+00:00"
     }
   }
 }
