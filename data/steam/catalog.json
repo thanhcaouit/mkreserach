@@ -6819,6 +6819,36 @@
       "url": "https://store.steampowered.com/app/2099080",
       "message_id": 1277,
       "suggested_at": "2026-10-06T17:02:47.116323+00:00"
+    },
+    "2784140": {
+      "app_id": "2784140",
+      "title": "100 Cats London",
+      "title_norm": "100 cats london",
+      "developer": "100 Cats",
+      "reviews": 113,
+      "url": "https://store.steampowered.com/app/2784140",
+      "message_id": 1279,
+      "suggested_at": "2026-10-06T18:02:06.519255+00:00"
+    },
+    "3129760": {
+      "app_id": "3129760",
+      "title": "Hidden Pets: 101 Cats in Brazil",
+      "title_norm": "hidden pets 101 cats in brazil",
+      "developer": "NaipSoft",
+      "reviews": 104,
+      "url": "https://store.steampowered.com/app/3129760",
+      "message_id": 1280,
+      "suggested_at": "2026-10-06T18:02:09.212892+00:00"
+    },
+    "2834780": {
+      "app_id": "2834780",
+      "title": "Hidden Pets: 101 Cats in Dubai",
+      "title_norm": "hidden pets 101 cats in dubai",
+      "developer": "NaipSoft",
+      "reviews": 123,
+      "url": "https://store.steampowered.com/app/2834780",
+      "message_id": 1281,
+      "suggested_at": "2026-10-06T18:02:10.345192+00:00"
     }
   }
 }
