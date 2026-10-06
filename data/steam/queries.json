@@ -38,7 +38,8 @@
     "climb the wall puzzle levels",
     "carry the key puzzle levels",
     "light the lamp puzzle levels",
-    "drum rhythm puzzle levels"
+    "drum rhythm puzzle levels",
+    "single mechanic per stage puzzle"
   ],
   "pending": []
 }

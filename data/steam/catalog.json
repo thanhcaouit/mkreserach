@@ -6669,6 +6669,26 @@
       "url": "https://store.steampowered.com/app/456430",
       "message_id": 1250,
       "suggested_at": "2026-10-06T08:02:00.863988+00:00"
+    },
+    "3562200": {
+      "app_id": "3562200",
+      "title": "Cloudscrapers",
+      "title_norm": "cloudscrapers",
+      "developer": "Nementic Games",
+      "reviews": 144,
+      "url": "https://store.steampowered.com/app/3562200",
+      "message_id": 1252,
+      "suggested_at": "2026-10-06T08:49:10.003592+00:00"
+    },
+    "3861730": {
+      "app_id": "3861730",
+      "title": "Class of '09: Puzzle Showdown",
+      "title_norm": "class of 09 puzzle showdown",
+      "developer": "SBN3",
+      "reviews": 334,
+      "url": "https://store.steampowered.com/app/3861730",
+      "message_id": 1253,
+      "suggested_at": "2026-10-06T08:49:11.767356+00:00"
     }
   }
 }
