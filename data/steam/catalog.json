@@ -6859,6 +6859,26 @@
       "url": "https://store.steampowered.com/app/306680",
       "message_id": 1283,
       "suggested_at": "2026-10-06T19:02:03.286769+00:00"
+    },
+    "2608040": {
+      "app_id": "2608040",
+      "title": "Travellin Cats in China",
+      "title_norm": "travellin cats in china",
+      "developer": "Travellin Cats",
+      "reviews": 1019,
+      "url": "https://store.steampowered.com/app/2608040",
+      "message_id": 1285,
+      "suggested_at": "2026-10-06T20:01:37.884821+00:00"
+    },
+    "2700540": {
+      "app_id": "2700540",
+      "title": "Travellin Cats in Japan",
+      "title_norm": "travellin cats in japan",
+      "developer": "Travellin Cats",
+      "reviews": 755,
+      "url": "https://store.steampowered.com/app/2700540",
+      "message_id": 1286,
+      "suggested_at": "2026-10-06T20:01:39.635041+00:00"
     }
   }
 }
