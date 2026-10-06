@@ -6659,6 +6659,16 @@
       "url": "https://store.steampowered.com/app/231020",
       "message_id": 1248,
       "suggested_at": "2026-10-06T07:01:27.146260+00:00"
+    },
+    "456430": {
+      "app_id": "456430",
+      "title": "Christmas Adventure: Candy Storm",
+      "title_norm": "christmas adventure candy storm",
+      "developer": "Argali Entertainment",
+      "reviews": 405,
+      "url": "https://store.steampowered.com/app/456430",
+      "message_id": 1250,
+      "suggested_at": "2026-10-06T08:02:00.863988+00:00"
     }
   }
 }
