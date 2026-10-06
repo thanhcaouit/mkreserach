@@ -2677,6 +2677,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.mamara.bakery": {
+      "first_seen": "2026-10-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sinyee.babybus.delicious": {
+      "first_seen": "2026-10-06",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
