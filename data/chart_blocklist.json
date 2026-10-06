@@ -139,7 +139,8 @@
     "com.homagames.studio.allinhole": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "linkdesks.merge.gossipstreet": {
@@ -2643,6 +2644,18 @@
     },
     "hidden.object.find.seek.search.mystery.puzzle.games.free": {
       "first_seen": "2026-10-05",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.catsbit.oxidesurvivalisland": {
+      "first_seen": "2026-10-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ea.game.nfs14_row": {
+      "first_seen": "2026-10-06",
       "sources": [
         "GAME"
       ]
