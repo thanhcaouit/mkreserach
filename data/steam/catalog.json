@@ -6889,6 +6889,26 @@
       "url": "https://store.steampowered.com/app/314330",
       "message_id": 1288,
       "suggested_at": "2026-10-06T21:01:58.005493+00:00"
+    },
+    "15930": {
+      "app_id": "15930",
+      "title": "Luxor 3",
+      "title_norm": "luxor 3",
+      "developer": "MumboJumbo",
+      "reviews": 159,
+      "url": "https://store.steampowered.com/app/15930",
+      "message_id": 1292,
+      "suggested_at": "2026-10-06T23:01:41.537219+00:00"
+    },
+    "3043740": {
+      "app_id": "3043740",
+      "title": "Calculate It",
+      "title_norm": "calculate it",
+      "developer": "SVGames",
+      "reviews": 265,
+      "url": "https://store.steampowered.com/app/3043740",
+      "message_id": 1293,
+      "suggested_at": "2026-10-06T23:01:43.820356+00:00"
     }
   }
 }
