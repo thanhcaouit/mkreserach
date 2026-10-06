@@ -6709,6 +6709,16 @@
       "url": "https://store.steampowered.com/app/699600",
       "message_id": 1256,
       "suggested_at": "2026-10-06T10:01:54.804725+00:00"
+    },
+    "448470": {
+      "app_id": "448470",
+      "title": "Bacteria",
+      "title_norm": "bacteria",
+      "developer": "Sometimes You",
+      "reviews": 119,
+      "url": "https://store.steampowered.com/app/448470",
+      "message_id": 1264,
+      "suggested_at": "2026-10-06T14:01:58.794595+00:00"
     }
   }
 }
