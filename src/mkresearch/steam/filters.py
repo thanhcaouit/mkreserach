@@ -7,13 +7,13 @@ from mkresearch.filters import title_ignored
 TEXT_KEYWORDS = ["sexy", "nsfw", "jigsaw", "hentai"]
 LEVEL_KEYWORDS = ["endless", "open world", "sandbox"]
 
-REVIEW_MIN = 0
+REVIEW_MIN = 11
 REVIEW_MAX = 20_000
 
 
 def in_review_band(reviews: int | None) -> bool:
-    if reviews is None:
-        return True
+    if not isinstance(reviews, int):
+        return False
     return REVIEW_MIN <= reviews <= REVIEW_MAX
 
 

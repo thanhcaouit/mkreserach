@@ -79,6 +79,52 @@ def apply_profile(
     }
 
 
+def build_refresh_prompt(seeds: list[dict], profile: dict, exhausted: list[str], store_name: str) -> str:
+    dead = [item for item in exhausted if str(item).strip()]
+    banned = ""
+    if dead:
+        banned = "Các câu sau đã search và không ra app mới. Không dùng lại:\n" + _dump(dead) + "\n\n"
+    return (
+        f"Bạn viết câu tìm mới cho hồ sơ gu puzzle trên {store_name}.\n"
+        "Chỉ trả JSON với khóa search_queries.\n"
+        "search_queries là 4 đến 6 cụm tiếng Anh mới, không dùng tiếng Việt, hướng tới puzzle có level, "
+        "một luật chơi rõ, studio nhỏ. Tránh match-3, screw, sort, idle, endless.\n"
+        "Không đổi cơ chế thích hay không thích.\n\n"
+        f"{banned}"
+        f"Seed:\n{_dump(seeds)}\n\n"
+        f"Cơ chế thích:\n{_dump(profile.get('liked_mechanics') or [])}\n\n"
+        f"Cơ chế không thích:\n{_dump(profile.get('disliked_mechanics') or [])}\n"
+    )
+
+
+def refresh_queries(
+    llm: LlmClient,
+    seeds: list[dict],
+    profile: dict,
+    exhausted: list[str] | None = None,
+    store_name: str = "Play",
+) -> dict:
+    dead_list = [str(item) for item in (exhausted or []) if str(item).strip()]
+    dead = {normalize_query(item) for item in dead_list}
+    current = [str(item).strip() for item in (profile.get("search_queries") or []) if str(item).strip()]
+    if any(normalize_query(item) not in dead for item in current):
+        return profile
+    print(f"Hồ sơ {store_name} hết câu tìm, viết câu mới.")
+    raw = llm.complete(build_refresh_prompt(seeds, profile, dead_list, store_name))
+    payload = parse_json_object(raw)
+    queries = [
+        item
+        for item in _string_list(payload.get("search_queries"))
+        if normalize_query(item) not in dead
+    ][:6]
+    if not queries:
+        return profile
+    updated = dict(profile)
+    updated["search_queries"] = queries
+    updated["updated_at"] = datetime.now(timezone.utc).isoformat()
+    return updated
+
+
 def update_profile(
     llm: LlmClient,
     seeds: list[dict],

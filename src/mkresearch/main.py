@@ -20,7 +20,7 @@ from mkresearch.discover import (
 )
 from mkresearch.filters import in_install_band
 from mkresearch.judge import judge
-from mkresearch.learn import update_profile
+from mkresearch.learn import refresh_queries, update_profile
 from mkresearch.llm import LlmClient
 from mkresearch.store import Store
 from mkresearch.telegram import (
@@ -116,6 +116,16 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
         except Exception as exc:
             print(f"Giữ hồ sơ cũ vì không cập nhật được: {exc}")
             profile = store.load_profile()
+    try:
+        refreshed = refresh_queries(llm, seeds, profile, _exhausted_queries(store))
+    except LimitReached:
+        raise
+    except Exception as exc:
+        print(f"Giữ câu tìm cũ vì không viết được câu mới: {exc}")
+    else:
+        if refreshed is not profile:
+            profile = refreshed
+            store.save_profile(profile)
 
     charts = play.chart_ids()
     blocklist = merge_blocklist(store.load_blocklist(), charts, datetime.now(timezone.utc).date().isoformat())

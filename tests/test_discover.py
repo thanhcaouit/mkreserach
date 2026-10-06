@@ -8,12 +8,13 @@ from mkresearch.discover import (
     gather_passed,
     parse_play_suggestions,
     query_intent,
+    suggestion_on_topic,
     recent_match_titles,
     remember_queries,
     remember_seen,
 )
 from mkresearch.filters import title_ignored
-from mkresearch.learn import apply_profile, build_learn_prompt
+from mkresearch.learn import apply_profile, build_learn_prompt, refresh_queries
 from mkresearch.steam.store import SteamData
 from mkresearch.store import Store
 
@@ -297,7 +298,9 @@ def test_suggestions_fill_six_queries_and_batch_three_stays_off_catalog_titles()
     assert len(wide) == 12
     assert wide[6:] == [f"rule {index} maze" for index in range(5, 11)]
     assert "Old Title" not in {term for term, _n_hits in play.searches}
-    assert "gravity " in play.suggest_terms
+    assert "gravity puzzle" in play.suggest_terms
+    assert "gravity puzzle " in play.suggest_terms
+    assert "gravity" not in play.suggest_terms
 
 
 def test_suggestion_failure_falls_back_to_puzzle_levels():
@@ -350,8 +353,8 @@ def test_same_intent_and_ignored_suggestions_are_skipped():
 
 def test_unfinished_suggestion_is_pending_and_searched_first():
     play = FakePlay()
-    play.hint_list = ["kept query"]
-    play.pages["kept query"] = ["new.id"]
+    play.hint_list = ["kept maze"]
+    play.pages["kept maze"] = ["new.id"]
     play.details["new.id"] = _fail("new.id")
     _passed, _scanned, opened, retired, pending = gather_passed(
         play,
@@ -367,8 +370,8 @@ def test_unfinished_suggestion_is_pending_and_searched_first():
         rng=random.Random(0),
     )
     assert opened == ["new.id"]
-    assert "kept query" not in retired
-    assert pending[0] == "kept query"
+    assert "kept maze" not in retired
+    assert pending[0] == "kept maze"
 
     play.searches.clear()
     play.hint_list = ["later maze"]
@@ -386,7 +389,34 @@ def test_unfinished_suggestion_is_pending_and_searched_first():
         rng=random.Random(1),
         pending=pending,
     )
-    assert [term for term, n_hits in play.searches if n_hits == 15][0] == "kept query"
+    assert [term for term, n_hits in play.searches if n_hits == 15][0] == "kept maze"
+
+
+def test_off_topic_suggestions_are_dropped_and_not_pending():
+    play = FakePlay()
+    play.hint_list = ["hookup dating", "orbit maze", "stack sort"]
+    _passed, _scanned, _opened, _retired, pending = gather_passed(
+        play,
+        ["anchor"],
+        ["guide units indie"],
+        {"apps": {}},
+        [],
+        [],
+        set(),
+        set(),
+        [],
+        search_words=["gravity"],
+        rng=random.Random(0),
+        pending=["stack sort", "orbit maze"],
+    )
+    searched = [term for term, _n_hits in play.searches]
+    assert searched[0] == "orbit maze"
+    assert "guide units indie" in searched
+    assert "hookup dating" not in searched
+    assert "stack sort" not in searched
+    assert "stack sort" not in pending
+    assert all(suggestion_on_topic(item) for item in pending)
+    assert all(term.endswith("puzzle") or term.endswith("puzzle ") for term in play.suggest_terms)
 
 
 def test_play_suggestion_payload_keeps_the_query_text():
@@ -426,6 +456,63 @@ def test_random_word_skips_ignore_keywords_and_dead_queries():
     assert picked is None
     picked = choose_random_query(["block", "rope"], ["block"], set(), random.Random(0))
     assert picked == "rope puzzle levels"
+
+
+class _RecordingLlm:
+    def __init__(self, raw: str) -> None:
+        self.raw = raw
+        self.calls = 0
+        self.prompt = ""
+
+    def complete(self, prompt: str) -> str:
+        self.calls += 1
+        self.prompt = prompt
+        return self.raw
+
+
+def test_refresh_writes_queries_when_profile_is_exhausted():
+    llm = _RecordingLlm('{"search_queries":["fresh maze puzzle","old one"]}')
+    profile = {
+        "liked_mechanics": ["tilt gravity"],
+        "disliked_mechanics": ["match-3"],
+        "search_queries": ["old one"],
+        "notes": "keep",
+    }
+    updated = refresh_queries(llm, [{"title": "Cross Virus"}], profile, ["old one"])
+    assert llm.calls == 1
+    assert "Play" in llm.prompt
+    assert "old one" in llm.prompt
+    assert updated["search_queries"] == ["fresh maze puzzle"]
+    assert updated["liked_mechanics"] == ["tilt gravity"]
+    assert updated["disliked_mechanics"] == ["match-3"]
+    assert updated["notes"] == "keep"
+    steam = refresh_queries(llm, [], profile, ["old one"], store_name="Steam")
+    assert "Steam" in llm.prompt
+    assert steam["search_queries"] == ["fresh maze puzzle"]
+
+
+def test_refresh_skips_when_a_query_is_still_alive():
+    llm = _RecordingLlm('{"search_queries":["should not"]}')
+    profile = {"search_queries": ["alive puzzle"], "liked_mechanics": ["tilt"]}
+    updated = refresh_queries(llm, [], profile, ["dead one"])
+    assert llm.calls == 0
+    assert updated is profile
+
+
+def test_refresh_keeps_profile_when_model_repeats_dead_queries():
+    llm = _RecordingLlm('{"search_queries":["old one"]}')
+    profile = {"search_queries": ["old one"], "liked_mechanics": ["tilt"]}
+    updated = refresh_queries(llm, [], profile, ["old one"])
+    assert llm.calls == 1
+    assert updated is profile
+
+
+def test_refresh_runs_when_queries_are_empty():
+    llm = _RecordingLlm('{"search_queries":["grid maze puzzle"]}')
+    profile = {"search_queries": [], "liked_mechanics": ["isolate"]}
+    updated = refresh_queries(llm, [], profile, [])
+    assert updated["search_queries"] == ["grid maze puzzle"]
+    assert updated["liked_mechanics"] == ["isolate"]
 
 
 def test_learn_prompt_rejects_exhausted_queries():

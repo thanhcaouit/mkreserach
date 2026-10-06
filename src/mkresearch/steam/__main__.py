@@ -10,6 +10,7 @@ from pathlib import Path
 from mkresearch.cooldown import Guard, LimitReached
 from mkresearch.dedupe import normalize_title
 from mkresearch.discover import _retire_queries, choose_random_query, normalize_query, remember_queries
+from mkresearch.learn import refresh_queries
 from mkresearch.llm import LlmClient
 from mkresearch.steam.client import SteamClient
 from mkresearch.steam.discover import (
@@ -94,6 +95,16 @@ def run_research(data: SteamData, client: SteamClient, llm: LlmClient, telegram:
         except Exception as exc:
             print(f"Giữ hồ sơ Steam cũ vì không cập nhật được: {exc}")
             profile = data.load_profile()
+    try:
+        refreshed = refresh_queries(llm, seeds, profile, _exhausted_queries(data), store_name="Steam")
+    except LimitReached:
+        raise
+    except Exception as exc:
+        print(f"Giữ câu tìm Steam cũ vì không viết được câu mới: {exc}")
+    else:
+        if refreshed is not profile:
+            profile = refreshed
+            data.save_profile(profile)
 
     charts = client.chart_ids()
     blocklist = merge_blocklist(data.load_blocklist(), charts, datetime.now(timezone.utc).date().isoformat())

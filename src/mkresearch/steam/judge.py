@@ -65,6 +65,16 @@ def select_picks(payload: dict, allowed_ids: set[str], limit: int = 5) -> list[d
     return chosen[:limit]
 
 
+def passer_picks(candidates: list[dict]) -> list[dict]:
+    picks: list[dict] = []
+    for app in candidates:
+        app_id = str(app.get("appId") or "").strip()
+        if not app_id:
+            continue
+        picks.append({"app_id": app_id, "has_levels": True, "novelty": 1, "near_seed": ""})
+    return picks
+
+
 def judge(llm: LlmClient, candidates: list[dict], seeds: list[dict], profile: dict, limit: int = 5) -> list[dict]:
     if not candidates:
         return []
@@ -74,11 +84,12 @@ def judge(llm: LlmClient, candidates: list[dict], seeds: list[dict], profile: di
         payload = parse_json_object(raw)
     except Exception as exc:
         print(f"LLM JSON lỗi: {exc}. Raw: {raw[:800]}")
-        return []
+        return passer_picks(candidates)
     picks = select_picks(payload, allowed, limit)
-    if not picks:
-        print(f"LLM không chọn game. Raw: {raw[:800]}")
-    return picks
+    if picks:
+        return picks
+    print(f"LLM không chọn game. Raw: {raw[:800]}")
+    return passer_picks(candidates)
 
 
 def _as_bool(value: object) -> bool:

@@ -340,6 +340,11 @@ def suggestion_seeds(
     return chosen
 
 
+def suggestion_on_topic(text: str) -> bool:
+    folded = " ".join(str(text).casefold().split())
+    return any(word in folded for word in ("puzzle", "maze", "level"))
+
+
 def collect_suggestions(play: PlayStore, seeds: list[str]) -> list[str]:
     found: list[str] = []
     seen: set[str] = set()
@@ -347,18 +352,24 @@ def collect_suggestions(play: PlayStore, seeds: list[str]) -> list[str]:
     if method is None:
         return []
     for seed in seeds:
-        for term in (seed, f"{seed} "):
+        text = str(seed).strip()
+        if not text:
+            continue
+        for term in (f"{text} puzzle", f"{text} puzzle "):
             try:
                 names = list(method(term) or [])
             except Exception as exc:
                 print(f"gợi ý lỗi '{term}': {exc}")
                 names = []
             for name in names:
-                key = normalize_query(str(name))
+                cleaned = str(name).strip()
+                if not suggestion_on_topic(cleaned):
+                    continue
+                key = normalize_query(cleaned)
                 if not key or key in seen:
                     continue
                 seen.add(key)
-                found.append(str(name).strip())
+                found.append(cleaned)
     return found
 
 
@@ -584,12 +595,18 @@ def gather_passed(
     picker = rng or random.Random()
     dead = {normalize_query(item) for item in (exhausted or [])}
     profile_keys: set[str] = set()
+    profile_raw = {normalize_query(item) for item in queries}
     sources: list[str] = []
-    for text in [*(pending or []), *queries]:
+    topic_pending = [
+        text
+        for text in (pending or [])
+        if suggestion_on_topic(text) or normalize_query(text) in profile_raw
+    ]
+    for text in [*topic_pending, *queries]:
         accepted = _accept_query(text, keyword_list, dead, sources, False)
         if not accepted:
             continue
-        if normalize_query(text) not in {normalize_query(item) for item in (pending or [])}:
+        if normalize_query(text) not in {normalize_query(item) for item in topic_pending}:
             profile_keys.add(normalize_query(accepted))
         sources.append(accepted)
         if len(sources) >= QUERY_TARGET:
@@ -664,15 +681,19 @@ def gather_passed(
     searched_keys = {normalize_query(item) for item in searched}
     kept: list[str] = []
     seen_pending: set[str] = set()
-    for query in [*(pending or []), *unused]:
+    for query in [*topic_pending, *unused]:
         key = normalize_query(query)
         if not key or key in dead or key in retired_keys or key in searched_keys or key in seen_pending:
+            continue
+        if not suggestion_on_topic(query):
             continue
         kept.append(query)
         seen_pending.add(key)
     for query in searched:
         key = normalize_query(query)
         if not key or key in retired_keys or key in profile_keys or key in seen_pending:
+            continue
+        if not suggestion_on_topic(query):
             continue
         kept.append(query)
         seen_pending.add(key)

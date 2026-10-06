@@ -65,17 +65,21 @@ def _app(**extra):
 
 
 def test_review_band_edges():
-    assert in_review_band(0)
+    assert not in_review_band(0)
+    assert not in_review_band(10)
+    assert in_review_band(11)
     assert in_review_band(20_000)
     assert not in_review_band(20_001)
-    assert in_review_band(None)
+    assert not in_review_band(None)
 
 
 def test_hard_reject_reasons():
     assert hard_reject(_app(type="dlc"), [], set()) == "type"
     assert hard_reject(_app(coming_soon=True), [], set()) == "unreleased"
     assert hard_reject(_app(reviews=20_001), [], set()) == "reviews"
-    assert hard_reject(_app(reviews=None), [], set()) is None
+    assert hard_reject(_app(reviews=10), [], set()) == "reviews"
+    assert hard_reject(_app(reviews=None), [], set()) == "reviews"
+    assert hard_reject(_app(reviews=11), [], set()) is None
     assert hard_reject(_app(developer="Valve"), ["Valve"], set()) == "publisher"
     assert hard_reject(_app(publishers=["2K Games"]), ["2K"], set()) == "publisher"
     assert hard_reject(_app(), [], {"10"}) == "chart"
@@ -334,7 +338,11 @@ def test_judge_keeps_only_level_picks():
     candidates = [{"appId": str(i), "title": f"Game {i}"} for i in range(1, 8)]
     picks = judge(_FakeLlm(raw), candidates, [], {}, limit=len(candidates))
     assert [item["app_id"] for item in picks] == ["1", "3"]
-    assert judge(_FakeLlm("not json"), candidates, [], {}) == []
+    fallback = judge(_FakeLlm("not json"), candidates, [], {})
+    assert [item["app_id"] for item in fallback] == [str(index) for index in range(1, 8)]
+    none_picked = '{"picks":[{"app_id":"1","has_levels":false,"novelty":5}]}'
+    sent = judge(_FakeLlm(none_picked), candidates[:2], [], {})
+    assert [item["app_id"] for item in sent] == ["1", "2"]
 
 
 def test_research_workflow_keeps_play_job_and_commits_only_steam_data():
