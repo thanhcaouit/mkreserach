@@ -6599,6 +6599,16 @@
       "url": "https://store.steampowered.com/app/3482170",
       "message_id": 1237,
       "suggested_at": "2026-10-06T03:02:12.780396+00:00"
+    },
+    "2143190": {
+      "app_id": "2143190",
+      "title": "The Cat Maze",
+      "title_norm": "the cat maze",
+      "developer": "indigo game production",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2143190",
+      "message_id": 1241,
+      "suggested_at": "2026-10-06T05:01:27.074391+00:00"
     }
   }
 }
