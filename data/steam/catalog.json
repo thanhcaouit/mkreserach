@@ -6719,6 +6719,16 @@
       "url": "https://store.steampowered.com/app/448470",
       "message_id": 1264,
       "suggested_at": "2026-10-06T14:01:58.794595+00:00"
+    },
+    "2560460": {
+      "app_id": "2560460",
+      "title": "Hidden Cats in Spooky Town",
+      "title_norm": "hidden cats in spooky town",
+      "developer": "Nukearts Studio",
+      "reviews": 295,
+      "url": "https://store.steampowered.com/app/2560460",
+      "message_id": 1266,
+      "suggested_at": "2026-10-06T15:01:56.527043+00:00"
     }
   }
 }
