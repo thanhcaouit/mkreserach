@@ -6729,6 +6729,26 @@
       "url": "https://store.steampowered.com/app/2560460",
       "message_id": 1266,
       "suggested_at": "2026-10-06T15:01:56.527043+00:00"
+    },
+    "2321310": {
+      "app_id": "2321310",
+      "title": "Finding Cats In Town",
+      "title_norm": "finding cats in town",
+      "developer": "Peach Rain",
+      "reviews": 182,
+      "url": "https://store.steampowered.com/app/2321310",
+      "message_id": 1268,
+      "suggested_at": "2026-10-06T15:48:43.749793+00:00"
+    },
+    "2551170": {
+      "app_id": "2551170",
+      "title": "Travellin Cats in Maple Hollow 🍂",
+      "title_norm": "travellin cats in maple hollow",
+      "developer": "Travellin Cats",
+      "reviews": 1230,
+      "url": "https://store.steampowered.com/app/2551170",
+      "message_id": 1269,
+      "suggested_at": "2026-10-06T15:48:44.998629+00:00"
     }
   }
 }
