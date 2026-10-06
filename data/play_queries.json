@@ -696,10 +696,5 @@
     "3D Maze Lost in the Labyrinth",
     "3D Maze Labyrinth"
   ],
-  "pending": [
-    "stack sort",
-    "tap tile",
-    "light-hearted",
-    "roll blocks"
-  ]
+  "pending": []
 }
