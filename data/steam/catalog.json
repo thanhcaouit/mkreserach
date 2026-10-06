@@ -6749,6 +6749,76 @@
       "url": "https://store.steampowered.com/app/2551170",
       "message_id": 1269,
       "suggested_at": "2026-10-06T15:48:44.998629+00:00"
+    },
+    "1273640": {
+      "app_id": "1273640",
+      "title": "Bring You Home",
+      "title_norm": "bring you home",
+      "developer": "Alike Studio",
+      "reviews": 219,
+      "url": "https://store.steampowered.com/app/1273640",
+      "message_id": 1271,
+      "suggested_at": "2026-10-06T17:02:38.506368+00:00"
+    },
+    "1599880": {
+      "app_id": "1599880",
+      "title": "Cats in Time",
+      "title_norm": "cats in time",
+      "developer": "Pine Studio",
+      "reviews": 1057,
+      "url": "https://store.steampowered.com/app/1599880",
+      "message_id": 1272,
+      "suggested_at": "2026-10-06T17:02:41.105994+00:00"
+    },
+    "4124880": {
+      "app_id": "4124880",
+      "title": "Hidden Cats in Christmas",
+      "title_norm": "hidden cats in christmas",
+      "developer": "Nukearts",
+      "reviews": 106,
+      "url": "https://store.steampowered.com/app/4124880",
+      "message_id": 1273,
+      "suggested_at": "2026-10-06T17:02:42.859340+00:00"
+    },
+    "2313240": {
+      "app_id": "2313240",
+      "title": "Travellin Cats in Italy",
+      "title_norm": "travellin cats in italy",
+      "developer": "Travellin Cats",
+      "reviews": 1793,
+      "url": "https://store.steampowered.com/app/2313240",
+      "message_id": 1274,
+      "suggested_at": "2026-10-06T17:02:43.872891+00:00"
+    },
+    "2356500": {
+      "app_id": "2356500",
+      "title": "Travellin Cats in Bali",
+      "title_norm": "travellin cats in bali",
+      "developer": "Travellin Cats",
+      "reviews": 1309,
+      "url": "https://store.steampowered.com/app/2356500",
+      "message_id": 1275,
+      "suggested_at": "2026-10-06T17:02:45.103389+00:00"
+    },
+    "2313250": {
+      "app_id": "2313250",
+      "title": "Travellin Cats in Paris",
+      "title_norm": "travellin cats in paris",
+      "developer": "Travellin Cats",
+      "reviews": 398,
+      "url": "https://store.steampowered.com/app/2313250",
+      "message_id": 1276,
+      "suggested_at": "2026-10-06T17:02:45.831122+00:00"
+    },
+    "2099080": {
+      "app_id": "2099080",
+      "title": "Hidden Cats in London",
+      "title_norm": "hidden cats in london",
+      "developer": "Nukearts Studio",
+      "reviews": 415,
+      "url": "https://store.steampowered.com/app/2099080",
+      "message_id": 1277,
+      "suggested_at": "2026-10-06T17:02:47.116323+00:00"
     }
   }
 }
