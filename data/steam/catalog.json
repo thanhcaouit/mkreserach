@@ -6489,6 +6489,46 @@
       "url": "https://store.steampowered.com/app/3193980",
       "message_id": 1221,
       "suggested_at": "2026-10-05T23:01:23.999430+00:00"
+    },
+    "2316640": {
+      "app_id": "2316640",
+      "title": "Light On",
+      "title_norm": "light on",
+      "developer": "indigo game production",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/2316640",
+      "message_id": 1225,
+      "suggested_at": "2026-10-06T01:01:32.377713+00:00"
+    },
+    "1492620": {
+      "app_id": "1492620",
+      "title": "Jelly Is Sticky",
+      "title_norm": "jelly is sticky",
+      "developer": "Lunarch Studios",
+      "reviews": 139,
+      "url": "https://store.steampowered.com/app/1492620",
+      "message_id": 1226,
+      "suggested_at": "2026-10-06T01:01:33.651492+00:00"
+    },
+    "1197990": {
+      "app_id": "1197990",
+      "title": "Shoot, push, portals",
+      "title_norm": "shoot push portals",
+      "developer": "CrewLab",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1197990",
+      "message_id": 1227,
+      "suggested_at": "2026-10-06T01:01:34.645268+00:00"
+    },
+    "1475650": {
+      "app_id": "1475650",
+      "title": "12 Labours of Hercules XII: Timeless Adventure",
+      "title_norm": "12 labours of hercules xii timeless adventure",
+      "developer": "Zoom Out Games",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1475650",
+      "message_id": 1228,
+      "suggested_at": "2026-10-06T01:01:36.371578+00:00"
     }
   }
 }
