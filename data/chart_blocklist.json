@@ -2671,6 +2671,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.funovus.alternatekeep": {
+      "first_seen": "2026-10-06",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
