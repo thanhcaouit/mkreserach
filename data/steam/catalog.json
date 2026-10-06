@@ -6529,6 +6529,36 @@
       "url": "https://store.steampowered.com/app/1475650",
       "message_id": 1228,
       "suggested_at": "2026-10-06T01:01:36.371578+00:00"
+    },
+    "3623490": {
+      "app_id": "3623490",
+      "title": "One More Button",
+      "title_norm": "one more button",
+      "developer": "Tommy Kjær",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/3623490",
+      "message_id": 1230,
+      "suggested_at": "2026-10-06T02:01:49.141769+00:00"
+    },
+    "1772490": {
+      "app_id": "1772490",
+      "title": "Dungeon Color",
+      "title_norm": "dungeon color",
+      "developer": "Gagonfe",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/1772490",
+      "message_id": 1231,
+      "suggested_at": "2026-10-06T02:01:50.646057+00:00"
+    },
+    "533860": {
+      "app_id": "533860",
+      "title": "Multimirror",
+      "title_norm": "multimirror",
+      "developer": "Cleverweek",
+      "reviews": null,
+      "url": "https://store.steampowered.com/app/533860",
+      "message_id": 1232,
+      "suggested_at": "2026-10-06T02:01:51.232621+00:00"
     }
   }
 }
