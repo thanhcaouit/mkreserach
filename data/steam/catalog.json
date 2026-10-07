@@ -6939,6 +6939,16 @@
       "url": "https://store.steampowered.com/app/282880",
       "message_id": 1298,
       "suggested_at": "2026-10-07T01:01:51.333712+00:00"
+    },
+    "351490": {
+      "app_id": "351490",
+      "title": "Intergalactic Bubbles",
+      "title_norm": "intergalactic bubbles",
+      "developer": "Hellscape Games",
+      "reviews": 1021,
+      "url": "https://store.steampowered.com/app/351490",
+      "message_id": 1300,
+      "suggested_at": "2026-10-07T02:01:27.319826+00:00"
     }
   }
 }
