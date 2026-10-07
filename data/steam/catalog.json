@@ -6979,6 +6979,16 @@
       "url": "https://store.steampowered.com/app/415400",
       "message_id": 1304,
       "suggested_at": "2026-10-07T03:01:49.692895+00:00"
+    },
+    "1183500": {
+      "app_id": "1183500",
+      "title": "Puppy Cross",
+      "title_norm": "puppy cross",
+      "developer": "DIMANCHE CORP.",
+      "reviews": 275,
+      "url": "https://store.steampowered.com/app/1183500",
+      "message_id": 1306,
+      "suggested_at": "2026-10-07T04:01:54.060561+00:00"
     }
   }
 }
