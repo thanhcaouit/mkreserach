@@ -7059,6 +7059,36 @@
       "url": "https://store.steampowered.com/app/742250",
       "message_id": 1318,
       "suggested_at": "2026-10-07T10:01:26.233294+00:00"
+    },
+    "2610090": {
+      "app_id": "2610090",
+      "title": "A Park Full of Cats",
+      "title_norm": "a park full of cats",
+      "developer": "Devcats",
+      "reviews": 130,
+      "url": "https://store.steampowered.com/app/2610090",
+      "message_id": 1320,
+      "suggested_at": "2026-10-07T10:49:23.785027+00:00"
+    },
+    "645690": {
+      "app_id": "645690",
+      "title": "Fantasia of the Wind - 风之幻想曲",
+      "title_norm": "fantasia of the wind 风之幻想曲",
+      "developer": "Fantasia Studio",
+      "reviews": 328,
+      "url": "https://store.steampowered.com/app/645690",
+      "message_id": 1321,
+      "suggested_at": "2026-10-07T10:49:25.520500+00:00"
+    },
+    "65500": {
+      "app_id": "65500",
+      "title": "Aura: Fate of the Ages",
+      "title_norm": "aura fate of the ages",
+      "developer": "Streko Graphics",
+      "reviews": 154,
+      "url": "https://store.steampowered.com/app/65500",
+      "message_id": 1322,
+      "suggested_at": "2026-10-07T10:49:26.684719+00:00"
     }
   }
 }
