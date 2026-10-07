@@ -1703,7 +1703,8 @@
     "find.out.hidden.objects.seek.puzzle.games.free": {
       "first_seen": "2026-09-29",
       "sources": [
-        "GAME"
+        "GAME",
+        "GAME_PUZZLE"
       ]
     },
     "cats.goods.sort.sorting.games": {
@@ -1931,7 +1932,8 @@
     "com.hungrystudio.mahjong": {
       "first_seen": "2026-09-29",
       "sources": [
-        "GAME"
+        "GAME",
+        "GAME_PUZZLE"
       ]
     },
     "com.budgestudios.googleplay.BlueyBLU": {
@@ -1943,7 +1945,8 @@
     "com.sinyee.babybus.gameworld.design.home.friends.fun.life.story": {
       "first_seen": "2026-09-29",
       "sources": [
-        "GAME"
+        "GAME",
+        "GAME_PUZZLE"
       ]
     },
     "com.luckystargame.jdxy.gp": {
@@ -2645,7 +2648,8 @@
     "hidden.object.find.seek.search.mystery.puzzle.games.free": {
       "first_seen": "2026-10-05",
       "sources": [
-        "GAME"
+        "GAME",
+        "GAME_PUZZLE"
       ]
     },
     "com.catsbit.oxidesurvivalisland": {
@@ -2724,6 +2728,24 @@
       "first_seen": "2026-10-07",
       "sources": [
         "GAME"
+      ]
+    },
+    "com.merge.game.foodstars": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.roomperfect.global": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "cc.bubble.makeover": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME_PUZZLE"
       ]
     }
   }
