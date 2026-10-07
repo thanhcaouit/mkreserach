@@ -71,6 +71,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.mathgame.riddles.puzzles.brain.teasers&hl=en",
       "message_id": 1341,
       "suggested_at": "2026-10-07T13:03:00.113433+00:00"
+    },
+    "com.pixel_with_hat.senalux": {
+      "app_id": "com.pixel_with_hat.senalux",
+      "title": "Senalux - laser optics puzzle",
+      "title_norm": "senalux laser optics puzzle",
+      "developer": "Pixel with Hat",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.6551723,
+      "url": "https://play.google.com/store/apps/details?id=com.pixel_with_hat.senalux&hl=en",
+      "message_id": 1354,
+      "suggested_at": "2026-10-07T18:02:00.090305+00:00"
     }
   }
 }
