@@ -7149,6 +7149,26 @@
       "url": "https://store.steampowered.com/app/221830",
       "message_id": 1333,
       "suggested_at": "2026-10-07T11:17:54.505228+00:00"
+    },
+    "642560": {
+      "app_id": "642560",
+      "title": "Art Of Gravity",
+      "title_norm": "art of gravity",
+      "developer": "Hamster On Coke Games",
+      "reviews": 601,
+      "url": "https://store.steampowered.com/app/642560",
+      "message_id": 1355,
+      "suggested_at": "2026-10-07T18:02:54.993471+00:00"
+    },
+    "2224640": {
+      "app_id": "2224640",
+      "title": "Artisan TD",
+      "title_norm": "artisan td",
+      "developer": "4rtisans",
+      "reviews": 2240,
+      "url": "https://store.steampowered.com/app/2224640",
+      "message_id": 1356,
+      "suggested_at": "2026-10-07T18:02:57.471549+00:00"
     }
   }
 }
