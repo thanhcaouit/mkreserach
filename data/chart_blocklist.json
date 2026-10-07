@@ -2689,6 +2689,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.rovio.dream": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.netmarble.tskgb": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.xd.xdtglobal.gp": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
