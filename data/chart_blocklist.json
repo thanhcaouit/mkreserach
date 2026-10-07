@@ -2747,6 +2747,12 @@
       "sources": [
         "GAME_PUZZLE"
       ]
+    },
+    "com.sinyee.babybus.drinks.global": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
