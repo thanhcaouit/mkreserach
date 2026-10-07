@@ -5977,6 +5977,20 @@
       "suggested_at": "2026-10-07T13:01:29.681237+00:00",
       "mechanic_vi": "Ghép hình lục giác (jigsaw) theo từng màn.",
       "why_vi": "Có hơn 500 màn, mỗi màn là một câu đố ghép hình, nhưng không có luật chơi mới hay độc đáo."
+    },
+    "com.ybs.drawLinesPuzzle": {
+      "app_id": "com.ybs.drawLinesPuzzle",
+      "title": "Draw Line - Physics Puzzles",
+      "title_norm": "draw line physics puzzles",
+      "developer": "Yellow Bolt Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.7272727,
+      "url": "https://play.google.com/store/apps/details?id=com.ybs.drawLinesPuzzle&hl=en",
+      "message_id": 1357,
+      "suggested_at": "2026-10-07T19:01:12.649995+00:00",
+      "mechanic_vi": "Vẽ đường để dẫn bóng qua các chướng ngại vật và gặp nhau.",
+      "why_vi": "Mỗi màn yêu cầu người chơi tạo một đường dẫn duy nhất, rõ ràng, để bóng di chuyển tới mục tiêu."
     }
   }
 }
