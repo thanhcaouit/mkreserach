@@ -6999,6 +6999,26 @@
       "url": "https://store.steampowered.com/app/1667360",
       "message_id": 1308,
       "suggested_at": "2026-10-07T05:01:28.135696+00:00"
+    },
+    "1320490": {
+      "app_id": "1320490",
+      "title": "Princess Farmer",
+      "title_norm": "princess farmer",
+      "developer": "Samobee Games",
+      "reviews": 126,
+      "url": "https://store.steampowered.com/app/1320490",
+      "message_id": 1310,
+      "suggested_at": "2026-10-07T06:02:08.048421+00:00"
+    },
+    "266230": {
+      "app_id": "266230",
+      "title": "Last Dream",
+      "title_norm": "last dream",
+      "developer": "White Giant RPG Studios",
+      "reviews": 437,
+      "url": "https://store.steampowered.com/app/266230",
+      "message_id": 1311,
+      "suggested_at": "2026-10-07T06:02:09.609764+00:00"
     }
   }
 }
