@@ -21,6 +21,7 @@ from mkresearch.discover import (
     shortlist,
     suggestion_on_topic,
 )
+from mkresearch.filters import in_install_band, is_puzzle, parse_installs, title_ignored
 from mkresearch.discover import remember_queries as remember_query_state
 from mkresearch.discover import remember_seen as remember_seen_ids
 from mkresearch.store import Store
@@ -29,8 +30,11 @@ from mkresearch.telegram import Telegram, first_screenshot, format_report, play_
 SEARCH_SCRIPT = Path("tools/play_extra/search/search.mjs")
 CLUSTER_BIN = Path("tools/play_extra/category/category")
 CLUSTER_DIR = Path("tools/play_extra/category")
-OPEN_LIMIT = 40
+OPEN_LIMIT = 120
 PASS_LIMIT = 5
+SOURCE_OPEN = OPEN_LIMIT // 2
+MR_ADEX = "MrAdex77"
+KRYUCHENKO = "kryuchenko"
 
 
 class ExtraStore:
@@ -71,7 +75,7 @@ def node_search(term: str) -> list[dict]:
         ["node", str(SEARCH_SCRIPT), term],
         capture_output=True,
         text=True,
-        timeout=60,
+        timeout=180,
         check=False,
     )
     if proc.returncode != 0:
@@ -88,7 +92,7 @@ def cluster_search(terms: list[str]) -> list[dict]:
         command,
         capture_output=True,
         text=True,
-        timeout=240,
+        timeout=420,
         check=False,
     )
     if proc.returncode != 0:
@@ -124,7 +128,7 @@ def search_extra(
     search_fn,
     cluster_fn,
     rng: random.Random | None = None,
-) -> tuple[list[dict], int, list[str], list[str], list[str]]:
+) -> tuple[list[dict], list[str], list[str]]:
     picker = rng or random.Random()
     topic_pending = [item for item in pending if suggestion_on_topic(item)]
     dead = {normalize_query(item) for item in exhausted if str(item).strip()}
@@ -139,53 +143,35 @@ def search_extra(
         QUERY_TARGET,
     )
     returned: dict[str, list[str]] = {}
-    partials: list[dict] = []
     seen_partial = set(exclude)
+    cluster_partials, _cluster_ids, _cluster_dropped = _take_hits(
+        _cluster_hits(cluster_fn, chosen), seen_partial, keywords
+    )
+    search_partials: list[dict] = []
+    dropped: list[str] = []
     for query in chosen:
         try:
             hits = list(search_fn(query) or [])
         except Exception as exc:
             print(f"search riêng lỗi '{query}': {exc}")
             continue
-        ids: list[str] = []
-        for hit in hits:
-            app_id = str(hit.get("appId") or "")
-            if not app_id or app_id in ids:
-                continue
-            ids.append(app_id)
-            if app_id in seen_partial:
-                continue
-            seen_partial.add(app_id)
-            partials.append(hit)
+        kept, ids, skipped = _take_hits(hits, seen_partial, keywords)
+        search_partials.extend(kept)
+        dropped.extend(skipped)
         returned[query] = ids
-    try:
-        for hit in list(cluster_fn(chosen) or []):
-            app_id = str(hit.get("appId") or "")
-            if not app_id or app_id in seen_partial:
-                continue
-            seen_partial.add(app_id)
-            partials.append(hit)
-    except Exception as exc:
-        print(f"cluster lỗi: {exc}")
-    play.app_limit = OPEN_LIMIT
-    passed, scanned, opened, handled = shortlist(
-        play,
-        partials,
-        catalog,
-        seeds,
-        publishers,
-        chart_ids,
-        keywords,
-        limit=PASS_LIMIT,
-    )
+    sources = [
+        _scan_source(play, KRYUCHENKO, cluster_partials, catalog, seeds, publishers, chart_ids, keywords),
+        _scan_source(play, MR_ADEX, search_partials, catalog, seeds, publishers, chart_ids, keywords),
+    ]
+    handled = [app_id for source in sources for app_id in source["handled"]]
+    handled.extend(dropped)
     retired = _retire_queries(returned, set(), set(handled), exclude)
     kept = [item for item in leftover if str(item).strip()]
-    print(f"Play riêng: đã xem {scanned}, qua lọc {len(passed)}")
-    return passed, scanned, opened, retired, kept
+    return sources, retired, kept
 
 
-def format_extra_report(app: dict) -> str:
-    return "Play riêng\n" + format_report(app, {"near_seed": "Play riêng"})
+def format_extra_report(app: dict, package: str) -> str:
+    return f"{package}\n" + "Play riêng\n" + format_report(app, {"near_seed": package})
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -235,7 +221,7 @@ def run_extra(
     queries = [str(item) for item in (profile.get("search_queries") or []) if str(item).strip()]
     pending = [str(item) for item in (saved.get("pending") or []) if str(item).strip()]
     catalog = {"apps": {}}
-    passed, _scanned, opened, retired, kept = search_extra(
+    sources, retired, kept = search_extra(
         play,
         queries,
         store.load_search_words(),
@@ -251,19 +237,35 @@ def run_extra(
         search_fn,
         cluster_fn,
     )
+    opened = [app_id for source in sources for app_id in source["opened"]]
     extra.save_seen(remember_seen_ids(extra.load_seen(), opened, datetime.now(timezone.utc).date().isoformat()))
     extra.save_queries(remember_query_state(saved, retired, kept))
     extra_catalog = extra.load_catalog()
     sent = 0
-    for app in passed:
-        try:
-            message_id = telegram.send_report(format_extra_report(app), first_screenshot(app))
-        except Exception as exc:
-            print(f"Không gửi được {app.get('appId')}: {exc}")
-            continue
-        _remember(extra_catalog, app, message_id)
-        extra.save_catalog(extra_catalog)
-        sent += 1
+    for source in sources:
+        package = str(source["name"])
+        passed = list(source["passed"])
+        for app in passed:
+            print(
+                f"{package} qua lọc: {app.get('title')} | {app.get('appId')} | "
+                f"{app.get('developer')} | {app.get('installs')}"
+            )
+        package_sent = 0
+        for app in passed:
+            try:
+                message_id = telegram.send_report(format_extra_report(app, package), first_screenshot(app))
+            except Exception as exc:
+                print(f"Không gửi được {app.get('appId')}: {exc}")
+                continue
+            _remember(extra_catalog, app, message_id)
+            extra.save_catalog(extra_catalog)
+            package_sent += 1
+            sent += 1
+        if package_sent == 0:
+            scanned = int(source["scanned"])
+            telegram.send(
+                f"{package}: Không có game mới. Đã xem {scanned} app, {len(passed)} game qua bộ lọc."
+            )
     print(f"Đã gửi {sent} game Play riêng")
     return 0
 
@@ -285,8 +287,81 @@ def _remember(catalog: dict, app: dict, message_id: int) -> None:
     }
 
 
+def _cluster_hits(cluster_fn, terms: list[str]) -> list[dict]:
+    try:
+        return list(cluster_fn(terms) or [])
+    except Exception as exc:
+        print(f"cluster lỗi: {exc}")
+        return []
+
+
+def _take_hits(
+    hits: list[dict],
+    seen_partial: set[str],
+    keywords: list[str],
+) -> tuple[list[dict], list[str], list[str]]:
+    kept: list[dict] = []
+    ids: list[str] = []
+    dropped: list[str] = []
+    for hit in hits:
+        app_id = str(hit.get("appId") or "")
+        if not app_id or app_id in ids:
+            continue
+        ids.append(app_id)
+        if app_id in seen_partial:
+            continue
+        seen_partial.add(app_id)
+        if not _card_can_pass(hit, keywords):
+            dropped.append(app_id)
+            continue
+        kept.append(hit)
+    return kept, ids, dropped
+
+
+def _card_can_pass(hit: dict, keywords: list[str]) -> bool:
+    if hit.get("free") is False:
+        return False
+    text = " ".join(str(hit.get(key) or "") for key in ("title", "summary"))
+    if text.strip() and title_ignored(text, keywords):
+        return False
+    installs = hit.get("minInstalls")
+    if not isinstance(installs, int):
+        raw = hit.get("installs")
+        installs = parse_installs(raw) if raw else None
+    if installs is not None and not in_install_band(installs):
+        return False
+    if (hit.get("genreId") or hit.get("genre")) and not is_puzzle(hit):
+        return False
+    return True
+
+
+def _scan_source(play, name, partials, catalog, seeds, publishers, chart_ids, keywords) -> dict:
+    play.app_calls = 0
+    play.app_limit = SOURCE_OPEN
+    passed, scanned, opened, handled = shortlist(
+        play,
+        partials,
+        catalog,
+        seeds,
+        publishers,
+        chart_ids,
+        keywords,
+        limit=PASS_LIMIT,
+        label=name,
+        candidates=len(partials),
+    )
+    return {
+        "name": name,
+        "passed": passed,
+        "scanned": scanned,
+        "opened": opened,
+        "handled": handled,
+    }
+
+
 def _cluster_command(terms: list[str]) -> list[str] | None:
-    args = ["-max", "300", "-throttle", "400ms", *terms]
+    del terms
+    args = ["-throttle", "400ms"]
     if CLUSTER_BIN.exists():
         return [str(CLUSTER_BIN), *args]
     if (CLUSTER_DIR / "main.go").exists():

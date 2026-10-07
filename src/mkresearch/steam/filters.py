@@ -4,7 +4,7 @@ import re
 
 from mkresearch.filters import title_ignored
 
-TEXT_KEYWORDS = ["sexy", "nsfw", "jigsaw", "hentai"]
+TEXT_KEYWORDS = ["sexy", "nsfw", "jigsaw", "hentai", "hidden", "cat", "find object"]
 LEVEL_KEYWORDS = ["endless", "open world", "sandbox"]
 
 REVIEW_MIN = 11

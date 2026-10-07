@@ -96,7 +96,7 @@ def test_ignore_keywords_match_block_and_phrases_but_not_reptile():
     assert hard_reject(_app(title="Block Puzzle"), NAMES, set(), keywords) == "keyword"
     names = Store(ROOT / "data").load_ignore_keywords()
     assert names[:5] == ["block", "arrow", "match 3", "tile", "screw"]
-    assert {"sexy", "nsfw", "jigsaw"} <= set(names)
+    assert {"sexy", "nsfw", "jigsaw", "hidden", "cat", "find object"} <= set(names)
     assert strip_ignored("physics block placement puzzle levels", keywords) == "physics placement puzzle levels"
     assert strip_ignored("Match-3 Garden", keywords) == "Garden"
     assert strip_ignored("Reptile", keywords) == "Reptile"

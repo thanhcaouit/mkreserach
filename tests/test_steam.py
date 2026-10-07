@@ -45,6 +45,9 @@ IGNORED_TAGS = [
     "Open World",
     "Sandbox",
     "Walking Simulator",
+    "hidden",
+    "cat",
+    "find object",
 ]
 
 
@@ -245,6 +248,9 @@ def test_adult_words_in_the_title_or_blurb_are_rejected():
     assert hard_reject(_app(title="Furry SexyTails"), [], set()) == "keyword"
     assert hard_reject(_app(description="A simple jigsaw puzzle on a train."), [], set()) == "keyword"
     assert hard_reject(_app(title="Hentai Puzzle"), [], set()) == "keyword"
+    assert hard_reject(_app(title="Hidden Cats"), [], set()) == "keyword"
+    assert hard_reject(_app(title="Find Object Quest"), [], set()) == "keyword"
+    assert hard_reject(_app(title="Catch the Light"), [], set()) is None
     assert hard_reject(_app(title="Sweet Train", description="Girls on a train."), [], set()) is None
 
 

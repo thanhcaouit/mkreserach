@@ -509,6 +509,8 @@ def shortlist(
     chart_ids: set[str],
     keywords: list[str] | None = None,
     limit: int = 12,
+    label: str | None = None,
+    candidates: int | None = None,
 ) -> tuple[list[dict], int, list[str], list[str]]:
     passed: list[dict] = []
     scanned = 0
@@ -564,7 +566,12 @@ def shortlist(
         passed.append(detail)
         if len(passed) >= limit:
             break
-    print(f"bỏ qua: {skipped}")
+    if label:
+        shown = len(partials) if candidates is None else candidates
+        print(f"{label}: ứng viên {shown}, đã lấy chi tiết {scanned}, qua lọc {len(passed)}")
+        print(f"{label} bỏ qua: {skipped}")
+    else:
+        print(f"bỏ qua: {skipped}")
     return passed, scanned, opened, handled
 
 
