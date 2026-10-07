@@ -1,0 +1,28 @@
+{
+  "apps": {
+    "com.rawrmaan.falcross": {
+      "app_id": "com.rawrmaan.falcross",
+      "title": "Falcross Infinite Nonograms",
+      "title_norm": "falcross infinite nonograms",
+      "developer": "Arman Dezfuli-Arjomandi",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.721854,
+      "url": "https://play.google.com/store/apps/details?id=com.rawrmaan.falcross&hl=en",
+      "message_id": 1330,
+      "suggested_at": "2026-10-07T11:17:13.734401+00:00"
+    },
+    "com.dragold.tangram": {
+      "app_id": "com.dragold.tangram",
+      "title": "Tangram extend online for kids",
+      "title_norm": "tangram extend online for kids",
+      "developer": "DRAGOLD JSC",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dragold.tangram&hl=en",
+      "message_id": 1331,
+      "suggested_at": "2026-10-07T11:17:15.400559+00:00"
+    }
+  }
+}
