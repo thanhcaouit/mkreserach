@@ -2707,6 +2707,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.duige.hzw.multilingual": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.socialquantum.acityint": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tapps.virtual.pet.hotel.games.world": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
