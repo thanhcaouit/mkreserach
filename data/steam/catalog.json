@@ -6989,6 +6989,16 @@
       "url": "https://store.steampowered.com/app/1183500",
       "message_id": 1306,
       "suggested_at": "2026-10-07T04:01:54.060561+00:00"
+    },
+    "1667360": {
+      "app_id": "1667360",
+      "title": "SANYA",
+      "title_norm": "sanya",
+      "developer": "helpnode",
+      "reviews": 167,
+      "url": "https://store.steampowered.com/app/1667360",
+      "message_id": 1308,
+      "suggested_at": "2026-10-07T05:01:28.135696+00:00"
     }
   }
 }
