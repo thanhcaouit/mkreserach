@@ -6909,6 +6909,26 @@
       "url": "https://store.steampowered.com/app/3043740",
       "message_id": 1293,
       "suggested_at": "2026-10-06T23:01:43.820356+00:00"
+    },
+    "15970": {
+      "app_id": "15970",
+      "title": "Luxor",
+      "title_norm": "luxor",
+      "developer": "MumboJumbo",
+      "reviews": 134,
+      "url": "https://store.steampowered.com/app/15970",
+      "message_id": 1295,
+      "suggested_at": "2026-10-07T00:01:18.585479+00:00"
+    },
+    "361020": {
+      "app_id": "361020",
+      "title": "Luxor HD",
+      "title_norm": "luxor hd",
+      "developer": "MumboJumbo",
+      "reviews": 106,
+      "url": "https://store.steampowered.com/app/361020",
+      "message_id": 1296,
+      "suggested_at": "2026-10-07T00:01:21.008352+00:00"
     }
   }
 }
