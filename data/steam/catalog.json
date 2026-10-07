@@ -7049,6 +7049,16 @@
       "url": "https://store.steampowered.com/app/457680",
       "message_id": 1316,
       "suggested_at": "2026-10-07T08:02:15.112450+00:00"
+    },
+    "742250": {
+      "app_id": "742250",
+      "title": "OPUS: Rocket of Whispers",
+      "title_norm": "opus rocket of whispers",
+      "developer": "SIGONO INC.",
+      "reviews": 1432,
+      "url": "https://store.steampowered.com/app/742250",
+      "message_id": 1318,
+      "suggested_at": "2026-10-07T10:01:26.233294+00:00"
     }
   }
 }
