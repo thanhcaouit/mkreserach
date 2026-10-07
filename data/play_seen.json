@@ -2405,6 +2405,12 @@
     },
     "com.ybs.drawLinesPuzzle": {
       "seen": "2026-10-07"
+    },
+    "com.tinygame.drawphysicsline": {
+      "seen": "2026-10-07"
+    },
+    "com.nixstudios.drawalinearound": {
+      "seen": "2026-10-07"
     }
   }
 }
