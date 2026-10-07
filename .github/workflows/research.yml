@@ -85,6 +85,7 @@ jobs:
       - name: Install
         run: pip install -r requirements.txt
       - name: Run
+        id: play
         env:
           PYTHONPATH: src
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -95,13 +96,51 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m mkresearch.main ${{ github.event.inputs.mode || 'research' }}
       - name: Commit data
-        if: success() && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke')
+        if: steps.play.outcome == 'success' && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke')
         run: |
           git add data
           if git diff --cached --quiet; then
             echo "Không có thay đổi data"
           else
             git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update research data"
+            git push
+          fi
+      - uses: actions/setup-node@v4
+        if: steps.play.outcome == 'success' && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke')
+        continue-on-error: true
+        with:
+          node-version: "22"
+      - uses: actions/setup-go@v5
+        if: steps.play.outcome == 'success' && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke')
+        continue-on-error: true
+        with:
+          go-version: "1.25"
+      - name: Install extra search
+        if: steps.play.outcome == 'success' && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke')
+        continue-on-error: true
+        run: npm install --prefix tools/play_extra/search
+      - name: Build puzzle clusters
+        if: steps.play.outcome == 'success' && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke')
+        continue-on-error: true
+        working-directory: tools/play_extra/category
+        run: go build -o category .
+      - name: Run extra search
+        id: extra
+        if: steps.play.outcome == 'success' && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode != 'smoke')
+        continue-on-error: true
+        env:
+          PYTHONPATH: src
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m mkresearch.play_extra
+      - name: Commit extra data
+        if: steps.extra.outcome == 'success'
+        run: |
+          git add data/play_extra
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi data/play_extra"
+          else
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update play extra data"
             git push
           fi
 

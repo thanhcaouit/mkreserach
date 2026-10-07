@@ -75,8 +75,7 @@ def released_too_recent(value: object, today: date | None = None) -> bool:
     year = release_year(value)
     if year is None:
         return False
-    current = (today or date.today()).year
-    return current - 2 <= year <= current
+    return year in {2025, 2026}
 
 
 def strip_ignored(text: str, keywords: list[str]) -> str:

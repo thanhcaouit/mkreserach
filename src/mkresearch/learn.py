@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 from mkresearch.discover import normalize_query
+from mkresearch.filters import strip_ignored
 from mkresearch.llm import LlmClient, parse_json_object
 
 
@@ -97,17 +98,31 @@ def build_refresh_prompt(seeds: list[dict], profile: dict, exhausted: list[str],
     )
 
 
+def query_is_exhausted(text: str, exhausted: set[str], keywords: list[str] | None = None) -> bool:
+    raw = normalize_query(text)
+    if not raw:
+        return True
+    if raw in exhausted:
+        return True
+    if not keywords:
+        return False
+    stripped = normalize_query(strip_ignored(text, keywords))
+    return not stripped or stripped in exhausted
+
+
 def refresh_queries(
     llm: LlmClient,
     seeds: list[dict],
     profile: dict,
     exhausted: list[str] | None = None,
     store_name: str = "Play",
+    keywords: list[str] | None = None,
 ) -> dict:
     dead_list = [str(item) for item in (exhausted or []) if str(item).strip()]
     dead = {normalize_query(item) for item in dead_list}
+    keyword_list = list(keywords or [])
     current = [str(item).strip() for item in (profile.get("search_queries") or []) if str(item).strip()]
-    if any(normalize_query(item) not in dead for item in current):
+    if any(not query_is_exhausted(item, dead, keyword_list) for item in current):
         return profile
     print(f"Hồ sơ {store_name} hết câu tìm, viết câu mới.")
     raw = llm.complete(build_refresh_prompt(seeds, profile, dead_list, store_name))
@@ -115,7 +130,7 @@ def refresh_queries(
     queries = [
         item
         for item in _string_list(payload.get("search_queries"))
-        if normalize_query(item) not in dead
+        if not query_is_exhausted(item, dead, keyword_list)
     ][:6]
     if not queries:
         return profile

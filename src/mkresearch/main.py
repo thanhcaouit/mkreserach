@@ -117,7 +117,13 @@ def run_research(store: Store, play: PlayStore, llm: LlmClient, telegram: Telegr
             print(f"Giữ hồ sơ cũ vì không cập nhật được: {exc}")
             profile = store.load_profile()
     try:
-        refreshed = refresh_queries(llm, seeds, profile, _exhausted_queries(store))
+        refreshed = refresh_queries(
+            llm,
+            seeds,
+            profile,
+            _exhausted_queries(store),
+            keywords=store.load_ignore_keywords(),
+        )
     except LimitReached:
         raise
     except Exception as exc:

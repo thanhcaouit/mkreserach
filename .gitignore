@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 .env
 .env.local
+node_modules/
+tools/play_extra/category/category

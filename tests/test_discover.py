@@ -491,6 +491,21 @@ def test_refresh_writes_queries_when_profile_is_exhausted():
     assert steam["search_queries"] == ["fresh maze puzzle"]
 
 
+def test_refresh_treats_a_stripped_profile_query_as_exhausted():
+    llm = _RecordingLlm('{"search_queries":["fresh maze puzzle","physics placement puzzle levels"]}')
+    profile = {"search_queries": ["physics block placement puzzle levels"], "liked_mechanics": ["tilt"]}
+    updated = refresh_queries(
+        llm,
+        [],
+        profile,
+        ["physics placement puzzle levels"],
+        keywords=["block"],
+    )
+    assert llm.calls == 1
+    assert updated["search_queries"] == ["fresh maze puzzle"]
+    assert updated["liked_mechanics"] == ["tilt"]
+
+
 def test_refresh_skips_when_a_query_is_still_alive():
     llm = _RecordingLlm('{"search_queries":["should not"]}')
     profile = {"search_queries": ["alive puzzle"], "liked_mechanics": ["tilt"]}

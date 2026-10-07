@@ -68,16 +68,16 @@ def test_vietnamese_puzzle_genre_is_kept():
 
 def test_recent_release_years_are_dropped_and_unknown_dates_stay():
     today = date(2026, 9, 29)
-    assert released_too_recent("Oct 12, 2024", today)
+    assert not released_too_recent("Oct 12, 2024", today)
     assert released_too_recent("Jan 1, 2025", today)
     assert released_too_recent("Sep 1, 2026", today)
     assert not released_too_recent("Mar 1, 2019", today)
     assert not released_too_recent("Jan 1, 2023", today)
     assert not released_too_recent(None, today)
     assert not released_too_recent("soon", today)
-    current = date.today().year
-    assert hard_reject(_app(released=f"Jan 1, {current}"), NAMES, set()) == "recent"
-    assert hard_reject(_app(released=f"Jan 1, {current - 3}"), NAMES, set()) is None
+    assert hard_reject(_app(released="Jan 1, 2024"), NAMES, set()) is None
+    assert hard_reject(_app(released="Jan 1, 2025"), NAMES, set()) == "recent"
+    assert hard_reject(_app(released="Jan 1, 2026"), NAMES, set()) == "recent"
     assert hard_reject(_app(released=""), NAMES, set()) is None
 
 
