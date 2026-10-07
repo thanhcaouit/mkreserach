@@ -7019,6 +7019,26 @@
       "url": "https://store.steampowered.com/app/266230",
       "message_id": 1311,
       "suggested_at": "2026-10-07T06:02:09.609764+00:00"
+    },
+    "530390": {
+      "app_id": "530390",
+      "title": "Slayaway Camp",
+      "title_norm": "slayaway camp",
+      "developer": "Blue Wizard Digital",
+      "reviews": 716,
+      "url": "https://store.steampowered.com/app/530390",
+      "message_id": 1313,
+      "suggested_at": "2026-10-07T07:02:00.178077+00:00"
+    },
+    "2101390": {
+      "app_id": "2101390",
+      "title": "Lost and Found Co.",
+      "title_norm": "lost and found co",
+      "developer": "Bit Egg Inc.",
+      "reviews": 2822,
+      "url": "https://store.steampowered.com/app/2101390",
+      "message_id": 1314,
+      "suggested_at": "2026-10-07T07:02:02.224163+00:00"
     }
   }
 }
