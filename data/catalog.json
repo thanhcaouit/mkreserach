@@ -5949,6 +5949,20 @@
       "suggested_at": "2026-10-04T11:00:59.693095+00:00",
       "mechanic_vi": "Đi qua mê cung 3D, tìm lối ra trong mỗi môi trường.",
       "why_vi": "Có nhiều môi trường và 170 mê cung, mỗi mê cung là một level với luật duy nhất: di chuyển tới lối ra."
+    },
+    "com.conceptispuzzles.tictaclogic": {
+      "app_id": "com.conceptispuzzles.tictaclogic",
+      "title": "Tic-Tac-Logic: X or O?",
+      "title_norm": "tic tac logic x or o",
+      "developer": "Conceptis Ltd.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.722772,
+      "url": "https://play.google.com/store/apps/details?id=com.conceptispuzzles.tictaclogic&hl=en",
+      "message_id": 1329,
+      "suggested_at": "2026-10-07T11:15:29.312828+00:00",
+      "mechanic_vi": "đóng khối ô, ngăn chuỗi ba X hoặc O liên tiếp và cân bằng số X/O trong mỗi hàng, cột",
+      "why_vi": "Mỗi màn chỉ có một quy tắc duy nhất, yêu cầu người chơi suy luận để điền ký tự sao cho không có ba ký tự giống nhau liên tiếp và số X, O bằng nhau."
     }
   }
 }
