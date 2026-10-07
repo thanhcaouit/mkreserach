@@ -6929,6 +6929,16 @@
       "url": "https://store.steampowered.com/app/361020",
       "message_id": 1296,
       "suggested_at": "2026-10-07T00:01:21.008352+00:00"
+    },
+    "282880": {
+      "app_id": "282880",
+      "title": "FaeVerse Alchemy",
+      "title_norm": "faeverse alchemy",
+      "developer": "Subsoap",
+      "reviews": 110,
+      "url": "https://store.steampowered.com/app/282880",
+      "message_id": 1298,
+      "suggested_at": "2026-10-07T01:01:51.333712+00:00"
     }
   }
 }
