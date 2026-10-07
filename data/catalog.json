@@ -6033,6 +6033,20 @@
       "suggested_at": "2026-10-07T21:01:11.354472+00:00",
       "mechanic_vi": "Dẫn nhân vật bằng việc vẽ đường thẳng để tới mục tiêu.",
       "why_vi": "Mỗi màn có một luật duy nhất – vẽ một đường thẳng hợp lý – và người chơi phải hướng dẫn nhân vật qua các chướng ngại vật, phù hợp với sở thích hướng dẫn đơn vị tới đích."
+    },
+    "bbgames.tictactoe.caro": {
+      "app_id": "bbgames.tictactoe.caro",
+      "title": "2 Player Games: Tic Tac Toe",
+      "title_norm": "2 player games tic tac toe",
+      "developer": "BiBoGames",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=bbgames.tictactoe.caro&hl=en",
+      "message_id": 1374,
+      "suggested_at": "2026-10-07T23:01:00.283536+00:00",
+      "mechanic_vi": "Tic Tac Toe 2 Player: XO Game is a classic puzzle game, also known as XO or Noughts and Crosses. If you are an adult, you will get your favorite old memories of Tic Tac Toe. Anyone can play online or offline. Features: -",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }

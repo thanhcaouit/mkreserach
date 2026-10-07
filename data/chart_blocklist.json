@@ -2753,6 +2753,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.tinytouchtales.guncho": {
+      "first_seen": "2026-10-07",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
