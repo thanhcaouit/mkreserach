@@ -7089,6 +7089,56 @@
       "url": "https://store.steampowered.com/app/65500",
       "message_id": 1322,
       "suggested_at": "2026-10-07T10:49:26.684719+00:00"
+    },
+    "215160": {
+      "app_id": "215160",
+      "title": "The Book of Unwritten Tales",
+      "title_norm": "the book of unwritten tales",
+      "developer": "KING Art",
+      "reviews": 1581,
+      "url": "https://store.steampowered.com/app/215160",
+      "message_id": 1324,
+      "suggested_at": "2026-10-07T10:56:14.240690+00:00"
+    },
+    "3355100": {
+      "app_id": "3355100",
+      "title": "A Planet Full of Cats",
+      "title_norm": "a planet full of cats",
+      "developer": "Devcats",
+      "reviews": 601,
+      "url": "https://store.steampowered.com/app/3355100",
+      "message_id": 1325,
+      "suggested_at": "2026-10-07T10:56:15.993946+00:00"
+    },
+    "1969080": {
+      "app_id": "1969080",
+      "title": "A Building Full of Cats",
+      "title_norm": "a building full of cats",
+      "developer": "Devcats",
+      "reviews": 4140,
+      "url": "https://store.steampowered.com/app/1969080",
+      "message_id": 1326,
+      "suggested_at": "2026-10-07T10:56:17.108197+00:00"
+    },
+    "3087650": {
+      "app_id": "3087650",
+      "title": "A Shelter Full of Cats",
+      "title_norm": "a shelter full of cats",
+      "developer": "Devcats",
+      "reviews": 1160,
+      "url": "https://store.steampowered.com/app/3087650",
+      "message_id": 1327,
+      "suggested_at": "2026-10-07T10:56:18.183895+00:00"
+    },
+    "2810730": {
+      "app_id": "2810730",
+      "title": "A Building Full of Cats 2",
+      "title_norm": "a building full of cats 2",
+      "developer": "Devcats",
+      "reviews": 1160,
+      "url": "https://store.steampowered.com/app/2810730",
+      "message_id": 1328,
+      "suggested_at": "2026-10-07T10:56:19.400201+00:00"
     }
   }
 }
