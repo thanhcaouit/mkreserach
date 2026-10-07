@@ -7039,6 +7039,16 @@
       "url": "https://store.steampowered.com/app/2101390",
       "message_id": 1314,
       "suggested_at": "2026-10-07T07:02:02.224163+00:00"
+    },
+    "457680": {
+      "app_id": "457680",
+      "title": "OPUS: The Day We Found Earth",
+      "title_norm": "opus the day we found earth",
+      "developer": "SIGONO INC.",
+      "reviews": 1410,
+      "url": "https://store.steampowered.com/app/457680",
+      "message_id": 1316,
+      "suggested_at": "2026-10-07T08:02:15.112450+00:00"
     }
   }
 }
