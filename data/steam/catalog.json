@@ -6949,6 +6949,36 @@
       "url": "https://store.steampowered.com/app/351490",
       "message_id": 1300,
       "suggested_at": "2026-10-07T02:01:27.319826+00:00"
+    },
+    "40420": {
+      "app_id": "40420",
+      "title": "Tidalis",
+      "title_norm": "tidalis",
+      "developer": "Arcen Games",
+      "reviews": 104,
+      "url": "https://store.steampowered.com/app/40420",
+      "message_id": 1302,
+      "suggested_at": "2026-10-07T03:01:47.082932+00:00"
+    },
+    "1706090": {
+      "app_id": "1706090",
+      "title": "Bean and Nothingness",
+      "title_norm": "bean and nothingness",
+      "developer": "RBOR Games",
+      "reviews": 215,
+      "url": "https://store.steampowered.com/app/1706090",
+      "message_id": 1303,
+      "suggested_at": "2026-10-07T03:01:48.732881+00:00"
+    },
+    "415400": {
+      "app_id": "415400",
+      "title": "Cross Set",
+      "title_norm": "cross set",
+      "developer": "Cuveet Story",
+      "reviews": 132,
+      "url": "https://store.steampowered.com/app/415400",
+      "message_id": 1304,
+      "suggested_at": "2026-10-07T03:01:49.692895+00:00"
     }
   }
 }
