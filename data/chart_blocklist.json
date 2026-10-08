@@ -2971,6 +2971,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.inspiredsquare.jupiter": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.play.merge.restyle": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.gamedots.seasideescape": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
     }
   }
 }
