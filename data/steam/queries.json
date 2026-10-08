@@ -131,7 +131,10 @@
     "level‑by‑level unique rule puzzle",
     "single rule per stage indie studio",
     "tiny dev per‑stage unique rule puzzle",
-    "indie puzzle each level fresh mechanic"
+    "indie puzzle each level fresh mechanic",
+    "one distinct mechanic per level indie",
+    "level‑by‑level distinct rule puzzle indie",
+    "single constraint per level indie game"
   ],
   "pending": []
 }

@@ -7269,6 +7269,46 @@
       "url": "https://store.steampowered.com/app/666870",
       "message_id": 1440,
       "suggested_at": "2026-10-08T14:03:08.965341+00:00"
+    },
+    "1990260": {
+      "app_id": "1990260",
+      "title": "Phantom Tentacle",
+      "title_norm": "phantom tentacle",
+      "developer": "LSP GAME",
+      "reviews": 650,
+      "url": "https://store.steampowered.com/app/1990260",
+      "message_id": 1444,
+      "suggested_at": "2026-10-08T15:03:04.702364+00:00"
+    },
+    "1003890": {
+      "app_id": "1003890",
+      "title": "Blacksad: Under the Skin",
+      "title_norm": "blacksad under the skin",
+      "developer": "Pendulo Studios",
+      "reviews": 5377,
+      "url": "https://store.steampowered.com/app/1003890",
+      "message_id": 1445,
+      "suggested_at": "2026-10-08T15:03:06.427628+00:00"
+    },
+    "1548750": {
+      "app_id": "1548750",
+      "title": "Dahlia View",
+      "title_norm": "dahlia view",
+      "developer": "White Paper Games",
+      "reviews": 282,
+      "url": "https://store.steampowered.com/app/1548750",
+      "message_id": 1446,
+      "suggested_at": "2026-10-08T15:03:08.199596+00:00"
+    },
+    "3057670": {
+      "app_id": "3057670",
+      "title": "Pluto",
+      "title_norm": "pluto",
+      "developer": "Siege Wizard Interactive",
+      "reviews": 515,
+      "url": "https://store.steampowered.com/app/3057670",
+      "message_id": 1447,
+      "suggested_at": "2026-10-08T15:03:09.590094+00:00"
     }
   }
 }
