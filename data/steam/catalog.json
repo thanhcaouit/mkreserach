@@ -7239,6 +7239,26 @@
       "url": "https://store.steampowered.com/app/773670",
       "message_id": 1426,
       "suggested_at": "2026-10-08T11:01:58.032158+00:00"
+    },
+    "611790": {
+      "app_id": "611790",
+      "title": "House Party",
+      "title_norm": "house party",
+      "developer": "Eek! Games, LLC",
+      "reviews": 13981,
+      "url": "https://store.steampowered.com/app/611790",
+      "message_id": 1430,
+      "suggested_at": "2026-10-08T12:02:56.288587+00:00"
+    },
+    "1109570": {
+      "app_id": "1109570",
+      "title": "Word Game",
+      "title_norm": "word game",
+      "developer": "Team9",
+      "reviews": 5944,
+      "url": "https://store.steampowered.com/app/1109570",
+      "message_id": 1431,
+      "suggested_at": "2026-10-08T12:02:57.556885+00:00"
     }
   }
 }
