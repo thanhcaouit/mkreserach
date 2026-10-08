@@ -119,6 +119,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.knot.unravel.rope&hl=en",
       "message_id": 1443,
       "suggested_at": "2026-10-08T15:02:01.873289+00:00"
+    },
+    "com.statlex.tangram": {
+      "app_id": "com.statlex.tangram",
+      "title": "1001 Tangram puzzles game",
+      "title_norm": "1001 tangram puzzles game",
+      "developer": "DimTurov",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.089109,
+      "url": "https://play.google.com/store/apps/details?id=com.statlex.tangram&hl=en",
+      "message_id": 1465,
+      "suggested_at": "2026-10-08T20:02:07.454800+00:00"
     }
   }
 }
