@@ -83,6 +83,30 @@
       "url": "https://play.google.com/store/apps/details?id=com.pixel_with_hat.senalux&hl=en",
       "message_id": 1354,
       "suggested_at": "2026-10-07T18:02:00.090305+00:00"
+    },
+    "air.MusterenGames.MindGames": {
+      "app_id": "air.MusterenGames.MindGames",
+      "title": "Mind Games & Frog Jump & Cross",
+      "title_norm": "mind games frog jump cross",
+      "developer": "Musteren",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=air.MusterenGames.MindGames&hl=en",
+      "message_id": 1434,
+      "suggested_at": "2026-10-08T13:02:04.402985+00:00"
+    },
+    "com.logisk.chroma": {
+      "app_id": "com.logisk.chroma",
+      "title": "Colorma : Color Sorting Puzzle",
+      "title_norm": "colorma color sorting puzzle",
+      "developer": "Logisk Studio",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.737864,
+      "url": "https://play.google.com/store/apps/details?id=com.logisk.chroma&hl=en",
+      "message_id": 1435,
+      "suggested_at": "2026-10-08T13:02:05.431295+00:00"
     }
   }
 }
