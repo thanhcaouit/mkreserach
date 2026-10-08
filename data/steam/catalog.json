@@ -7349,6 +7349,16 @@
       "url": "https://store.steampowered.com/app/757300",
       "message_id": 1477,
       "suggested_at": "2026-10-08T22:03:07.866315+00:00"
+    },
+    "1145410": {
+      "app_id": "1145410",
+      "title": "Knight Swap",
+      "title_norm": "knight swap",
+      "developer": "Minimol Games",
+      "reviews": 125,
+      "url": "https://store.steampowered.com/app/1145410",
+      "message_id": 1481,
+      "suggested_at": "2026-10-08T23:02:18.710847+00:00"
     }
   }
 }
