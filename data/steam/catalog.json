@@ -7219,6 +7219,16 @@
       "url": "https://store.steampowered.com/app/557600",
       "message_id": 1408,
       "suggested_at": "2026-10-08T06:02:44.047317+00:00"
+    },
+    "57200": {
+      "app_id": "57200",
+      "title": "Puzzle Dimension",
+      "title_norm": "puzzle dimension",
+      "developer": "Doctor Entertainment AB",
+      "reviews": 448,
+      "url": "https://store.steampowered.com/app/57200",
+      "message_id": 1416,
+      "suggested_at": "2026-10-08T08:02:37.410276+00:00"
     }
   }
 }
