@@ -6075,6 +6075,20 @@
       "suggested_at": "2026-10-08T00:02:00.000475+00:00",
       "mechanic_vi": "Di chuyển đĩa giữa các cọc theo quy tắc không được đặt đĩa lớn lên đĩa nhỏ.",
       "why_vi": "Mỗi cấp độ chỉ có một quy tắc duy nhất, yêu cầu người chơi cô lập và sắp xếp đúng thứ tự."
+    },
+    "com.SuperAwesome.HH": {
+      "app_id": "com.SuperAwesome.HH",
+      "title": "Hamster Town the Puzzle",
+      "title_norm": "hamster town the puzzle",
+      "developer": "Super Awesome Inc.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.266667,
+      "url": "https://play.google.com/store/apps/details?id=com.SuperAwesome.HH&hl=en",
+      "message_id": 1401,
+      "suggested_at": "2026-10-08T05:01:07.614261+00:00",
+      "mechanic_vi": "You've moved to dreamy Hamster Town! Help the cute hamsters decorate Hamster Town. Enjoy your exciting life in Hamster Town. Welcome to Hamster Town! Decorate Hamster Town as you enjoy various episodes with your cute ham",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
