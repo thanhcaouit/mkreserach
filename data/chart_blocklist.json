@@ -2807,6 +2807,48 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.snake.escape.maze.slither.puzzle": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.upjers.zoo2animalpark": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.wildcaly.chbaseball.global": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.riotgames.league.wildrift": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.zigzagame.evertale": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.edkongames.tops": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.abi.dream.unpacking": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
