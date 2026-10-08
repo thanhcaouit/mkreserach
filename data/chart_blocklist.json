@@ -2953,6 +2953,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.aspyr.swkotor": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.aspyr.swkotorii": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.easybrain.jigsaw.puzzles": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
