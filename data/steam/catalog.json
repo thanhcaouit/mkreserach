@@ -7259,6 +7259,16 @@
       "url": "https://store.steampowered.com/app/1109570",
       "message_id": 1431,
       "suggested_at": "2026-10-08T12:02:57.556885+00:00"
+    },
+    "666870": {
+      "app_id": "666870",
+      "title": "Perfect Crime",
+      "title_norm": "perfect crime",
+      "developer": "Skeleton",
+      "reviews": 373,
+      "url": "https://store.steampowered.com/app/666870",
+      "message_id": 1440,
+      "suggested_at": "2026-10-08T14:03:08.965341+00:00"
     }
   }
 }
