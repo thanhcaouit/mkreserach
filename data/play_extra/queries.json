@@ -56,7 +56,13 @@
     "level based containment challenge small dev",
     "level based containment puzzle indie developer",
     "tilt board isolation challenge indie game",
-    "minimalist mechanic puzzle levels indie"
+    "minimalist mechanic puzzle levels indie",
+    "progressive isolation challenge mobile game"
   ],
-  "pending": []
+  "pending": [
+    "jump puzzle",
+    "screw jump puzzle",
+    "frog jump puzzle",
+    "color puzzle jump"
+  ]
 }
