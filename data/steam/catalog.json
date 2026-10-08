@@ -7309,6 +7309,16 @@
       "url": "https://store.steampowered.com/app/3057670",
       "message_id": 1447,
       "suggested_at": "2026-10-08T15:03:09.590094+00:00"
+    },
+    "3161400": {
+      "app_id": "3161400",
+      "title": "Infinity Sweeper",
+      "title_norm": "infinity sweeper",
+      "developer": "Longshot Studio",
+      "reviews": 258,
+      "url": "https://store.steampowered.com/app/3161400",
+      "message_id": 1451,
+      "suggested_at": "2026-10-08T15:53:55.928042+00:00"
     }
   }
 }
