@@ -7169,6 +7169,16 @@
       "url": "https://store.steampowered.com/app/2224640",
       "message_id": 1356,
       "suggested_at": "2026-10-07T18:02:57.471549+00:00"
+    },
+    "1471960": {
+      "app_id": "1471960",
+      "title": "Room to Grow",
+      "title_norm": "room to grow",
+      "developer": "Mischka Kamener",
+      "reviews": 194,
+      "url": "https://store.steampowered.com/app/1471960",
+      "message_id": 1386,
+      "suggested_at": "2026-10-08T01:02:47.263849+00:00"
     }
   }
 }
