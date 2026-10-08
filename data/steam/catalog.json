@@ -7319,6 +7319,36 @@
       "url": "https://store.steampowered.com/app/3161400",
       "message_id": 1451,
       "suggested_at": "2026-10-08T15:53:55.928042+00:00"
+    },
+    "2071430": {
+      "app_id": "2071430",
+      "title": "Roots of Yggdrasil",
+      "title_norm": "roots of yggdrasil",
+      "developer": "ManaVoid Entertainment",
+      "reviews": 300,
+      "url": "https://store.steampowered.com/app/2071430",
+      "message_id": 1475,
+      "suggested_at": "2026-10-08T22:03:05.878906+00:00"
+    },
+    "248650": {
+      "app_id": "248650",
+      "title": "Draw a Stickman: EPIC",
+      "title_norm": "draw a stickman epic",
+      "developer": "Hitcents",
+      "reviews": 919,
+      "url": "https://store.steampowered.com/app/248650",
+      "message_id": 1476,
+      "suggested_at": "2026-10-08T22:03:07.091305+00:00"
+    },
+    "757300": {
+      "app_id": "757300",
+      "title": "Truberbrook / Trüberbrook",
+      "title_norm": "truberbrook trüberbrook",
+      "developer": "btf",
+      "reviews": 1477,
+      "url": "https://store.steampowered.com/app/757300",
+      "message_id": 1477,
+      "suggested_at": "2026-10-08T22:03:07.866315+00:00"
     }
   }
 }
