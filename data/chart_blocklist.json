@@ -2801,6 +2801,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.superplaystudios.disneysolitairedreams": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }

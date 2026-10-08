@@ -13,11 +13,11 @@
     "endless one-tap"
   ],
   "search_queries": [
-    "indie puzzle game with one rule per stage",
-    "level based isolation puzzle indie developer",
-    "progressive difficulty block placement puzzle",
-    "tilt physics puzzle levels indie studio",
-    "single mechanic containment puzzle series"
+    "indie puzzle game with progressive levels and single rule",
+    "isolated area containment puzzle indie studio",
+    "tilt board physics puzzle levels indie developer",
+    "guide creatures to target puzzle levels indie",
+    "stepwise difficulty puzzle with one mechanic"
   ],
   "anchor_app_ids": [
     "jp.danball.crossvirus",
@@ -27,6 +27,6 @@
     "com.IcedropGames.LOK",
     "balance.art.puzzle"
   ],
-  "updated_at": "2026-10-08T02:00:45.464001+00:00",
+  "updated_at": "2026-10-08T03:00:46.993159+00:00",
   "notes": "Added express.spooky (score 5) and balance.art.puzzle (score 5) to liked games. Continue prioritizing puzzles with clear, single‑rule levels, level progression, and mechanics such as enclosure, unit guidance, or tilt‑gravity from small indie studios. Avoid match‑3, screw, sort, idle, and endless one‑tap formats."
 }
