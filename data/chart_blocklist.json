@@ -2856,6 +2856,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "ata.kraken.singlecity": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.taiyouxi.jwsus": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
