@@ -2886,6 +2886,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.nvsgames.snap": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "fall.stars.race": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ea.gp.bejeweledskies": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.supersolid.snake": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
