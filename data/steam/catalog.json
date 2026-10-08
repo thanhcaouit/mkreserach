@@ -7229,6 +7229,16 @@
       "url": "https://store.steampowered.com/app/57200",
       "message_id": 1416,
       "suggested_at": "2026-10-08T08:02:37.410276+00:00"
+    },
+    "773670": {
+      "app_id": "773670",
+      "title": "Delete",
+      "title_norm": "delete",
+      "developer": "PONY",
+      "reviews": 1599,
+      "url": "https://store.steampowered.com/app/773670",
+      "message_id": 1426,
+      "suggested_at": "2026-10-08T11:01:58.032158+00:00"
     }
   }
 }
