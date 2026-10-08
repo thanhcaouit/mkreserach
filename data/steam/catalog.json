@@ -7179,6 +7179,36 @@
       "url": "https://store.steampowered.com/app/1471960",
       "message_id": 1386,
       "suggested_at": "2026-10-08T01:02:47.263849+00:00"
+    },
+    "3629400": {
+      "app_id": "3629400",
+      "title": "Loophole",
+      "title_norm": "loophole",
+      "developer": "Levi Pinkert",
+      "reviews": 158,
+      "url": "https://store.steampowered.com/app/3629400",
+      "message_id": 1394,
+      "suggested_at": "2026-10-08T03:02:32.130999+00:00"
+    },
+    "209790": {
+      "app_id": "209790",
+      "title": "Splice",
+      "title_norm": "splice",
+      "developer": "Cipher Prime Studios",
+      "reviews": 181,
+      "url": "https://store.steampowered.com/app/209790",
+      "message_id": 1395,
+      "suggested_at": "2026-10-08T03:02:34.085125+00:00"
+    },
+    "552160": {
+      "app_id": "552160",
+      "title": "Hade",
+      "title_norm": "hade",
+      "developer": "KirUn",
+      "reviews": 307,
+      "url": "https://store.steampowered.com/app/552160",
+      "message_id": 1396,
+      "suggested_at": "2026-10-08T03:02:34.919000+00:00"
     }
   }
 }

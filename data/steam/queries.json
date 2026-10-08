@@ -106,7 +106,8 @@
     "tiny dev progressive rule puzzle",
     "level‑by‑level mechanic shift puzzle",
     "indie puzzle each level fresh rule",
-    "per‑stage rule evolution puzzle"
+    "per‑stage rule evolution puzzle",
+    "single constraint per stage indie puzzle"
   ],
   "pending": []
 }
