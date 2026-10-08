@@ -137,7 +137,8 @@
     "single constraint per level indie game",
     "tiny studio progressive puzzle levels",
     "indie puzzle each stage introduces new rule",
-    "level based puzzle with one mechanic indie"
+    "level based puzzle with one mechanic indie",
+    "per-stage unique constraint puzzle game"
   ],
   "pending": []
 }
