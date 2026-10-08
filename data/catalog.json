@@ -6047,6 +6047,34 @@
       "suggested_at": "2026-10-07T23:01:00.283536+00:00",
       "mechanic_vi": "Tic Tac Toe 2 Player: XO Game is a classic puzzle game, also known as XO or Noughts and Crosses. If you are an adult, you will get your favorite old memories of Tic Tac Toe. Anyone can play online or offline. Features: -",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.dpatelier.www": {
+      "app_id": "com.dpatelier.www",
+      "title": "Gravity Escape (Beta)",
+      "title_norm": "gravity escape beta",
+      "developer": "DP Atelier",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.dpatelier.www&hl=en",
+      "message_id": 1378,
+      "suggested_at": "2026-10-08T00:01:58.799409+00:00",
+      "mechanic_vi": "Sử dụng súng trọng lực để thay đổi hướng trọng lực, di chuyển và kéo các vật thể, giải quyết các mê cung từng màn.",
+      "why_vi": "Mỗi màn có một mục tiêu duy nhất và luật chơi rõ ràng, phù hợp với sở thích có một quy tắc duy nhất."
+    },
+    "com.atagan.tower_of_hanoi": {
+      "app_id": "com.atagan.tower_of_hanoi",
+      "title": "Tower of Hanoi",
+      "title_norm": "tower of hanoi",
+      "developer": "Christian Nagata",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.3522725,
+      "url": "https://play.google.com/store/apps/details?id=com.atagan.tower_of_hanoi&hl=en",
+      "message_id": 1379,
+      "suggested_at": "2026-10-08T00:02:00.000475+00:00",
+      "mechanic_vi": "Di chuyển đĩa giữa các cọc theo quy tắc không được đặt đĩa lớn lên đĩa nhỏ.",
+      "why_vi": "Mỗi cấp độ chỉ có một quy tắc duy nhất, yêu cầu người chơi cô lập và sắp xếp đúng thứ tự."
     }
   }
 }

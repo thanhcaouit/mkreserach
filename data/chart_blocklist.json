@@ -2759,6 +2759,42 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.dontdie.survival.battler": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sofish.mahjong10.gp": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.cola.game": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.miniclip.farmrush": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "tycoon.building.simulator.games.aldagames.com": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.evogames.slavsforvk": {
+      "first_seen": "2026-10-08",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
