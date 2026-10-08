@@ -7209,6 +7209,16 @@
       "url": "https://store.steampowered.com/app/552160",
       "message_id": 1396,
       "suggested_at": "2026-10-08T03:02:34.919000+00:00"
+    },
+    "557600": {
+      "app_id": "557600",
+      "title": "Gorogoa",
+      "title_norm": "gorogoa",
+      "developer": "Buried Signal",
+      "reviews": 19253,
+      "url": "https://store.steampowered.com/app/557600",
+      "message_id": 1408,
+      "suggested_at": "2026-10-08T06:02:44.047317+00:00"
     }
   }
 }
