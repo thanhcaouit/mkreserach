@@ -6145,6 +6145,20 @@
       "suggested_at": "2026-10-08T10:01:21.053329+00:00",
       "mechanic_vi": "Giải các bài toán logic và IQ test, mỗi câu đố là một màn với quy tắc riêng.",
       "why_vi": "Cung cấp chuỗi các cấp độ logic, mỗi màn có một luật rõ ràng, phù hợp với tiêu chí puzzle có luật duy nhất và tiến độ cấp độ."
+    },
+    "com.crescentyr.meganum": {
+      "app_id": "com.crescentyr.meganum",
+      "title": "Meganum - Math Puzzle Game",
+      "title_norm": "meganum math puzzle game",
+      "developer": "Crescentyr",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.33,
+      "url": "https://play.google.com/store/apps/details?id=com.crescentyr.meganum&hl=en",
+      "message_id": 1423,
+      "suggested_at": "2026-10-08T11:01:00.778252+00:00",
+      "mechanic_vi": "Tease your brain with this RELAXING yet CHALLENGING math puzzle game. Test your logic and basic math skills to solve the puzzles. <b>MEGANUM</b> has many categories to explore, from addition, multiplication to binary num",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
