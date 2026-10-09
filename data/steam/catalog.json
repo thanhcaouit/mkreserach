@@ -7469,6 +7469,16 @@
       "url": "https://store.steampowered.com/app/2707110",
       "message_id": 1565,
       "suggested_at": "2026-10-09T20:03:03.992385+00:00"
+    },
+    "3816700": {
+      "app_id": "3816700",
+      "title": "Logic Bombs",
+      "title_norm": "logic bombs",
+      "developer": "Matthewmatosis",
+      "reviews": 556,
+      "url": "https://store.steampowered.com/app/3816700",
+      "message_id": 1572,
+      "suggested_at": "2026-10-09T21:03:03.280230+00:00"
     }
   }
 }
