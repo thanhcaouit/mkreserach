@@ -3001,6 +3001,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.king.farmheroessaga": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
