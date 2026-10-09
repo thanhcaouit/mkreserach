@@ -6215,6 +6215,62 @@
       "suggested_at": "2026-10-09T20:01:11.089445+00:00",
       "mechanic_vi": "Looking for a fun and entertaining way to improve your cognitive abilities and IQ? Look no further than Math Riddles, the ultimate brain workout game that is designed to challenge your mind and keep your brain sharp! Wit",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "org.thjh.hanoitower": {
+      "app_id": "org.thjh.hanoitower",
+      "title": "Hanoi Tower",
+      "title_norm": "hanoi tower",
+      "developer": "THJHSoftware",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=org.thjh.hanoitower&hl=en",
+      "message_id": 1566,
+      "suggested_at": "2026-10-09T21:01:11.386376+00:00",
+      "mechanic_vi": "Di chuyển đĩa giữa các cọc theo quy tắc một đĩa mỗi lần, không để đĩa lớn lên trên đĩa nhỏ.",
+      "why_vi": "Mặc dù là trò chơi cổ điển, nó có các cấp độ tăng dần và một quy tắc duy nhất, nhưng không mang tính mới lạ."
+    },
+    "fr.mathis.tourhanoipro": {
+      "app_id": "fr.mathis.tourhanoipro",
+      "title": "Tower of Hanoi Pro",
+      "title_norm": "tower of hanoi pro",
+      "developer": "Stéphane Mathis",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.4117646,
+      "url": "https://play.google.com/store/apps/details?id=fr.mathis.tourhanoipro&hl=en",
+      "message_id": 1567,
+      "suggested_at": "2026-10-09T21:01:12.574420+00:00",
+      "mechanic_vi": "Di chuyển đĩa giữa các cọc theo quy tắc một đĩa mỗi lần, không để đĩa lớn lên trên đĩa nhỏ.",
+      "why_vi": "Cũng là phiên bản hiện đại của trò Hanoi, có nhiều cấp độ nhưng cơ chế vẫn là một quy tắc duy nhất cổ điển."
+    },
+    "com.jdleung.hanoitower": {
+      "app_id": "com.jdleung.hanoitower",
+      "title": "Hanoi Tower",
+      "title_norm": "hanoi tower",
+      "developer": "jdleung",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.6,
+      "url": "https://play.google.com/store/apps/details?id=com.jdleung.hanoitower&hl=en",
+      "message_id": 1568,
+      "suggested_at": "2026-10-09T21:01:15.361693+00:00",
+      "mechanic_vi": "Di chuyển đĩa giữa các cọc theo quy tắc một đĩa mỗi lần, không để đĩa lớn lên trên đĩa nhỏ.",
+      "why_vi": "Cung cấp 26 cấp độ tăng dần, đáp ứng yêu cầu mức độ, nhưng cơ chế vẫn là một luật duy nhất truyền thống."
+    },
+    "com.nividata.mathmatrix": {
+      "app_id": "com.nividata.mathmatrix",
+      "title": "Math Puzzle & Calculation Game",
+      "title_norm": "math puzzle calculation game",
+      "developer": "Nividata Consultancy",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.6153846,
+      "url": "https://play.google.com/store/apps/details?id=com.nividata.mathmatrix&hl=en",
+      "message_id": 1569,
+      "suggested_at": "2026-10-09T21:01:16.240795+00:00",
+      "mechanic_vi": "Welcome to Math Matrix, the ultimate destination for engaging math games, challenging brain teasers, and thought-provoking logic puzzles. Math puzzle offers a wide range of puzzle games designed to enhance cognitive abil",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
