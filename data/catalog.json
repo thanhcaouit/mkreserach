@@ -6187,6 +6187,34 @@
       "suggested_at": "2026-10-09T14:01:06.800779+00:00",
       "mechanic_vi": "Dive into the captivating world of numbers with Math Puzzle Game - Number Game! This addictive puzzle game is designed to challenge and enhance your mathematical skills while providing hours of fun. Key Features: Variety",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.A3dlogical.hanoitowerslite": {
+      "app_id": "com.A3dlogical.hanoitowerslite",
+      "title": "The Hanoi Towers Lite",
+      "title_norm": "the hanoi towers lite",
+      "developer": "3DLogical®",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.3333333,
+      "url": "https://play.google.com/store/apps/details?id=com.A3dlogical.hanoitowerslite&hl=en",
+      "message_id": 1560,
+      "suggested_at": "2026-10-09T20:01:10.397820+00:00",
+      "mechanic_vi": "di chuyển đĩa giữa các cọc theo quy tắc chồng đĩa",
+      "why_vi": "Mỗi cấp độ tăng số đĩa, luật duy nhất là không được đặt đĩa lớn lên đĩa nhỏ, tạo thách thức logic."
+    },
+    "com.mathgame.riddles.puzzles.brain.teasers": {
+      "app_id": "com.mathgame.riddles.puzzles.brain.teasers",
+      "title": "Math Riddle Puzzle Brain Games",
+      "title_norm": "math riddle puzzle brain games",
+      "developer": "Nividata Consultancy",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.4210525,
+      "url": "https://play.google.com/store/apps/details?id=com.mathgame.riddles.puzzles.brain.teasers&hl=en",
+      "message_id": 1561,
+      "suggested_at": "2026-10-09T20:01:11.089445+00:00",
+      "mechanic_vi": "Looking for a fun and entertaining way to improve your cognitive abilities and IQ? Look no further than Math Riddles, the ultimate brain workout game that is designed to challenge your mind and keep your brain sharp! Wit",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
