@@ -7359,6 +7359,26 @@
       "url": "https://store.steampowered.com/app/1145410",
       "message_id": 1481,
       "suggested_at": "2026-10-08T23:02:18.710847+00:00"
+    },
+    "470780": {
+      "app_id": "470780",
+      "title": "She Remembered Caterpillars",
+      "title_norm": "she remembered caterpillars",
+      "developer": "jumpsuit entertainment UG (haftungsbeschränkt)",
+      "reviews": 188,
+      "url": "https://store.steampowered.com/app/470780",
+      "message_id": 1485,
+      "suggested_at": "2026-10-09T00:02:30.274767+00:00"
+    },
+    "1121530": {
+      "app_id": "1121530",
+      "title": "Globesweeper: Hex Puzzler",
+      "title_norm": "globesweeper hex puzzler",
+      "developer": "Incandescent Games",
+      "reviews": 233,
+      "url": "https://store.steampowered.com/app/1121530",
+      "message_id": 1486,
+      "suggested_at": "2026-10-09T00:02:31.759251+00:00"
     }
   }
 }
