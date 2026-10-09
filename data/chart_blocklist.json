@@ -3049,6 +3049,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.rockbite.deeptown": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mytona.cookingdiary.android": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
