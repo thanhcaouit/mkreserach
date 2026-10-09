@@ -6159,6 +6159,20 @@
       "suggested_at": "2026-10-08T11:01:00.778252+00:00",
       "mechanic_vi": "Tease your brain with this RELAXING yet CHALLENGING math puzzle game. Test your logic and basic math skills to solve the puzzles. <b>MEGANUM</b> has many categories to explore, from addition, multiplication to binary num",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.morselgames.android.maze.toy": {
+      "app_id": "com.morselgames.android.maze.toy",
+      "title": "Maze Toy",
+      "title_norm": "maze toy",
+      "developer": "Morsel Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.6,
+      "url": "https://play.google.com/store/apps/details?id=com.morselgames.android.maze.toy&hl=en",
+      "message_id": 1535,
+      "suggested_at": "2026-10-09T13:01:16.159654+00:00",
+      "mechanic_vi": "Đặt bóng trong mê cung và nghiêng thiết bị để dùng trọng lực di chuyển qua các ô.",
+      "why_vi": "Cung cấp hơn 250 màn với luật duy nhất: nghiêng để di chuyển, phù hợp với sở thích tilt‑gravity và mức độ khó tăng dần."
     }
   }
 }
