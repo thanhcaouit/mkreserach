@@ -7389,6 +7389,16 @@
       "url": "https://store.steampowered.com/app/1257850",
       "message_id": 1502,
       "suggested_at": "2026-10-09T04:02:48.073423+00:00"
+    },
+    "1231460": {
+      "app_id": "1231460",
+      "title": "Candy Disaster - Tower Defense",
+      "title_norm": "candy disaster tower defense",
+      "developer": "ACE Entertainment",
+      "reviews": 250,
+      "url": "https://store.steampowered.com/app/1231460",
+      "message_id": 1506,
+      "suggested_at": "2026-10-09T05:02:53.136893+00:00"
     }
   }
 }
