@@ -163,7 +163,8 @@
     "stack the crates puzzle levels",
     "new rule each level puzzle indie",
     "unique mechanic per stage indie puzzle",
-    "single constraint level puzzle indie studio"
+    "single constraint level puzzle indie studio",
+    "per-stage rule puzzle indie studio"
   ],
   "pending": []
 }
