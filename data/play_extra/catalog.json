@@ -143,6 +143,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.hil_hk.xsection&hl=en",
       "message_id": 1505,
       "suggested_at": "2026-10-09T05:02:01.473414+00:00"
+    },
+    "com.puzzlerstudio.nemomaid": {
+      "app_id": "com.puzzlerstudio.nemomaid",
+      "title": "NemoMaid - nonogram puzzle",
+      "title_norm": "nemomaid nonogram puzzle",
+      "developer": "Puzzler Studio Games",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4.1363635,
+      "url": "https://play.google.com/store/apps/details?id=com.puzzlerstudio.nemomaid&hl=en",
+      "message_id": 1549,
+      "suggested_at": "2026-10-09T17:01:53.421640+00:00"
     }
   }
 }
