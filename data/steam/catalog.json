@@ -7439,6 +7439,16 @@
       "url": "https://store.steampowered.com/app/950140",
       "message_id": 1547,
       "suggested_at": "2026-10-09T15:03:32.889605+00:00"
+    },
+    "2106050": {
+      "app_id": "2106050",
+      "title": "heXtreaming:Deep",
+      "title_norm": "hextreaming deep",
+      "developer": "LaputaGames",
+      "reviews": 127,
+      "url": "https://store.steampowered.com/app/2106050",
+      "message_id": 1551,
+      "suggested_at": "2026-10-09T17:02:41.867122+00:00"
     }
   }
 }
