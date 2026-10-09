@@ -3067,6 +3067,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.snapbreak.discounty": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
