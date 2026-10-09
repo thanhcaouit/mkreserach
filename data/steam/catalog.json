@@ -7399,6 +7399,16 @@
       "url": "https://store.steampowered.com/app/1231460",
       "message_id": 1506,
       "suggested_at": "2026-10-09T05:02:53.136893+00:00"
+    },
+    "926170": {
+      "app_id": "926170",
+      "title": "Achromatic",
+      "title_norm": "achromatic",
+      "developer": "Studio Goya",
+      "reviews": 109,
+      "url": "https://store.steampowered.com/app/926170",
+      "message_id": 1530,
+      "suggested_at": "2026-10-09T11:02:23.185792+00:00"
     }
   }
 }
