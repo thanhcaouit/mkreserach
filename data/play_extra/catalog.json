@@ -131,6 +131,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.statlex.tangram&hl=en",
       "message_id": 1465,
       "suggested_at": "2026-10-08T20:02:07.454800+00:00"
+    },
+    "com.hil_hk.xsection": {
+      "app_id": "com.hil_hk.xsection",
+      "title": "XSection",
+      "title_norm": "xsection",
+      "developer": "HORIS INTERNATIONAL LIMITED",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.54,
+      "url": "https://play.google.com/store/apps/details?id=com.hil_hk.xsection&hl=en",
+      "message_id": 1505,
+      "suggested_at": "2026-10-09T05:02:01.473414+00:00"
     }
   }
 }
