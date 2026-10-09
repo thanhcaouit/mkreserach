@@ -6173,6 +6173,20 @@
       "suggested_at": "2026-10-09T13:01:16.159654+00:00",
       "mechanic_vi": "Đặt bóng trong mê cung và nghiêng thiết bị để dùng trọng lực di chuyển qua các ô.",
       "why_vi": "Cung cấp hơn 250 màn với luật duy nhất: nghiêng để di chuyển, phù hợp với sở thích tilt‑gravity và mức độ khó tăng dần."
+    },
+    "ac.puzzle.games": {
+      "app_id": "ac.puzzle.games",
+      "title": "Math Puzzles - Number Games",
+      "title_norm": "math puzzles number games",
+      "developer": "App Craze",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.547619,
+      "url": "https://play.google.com/store/apps/details?id=ac.puzzle.games&hl=en",
+      "message_id": 1539,
+      "suggested_at": "2026-10-09T14:01:06.800779+00:00",
+      "mechanic_vi": "Dive into the captivating world of numbers with Math Puzzle Game - Number Game! This addictive puzzle game is designed to challenge and enhance your mathematical skills while providing hours of fun. Key Features: Variety",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }

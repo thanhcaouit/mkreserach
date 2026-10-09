@@ -875,7 +875,10 @@
     "tiered level containment puzzle indie",
     "isolated placement puzzle indie",
     "progressive containment puzzle with one rule",
-    "guide creatures through obstacles level based puzzle"
+    "guide creatures through obstacles level based puzzle",
+    "tilt physics maze puzzle indie studio"
   ],
-  "pending": []
+  "pending": [
+    "Maze Toy"
+  ]
 }
