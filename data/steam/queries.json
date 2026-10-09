@@ -176,7 +176,12 @@
     "tiny dev puzzle each level new rule",
     "indie puzzle game level‑by‑level unique rule",
     "one clear mechanic per stage indie puzzle",
-    "cog turn puzzle levels"
+    "cog turn puzzle levels",
+    "level‑specific rule indie puzzle",
+    "unique constraint per level indie",
+    "tiny studio level‑by‑level puzzle",
+    "progressive rule per stage indie",
+    "one mechanic per level indie"
   ],
   "pending": []
 }
