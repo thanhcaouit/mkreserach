@@ -7449,6 +7449,26 @@
       "url": "https://store.steampowered.com/app/2106050",
       "message_id": 1551,
       "suggested_at": "2026-10-09T17:02:41.867122+00:00"
+    },
+    "1766540": {
+      "app_id": "1766540",
+      "title": "Wonderputt Forever",
+      "title_norm": "wonderputt forever",
+      "developer": "Damp Gnat",
+      "reviews": 108,
+      "url": "https://store.steampowered.com/app/1766540",
+      "message_id": 1564,
+      "suggested_at": "2026-10-09T20:03:01.666300+00:00"
+    },
+    "2707110": {
+      "app_id": "2707110",
+      "title": "Birds Organized Neatly",
+      "title_norm": "birds organized neatly",
+      "developer": "DU&I",
+      "reviews": 351,
+      "url": "https://store.steampowered.com/app/2707110",
+      "message_id": 1565,
+      "suggested_at": "2026-10-09T20:03:03.992385+00:00"
     }
   }
 }
