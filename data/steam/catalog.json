@@ -7379,6 +7379,16 @@
       "url": "https://store.steampowered.com/app/1121530",
       "message_id": 1486,
       "suggested_at": "2026-10-09T00:02:31.759251+00:00"
+    },
+    "1257850": {
+      "app_id": "1257850",
+      "title": "SOLAS 128",
+      "title_norm": "solas 128",
+      "developer": "Amicable Animal",
+      "reviews": 184,
+      "url": "https://store.steampowered.com/app/1257850",
+      "message_id": 1502,
+      "suggested_at": "2026-10-09T04:02:48.073423+00:00"
     }
   }
 }
