@@ -2989,6 +2989,12 @@
       "sources": [
         "GAME_PUZZLE"
       ]
+    },
+    "com.matryoshka.cityrescueteam": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
