@@ -3013,6 +3013,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.gameinsight.gplay.island2": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
