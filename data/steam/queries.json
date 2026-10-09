@@ -153,7 +153,9 @@
     "one clear constraint each stage puzzle indie",
     "indie puzzle each level unique goal",
     "progressive mechanic per level puzzle indie",
-    "single mechanic per stage indie puzzle"
+    "single mechanic per stage indie puzzle",
+    "unique rule each level indie puzzle",
+    "one core mechanic per stage puzzle indie"
   ],
   "pending": []
 }
