@@ -7419,6 +7419,26 @@
       "url": "https://store.steampowered.com/app/629770",
       "message_id": 1538,
       "suggested_at": "2026-10-09T13:02:50.681330+00:00"
+    },
+    "316080": {
+      "app_id": "316080",
+      "title": "Parcel",
+      "title_norm": "parcel",
+      "developer": "Polar Bunny Ltd",
+      "reviews": 140,
+      "url": "https://store.steampowered.com/app/316080",
+      "message_id": 1546,
+      "suggested_at": "2026-10-09T15:03:09.651460+00:00"
+    },
+    "950140": {
+      "app_id": "950140",
+      "title": "Hiding Spot",
+      "title_norm": "hiding spot",
+      "developer": "Corey Martin",
+      "reviews": 178,
+      "url": "https://store.steampowered.com/app/950140",
+      "message_id": 1547,
+      "suggested_at": "2026-10-09T15:03:32.889605+00:00"
     }
   }
 }
