@@ -167,6 +167,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.BeardedDadsGames.DoorsAroundTheWorld&hl=en",
       "message_id": 1586,
       "suggested_at": "2026-10-10T00:01:50.473099+00:00"
+    },
+    "vn.xdev.escape": {
+      "app_id": "vn.xdev.escape",
+      "title": "Frozen Maze Puzzle",
+      "title_norm": "frozen maze puzzle",
+      "developer": "XDEV STUDIO",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.478261,
+      "url": "https://play.google.com/store/apps/details?id=vn.xdev.escape&hl=en",
+      "message_id": 1594,
+      "suggested_at": "2026-10-10T02:01:55.910287+00:00"
     }
   }
 }
