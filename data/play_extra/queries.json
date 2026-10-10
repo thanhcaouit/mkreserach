@@ -198,12 +198,8 @@
     "reflect the beam puzzle levels",
     "liquid puzzle levels",
     "guide units through obstacles level based puzzle indie",
-    "tilt physics puzzle with clear rule per level"
+    "tilt physics puzzle with clear rule per level",
+    "tilt gravity isolation puzzle small dev"
   ],
-  "pending": [
-    "door lock puzzle game",
-    "app lock puzzle",
-    "jig lock puzzle",
-    "lock puzzle"
-  ]
+  "pending": []
 }
