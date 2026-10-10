@@ -7519,6 +7519,36 @@
       "url": "https://store.steampowered.com/app/374410",
       "message_id": 1627,
       "suggested_at": "2026-10-10T11:02:39.854477+00:00"
+    },
+    "444280": {
+      "app_id": "444280",
+      "title": "Alice's Patchwork",
+      "title_norm": "alice s patchwork",
+      "developer": "Creobit",
+      "reviews": 215,
+      "url": "https://store.steampowered.com/app/444280",
+      "message_id": 1639,
+      "suggested_at": "2026-10-10T14:02:16.557989+00:00"
+    },
+    "555290": {
+      "app_id": "555290",
+      "title": "Little Briar Rose",
+      "title_norm": "little briar rose",
+      "developer": "Elf Games",
+      "reviews": 204,
+      "url": "https://store.steampowered.com/app/555290",
+      "message_id": 1640,
+      "suggested_at": "2026-10-10T14:02:17.700654+00:00"
+    },
+    "328730": {
+      "app_id": "328730",
+      "title": "Letter Quest: Grimm's Journey",
+      "title_norm": "letter quest grimm s journey",
+      "developer": "Bacon Bandit Games",
+      "reviews": 218,
+      "url": "https://store.steampowered.com/app/328730",
+      "message_id": 1641,
+      "suggested_at": "2026-10-10T14:02:18.659042+00:00"
     }
   }
 }
