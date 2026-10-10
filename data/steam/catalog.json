@@ -7589,6 +7589,16 @@
       "url": "https://store.steampowered.com/app/930210",
       "message_id": 1658,
       "suggested_at": "2026-10-10T18:52:32.608514+00:00"
+    },
+    "1266800": {
+      "app_id": "1266800",
+      "title": "Adorable Crush",
+      "title_norm": "adorable crush",
+      "developer": "Mature Games",
+      "reviews": 630,
+      "url": "https://store.steampowered.com/app/1266800",
+      "message_id": 1662,
+      "suggested_at": "2026-10-10T20:02:02.611334+00:00"
     }
   }
 }
