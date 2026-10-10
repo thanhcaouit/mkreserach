@@ -976,7 +976,12 @@
     "one mechanic per level puzzle indie",
     "gravity tilt isolation challenge indie",
     "guide units through barriers level puzzle indie",
-    "one rule per level enclosure puzzle indie"
+    "one rule per level enclosure puzzle indie",
+    "single rule level progression puzzle indie",
+    "gravity tilt obstacle course puzzle",
+    "guide units through barriers level based puzzle",
+    "minimalist enclosure mechanic puzzle levels",
+    "tiered physics puzzle with one mechanic"
   ],
   "pending": []
 }
