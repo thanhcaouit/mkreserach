@@ -155,6 +155,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.puzzlerstudio.nemomaid&hl=en",
       "message_id": 1549,
       "suggested_at": "2026-10-09T17:01:53.421640+00:00"
+    },
+    "com.BeardedDadsGames.DoorsAroundTheWorld": {
+      "app_id": "com.BeardedDadsGames.DoorsAroundTheWorld",
+      "title": "Escape game - 100 Doors",
+      "title_norm": "escape game 100 doors",
+      "developer": "Pixel Tale Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.28,
+      "url": "https://play.google.com/store/apps/details?id=com.BeardedDadsGames.DoorsAroundTheWorld&hl=en",
+      "message_id": 1586,
+      "suggested_at": "2026-10-10T00:01:50.473099+00:00"
     }
   }
 }
