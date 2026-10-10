@@ -199,7 +199,16 @@
     "liquid puzzle levels",
     "guide units through obstacles level based puzzle indie",
     "tilt physics puzzle with clear rule per level",
-    "tilt gravity isolation puzzle small dev"
+    "tilt gravity isolation puzzle small dev",
+    "laser puzzle",
+    "laser puzzle logic game",
+    "laser puzzle mirror & light"
   ],
-  "pending": []
+  "pending": [
+    "laser puzzle offline",
+    "laser puzzle 3d",
+    "drag puzzle games",
+    "drag puzzle",
+    "block puzzle drag and clear"
+  ]
 }
