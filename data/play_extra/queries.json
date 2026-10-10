@@ -189,10 +189,8 @@
     "tilt physics isolation puzzle small developer",
     "one mechanic per level puzzle indie",
     "gravity tilt isolation challenge indie",
-    "drag one line puzzle"
+    "drag one line puzzle",
+    "drag and drop puzzle"
   ],
-  "pending": [
-    "drag and drop puzzle",
-    "block puzzle drag and clear"
-  ]
+  "pending": []
 }
