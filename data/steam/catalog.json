@@ -7509,6 +7509,16 @@
       "url": "https://store.steampowered.com/app/203560",
       "message_id": 1619,
       "suggested_at": "2026-10-10T08:02:57.214557+00:00"
+    },
+    "374410": {
+      "app_id": "374410",
+      "title": "TransPlan",
+      "title_norm": "transplan",
+      "developer": "Kittehface Software",
+      "reviews": 174,
+      "url": "https://store.steampowered.com/app/374410",
+      "message_id": 1627,
+      "suggested_at": "2026-10-10T11:02:39.854477+00:00"
     }
   }
 }
