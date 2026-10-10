@@ -993,7 +993,11 @@
     "tilt physics puzzle with clear rule per level",
     "tilt gravity isolation puzzle small dev",
     "enclosure challenge puzzle levels indie studio",
-    "single mechanic per level puzzle indie"
+    "single mechanic per level puzzle indie",
+    "guide characters to goal puzzle tiered levels"
   ],
-  "pending": []
+  "pending": [
+    "Star Battle Puzzle Hoshi",
+    "Star Battle Logic Puzzles"
+  ]
 }
