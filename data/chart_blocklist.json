@@ -3085,6 +3085,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.amelosinteractive.snake": {
+      "first_seen": "2026-10-10",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.yulong.sgame.gp": {
+      "first_seen": "2026-10-10",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
