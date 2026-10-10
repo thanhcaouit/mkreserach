@@ -7549,6 +7549,26 @@
       "url": "https://store.steampowered.com/app/328730",
       "message_id": 1641,
       "suggested_at": "2026-10-10T14:02:18.659042+00:00"
+    },
+    "317320": {
+      "app_id": "317320",
+      "title": "Nelly Cootalot: The Fowl Fleet",
+      "title_norm": "nelly cootalot the fowl fleet",
+      "developer": "Alasdair Beckett-King",
+      "reviews": 233,
+      "url": "https://store.steampowered.com/app/317320",
+      "message_id": 1645,
+      "suggested_at": "2026-10-10T16:02:30.552875+00:00"
+    },
+    "523160": {
+      "app_id": "523160",
+      "title": "Alice's Patchworks 2",
+      "title_norm": "alice s patchworks 2",
+      "developer": "Creobit",
+      "reviews": 197,
+      "url": "https://store.steampowered.com/app/523160",
+      "message_id": 1646,
+      "suggested_at": "2026-10-10T16:02:34.252316+00:00"
     }
   }
 }
