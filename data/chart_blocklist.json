@@ -3103,6 +3103,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.supercell.hayday": {
+      "first_seen": "2026-10-10",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
