@@ -3109,6 +3109,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.DoubleDaggerStudio.LittleKittyBigCity": {
+      "first_seen": "2026-10-10",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.FreeDust.LastCampDefense2": {
+      "first_seen": "2026-10-10",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.arcanumgames.hidden.object.mystery.story": {
+      "first_seen": "2026-10-10",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
