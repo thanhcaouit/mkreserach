@@ -6355,6 +6355,34 @@
       "suggested_at": "2026-10-10T08:01:07.501722+00:00",
       "mechanic_vi": "Giải đố bằng cách đặt và di chuyển các ô gạch trên lưới, tạo chuỗi phản ứng để mở khóa các khu vực mới.",
       "why_vi": "Mỗi màn có một quy tắc duy nhất, tiến độ cấp độ rõ ràng và yêu cầu người chơi suy luận chiến thuật, phù hợp với sở thích puzzle có luật đơn giản nhưng sâu sắc."
+    },
+    "com.brennerd.grid_puzzle.star_battle": {
+      "app_id": "com.brennerd.grid_puzzle.star_battle",
+      "title": "Star Battle: Logic Puzzles",
+      "title_norm": "star battle logic puzzles",
+      "developer": "brennerd",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.7115383,
+      "url": "https://play.google.com/store/apps/details?id=com.brennerd.grid_puzzle.star_battle&hl=en",
+      "message_id": 1667,
+      "suggested_at": "2026-10-10T22:01:08.399581+00:00",
+      "mechanic_vi": "Star Battle brings you the joy of pure puzzle-solving. Just you, the grid, and the challenge. No fuss, no frills. Solve these logic puzzles to challenge yourself, relax, train your brain, or simply pass the time. What th",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.iwp.hoshi": {
+      "app_id": "com.iwp.hoshi",
+      "title": "Star Battle Puzzle | Hoshi",
+      "title_norm": "star battle puzzle hoshi",
+      "developer": "Guriddo",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.6237626,
+      "url": "https://play.google.com/store/apps/details?id=com.iwp.hoshi&hl=en",
+      "message_id": 1668,
+      "suggested_at": "2026-10-10T22:01:09.879830+00:00",
+      "mechanic_vi": "Hoshi (星, Japanese for star) is a free and competitive Star Battle game with daily challenges. Star Battle, also known as Two Not Touch, is regularly published in the New York Times logic puzzle section. If you enjoy pla",
+      "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
     }
   }
 }
