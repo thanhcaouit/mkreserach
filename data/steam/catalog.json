@@ -7479,6 +7479,16 @@
       "url": "https://store.steampowered.com/app/3816700",
       "message_id": 1572,
       "suggested_at": "2026-10-09T21:03:03.280230+00:00"
+    },
+    "200130": {
+      "app_id": "200130",
+      "title": "Puzzler World 2",
+      "title_norm": "puzzler world 2",
+      "developer": "Ideas Pad",
+      "reviews": 197,
+      "url": "https://store.steampowered.com/app/200130",
+      "message_id": 1611,
+      "suggested_at": "2026-10-10T06:02:52.439706+00:00"
     }
   }
 }
