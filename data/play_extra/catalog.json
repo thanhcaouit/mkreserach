@@ -179,6 +179,30 @@
       "url": "https://play.google.com/store/apps/details?id=vn.xdev.escape&hl=en",
       "message_id": 1594,
       "suggested_at": "2026-10-10T02:01:55.910287+00:00"
+    },
+    "com.tech300.nonogram2": {
+      "app_id": "com.tech300.nonogram2",
+      "title": "kungfu nonogram",
+      "title_norm": "kungfu nonogram",
+      "developer": "深圳市三百斤科技有限公司",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3,
+      "url": "https://play.google.com/store/apps/details?id=com.tech300.nonogram2&hl=en",
+      "message_id": 1621,
+      "suggested_at": "2026-10-10T10:02:07.848979+00:00"
+    },
+    "com.blackpumalabs.treasureisland": {
+      "app_id": "com.blackpumalabs.treasureisland",
+      "title": "Einstein Riddle Island Puzzle",
+      "title_norm": "einstein riddle island puzzle",
+      "developer": "Black Puma Labs",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.712871,
+      "url": "https://play.google.com/store/apps/details?id=com.blackpumalabs.treasureisland&hl=en",
+      "message_id": 1622,
+      "suggested_at": "2026-10-10T10:02:09.179325+00:00"
     }
   }
 }
