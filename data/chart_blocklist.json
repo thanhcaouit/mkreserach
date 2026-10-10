@@ -3127,6 +3127,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.wsy.google.wansuiye.en": {
+      "first_seen": "2026-10-10",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
