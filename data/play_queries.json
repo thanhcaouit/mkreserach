@@ -981,7 +981,11 @@
     "gravity tilt obstacle course puzzle",
     "guide units through barriers level based puzzle",
     "minimalist enclosure mechanic puzzle levels",
-    "tiered physics puzzle with one mechanic"
+    "tiered physics puzzle with one mechanic",
+    "single mechanic enclosure puzzle indie",
+    "minimalist rule containment puzzle indie",
+    "progressive level containment puzzle indie",
+    "guide characters to target puzzle indie"
   ],
   "pending": []
 }
