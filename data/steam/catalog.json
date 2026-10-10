@@ -7579,6 +7579,16 @@
       "url": "https://store.steampowered.com/app/763030",
       "message_id": 1650,
       "suggested_at": "2026-10-10T17:02:24.418847+00:00"
+    },
+    "930210": {
+      "app_id": "930210",
+      "title": "HuniePop 2: Double Date",
+      "title_norm": "huniepop 2 double date",
+      "developer": "HuniePot",
+      "reviews": 8162,
+      "url": "https://store.steampowered.com/app/930210",
+      "message_id": 1658,
+      "suggested_at": "2026-10-10T18:52:32.608514+00:00"
     }
   }
 }
