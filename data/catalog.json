@@ -6341,6 +6341,20 @@
       "suggested_at": "2026-10-10T00:01:14.890492+00:00",
       "mechanic_vi": "Do you like the challenge? Do you want to train and test your brain? Do you want to exercise your IQ and brainpower? One way you can try is to play mathematical puzzles, we know that there are currently a lot of puzzle g",
       "why_vi": "Đã qua bộ lọc: puzzle miễn phí, khoảng 10k–500k lượt tải."
+    },
+    "com.netflix.NGP.Arranger": {
+      "app_id": "com.netflix.NGP.Arranger",
+      "title": "Arranger NETFLIX",
+      "title_norm": "arranger netflix",
+      "developer": "Netflix, Inc.",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.07,
+      "url": "https://play.google.com/store/apps/details?id=com.netflix.NGP.Arranger&hl=en",
+      "message_id": 1616,
+      "suggested_at": "2026-10-10T08:01:07.501722+00:00",
+      "mechanic_vi": "Giải đố bằng cách đặt và di chuyển các ô gạch trên lưới, tạo chuỗi phản ứng để mở khóa các khu vực mới.",
+      "why_vi": "Mỗi màn có một quy tắc duy nhất, tiến độ cấp độ rõ ràng và yêu cầu người chơi suy luận chiến thuật, phù hợp với sở thích puzzle có luật đơn giản nhưng sâu sắc."
     }
   }
 }
