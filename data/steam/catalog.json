@@ -7569,6 +7569,16 @@
       "url": "https://store.steampowered.com/app/523160",
       "message_id": 1646,
       "suggested_at": "2026-10-10T16:02:34.252316+00:00"
+    },
+    "763030": {
+      "app_id": "763030",
+      "title": "Nelly Cootalot: Spoonbeaks Ahoy! HD",
+      "title_norm": "nelly cootalot spoonbeaks ahoy hd",
+      "developer": "Alasdair Beckett-King",
+      "reviews": 163,
+      "url": "https://store.steampowered.com/app/763030",
+      "message_id": 1650,
+      "suggested_at": "2026-10-10T17:02:24.418847+00:00"
     }
   }
 }
