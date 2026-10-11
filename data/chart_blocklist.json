@@ -3253,6 +3253,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.mergegames.myth": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pixodust.games.free.rpg.medieval.merge.puzzle.empire": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
