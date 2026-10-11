@@ -7609,6 +7609,16 @@
       "url": "https://store.steampowered.com/app/33950",
       "message_id": 1683,
       "suggested_at": "2026-10-11T01:02:33.646400+00:00"
+    },
+    "38210": {
+      "app_id": "38210",
+      "title": "Roogoo",
+      "title_norm": "roogoo",
+      "developer": "Spidermonk Entertainment",
+      "reviews": 235,
+      "url": "https://store.steampowered.com/app/38210",
+      "message_id": 1747,
+      "suggested_at": "2026-10-11T18:02:46.212198+00:00"
     }
   }
 }
