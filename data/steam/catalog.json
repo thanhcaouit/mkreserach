@@ -7599,6 +7599,16 @@
       "url": "https://store.steampowered.com/app/1266800",
       "message_id": 1662,
       "suggested_at": "2026-10-10T20:02:02.611334+00:00"
+    },
+    "33950": {
+      "app_id": "33950",
+      "title": "Fish Fillets 2",
+      "title_norm": "fish fillets 2",
+      "developer": "Altar Games",
+      "reviews": 117,
+      "url": "https://store.steampowered.com/app/33950",
+      "message_id": 1683,
+      "suggested_at": "2026-10-11T01:02:33.646400+00:00"
     }
   }
 }
