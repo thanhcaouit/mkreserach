@@ -3283,6 +3283,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.games.fairyadventure": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.onicore.torch": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "factory.resource.industry": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "jp.co.imagineer.sumikkogurashi.farm": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
