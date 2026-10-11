@@ -215,6 +215,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.supersonic.pccol&hl=en",
       "message_id": 1698,
       "suggested_at": "2026-10-11T05:01:28.091842+00:00"
+    },
+    "com.if060051.towerofhanoi": {
+      "app_id": "com.if060051.towerofhanoi",
+      "title": "Tower of Hanoi",
+      "title_norm": "tower of hanoi",
+      "developer": "Liutauras Stravinskas",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.if060051.towerofhanoi&hl=en",
+      "message_id": 1702,
+      "suggested_at": "2026-10-11T06:02:00.619612+00:00"
     }
   }
 }
