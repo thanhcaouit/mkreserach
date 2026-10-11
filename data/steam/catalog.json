@@ -7639,6 +7639,16 @@
       "url": "https://store.steampowered.com/app/1377260",
       "message_id": 1755,
       "suggested_at": "2026-10-11T20:01:51.712862+00:00"
+    },
+    "1292540": {
+      "app_id": "1292540",
+      "title": "Escape: The Brother's Saloon",
+      "title_norm": "escape the brother s saloon",
+      "developer": "Woodcrest Games, LLC",
+      "reviews": 103,
+      "url": "https://store.steampowered.com/app/1292540",
+      "message_id": 1759,
+      "suggested_at": "2026-10-11T21:02:19.341287+00:00"
     }
   }
 }
