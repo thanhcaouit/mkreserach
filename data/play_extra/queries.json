@@ -215,7 +215,13 @@
     "progressive isolation puzzle levels indie",
     "guide units to goal puzzle with clear rule",
     "dig puzzle",
-    "dig path puzzle"
+    "dig path puzzle",
+    "fall puzzles",
+    "colour fall puzzle"
   ],
-  "pending": []
+  "pending": [
+    "waterfall puzzle",
+    "color fall puzzle",
+    "fall puzzle"
+  ]
 }
