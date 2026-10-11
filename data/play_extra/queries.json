@@ -232,10 +232,10 @@
     "throw things puzzle",
     "pour puzzle",
     "naughty pour puzzle",
-    "sand pour puzzle"
-  ],
-  "pending": [
+    "sand pour puzzle",
     "water pour puzzle",
-    "penguin pour puzzle"
-  ]
+    "penguin pour puzzle",
+    "indie puzzle series with clear rule per stage"
+  ],
+  "pending": []
 }
