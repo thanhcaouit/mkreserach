@@ -3235,6 +3235,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.marmalade.monopoly": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mvgamesteam.minetap": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gm_shaber.dayrpremium": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
