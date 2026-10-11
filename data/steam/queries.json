@@ -290,7 +290,11 @@
     "unique constraint each level indie game",
     "one unique constraint per stage puzzle indie",
     "tiny studio level-by-level unique rule puzzle",
-    "fell the tree puzzle levels"
+    "fell the tree puzzle levels",
+    "distinct rule each level indie puzzle",
+    "per-level singular mechanic indie game",
+    "single objective per stage indie puzzle",
+    "progressive mechanic introduction per level indie"
   ],
   "pending": []
 }
