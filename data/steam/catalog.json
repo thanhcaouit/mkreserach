@@ -7619,6 +7619,16 @@
       "url": "https://store.steampowered.com/app/38210",
       "message_id": 1747,
       "suggested_at": "2026-10-11T18:02:46.212198+00:00"
+    },
+    "1316390": {
+      "app_id": "1316390",
+      "title": "Thermo Sudoku",
+      "title_norm": "thermo sudoku",
+      "developer": "Studio Goya",
+      "reviews": 157,
+      "url": "https://store.steampowered.com/app/1316390",
+      "message_id": 1751,
+      "suggested_at": "2026-10-11T19:02:14.546761+00:00"
     }
   }
 }

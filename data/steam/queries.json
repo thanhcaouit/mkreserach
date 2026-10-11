@@ -301,7 +301,10 @@
     "single rule per level indie adventure",
     "one rule per level physics indie game",
     "enclosure challenge per level indie",
-    "release puzzle levels"
+    "release puzzle levels",
+    "guide characters through obstacles puzzle indie",
+    "one rule per stage physics puzzle",
+    "isolated goal platformer puzzle indie"
   ],
   "pending": []
 }
