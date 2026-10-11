@@ -228,7 +228,14 @@
     "magic switch puzzle",
     "indie level based enclosure puzzle with single rule",
     "guide characters to goal puzzle levels small studio",
-    "single mechanic containment challenge indie game"
+    "single mechanic containment challenge indie game",
+    "throw things puzzle",
+    "pour puzzle",
+    "naughty pour puzzle",
+    "sand pour puzzle"
   ],
-  "pending": []
+  "pending": [
+    "water pour puzzle",
+    "penguin pour puzzle"
+  ]
 }
