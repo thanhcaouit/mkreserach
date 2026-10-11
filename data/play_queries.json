@@ -1010,7 +1010,11 @@
     "isolated area challenge puzzle indie",
     "clear rule per stage puzzle mobile",
     "stepwise level puzzle with single mechanic",
-    "gravity tilt obstacle puzzle indie"
+    "gravity tilt obstacle puzzle indie",
+    "level based isolation puzzle with single rule",
+    "tilt physics enclosure puzzle indie dev",
+    "progressive enclosure puzzle with clear mechanic",
+    "guide characters to goal with tilt gravity"
   ],
   "pending": []
 }
