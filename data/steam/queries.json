@@ -311,7 +311,11 @@
     "progressive tool introduction per level indie game",
     "single constraint per level indie platformer",
     "single interaction per level indie puzzle",
-    "per‑level isolated objective indie puzzle"
+    "per‑level isolated objective indie puzzle",
+    "one clear constraint per level indie puzzle",
+    "per‑level isolated goal indie puzzle",
+    "tiny dev new mechanic each level puzzle",
+    "progressive rule indie puzzle level"
   ],
   "pending": []
 }
