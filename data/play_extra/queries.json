@@ -217,11 +217,10 @@
     "dig puzzle",
     "dig path puzzle",
     "fall puzzles",
-    "colour fall puzzle"
-  ],
-  "pending": [
+    "colour fall puzzle",
     "waterfall puzzle",
     "color fall puzzle",
     "fall puzzle"
-  ]
+  ],
+  "pending": []
 }
