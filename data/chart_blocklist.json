@@ -3205,6 +3205,36 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.Boomware.CafePanic": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.aidis.lastcloudiaen": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pikpok.wtd.play": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.matchington.mansion": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.jellybtn.boardkings": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
