@@ -227,6 +227,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.if060051.towerofhanoi&hl=en",
       "message_id": 1702,
       "suggested_at": "2026-10-11T06:02:00.619612+00:00"
+    },
+    "net.pyrosphere.chesslight": {
+      "app_id": "net.pyrosphere.chesslight",
+      "title": "Chess Light",
+      "title_norm": "chess light",
+      "developer": "Pyrosphere",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.4864864,
+      "url": "https://play.google.com/store/apps/details?id=net.pyrosphere.chesslight&hl=en",
+      "message_id": 1722,
+      "suggested_at": "2026-10-11T12:01:46.384215+00:00"
     }
   }
 }
