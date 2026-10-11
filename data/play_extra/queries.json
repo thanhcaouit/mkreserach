@@ -254,12 +254,11 @@
     "isolated puzzle indie studio",
     "tilt physics puzzle indie developer",
     "minimalist isolation puzzle with tiers",
-    "aim jam pointer puzzle"
-  ],
-  "pending": [
+    "aim jam pointer puzzle",
     "color cannon puzzle",
     "cannon smash physics puzzle",
-    "cannon smash block puzzle",
+    "cannon smash puzzle",
     "cannon shooter smash puzzle"
-  ]
+  ],
+  "pending": []
 }
