@@ -3271,6 +3271,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "killer.sudoku.free.brain.puzzle": {
+      "first_seen": "2026-10-11",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
