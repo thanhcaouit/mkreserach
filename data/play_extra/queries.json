@@ -300,7 +300,12 @@
     "fill puzzle",
     "merge puzzle",
     "merge puzzle offline",
-    "isolated placement puzzle indie levels"
+    "isolated placement puzzle indie levels",
+    "single mechanic containment challenge mobile",
+    "guide characters through barriers level based puzzle",
+    "rope cut puzzle"
   ],
-  "pending": []
+  "pending": [
+    "rope cut puzzle game"
+  ]
 }
