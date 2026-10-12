@@ -2777,7 +2777,8 @@
     "com.cola.game": {
       "first_seen": "2026-10-08",
       "sources": [
-        "GAME"
+        "GAME",
+        "GAME_PUZZLE"
       ]
     },
     "com.miniclip.farmrush": {
@@ -3333,6 +3334,18 @@
       ]
     },
     "com.nintendo.zaba": {
+      "first_seen": "2026-10-12",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "io.randomco.travel": {
+      "first_seen": "2026-10-12",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.iz.kids.construction.vehicles.truck.building.games": {
       "first_seen": "2026-10-12",
       "sources": [
         "GAME"
