@@ -3313,6 +3313,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.bubble.blast.puzzle.game": {
+      "first_seen": "2026-10-12",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "mahjong.game.ten.merge.casual": {
+      "first_seen": "2026-10-12",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sweetmagic.match3.puzzlegame": {
+      "first_seen": "2026-10-12",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
