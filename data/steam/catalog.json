@@ -7729,6 +7729,16 @@
       "url": "https://store.steampowered.com/app/765940",
       "message_id": 1825,
       "suggested_at": "2026-10-12T13:03:18.209821+00:00"
+    },
+    "1180540": {
+      "app_id": "1180540",
+      "title": "Puddle Knights",
+      "title_norm": "puddle knights",
+      "developer": "Lockpickle",
+      "reviews": 220,
+      "url": "https://store.steampowered.com/app/1180540",
+      "message_id": 1849,
+      "suggested_at": "2026-10-12T18:51:46.227331+00:00"
     }
   }
 }
