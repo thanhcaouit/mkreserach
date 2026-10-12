@@ -7709,6 +7709,16 @@
       "url": "https://store.steampowered.com/app/839340",
       "message_id": 1817,
       "suggested_at": "2026-10-12T11:02:29.161818+00:00"
+    },
+    "450190": {
+      "app_id": "450190",
+      "title": "MAZE LORD",
+      "title_norm": "maze lord",
+      "developer": "Jetdogs Studios",
+      "reviews": 179,
+      "url": "https://store.steampowered.com/app/450190",
+      "message_id": 1821,
+      "suggested_at": "2026-10-12T12:02:58.357850+00:00"
     }
   }
 }
