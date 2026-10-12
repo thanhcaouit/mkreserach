@@ -7649,6 +7649,16 @@
       "url": "https://store.steampowered.com/app/1292540",
       "message_id": 1759,
       "suggested_at": "2026-10-11T21:02:19.341287+00:00"
+    },
+    "1889740": {
+      "app_id": "1889740",
+      "title": "Paper Trail",
+      "title_norm": "paper trail",
+      "developer": "Newfangled Games",
+      "reviews": 744,
+      "url": "https://store.steampowered.com/app/1889740",
+      "message_id": 1775,
+      "suggested_at": "2026-10-12T01:03:00.793393+00:00"
     }
   }
 }
