@@ -370,7 +370,8 @@
     "ember trail puzzle levels",
     "tiny studio per-stage unique mechanic puzzle",
     "per-level unique constraint indie puzzle",
-    "tiny dev per-stage rule puzzle"
+    "tiny dev per-stage rule puzzle",
+    "single constraint each stage indie puzzle"
   ],
   "pending": []
 }
