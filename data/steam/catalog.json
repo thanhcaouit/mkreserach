@@ -7669,6 +7669,36 @@
       "url": "https://store.steampowered.com/app/3227640",
       "message_id": 1787,
       "suggested_at": "2026-10-12T04:02:30.491096+00:00"
+    },
+    "890720": {
+      "app_id": "890720",
+      "title": "In Other Waters",
+      "title_norm": "in other waters",
+      "developer": "Jump Over The Age",
+      "reviews": 2101,
+      "url": "https://store.steampowered.com/app/890720",
+      "message_id": 1791,
+      "suggested_at": "2026-10-12T05:03:15.676197+00:00"
+    },
+    "3448760": {
+      "app_id": "3448760",
+      "title": "TRACE Definitive Edition",
+      "title_norm": "trace definitive edition",
+      "developer": "STUDIO LOOK",
+      "reviews": 109,
+      "url": "https://store.steampowered.com/app/3448760",
+      "message_id": 1792,
+      "suggested_at": "2026-10-12T05:03:17.297512+00:00"
+    },
+    "966320": {
+      "app_id": "966320",
+      "title": "Later Alligator",
+      "title_norm": "later alligator",
+      "developer": "SmallBü",
+      "reviews": 2758,
+      "url": "https://store.steampowered.com/app/966320",
+      "message_id": 1793,
+      "suggested_at": "2026-10-12T05:03:18.788973+00:00"
     }
   }
 }
