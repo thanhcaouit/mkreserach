@@ -367,7 +367,10 @@
     "indie puzzle game with isolated goal per level",
     "small studio puzzle game per level rule",
     "progressive constraint indie puzzle levels",
-    "ember trail puzzle levels"
+    "ember trail puzzle levels",
+    "tiny studio per-stage unique mechanic puzzle",
+    "per-level unique constraint indie puzzle",
+    "tiny dev per-stage rule puzzle"
   ],
   "pending": []
 }
