@@ -347,7 +347,10 @@
     "tiny studio progressive constraint puzzle",
     "guide units through obstacles puzzle indie",
     "one rule per level top‑down puzzle indie",
-    "per‑level unique interaction puzzle indie"
+    "per‑level unique interaction puzzle indie",
+    "single rule per level stealth puzzle indie",
+    "isolated objective per stage indie platformer",
+    "per‑stage distinct physics constraint puzzle indie"
   ],
   "pending": []
 }
