@@ -3362,6 +3362,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.moonactive.holestars": {
+      "first_seen": "2026-10-12",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "jp.konami.epjCastlevania1": {
+      "first_seen": "2026-10-12",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gameloft.android.ANMP.GloftDMHM": {
+      "first_seen": "2026-10-12",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
