@@ -3307,6 +3307,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.iz.hospital.doctor.game.kids.girls.baby": {
+      "first_seen": "2026-10-12",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
