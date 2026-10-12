@@ -296,12 +296,11 @@
     "terrace the hill puzzle levels",
     "tilt gravity puzzle with tiered stages indie studio",
     "progressive isolation challenge puzzle small developer",
-    "fill puzzle games"
-  ],
-  "pending": [
-    "block fill puzzle",
-    "colour fill puzzle",
+    "fill puzzle games",
+    "fill puzzle",
     "merge puzzle",
-    "merge puzzle offline"
-  ]
+    "merge puzzle offline",
+    "isolated placement puzzle indie levels"
+  ],
+  "pending": []
 }
