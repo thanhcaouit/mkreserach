@@ -7719,6 +7719,16 @@
       "url": "https://store.steampowered.com/app/450190",
       "message_id": 1821,
       "suggested_at": "2026-10-12T12:02:58.357850+00:00"
+    },
+    "765940": {
+      "app_id": "765940",
+      "title": "SOK",
+      "title_norm": "sok",
+      "developer": "Siberian Mouse",
+      "reviews": 225,
+      "url": "https://store.steampowered.com/app/765940",
+      "message_id": 1825,
+      "suggested_at": "2026-10-12T13:03:18.209821+00:00"
     }
   }
 }
