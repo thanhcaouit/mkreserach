@@ -3380,6 +3380,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sofish.tilecalm.gp": {
+      "first_seen": "2026-10-13",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sofish.evertile.gp": {
+      "first_seen": "2026-10-13",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.cookingjoy.chef.kitchen.restaurant.game": {
+      "first_seen": "2026-10-13",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
