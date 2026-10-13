@@ -7769,6 +7769,16 @@
       "url": "https://store.steampowered.com/app/1967510",
       "message_id": 1890,
       "suggested_at": "2026-10-13T05:02:27.905743+00:00"
+    },
+    "2848800": {
+      "app_id": "2848800",
+      "title": "Pup Champs",
+      "title_norm": "pup champs",
+      "developer": "Afterburn",
+      "reviews": 102,
+      "url": "https://store.steampowered.com/app/2848800",
+      "message_id": 1894,
+      "suggested_at": "2026-10-13T06:02:26.335239+00:00"
     }
   }
 }
