@@ -7739,6 +7739,26 @@
       "url": "https://store.steampowered.com/app/1180540",
       "message_id": 1849,
       "suggested_at": "2026-10-12T18:51:46.227331+00:00"
+    },
+    "340280": {
+      "app_id": "340280",
+      "title": "Cubot",
+      "title_norm": "cubot",
+      "developer": "Nicolas Pierre-Loti-Viaud",
+      "reviews": 188,
+      "url": "https://store.steampowered.com/app/340280",
+      "message_id": 1877,
+      "suggested_at": "2026-10-13T02:02:22.023378+00:00"
+    },
+    "642650": {
+      "app_id": "642650",
+      "title": "Pepper's Puzzles",
+      "title_norm": "pepper s puzzles",
+      "developer": "Emad",
+      "reviews": 184,
+      "url": "https://store.steampowered.com/app/642650",
+      "message_id": 1878,
+      "suggested_at": "2026-10-13T02:02:23.838391+00:00"
     }
   }
 }
