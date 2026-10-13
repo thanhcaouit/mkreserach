@@ -3410,6 +3410,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.socialquantum.west3dint": {
+      "first_seen": "2026-10-13",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
