@@ -380,7 +380,11 @@
     "guide creatures to safety puzzle indie",
     "freeze the path puzzle levels",
     "tiny dev per‑stage new mechanic puzzle",
-    "single rule per level guide units puzzle"
+    "single rule per level guide units puzzle",
+    "indie puzzle each level isolated goal",
+    "per‑level unique obstacle indie puzzle",
+    "one clear constraint each level indie puzzle",
+    "level‑by‑level single‑objective puzzle indie"
   ],
   "pending": []
 }
