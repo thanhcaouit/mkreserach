@@ -7789,6 +7789,16 @@
       "url": "https://store.steampowered.com/app/2782400",
       "message_id": 1898,
       "suggested_at": "2026-10-13T07:02:15.421433+00:00"
+    },
+    "1500": {
+      "app_id": "1500",
+      "title": "Darwinia",
+      "title_norm": "darwinia",
+      "developer": "Introversion Software",
+      "reviews": 783,
+      "url": "https://store.steampowered.com/app/1500",
+      "message_id": 1914,
+      "suggested_at": "2026-10-13T11:02:29.992489+00:00"
     }
   }
 }
