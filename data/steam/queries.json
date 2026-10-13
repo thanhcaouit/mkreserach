@@ -412,7 +412,9 @@
     "compact studio level‑by‑level puzzle",
     "single constraint per level indie adventure",
     "tiny studio level‑by‑level unique constraint",
-    "one mechanic per level indie platformer"
+    "one mechanic per level indie platformer",
+    "unique rule each stage indie platformer",
+    "isolated containment puzzle indie dev"
   ],
   "pending": []
 }
