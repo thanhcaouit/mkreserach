@@ -7779,6 +7779,16 @@
       "url": "https://store.steampowered.com/app/2848800",
       "message_id": 1894,
       "suggested_at": "2026-10-13T06:02:26.335239+00:00"
+    },
+    "2782400": {
+      "app_id": "2782400",
+      "title": "Papercut Art Gallery-Nature",
+      "title_norm": "papercut art gallery nature",
+      "developer": "Catnip studio",
+      "reviews": 252,
+      "url": "https://store.steampowered.com/app/2782400",
+      "message_id": 1898,
+      "suggested_at": "2026-10-13T07:02:15.421433+00:00"
     }
   }
 }
