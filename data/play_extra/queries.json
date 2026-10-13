@@ -357,7 +357,9 @@
     "drop puzzle",
     "merge puzzle levels",
     "herd the crabs puzzle levels",
-    "pheromone trail puzzle levels"
+    "pheromone trail puzzle levels",
+    "paint puzzle levels",
+    "orbit puzzle levels"
   ],
   "pending": []
 }
