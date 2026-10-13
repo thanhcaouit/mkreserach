@@ -7759,6 +7759,16 @@
       "url": "https://store.steampowered.com/app/642650",
       "message_id": 1878,
       "suggested_at": "2026-10-13T02:02:23.838391+00:00"
+    },
+    "1967510": {
+      "app_id": "1967510",
+      "title": "Railbound",
+      "title_norm": "railbound",
+      "developer": "Afterburn",
+      "reviews": 1829,
+      "url": "https://store.steampowered.com/app/1967510",
+      "message_id": 1890,
+      "suggested_at": "2026-10-13T05:02:27.905743+00:00"
     }
   }
 }
