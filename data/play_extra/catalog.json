@@ -263,6 +263,18 @@
       "url": "https://play.google.com/store/apps/details?id=net.playtouch.plumberandpipes&hl=en",
       "message_id": 1852,
       "suggested_at": "2026-10-12T20:01:45.735722+00:00"
+    },
+    "com.kelly.alllightsconnect": {
+      "app_id": "com.kelly.alllightsconnect",
+      "title": "All Lights Connect : Puzzle",
+      "title_norm": "all lights connect puzzle",
+      "developer": "Yes Games Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 4,
+      "url": "https://play.google.com/store/apps/details?id=com.kelly.alllightsconnect&hl=en",
+      "message_id": 1913,
+      "suggested_at": "2026-10-13T11:01:49.662803+00:00"
     }
   }
 }
