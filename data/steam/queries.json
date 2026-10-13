@@ -384,7 +384,10 @@
     "indie puzzle each level isolated goal",
     "per‑level unique obstacle indie puzzle",
     "one clear constraint each level indie puzzle",
-    "level‑by‑level single‑objective puzzle indie"
+    "level‑by‑level single‑objective puzzle indie",
+    "tiny dev level‑by‑level enclosure puzzle",
+    "guide characters through isolated zones indie",
+    "split apart puzzle levels"
   ],
   "pending": []
 }
