@@ -275,6 +275,30 @@
       "url": "https://play.google.com/store/apps/details?id=com.kelly.alllightsconnect&hl=en",
       "message_id": 1913,
       "suggested_at": "2026-10-13T11:01:49.662803+00:00"
+    },
+    "com.spcomes.puzzlerescue": {
+      "app_id": "com.spcomes.puzzlerescue",
+      "title": "Puzzle Rescue: Pull the pin",
+      "title_norm": "puzzle rescue pull the pin",
+      "developer": "springpocket",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.33,
+      "url": "https://play.google.com/store/apps/details?id=com.spcomes.puzzlerescue&hl=en",
+      "message_id": 1945,
+      "suggested_at": "2026-10-13T19:02:45.850898+00:00"
+    },
+    "com.ffg.drop.ball.pull.pin.offline.puzzle.games": {
+      "app_id": "com.ffg.drop.ball.pull.pin.offline.puzzle.games",
+      "title": "Pin Pulling game- Pin Puzzle",
+      "title_norm": "pin pulling game pin puzzle",
+      "developer": "V for Victory",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 3.5294118,
+      "url": "https://play.google.com/store/apps/details?id=com.ffg.drop.ball.pull.pin.offline.puzzle.games&hl=en",
+      "message_id": 1946,
+      "suggested_at": "2026-10-13T19:02:47.723721+00:00"
     }
   }
 }
