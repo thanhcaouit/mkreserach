@@ -3566,6 +3566,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.playdigious.ninekings": {
+      "first_seen": "2026-10-14",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.wemadeconnect.aos.makedrama.google": {
+      "first_seen": "2026-10-14",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.BeruGames.ParkingJamTrafficEscape": {
+      "first_seen": "2026-10-14",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
