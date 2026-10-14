@@ -7839,6 +7839,16 @@
       "url": "https://store.steampowered.com/app/504400",
       "message_id": 2007,
       "suggested_at": "2026-10-14T11:02:09.734416+00:00"
+    },
+    "651340": {
+      "app_id": "651340",
+      "title": "Shephy",
+      "title_norm": "shephy",
+      "developer": "Arc System Works",
+      "reviews": 187,
+      "url": "https://store.steampowered.com/app/651340",
+      "message_id": 2011,
+      "suggested_at": "2026-10-14T12:02:11.484606+00:00"
     }
   }
 }
