@@ -3560,6 +3560,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.BeruGames.JigsawPuzzlesHDPuzzleGame": {
+      "first_seen": "2026-10-14",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
