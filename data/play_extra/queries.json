@@ -372,13 +372,9 @@
     "fell the tree puzzle levels",
     "charge the magnet puzzle levels",
     "herd sheep puzzle levels",
-    "tap the switch puzzle levels"
+    "tap the switch puzzle levels",
+    "rotate ring colour puzzle",
+    "stamp the seal puzzle levels"
   ],
-  "pending": [
-    "rotate puzzle game",
-    "rotate puzzle",
-    "block rotate puzzle",
-    "jigsaw rotate puzzle",
-    "rotate ring colour puzzle"
-  ]
+  "pending": []
 }
