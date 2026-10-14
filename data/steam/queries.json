@@ -456,7 +456,11 @@
     "single goal per stage puzzle indie",
     "one rule per level platform‑agnostic puzzle",
     "one new rule each level indie puzzle",
-    "shove the statue puzzle levels"
+    "shove the statue puzzle levels",
+    "single mechanic challenge per level indie",
+    "per-stage fresh mechanic indie puzzle",
+    "single win condition per level indie puzzle",
+    "unique level objective indie puzzle"
   ],
   "pending": []
 }
