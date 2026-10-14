@@ -7829,6 +7829,16 @@
       "url": "https://store.steampowered.com/app/1924360",
       "message_id": 2003,
       "suggested_at": "2026-10-14T10:02:11.901453+00:00"
+    },
+    "504400": {
+      "app_id": "504400",
+      "title": "Optika",
+      "title_norm": "optika",
+      "developer": "PlayZilla.tk",
+      "reviews": 215,
+      "url": "https://store.steampowered.com/app/504400",
+      "message_id": 2007,
+      "suggested_at": "2026-10-14T11:02:09.734416+00:00"
     }
   }
 }
