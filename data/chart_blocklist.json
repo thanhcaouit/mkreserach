@@ -3614,6 +3614,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.moonfrog.ludo.club": {
+      "first_seen": "2026-10-14",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sgn.pandapop.gp": {
+      "first_seen": "2026-10-14",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
