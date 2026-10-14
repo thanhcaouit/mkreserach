@@ -460,7 +460,11 @@
     "single mechanic challenge per level indie",
     "per-stage fresh mechanic indie puzzle",
     "single win condition per level indie puzzle",
-    "unique level objective indie puzzle"
+    "unique level objective indie puzzle",
+    "one rule per level indie platformer puzzle",
+    "tiny studio per‑level physics puzzle with single rule",
+    "stage‑specific isolated objective puzzle indie",
+    "charge the magnet puzzle levels"
   ],
   "pending": []
 }

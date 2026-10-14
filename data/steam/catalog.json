@@ -7819,6 +7819,16 @@
       "url": "https://store.steampowered.com/app/1636420",
       "message_id": 1991,
       "suggested_at": "2026-10-14T06:01:58.448800+00:00"
+    },
+    "1924360": {
+      "app_id": "1924360",
+      "title": "Lil' Guardsman",
+      "title_norm": "lil guardsman",
+      "developer": "Hilltop Studios",
+      "reviews": 1198,
+      "url": "https://store.steampowered.com/app/1924360",
+      "message_id": 2003,
+      "suggested_at": "2026-10-14T10:02:11.901453+00:00"
     }
   }
 }
