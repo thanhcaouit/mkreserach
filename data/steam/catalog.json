@@ -7809,6 +7809,16 @@
       "url": "https://store.steampowered.com/app/738270",
       "message_id": 1987,
       "suggested_at": "2026-10-14T05:02:27.574621+00:00"
+    },
+    "1636420": {
+      "app_id": "1636420",
+      "title": "Sweet Shine",
+      "title_norm": "sweet shine",
+      "developer": "Hot Hand",
+      "reviews": 350,
+      "url": "https://store.steampowered.com/app/1636420",
+      "message_id": 1991,
+      "suggested_at": "2026-10-14T06:01:58.448800+00:00"
     }
   }
 }
