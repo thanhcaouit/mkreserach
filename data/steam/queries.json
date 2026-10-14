@@ -490,7 +490,13 @@
     "single mechanic per level indie challenge",
     "one clear mechanic per level indie title",
     "unique constraint each level indie title",
-    "fold the paper puzzle levels"
+    "fold the paper puzzle levels",
+    "per-level physics challenge indie puzzle",
+    "single object goal puzzle indie studio",
+    "one element per level puzzle indie",
+    "tiny dev per‑level logic puzzle",
+    "unique constraint each stage indie puzzle",
+    "lever latch puzzle levels"
   ],
   "pending": []
 }
