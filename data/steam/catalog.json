@@ -7849,6 +7849,16 @@
       "url": "https://store.steampowered.com/app/651340",
       "message_id": 2011,
       "suggested_at": "2026-10-14T12:02:11.484606+00:00"
+    },
+    "2723460": {
+      "app_id": "2723460",
+      "title": "Dogs Huddled Together 挤在一起的狗狗们",
+      "title_norm": "dogs huddled together 挤在一起的狗狗们",
+      "developer": "Catnip studio",
+      "reviews": 186,
+      "url": "https://store.steampowered.com/app/2723460",
+      "message_id": 2031,
+      "suggested_at": "2026-10-14T17:55:06.070472+00:00"
     }
   }
 }
