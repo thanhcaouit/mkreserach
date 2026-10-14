@@ -7799,6 +7799,16 @@
       "url": "https://store.steampowered.com/app/1500",
       "message_id": 1914,
       "suggested_at": "2026-10-13T11:02:29.992489+00:00"
+    },
+    "738270": {
+      "app_id": "738270",
+      "title": "Ciel Fledge: A Daughter Raising Simulator",
+      "title_norm": "ciel fledge a daughter raising simulator",
+      "developer": "Studio Namaapa",
+      "reviews": 104,
+      "url": "https://store.steampowered.com/app/738270",
+      "message_id": 1987,
+      "suggested_at": "2026-10-14T05:02:27.574621+00:00"
     }
   }
 }
