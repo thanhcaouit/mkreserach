@@ -3590,6 +3590,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "se.maginteractive.wordbrain": {
+      "first_seen": "2026-10-14",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
