@@ -540,7 +540,9 @@
     "one mechanic per level indie studio puzzle",
     "level-by-level isolated goal indie puzzle",
     "single rule level design indie puzzle",
-    "bridge puzzle levels"
+    "bridge puzzle levels",
+    "single rule per level enclosure puzzle indie",
+    "one rule per level physics enclosure indie"
   ],
   "pending": []
 }
