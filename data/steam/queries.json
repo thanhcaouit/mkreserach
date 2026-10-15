@@ -536,7 +536,11 @@
     "one clear win condition each stage indie game",
     "incremental mechanic unlock per level indie",
     "float upward puzzle levels",
-    "tiny studio per-level unique constraint puzzle"
+    "tiny studio per-level unique constraint puzzle",
+    "one mechanic per level indie studio puzzle",
+    "level-by-level isolated goal indie puzzle",
+    "single rule level design indie puzzle",
+    "bridge puzzle levels"
   ],
   "pending": []
 }
