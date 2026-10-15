@@ -7909,6 +7909,26 @@
       "url": "https://store.steampowered.com/app/219910",
       "message_id": 2101,
       "suggested_at": "2026-10-15T11:02:00.941415+00:00"
+    },
+    "959000": {
+      "app_id": "959000",
+      "title": "Edna & Harvey: The Breakout - Anniversary Edition",
+      "title_norm": "edna harvey the breakout anniversary edition",
+      "developer": "Daedalic Entertainment",
+      "reviews": 844,
+      "url": "https://store.steampowered.com/app/959000",
+      "message_id": 2105,
+      "suggested_at": "2026-10-15T12:02:06.310076+00:00"
+    },
+    "105000": {
+      "app_id": "105000",
+      "title": "A New Beginning - Final Cut",
+      "title_norm": "a new beginning final cut",
+      "developer": "Daedalic Entertainment",
+      "reviews": 1576,
+      "url": "https://store.steampowered.com/app/105000",
+      "message_id": 2106,
+      "suggested_at": "2026-10-15T12:02:07.423998+00:00"
     }
   }
 }
