@@ -405,7 +405,8 @@
     "draw puzzle levels",
     "balance puzzle levels",
     "cannon puzzle",
-    "flood puzzle levels"
+    "flood puzzle levels",
+    "color fill puzzle"
   ],
   "pending": []
 }
