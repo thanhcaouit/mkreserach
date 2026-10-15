@@ -403,7 +403,9 @@
     "colony path puzzle levels",
     "mirror puzzle levels",
     "draw puzzle levels",
-    "balance puzzle levels"
+    "balance puzzle levels",
+    "cannon puzzle",
+    "flood puzzle levels"
   ],
   "pending": []
 }
