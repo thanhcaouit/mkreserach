@@ -7879,6 +7879,26 @@
       "url": "https://store.steampowered.com/app/635880",
       "message_id": 2080,
       "suggested_at": "2026-10-15T06:02:12.352455+00:00"
+    },
+    "467210": {
+      "app_id": "467210",
+      "title": "Evo Explores",
+      "title_norm": "evo explores",
+      "developer": "Kyrylo Kuzyk",
+      "reviews": 197,
+      "url": "https://store.steampowered.com/app/467210",
+      "message_id": 2084,
+      "suggested_at": "2026-10-15T07:02:10.937609+00:00"
+    },
+    "759000": {
+      "app_id": "759000",
+      "title": ".projekt",
+      "title_norm": "projekt",
+      "developer": "Kyrylo Kuzyk",
+      "reviews": 127,
+      "url": "https://store.steampowered.com/app/759000",
+      "message_id": 2085,
+      "suggested_at": "2026-10-15T07:02:16.071981+00:00"
     }
   }
 }
