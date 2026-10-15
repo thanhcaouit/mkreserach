@@ -7859,6 +7859,26 @@
       "url": "https://store.steampowered.com/app/2723460",
       "message_id": 2031,
       "suggested_at": "2026-10-14T17:55:06.070472+00:00"
+    },
+    "278570": {
+      "app_id": "278570",
+      "title": "Labyrinthine Dreams",
+      "title_norm": "labyrinthine dreams",
+      "developer": "Solest Games",
+      "reviews": 211,
+      "url": "https://store.steampowered.com/app/278570",
+      "message_id": 2079,
+      "suggested_at": "2026-10-15T06:02:10.842125+00:00"
+    },
+    "635880": {
+      "app_id": "635880",
+      "title": "Chicken Labyrinth Puzzles",
+      "title_norm": "chicken labyrinth puzzles",
+      "developer": "ZemunBRE",
+      "reviews": 116,
+      "url": "https://store.steampowered.com/app/635880",
+      "message_id": 2080,
+      "suggested_at": "2026-10-15T06:02:12.352455+00:00"
     }
   }
 }
