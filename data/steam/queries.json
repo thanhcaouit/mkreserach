@@ -547,7 +547,11 @@
     "tiny studio progressive isolation puzzle",
     "single mechanic per level containment puzzle",
     "isolated target per stage indie puzzle",
-    "path puzzle levels"
+    "path puzzle levels",
+    "single rule per level indie sandbox",
+    "one rule per level sandbox indie puzzle",
+    "single obstacle per level indie puzzle",
+    "raft the river puzzle levels"
   ],
   "pending": []
 }
