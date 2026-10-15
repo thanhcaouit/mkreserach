@@ -531,7 +531,11 @@
     "per‑stage unique rule indie game",
     "trap the fly puzzle levels",
     "tiny studio per‑level constraint puzzle",
-    "tilt puzzle levels"
+    "tilt puzzle levels",
+    "per‑level unique win condition puzzle indie",
+    "one clear win condition each stage indie game",
+    "incremental mechanic unlock per level indie",
+    "float upward puzzle levels"
   ],
   "pending": []
 }
