@@ -3626,6 +3626,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.grimm.idle.rpg": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
