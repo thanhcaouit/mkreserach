@@ -419,7 +419,9 @@
     "reflect puzzle levels",
     "sokoban push puzzle",
     "portal puzzle levels",
-    "carry the key puzzle levels"
+    "carry the key puzzle levels",
+    "color stack puzzle",
+    "color tower stack puzzle"
   ],
   "pending": []
 }
