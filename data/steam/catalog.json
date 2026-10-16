@@ -7939,6 +7939,16 @@
       "url": "https://store.steampowered.com/app/529420",
       "message_id": 2162,
       "suggested_at": "2026-10-16T04:02:32.652902+00:00"
+    },
+    "1895460": {
+      "app_id": "1895460",
+      "title": "D-topia",
+      "title_norm": "d topia",
+      "developer": "Marumittu Games",
+      "reviews": 150,
+      "url": "https://store.steampowered.com/app/1895460",
+      "message_id": 2202,
+      "suggested_at": "2026-10-16T13:02:19.017530+00:00"
     }
   }
 }

@@ -588,7 +588,9 @@
     "one clear mechanic per stage 2D puzzle indie",
     "single instruction level puzzle indie",
     "isolated target platform puzzle indie",
-    "merge puzzle levels"
+    "merge puzzle levels",
+    "one rule per level top-down puzzle indie",
+    "pressure puzzle levels"
   ],
   "pending": []
 }
