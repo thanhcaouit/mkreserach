@@ -422,7 +422,8 @@
     "carry the key puzzle levels",
     "color stack puzzle",
     "color tower stack puzzle",
-    "rotate ring color puzzle"
+    "rotate ring color puzzle",
+    "aqueduct flow puzzle levels"
   ],
   "pending": []
 }
