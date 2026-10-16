@@ -7929,6 +7929,16 @@
       "url": "https://store.steampowered.com/app/105000",
       "message_id": 2106,
       "suggested_at": "2026-10-15T12:02:07.423998+00:00"
+    },
+    "529420": {
+      "app_id": "529420",
+      "title": "Crazy Sapper 3D",
+      "title_norm": "crazy sapper 3d",
+      "developer": "Aratog LLC",
+      "reviews": 139,
+      "url": "https://store.steampowered.com/app/529420",
+      "message_id": 2162,
+      "suggested_at": "2026-10-16T04:02:32.652902+00:00"
     }
   }
 }
