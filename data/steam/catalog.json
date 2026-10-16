@@ -7979,6 +7979,26 @@
       "url": "https://store.steampowered.com/app/1985770",
       "message_id": 2234,
       "suggested_at": "2026-10-16T21:02:02.484282+00:00"
+    },
+    "251210": {
+      "app_id": "251210",
+      "title": "Hive",
+      "title_norm": "hive",
+      "developer": "BlueLine Games",
+      "reviews": 244,
+      "url": "https://store.steampowered.com/app/251210",
+      "message_id": 2238,
+      "suggested_at": "2026-10-16T22:02:16.989445+00:00"
+    },
+    "1731720": {
+      "app_id": "1731720",
+      "title": "FURRY SEX: Cabaret 💋🔞",
+      "title_norm": "furry sex cabaret",
+      "developer": "Furry Tails",
+      "reviews": 304,
+      "url": "https://store.steampowered.com/app/1731720",
+      "message_id": 2239,
+      "suggested_at": "2026-10-16T22:02:18.999013+00:00"
     }
   }
 }
