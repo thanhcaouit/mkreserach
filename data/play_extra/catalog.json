@@ -299,6 +299,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.ffg.drop.ball.pull.pin.offline.puzzle.games&hl=en",
       "message_id": 1946,
       "suggested_at": "2026-10-13T19:02:47.723721+00:00"
+    },
+    "com.gamesbykevin.sokoban": {
+      "app_id": "com.gamesbykevin.sokoban",
+      "title": "Sokoban",
+      "title_norm": "sokoban",
+      "developer": "Games By Kevin",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.521739,
+      "url": "https://play.google.com/store/apps/details?id=com.gamesbykevin.sokoban&hl=en",
+      "message_id": 2149,
+      "suggested_at": "2026-10-16T01:01:36.161744+00:00"
     }
   }
 }
