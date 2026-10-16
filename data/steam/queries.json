@@ -594,7 +594,9 @@
     "unique mechanic each stage indie puzzle",
     "tiny studio per-stage new rule puzzle",
     "sink puzzle levels",
-    "tiny studio level puzzle with isolated goal"
+    "tiny studio level puzzle with isolated goal",
+    "one clear win condition per level indie game",
+    "one mechanic per stage indie puzzle"
   ],
   "pending": []
 }
