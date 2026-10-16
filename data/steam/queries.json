@@ -596,7 +596,11 @@
     "sink puzzle levels",
     "tiny studio level puzzle with isolated goal",
     "one clear win condition per level indie game",
-    "one mechanic per stage indie puzzle"
+    "one mechanic per stage indie puzzle",
+    "one clear rule each stage indie puzzle",
+    "tiny studio per‑level physics constraint puzzle",
+    "progressive mechanic per level indie game",
+    "paint puzzle levels"
   ],
   "pending": []
 }
