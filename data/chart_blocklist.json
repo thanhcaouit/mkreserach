@@ -3644,6 +3644,42 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.poncle.vampirecrawlers": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.WalkTheFrogUG.WalkTheFrog": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gtarcade.codeball": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.aurecas.loothunters": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.cloudcade.shoplegends": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.com2us.monkeybattlere.android.google.global.normal": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
