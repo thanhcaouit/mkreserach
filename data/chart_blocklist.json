@@ -3680,6 +3680,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "trophy.hunter.hunting.games.sniper.shooting": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
