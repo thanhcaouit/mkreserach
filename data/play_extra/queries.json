@@ -421,7 +421,12 @@
     "portal puzzle levels",
     "carry the key puzzle levels",
     "color stack puzzle",
-    "color tower stack puzzle"
+    "color tower stack puzzle",
+    "rotate ring color puzzle"
   ],
-  "pending": []
+  "pending": [
+    "tap puzzle",
+    "tap puzzle games offline",
+    "tap puzzle arrow out game"
+  ]
 }
