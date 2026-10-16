@@ -7959,6 +7959,16 @@
       "url": "https://store.steampowered.com/app/2171840",
       "message_id": 2226,
       "suggested_at": "2026-10-16T19:02:08.509653+00:00"
+    },
+    "1101260": {
+      "app_id": "1101260",
+      "title": "FURRY GIRL PUZZLE",
+      "title_norm": "furry girl puzzle",
+      "developer": "AFBIK Studio",
+      "reviews": 471,
+      "url": "https://store.steampowered.com/app/1101260",
+      "message_id": 2230,
+      "suggested_at": "2026-10-16T20:02:54.113158+00:00"
     }
   }
 }
