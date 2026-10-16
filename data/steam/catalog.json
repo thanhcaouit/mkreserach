@@ -7969,6 +7969,16 @@
       "url": "https://store.steampowered.com/app/1101260",
       "message_id": 2230,
       "suggested_at": "2026-10-16T20:02:54.113158+00:00"
+    },
+    "1985770": {
+      "app_id": "1985770",
+      "title": "Nazi Furry",
+      "title_norm": "nazi furry",
+      "developer": "Furry Tails",
+      "reviews": 153,
+      "url": "https://store.steampowered.com/app/1985770",
+      "message_id": 2234,
+      "suggested_at": "2026-10-16T21:02:02.484282+00:00"
     }
   }
 }
