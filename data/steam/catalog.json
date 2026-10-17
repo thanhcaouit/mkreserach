@@ -7999,6 +7999,16 @@
       "url": "https://store.steampowered.com/app/1731720",
       "message_id": 2239,
       "suggested_at": "2026-10-16T22:02:18.999013+00:00"
+    },
+    "3740010": {
+      "app_id": "3740010",
+      "title": "Underchoice",
+      "title_norm": "underchoice",
+      "developer": "TG Indie",
+      "reviews": 117,
+      "url": "https://store.steampowered.com/app/3740010",
+      "message_id": 2275,
+      "suggested_at": "2026-10-17T06:48:54.669120+00:00"
     }
   }
 }
