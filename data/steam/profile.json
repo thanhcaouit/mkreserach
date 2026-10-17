@@ -13,11 +13,10 @@
     "endless one-tap"
   ],
   "search_queries": [
-    "single rule enclosure puzzle indie studio",
-    "guide creatures through isolated chambers indie puzzle",
-    "enclose units to a target puzzle indie",
-    "one clear mechanic per level physics indie",
-    "tiny studio isolation puzzle each level new rule"
+    "distinct rule per level indie game",
+    "single instruction per level puzzle indie",
+    "isolated objective per level indie title",
+    "one clear constraint each stage indie title"
   ],
   "anchor_app_ids": [
     "357300",
@@ -28,6 +27,6 @@
     "551110",
     "428830"
   ],
-  "updated_at": "2026-10-17T13:01:49.243758+00:00",
+  "updated_at": "2026-10-17T16:01:39.266768+00:00",
   "notes": "Added game 428830 (score 5) to liked collection. Continue targeting Steam titles that present one clear rule per level and require guiding or isolating units toward a goal. Updated search queries to reflect these criteria while avoiding previously used or undesired terms."
 }
