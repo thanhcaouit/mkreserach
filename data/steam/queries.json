@@ -632,7 +632,10 @@
     "single rule level indie physics puzzle",
     "guide units through isolated chambers puzzle indie",
     "one clear constraint per stage indie platformer",
-    "tiny dev per‑stage fresh rule puzzle"
+    "tiny dev per‑stage fresh rule puzzle",
+    "single instruction per stage indie puzzle",
+    "tiny dev level‑by‑level puzzle with isolated goal",
+    "mirror puzzle levels"
   ],
   "pending": []
 }
