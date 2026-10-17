@@ -660,7 +660,9 @@
     "isolated objective per level indie title",
     "one clear constraint each stage indie title",
     "distinct rule per level indie game",
-    "single instruction per level puzzle indie"
+    "single instruction per level puzzle indie",
+    "compact indie puzzle each level new rule",
+    "catch puzzle levels"
   ],
   "pending": []
 }
