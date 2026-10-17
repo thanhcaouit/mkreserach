@@ -3692,6 +3692,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.bywitchlight.themaguscircle": {
+      "first_seen": "2026-10-17",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.doghowlgames.spotter": {
+      "first_seen": "2026-10-17",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
