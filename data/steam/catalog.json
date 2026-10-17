@@ -8009,6 +8009,26 @@
       "url": "https://store.steampowered.com/app/3740010",
       "message_id": 2275,
       "suggested_at": "2026-10-17T06:48:54.669120+00:00"
+    },
+    "1923790": {
+      "app_id": "1923790",
+      "title": "Linelith",
+      "title_norm": "linelith",
+      "developer": "Patrick Traynor",
+      "reviews": 1476,
+      "url": "https://store.steampowered.com/app/1923790",
+      "message_id": 2319,
+      "suggested_at": "2026-10-17T21:01:58.178392+00:00"
+    },
+    "499440": {
+      "app_id": "499440",
+      "title": "klocki",
+      "title_norm": "klocki",
+      "developer": "Maciej Targoni",
+      "reviews": 4200,
+      "url": "https://store.steampowered.com/app/499440",
+      "message_id": 2320,
+      "suggested_at": "2026-10-17T21:01:59.892974+00:00"
     }
   }
 }
