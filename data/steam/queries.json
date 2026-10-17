@@ -669,7 +669,9 @@
     "pulley lift puzzle levels",
     "tiny studio level-based puzzle with single objective",
     "progressive tool unlock per stage indie puzzle",
-    "single rule per stage physics puzzle indie"
+    "single rule per stage physics puzzle indie",
+    "minimalist per-level mechanic puzzle indie",
+    "one clear interaction per stage indie puzzle"
   ],
   "pending": []
 }
