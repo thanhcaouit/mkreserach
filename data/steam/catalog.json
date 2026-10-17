@@ -8039,6 +8039,16 @@
       "url": "https://store.steampowered.com/app/676430",
       "message_id": 2324,
       "suggested_at": "2026-10-17T22:01:55.266095+00:00"
+    },
+    "1946560": {
+      "app_id": "1946560",
+      "title": "sobosuba",
+      "title_norm": "sobosuba",
+      "developer": "keepeetron",
+      "reviews": 268,
+      "url": "https://store.steampowered.com/app/1946560",
+      "message_id": 2328,
+      "suggested_at": "2026-10-17T23:01:57.444087+00:00"
     }
   }
 }
