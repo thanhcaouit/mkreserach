@@ -8049,6 +8049,16 @@
       "url": "https://store.steampowered.com/app/1946560",
       "message_id": 2328,
       "suggested_at": "2026-10-17T23:01:57.444087+00:00"
+    },
+    "248190": {
+      "app_id": "248190",
+      "title": "Knytt Underground",
+      "title_norm": "knytt underground",
+      "developer": "Nifflas' Games",
+      "reviews": 231,
+      "url": "https://store.steampowered.com/app/248190",
+      "message_id": 2332,
+      "suggested_at": "2026-10-18T00:02:14.123031+00:00"
     }
   }
 }

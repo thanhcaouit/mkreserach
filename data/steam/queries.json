@@ -672,7 +672,9 @@
     "single rule per stage physics puzzle indie",
     "minimalist per-level mechanic puzzle indie",
     "one clear interaction per stage indie puzzle",
-    "single clear rule each level indie puzzle"
+    "single clear rule each level indie puzzle",
+    "one explicit rule per level indie studio",
+    "drop puzzle levels"
   ],
   "pending": []
 }
