@@ -682,7 +682,9 @@
     "isolated target per stage indie puzzle game",
     "per‑level distinct constraint indie puzzle",
     "unique mechanic each stage indie puzzle studio",
-    "tiny studio progressive rule puzzle levels"
+    "tiny studio progressive rule puzzle levels",
+    "tiny studio per level puzzle with unique constraint",
+    "one rule per level physics puzzle indie"
   ],
   "pending": []
 }
