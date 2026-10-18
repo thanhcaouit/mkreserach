@@ -8059,6 +8059,16 @@
       "url": "https://store.steampowered.com/app/248190",
       "message_id": 2332,
       "suggested_at": "2026-10-18T00:02:14.123031+00:00"
+    },
+    "340360": {
+      "app_id": "340360",
+      "title": "Tomb of Tyrants",
+      "title_norm": "tomb of tyrants",
+      "developer": "Jake Huhman",
+      "reviews": 236,
+      "url": "https://store.steampowered.com/app/340360",
+      "message_id": 2336,
+      "suggested_at": "2026-10-18T01:01:38.752271+00:00"
     }
   }
 }
