@@ -709,7 +709,10 @@
     "single rule per level narrative puzzle indie",
     "tiny studio per‑stage unique objective puzzle",
     "single win condition per stage indie puzzle",
-    "one core mechanic each level indie puzzle"
+    "one core mechanic each level indie puzzle",
+    "isolated zone per level indie puzzle",
+    "single rule per stage puzzle indie studio",
+    "single interaction per stage indie puzzle"
   ],
   "pending": []
 }
