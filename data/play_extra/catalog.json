@@ -311,6 +311,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.gamesbykevin.sokoban&hl=en",
       "message_id": 2149,
       "suggested_at": "2026-10-16T01:01:36.161744+00:00"
+    },
+    "com.littlebeargames.tangram2": {
+      "app_id": "com.littlebeargames.tangram2",
+      "title": "Tangram Zen",
+      "title_norm": "tangram zen",
+      "developer": "Little Bear Games",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.53,
+      "url": "https://play.google.com/store/apps/details?id=com.littlebeargames.tangram2&hl=en",
+      "message_id": 2386,
+      "suggested_at": "2026-10-18T14:01:25.331315+00:00"
     }
   }
 }
