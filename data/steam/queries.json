@@ -712,7 +712,8 @@
     "one core mechanic each level indie puzzle",
     "isolated zone per level indie puzzle",
     "single rule per stage puzzle indie studio",
-    "single interaction per stage indie puzzle"
+    "single interaction per stage indie puzzle",
+    "one clear condition per stage indie puzzle"
   ],
   "pending": []
 }
