@@ -13,11 +13,10 @@
     "endless one-tap"
   ],
   "search_queries": [
-    "single mechanic level indie puzzle",
-    "guide creatures to target puzzle indie",
-    "isolated objective per stage indie game",
-    "one rule per level co‑op puzzle indie",
-    "single constraint level indie platformer"
+    "single rule per level narrative puzzle indie",
+    "tiny studio per‑stage unique objective puzzle",
+    "single win condition per stage indie puzzle",
+    "one core mechanic each level indie puzzle"
   ],
   "anchor_app_ids": [
     "357300",
@@ -28,6 +27,6 @@
     "551110",
     "428830"
   ],
-  "updated_at": "2026-10-18T11:01:36.024269+00:00",
+  "updated_at": "2026-10-18T13:01:55.584540+00:00",
   "notes": "Added game 428830 (score 5) to liked collection. Continue targeting Steam titles that present one clear rule per level and require guiding or isolating units toward a goal. Updated search queries to reflect these criteria while avoiding previously used or undesired terms."
 }
