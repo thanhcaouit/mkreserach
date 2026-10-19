@@ -8069,6 +8069,16 @@
       "url": "https://store.steampowered.com/app/340360",
       "message_id": 2336,
       "suggested_at": "2026-10-18T01:01:38.752271+00:00"
+    },
+    "992050": {
+      "app_id": "992050",
+      "title": "Oik 5",
+      "title_norm": "oik 5",
+      "developer": "Crew Lab",
+      "reviews": 157,
+      "url": "https://store.steampowered.com/app/992050",
+      "message_id": 2496,
+      "suggested_at": "2026-10-19T19:02:18.894805+00:00"
     }
   }
 }
