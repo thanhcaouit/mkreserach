@@ -739,7 +739,9 @@
     "root bridge puzzle levels",
     "small studio level puzzle with single mechanic per stage",
     "per level unique constraint indie platformer puzzle",
-    "progressive rule puzzle indie studio level by level"
+    "progressive rule puzzle indie studio level by level",
+    "indie puzzle game each level introduces a new rule",
+    "one clear objective per level indie puzzle"
   ],
   "pending": []
 }
