@@ -3831,6 +3831,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.belkagames.ds": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.sohi.screwspark.gp": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
