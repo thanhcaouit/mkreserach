@@ -3722,6 +3722,36 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sivona.stormshot.e": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.hnhs.endlesssea.gp": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.greenmushroom.boomblitz.gp": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ninjakiwi.bloonstd6": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.iogame.gearworld": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
