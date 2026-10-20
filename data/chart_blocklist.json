@@ -3800,6 +3800,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "color.number.paint.pixle.art.sort.jigsaw": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fiveminlab.overgeared.hero.backpack.merge": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
