@@ -3812,6 +3812,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.extremedevelopers.forceofwarships": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
