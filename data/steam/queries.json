@@ -806,7 +806,11 @@
     "one mechanic per level indie studio",
     "single rule per level physics sandbox indie",
     "single clear constraint per stage indie puzzle",
-    "per‑level unique constraint indie studio"
+    "per‑level unique constraint indie studio",
+    "tiny studio level puzzle with unique environmental rule",
+    "one clear mechanic per stage indie puzzle game",
+    "isolated objective per stage indie puzzle",
+    "trace puzzle levels"
   ],
   "pending": []
 }
