@@ -3825,6 +3825,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.SuperAwesome.HelloKittyFriends": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
