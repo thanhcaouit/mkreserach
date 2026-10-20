@@ -3819,6 +3819,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.candysmashmania.sweetcrush.free": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
