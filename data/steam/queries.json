@@ -812,7 +812,11 @@
     "isolated objective per stage indie puzzle",
     "trace puzzle levels",
     "per level new tool indie puzzle",
-    "nudge the ball puzzle levels"
+    "nudge the ball puzzle levels",
+    "tiny studio per level single rule puzzle",
+    "single clear mechanic per level indie studio",
+    "isolated goal per level indie microstudio",
+    "fall puzzle levels"
   ],
   "pending": []
 }
