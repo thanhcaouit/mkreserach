@@ -3758,6 +3758,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.ea.game.simcitymobile_row": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.smallgiantgames.empires": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
