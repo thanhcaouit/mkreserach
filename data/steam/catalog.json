@@ -8089,6 +8089,16 @@
       "url": "https://store.steampowered.com/app/781820",
       "message_id": 2500,
       "suggested_at": "2026-10-19T20:02:19.255545+00:00"
+    },
+    "968870": {
+      "app_id": "968870",
+      "title": "Close To The Sun",
+      "title_norm": "close to the sun",
+      "developer": "Storm in a Teacup",
+      "reviews": 884,
+      "url": "https://store.steampowered.com/app/968870",
+      "message_id": 2568,
+      "suggested_at": "2026-10-20T14:02:14.066861+00:00"
     }
   }
 }
