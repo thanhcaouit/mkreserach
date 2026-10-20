@@ -8099,6 +8099,36 @@
       "url": "https://store.steampowered.com/app/968870",
       "message_id": 2568,
       "suggested_at": "2026-10-20T14:02:14.066861+00:00"
+    },
+    "1079310": {
+      "app_id": "1079310",
+      "title": "Elemental Girls",
+      "title_norm": "elemental girls",
+      "developer": "Zloy Krot Studio",
+      "reviews": 344,
+      "url": "https://store.steampowered.com/app/1079310",
+      "message_id": 2596,
+      "suggested_at": "2026-10-20T21:02:23.380197+00:00"
+    },
+    "1035930": {
+      "app_id": "1035930",
+      "title": "Nyasha",
+      "title_norm": "nyasha",
+      "developer": "Zloy Krot Studio",
+      "reviews": 445,
+      "url": "https://store.steampowered.com/app/1035930",
+      "message_id": 2597,
+      "suggested_at": "2026-10-20T21:02:25.874839+00:00"
+    },
+    "1258190": {
+      "app_id": "1258190",
+      "title": "Cyber Lady",
+      "title_norm": "cyber lady",
+      "developer": "IR Studio",
+      "reviews": 142,
+      "url": "https://store.steampowered.com/app/1258190",
+      "message_id": 2598,
+      "suggested_at": "2026-10-20T21:02:27.409391+00:00"
     }
   }
 }
