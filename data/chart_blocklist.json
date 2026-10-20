@@ -3770,6 +3770,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "find.differences.online.puzzle.games": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.heartsnet.clickwood.gp": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
