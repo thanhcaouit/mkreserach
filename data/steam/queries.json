@@ -788,7 +788,10 @@
     "orbit puzzle levels",
     "single rule per level indie physics puzzle",
     "one clear mechanic per stage indie adventure",
-    "irrigate the field puzzle levels"
+    "irrigate the field puzzle levels",
+    "unique mechanic each stage indie platformer",
+    "single goal per level indie platformer",
+    "progressive rule indie puzzle with clear win condition"
   ],
   "pending": []
 }
