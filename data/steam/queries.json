@@ -785,7 +785,10 @@
     "single rule platform puzzle indie",
     "guide creatures to goal puzzle indie",
     "enclosure mechanic level puzzle indie",
-    "orbit puzzle levels"
+    "orbit puzzle levels",
+    "single rule per level indie physics puzzle",
+    "one clear mechanic per stage indie adventure",
+    "irrigate the field puzzle levels"
   ],
   "pending": []
 }
