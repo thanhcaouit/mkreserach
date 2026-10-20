@@ -3782,6 +3782,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.tiltingpoint.spongebob": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "fi.twomenandadog.zombiecatchers": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.atari.mobile.rctempire": {
+      "first_seen": "2026-10-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
