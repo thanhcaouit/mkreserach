@@ -8149,6 +8149,16 @@
       "url": "https://store.steampowered.com/app/1217830",
       "message_id": 2610,
       "suggested_at": "2026-10-21T00:02:11.076819+00:00"
+    },
+    "596590": {
+      "app_id": "596590",
+      "title": "Linked",
+      "title_norm": "linked",
+      "developer": "ThinkOfGames",
+      "reviews": 438,
+      "url": "https://store.steampowered.com/app/596590",
+      "message_id": 2630,
+      "suggested_at": "2026-10-21T05:01:50.906838+00:00"
     }
   }
 }
