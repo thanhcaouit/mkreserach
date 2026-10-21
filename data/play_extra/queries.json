@@ -458,7 +458,8 @@
     "connect puzzle image",
     "trace puzzle levels",
     "shrink the gap puzzle levels",
-    "lift puzzle levels"
+    "lift puzzle levels",
+    "rewind puzzle levels"
   ],
   "pending": []
 }
