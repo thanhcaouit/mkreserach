@@ -8139,6 +8139,16 @@
       "url": "https://store.steampowered.com/app/1778330",
       "message_id": 2602,
       "suggested_at": "2026-10-20T22:02:06.684426+00:00"
+    },
+    "1217830": {
+      "app_id": "1217830",
+      "title": "Khimera: Puzzle Island",
+      "title_norm": "khimera puzzle island",
+      "developer": "Suits & Sandals",
+      "reviews": 312,
+      "url": "https://store.steampowered.com/app/1217830",
+      "message_id": 2610,
+      "suggested_at": "2026-10-21T00:02:11.076819+00:00"
     }
   }
 }
