@@ -8159,6 +8159,26 @@
       "url": "https://store.steampowered.com/app/596590",
       "message_id": 2630,
       "suggested_at": "2026-10-21T05:01:50.906838+00:00"
+    },
+    "1150640": {
+      "app_id": "1150640",
+      "title": "Yu-Gi-Oh! Legacy of the Duelist : Link Evolution",
+      "title_norm": "yu gi oh legacy of the duelist link evolution",
+      "developer": "Other Ocean Emeryville",
+      "reviews": 3946,
+      "url": "https://store.steampowered.com/app/1150640",
+      "message_id": 2634,
+      "suggested_at": "2026-10-21T06:02:08.813152+00:00"
+    },
+    "720250": {
+      "app_id": "720250",
+      "title": "Welcome to the Game II",
+      "title_norm": "welcome to the game ii",
+      "developer": "Reflect Studios",
+      "reviews": 3187,
+      "url": "https://store.steampowered.com/app/720250",
+      "message_id": 2635,
+      "suggested_at": "2026-10-21T06:02:11.728722+00:00"
     }
   }
 }
