@@ -460,7 +460,8 @@
     "shrink the gap puzzle levels",
     "lift puzzle levels",
     "rewind puzzle levels",
-    "ferry across puzzle levels"
+    "ferry across puzzle levels",
+    "rotate puzzle levels"
   ],
   "pending": []
 }
