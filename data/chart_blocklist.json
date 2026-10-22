@@ -3915,6 +3915,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sysiac.thecaptain": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
