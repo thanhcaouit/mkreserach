@@ -3963,6 +3963,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.byaliens.bidwars4": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.kanoapps.bz": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.rbx.steamcity.android": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sinyee.babybus.career": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
