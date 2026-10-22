@@ -3927,6 +3927,36 @@
       "sources": [
         "GAME"
       ]
+    },
+    "diamond.pixel.art.jewel.color.flow.sort.puzzle": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.sparklingsociety.cityisland5": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.special.thewolfgame": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.supersolid.honestfood": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.upjers.newzealandfarmer": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
