@@ -3879,6 +3879,36 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.gt.rivals.car.racing.game": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gravity.romk.aos": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mobirix.mgct": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.superjoy.idlerumblerush": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "jp.co.gagex.ankaa": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
