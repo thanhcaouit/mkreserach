@@ -8209,6 +8209,26 @@
       "url": "https://store.steampowered.com/app/1532770",
       "message_id": 2768,
       "suggested_at": "2026-10-22T17:55:32.675354+00:00"
+    },
+    "465100": {
+      "app_id": "465100",
+      "title": "LUNA The Shadow Dust",
+      "title_norm": "luna the shadow dust",
+      "developer": "Lantern Studio",
+      "reviews": 1355,
+      "url": "https://store.steampowered.com/app/465100",
+      "message_id": 2772,
+      "suggested_at": "2026-10-22T19:02:12.191813+00:00"
+    },
+    "1525050": {
+      "app_id": "1525050",
+      "title": "Jerry Wanker and the Quest to get Laid",
+      "title_norm": "jerry wanker and the quest to get laid",
+      "developer": "Ktulhu Solutions",
+      "reviews": 210,
+      "url": "https://store.steampowered.com/app/1525050",
+      "message_id": 2773,
+      "suggested_at": "2026-10-22T19:02:15.760813+00:00"
     }
   }
 }
