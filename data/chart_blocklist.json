@@ -3909,6 +3909,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.gamehollywood.loap": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
