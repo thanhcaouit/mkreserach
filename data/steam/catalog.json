@@ -8189,6 +8189,26 @@
       "url": "https://store.steampowered.com/app/1906830",
       "message_id": 2763,
       "suggested_at": "2026-10-22T17:02:05.653687+00:00"
+    },
+    "1563070": {
+      "app_id": "1563070",
+      "title": "Outside The Box",
+      "title_norm": "outside the box",
+      "developer": "The Poundry",
+      "reviews": 116,
+      "url": "https://store.steampowered.com/app/1563070",
+      "message_id": 2767,
+      "suggested_at": "2026-10-22T17:55:30.530280+00:00"
+    },
+    "1532770": {
+      "app_id": "1532770",
+      "title": "Sex and the Furry Titty",
+      "title_norm": "sex and the furry titty",
+      "developer": "Furlough Games",
+      "reviews": 1003,
+      "url": "https://store.steampowered.com/app/1532770",
+      "message_id": 2768,
+      "suggested_at": "2026-10-22T17:55:32.675354+00:00"
     }
   }
 }
