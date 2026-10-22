@@ -459,7 +459,8 @@
     "trace puzzle levels",
     "shrink the gap puzzle levels",
     "lift puzzle levels",
-    "rewind puzzle levels"
+    "rewind puzzle levels",
+    "ferry across puzzle levels"
   ],
   "pending": []
 }
