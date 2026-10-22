@@ -3957,6 +3957,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.match.shelfsort.puzzle": {
+      "first_seen": "2026-10-22",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
