@@ -461,7 +461,8 @@
     "lift puzzle levels",
     "rewind puzzle levels",
     "ferry across puzzle levels",
-    "rotate puzzle levels"
+    "rotate puzzle levels",
+    "flow puzzle levels"
   ],
   "pending": []
 }
