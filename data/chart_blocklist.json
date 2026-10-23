@@ -4012,6 +4012,24 @@
         "GAME_PUZZLE",
         "GAME"
       ]
+    },
+    "com.eastsidegames.doctorwho": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.supersolid.spark": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.lavalabs.autodrill": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
