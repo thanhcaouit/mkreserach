@@ -4060,6 +4060,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.fgol.HungrySharkEvolution": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "net.supertreat.solitaire": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.matching.games.goods.sort.triple.puzzle": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
