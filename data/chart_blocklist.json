@@ -4005,6 +4005,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.nebula.rotaterings": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
     }
   }
 }
