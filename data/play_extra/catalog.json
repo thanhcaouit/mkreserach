@@ -323,6 +323,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.littlebeargames.tangram2&hl=en",
       "message_id": 2386,
       "suggested_at": "2026-10-18T14:01:25.331315+00:00"
+    },
+    "com.unit5soft.sushifactory.aos": {
+      "app_id": "com.unit5soft.sushifactory.aos",
+      "title": "Sushi Factory - Slide Puzzle",
+      "title_norm": "sushi factory slide puzzle",
+      "developer": "UNIT5",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 4.243243,
+      "url": "https://play.google.com/store/apps/details?id=com.unit5soft.sushifactory.aos&hl=en",
+      "message_id": 2836,
+      "suggested_at": "2026-10-23T12:02:15.379879+00:00"
     }
   }
 }
