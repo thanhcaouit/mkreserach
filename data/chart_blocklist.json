@@ -4108,6 +4108,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.playgendary.sportmasters": {
+      "first_seen": "2026-10-24",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.wildlife.games.battle.royale.free.zooba": {
+      "first_seen": "2026-10-24",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
