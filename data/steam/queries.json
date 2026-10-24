@@ -910,7 +910,8 @@
     "reflect the beam puzzle levels",
     "connect puzzle levels",
     "burrow the mole puzzle levels",
-    "pull puzzle levels"
+    "pull puzzle levels",
+    "flood the room puzzle levels"
   ],
   "pending": []
 }
