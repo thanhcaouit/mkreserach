@@ -479,7 +479,11 @@
     "connect the wires puzzle levels",
     "turn light puzzle",
     "royal dig puzzle",
-    "roost the bats puzzle levels"
+    "roost the bats puzzle levels",
+    "pirate shove push puzzle",
+    "nut stack puzzle"
   ],
-  "pending": []
+  "pending": [
+    "hoop stack puzzle"
+  ]
 }
