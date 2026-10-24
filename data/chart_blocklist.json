@@ -4090,6 +4090,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.asobimo.alchemiastory": {
+      "first_seen": "2026-10-24",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.flaregames.nonstop.action.rpg": {
+      "first_seen": "2026-10-24",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
