@@ -4126,6 +4126,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.rvappstudios.math.kids.counting": {
+      "first_seen": "2026-10-24",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bubadu.bubbuschool": {
+      "first_seen": "2026-10-24",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
