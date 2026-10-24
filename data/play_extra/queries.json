@@ -481,9 +481,8 @@
     "royal dig puzzle",
     "roost the bats puzzle levels",
     "pirate shove push puzzle",
-    "nut stack puzzle"
-  ],
-  "pending": [
+    "nut stack puzzle",
     "hoop stack puzzle"
-  ]
+  ],
+  "pending": []
 }
