@@ -923,7 +923,8 @@
     "shrink puzzle levels",
     "pipe puzzle levels",
     "link puzzle levels",
-    "water puzzle levels"
+    "water puzzle levels",
+    "laser puzzle levels"
   ],
   "pending": []
 }
