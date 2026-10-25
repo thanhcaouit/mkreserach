@@ -4138,6 +4138,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.ndreamgames.wod": {
+      "first_seen": "2026-10-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "studio.gameberry.idlehunter": {
+      "first_seen": "2026-10-25",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
