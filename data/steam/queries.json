@@ -938,7 +938,8 @@
     "split puzzle levels",
     "throw puzzle levels",
     "flip the panel puzzle levels",
-    "open puzzle levels"
+    "open puzzle levels",
+    "dig puzzle levels"
   ],
   "pending": []
 }
