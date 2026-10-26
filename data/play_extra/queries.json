@@ -494,5 +494,8 @@
     "open puzzle levels",
     "push the crate puzzle levels"
   ],
-  "pending": []
+  "pending": [
+    "slide puzzle games offline",
+    "slide puzzle solver"
+  ]
 }
