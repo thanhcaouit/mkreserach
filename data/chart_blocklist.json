@@ -4217,6 +4217,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.ea.games.simsfreeplay_na": {
+      "first_seen": "2026-10-26",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
