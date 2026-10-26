@@ -4211,6 +4211,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.beresnevgames.pixelgallery": {
+      "first_seen": "2026-10-26",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
