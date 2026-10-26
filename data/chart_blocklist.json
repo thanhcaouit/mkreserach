@@ -639,7 +639,8 @@
     "com.tilematch.cat": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME"
+        "GAME",
+        "GAME_PUZZLE"
       ]
     },
     "com.ashita.jewel.bloom.color": {
@@ -4147,6 +4148,18 @@
     },
     "studio.gameberry.idlehunter": {
       "first_seen": "2026-10-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.grandgames.catblockjam": {
+      "first_seen": "2026-10-26",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.funcraft.bingodice": {
+      "first_seen": "2026-10-26",
       "sources": [
         "GAME"
       ]
