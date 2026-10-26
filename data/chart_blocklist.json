@@ -4193,6 +4193,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.gurupuzzle.differences.find.spot": {
+      "first_seen": "2026-10-26",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
