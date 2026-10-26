@@ -4163,6 +4163,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.devgame.masha.and.bear.pizzeria.games": {
+      "first_seen": "2026-10-26",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sinyee.babybus.ambulance": {
+      "first_seen": "2026-10-26",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.iz.cooking.kitchen.games.girls.kids.food": {
+      "first_seen": "2026-10-26",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
