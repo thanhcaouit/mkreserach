@@ -4199,6 +4199,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.tapanywhere.laseroverload": {
+      "first_seen": "2026-10-26",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
