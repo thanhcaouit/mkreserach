@@ -4271,6 +4271,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.kiwigames.happycitizen.gp": {
+      "first_seen": "2026-10-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.FDGEntertainment.redball4.gp": {
+      "first_seen": "2026-10-27",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
