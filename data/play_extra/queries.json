@@ -496,8 +496,5 @@
     "connect puzzle levels",
     "pipe puzzle levels"
   ],
-  "pending": [
-    "ice puzzle",
-    "melting ice puzzle"
-  ]
+  "pending": []
 }
