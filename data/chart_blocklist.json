@@ -4229,6 +4229,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sinyee.babybus.dance": {
+      "first_seen": "2026-10-27",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
