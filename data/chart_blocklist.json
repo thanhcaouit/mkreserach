@@ -4223,6 +4223,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.snapbreak.doors3": {
+      "first_seen": "2026-10-27",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
