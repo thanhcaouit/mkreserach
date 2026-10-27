@@ -4235,6 +4235,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.dc.hwsj": {
+      "first_seen": "2026-10-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.hg.delicacy.Notes.mergegames": {
+      "first_seen": "2026-10-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.oxiwyle.modernage3premium": {
+      "first_seen": "2026-10-27",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pixelfederation.portcity.ship.tycoon.strategy.simulation": {
+      "first_seen": "2026-10-27",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
