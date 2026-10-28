@@ -4283,6 +4283,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.joycity.potc": {
+      "first_seen": "2026-10-28",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
