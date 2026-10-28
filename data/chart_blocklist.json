@@ -4307,6 +4307,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.goosebump.bulletheroes": {
+      "first_seen": "2026-10-28",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
