@@ -495,9 +495,8 @@
     "push the crate puzzle levels",
     "connect puzzle levels",
     "pipe puzzle levels",
-    "flip the panel puzzle levels"
+    "flip the panel puzzle levels",
+    "rise puzzle levels"
   ],
-  "pending": [
-    "12 lock puzzle game"
-  ]
+  "pending": []
 }
