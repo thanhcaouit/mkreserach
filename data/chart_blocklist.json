@@ -4289,6 +4289,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.tencent.tmgp.sskeus": {
+      "first_seen": "2026-10-28",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
