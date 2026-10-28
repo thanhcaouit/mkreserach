@@ -4320,6 +4320,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.rbx.antique.android": {
+      "first_seen": "2026-10-28",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
