@@ -4356,6 +4356,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.igg.clashoflords2": {
+      "first_seen": "2026-10-29",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
