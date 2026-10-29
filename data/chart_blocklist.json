@@ -4362,6 +4362,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.miaworld.life.avatar.doll.dressup.design.makeover": {
+      "first_seen": "2026-10-29",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
