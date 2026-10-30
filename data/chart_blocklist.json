@@ -4405,6 +4405,42 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.adhoc.dispatch": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bandai.digimonalysionw": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.foolmoon.hillthorn": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fundaygames.boosterpack": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.funtaptic.spacerockbreaker": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.game.xzjh2.global": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
