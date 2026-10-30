@@ -4374,6 +4374,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.zeptolab.overcrowded": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
