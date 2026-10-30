@@ -4300,7 +4300,8 @@
     "com.uncosoft.wordpuzzle": {
       "first_seen": "2026-10-28",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.devsisters.ck": {
