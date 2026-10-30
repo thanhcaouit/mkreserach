@@ -4380,6 +4380,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.outfit7neo.onehelsing": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.match.goodsfactory.sort": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
