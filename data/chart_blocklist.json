@@ -4453,6 +4453,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.baby.toddler.games": {
+      "first_seen": "2026-10-31",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.billionairegames.serares": {
+      "first_seen": "2026-10-31",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gearpaw.defenders.td.game": {
+      "first_seen": "2026-10-31",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "io.battleroyale.magicka": {
+      "first_seen": "2026-10-31",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
