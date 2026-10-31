@@ -335,6 +335,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.unit5soft.sushifactory.aos&hl=en",
       "message_id": 2836,
       "suggested_at": "2026-10-23T12:02:15.379879+00:00"
+    },
+    "com.babydeer.babydeernonogram": {
+      "app_id": "com.babydeer.babydeernonogram",
+      "title": "Deer My Friend - Nonogram",
+      "title_norm": "deer my friend nonogram",
+      "developer": "Withme",
+      "installs": "100,000+",
+      "min_installs": 100000,
+      "score": 4.51,
+      "url": "https://play.google.com/store/apps/details?id=com.babydeer.babydeernonogram&hl=en",
+      "message_id": 3591,
+      "suggested_at": "2026-10-31T23:01:34.403800+00:00"
     }
   }
 }
