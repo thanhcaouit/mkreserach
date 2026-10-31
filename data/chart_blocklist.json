@@ -4477,6 +4477,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.supersolid.cookandmerge": {
+      "first_seen": "2026-10-31",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
