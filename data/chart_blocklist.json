@@ -4441,6 +4441,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "kr.co.angames.astrokings.google.android": {
+      "first_seen": "2026-10-31",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
