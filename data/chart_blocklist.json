@@ -4501,6 +4501,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.flaregames.rrtournament": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
