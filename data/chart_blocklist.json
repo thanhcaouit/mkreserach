@@ -4483,6 +4483,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.fatr.global": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
