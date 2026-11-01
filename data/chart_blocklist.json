@@ -4489,6 +4489,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.cookapps.bm.fortresssaga": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.magicgame.yzhs": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
