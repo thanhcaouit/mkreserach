@@ -4507,6 +4507,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.netease.ko": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.rocket.holeit": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
