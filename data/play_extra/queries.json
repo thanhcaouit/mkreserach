@@ -519,7 +519,11 @@
     "roll puzzle levels",
     "turn the dial puzzle levels",
     "close the gate puzzle levels",
-    "flip puzzle game"
+    "flip puzzle game",
+    "find path puzzle game"
   ],
-  "pending": []
+  "pending": [
+    "ice cream mania puzzle game",
+    "burn puzzle"
+  ]
 }
