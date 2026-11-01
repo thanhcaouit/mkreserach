@@ -4519,6 +4519,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.vitastudio.solitaire": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
