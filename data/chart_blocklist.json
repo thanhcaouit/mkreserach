@@ -4525,6 +4525,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.autumn.skullgirls": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ltgames.android.m71.us": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pantheraplay.soulhuntress": {
+      "first_seen": "2026-11-01",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
