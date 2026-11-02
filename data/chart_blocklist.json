@@ -4555,6 +4555,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sinyee.babybus.kindergarten": {
+      "first_seen": "2026-11-02",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "pocket.tales": {
+      "first_seen": "2026-11-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
