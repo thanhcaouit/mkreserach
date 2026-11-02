@@ -4549,6 +4549,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sinyee.babybus.foodstreetII": {
+      "first_seen": "2026-11-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
