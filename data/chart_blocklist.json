@@ -4579,6 +4579,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.gamegos.mobile.manorcafe": {
+      "first_seen": "2026-11-02",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.herocraft.game.mafioso.gangster.paradise.pvp": {
+      "first_seen": "2026-11-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
