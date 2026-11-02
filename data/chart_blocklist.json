@@ -4573,6 +4573,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.runawayplay.OldFriends": {
+      "first_seen": "2026-11-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
