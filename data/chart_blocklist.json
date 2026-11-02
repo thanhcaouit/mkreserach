@@ -4543,6 +4543,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.herogame.gplay.lastdayrulessurvival": {
+      "first_seen": "2026-11-02",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
