@@ -4603,6 +4603,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.oakever.paintbynumber": {
+      "first_seen": "2026-11-03",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
