@@ -527,9 +527,8 @@
     "stack the crates puzzle levels",
     "stick puzzle",
     "shove puzzle levels",
-    "irrigate the field puzzle levels"
+    "irrigate the field puzzle levels",
+    "flip puzzle"
   ],
-  "pending": [
-    "12 lock puzzle game"
-  ]
+  "pending": []
 }
