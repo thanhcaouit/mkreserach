@@ -4633,6 +4633,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.mysterytag.paris": {
+      "first_seen": "2026-11-04",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.runawayplay.flutter": {
+      "first_seen": "2026-11-04",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sadpanda.mobile.blushblush.google": {
+      "first_seen": "2026-11-04",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "truck.simulator.climb.frontline": {
+      "first_seen": "2026-11-04",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
