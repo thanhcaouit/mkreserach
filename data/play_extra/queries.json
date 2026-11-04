@@ -531,9 +531,5 @@
     "flip puzzle",
     "tap puzzle sheep"
   ],
-  "pending": [
-    "tap puzzle arrow out game",
-    "tap puzzle",
-    "conveyor puzzle"
-  ]
+  "pending": []
 }
