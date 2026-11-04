@@ -528,7 +528,12 @@
     "stick puzzle",
     "shove puzzle levels",
     "irrigate the field puzzle levels",
-    "flip puzzle"
+    "flip puzzle",
+    "tap puzzle sheep"
   ],
-  "pending": []
+  "pending": [
+    "tap puzzle arrow out game",
+    "tap puzzle",
+    "conveyor puzzle"
+  ]
 }

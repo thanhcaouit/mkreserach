@@ -347,6 +347,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.babydeer.babydeernonogram&hl=en",
       "message_id": 3591,
       "suggested_at": "2026-10-31T23:01:34.403800+00:00"
+    },
+    "com.tap.puzzle.sheepout": {
+      "app_id": "com.tap.puzzle.sheepout",
+      "title": "Tap Puzzle: Sheep Out",
+      "title_norm": "tap puzzle sheep out",
+      "developer": "Farsco22",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.tap.puzzle.sheepout&hl=en",
+      "message_id": 3933,
+      "suggested_at": "2026-11-04T16:01:51.729799+00:00"
     }
   }
 }
