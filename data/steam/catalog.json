@@ -8229,6 +8229,26 @@
       "url": "https://store.steampowered.com/app/1525050",
       "message_id": 2773,
       "suggested_at": "2026-10-22T19:02:15.760813+00:00"
+    },
+    "1399930": {
+      "app_id": "1399930",
+      "title": "Furry Shades of Gay",
+      "title_norm": "furry shades of gay",
+      "developer": "Furlough Games",
+      "reviews": 840,
+      "url": "https://store.steampowered.com/app/1399930",
+      "message_id": 3877,
+      "suggested_at": "2026-11-04T02:02:14.330462+00:00"
+    },
+    "3970070": {
+      "app_id": "3970070",
+      "title": "Astra: Ardent Show",
+      "title_norm": "astra ardent show",
+      "developer": "Lustration Team",
+      "reviews": 102,
+      "url": "https://store.steampowered.com/app/3970070",
+      "message_id": 3878,
+      "suggested_at": "2026-11-04T02:02:16.586492+00:00"
     }
   }
 }
