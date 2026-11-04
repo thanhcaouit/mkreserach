@@ -4669,6 +4669,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.miniclip.soccerstars": {
+      "first_seen": "2026-11-04",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ftt.boxingstar.gl.aos": {
+      "first_seen": "2026-11-04",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.devsisters.gb": {
+      "first_seen": "2026-11-04",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
