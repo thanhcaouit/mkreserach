@@ -4771,6 +4771,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.ironhidegames.android.ironmarines": {
+      "first_seen": "2026-11-05",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
