@@ -4729,6 +4729,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "jp.boi.mementomori.android": {
+      "first_seen": "2026-11-05",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
