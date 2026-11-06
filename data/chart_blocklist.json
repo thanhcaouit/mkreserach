@@ -4777,6 +4777,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.europosit.pixelcoloring": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.beresnevgames.gallerycoloringbook": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
