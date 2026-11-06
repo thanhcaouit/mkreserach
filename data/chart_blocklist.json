@@ -4796,6 +4796,36 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.shanggame.shtm": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.cyberjoy.galaxydefense": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "aliens.zombies.invasion": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.kingkodestudio.towerdefense.battlestrategy": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ironhidegames.android.kingdomrushorigins": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
