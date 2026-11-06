@@ -4091,7 +4091,8 @@
     "com.combo.yarnflow": {
       "first_seen": "2026-10-24",
       "sources": [
-        "GAME"
+        "GAME",
+        "GAME_PUZZLE"
       ]
     },
     "com.asobimo.alchemiastory": {
@@ -4852,6 +4853,18 @@
       ]
     },
     "com.snapbreak.tinyrobots": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.hanbitsoft.gemgl.google": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.budgestudios.googleplay.DoraDXP": {
       "first_seen": "2026-11-06",
       "sources": [
         "GAME"
