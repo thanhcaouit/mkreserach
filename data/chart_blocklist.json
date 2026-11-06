@@ -4838,6 +4838,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.breakpointgames.manifesto": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.cloudcade.shopheroesidle": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
