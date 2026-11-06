@@ -171,7 +171,8 @@
     "com.jumkaash.impossibleisland.andr": {
       "first_seen": "2026-09-27",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.StudioFolly.GUBBINS": {
@@ -4785,6 +4786,12 @@
       ]
     },
     "com.beresnevgames.gallerycoloringbook": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.linkdesks.jewellegend": {
       "first_seen": "2026-11-06",
       "sources": [
         "GAME"
