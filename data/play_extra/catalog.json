@@ -359,6 +359,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.tap.puzzle.sheepout&hl=en",
       "message_id": 3933,
       "suggested_at": "2026-11-04T16:01:51.729799+00:00"
+    },
+    "com.gp.lv.tangrampolygrampuzzle": {
+      "app_id": "com.gp.lv.tangrampolygrampuzzle",
+      "title": "Tangram: Polygrams Puzzle",
+      "title_norm": "tangram polygrams puzzle",
+      "developer": "VL Games",
+      "installs": "50,000+",
+      "min_installs": 50000,
+      "score": 3.840909,
+      "url": "https://play.google.com/store/apps/details?id=com.gp.lv.tangrampolygrampuzzle&hl=en",
+      "message_id": 4120,
+      "suggested_at": "2026-11-06T16:01:37.753046+00:00"
     }
   }
 }
