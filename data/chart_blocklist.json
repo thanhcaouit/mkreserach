@@ -4826,6 +4826,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.raven.tank.google": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bastion.archers": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
