@@ -4887,6 +4887,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "games.WanderlostInteractive.Dawncaster": {
+      "first_seen": "2026-11-07",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
