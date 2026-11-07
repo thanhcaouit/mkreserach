@@ -4893,6 +4893,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.ultimagames.plague.tower.defence.game": {
+      "first_seen": "2026-11-07",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.izzle.go": {
+      "first_seen": "2026-11-07",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
