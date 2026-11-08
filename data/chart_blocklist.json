@@ -4941,6 +4941,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.pixonic.wwr": {
+      "first_seen": "2026-11-08",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.kurogame.gplay.punishing.grayraven.en": {
+      "first_seen": "2026-11-08",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
