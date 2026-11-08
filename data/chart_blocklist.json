@@ -4917,6 +4917,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.blast.puzzlegame.bear": {
+      "first_seen": "2026-11-08",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.netease.mrzhna": {
+      "first_seen": "2026-11-08",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
