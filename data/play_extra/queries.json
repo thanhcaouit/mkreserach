@@ -536,5 +536,8 @@
     "cookie run puzzle",
     "dig puzzle levels"
   ],
-  "pending": []
+  "pending": [
+    "push puzzle",
+    "tile push puzzle"
+  ]
 }
