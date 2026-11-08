@@ -534,7 +534,10 @@
     "path puzzle levels",
     "shepherd the flock puzzle levels",
     "cookie run puzzle",
-    "dig puzzle levels"
+    "dig puzzle levels",
+    "tap puzzle sheep out"
   ],
-  "pending": []
+  "pending": [
+    "goo puzzle"
+  ]
 }
