@@ -4971,6 +4971,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.percent.aos.luckydefense": {
+      "first_seen": "2026-11-09",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ironhidegames.kingdomrush.mp": {
+      "first_seen": "2026-11-09",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fansipan.stickman.shadow.knights.fightinggames": {
+      "first_seen": "2026-11-09",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
