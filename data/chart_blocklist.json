@@ -4995,6 +4995,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.alexanderwinn.TerraGenesis": {
+      "first_seen": "2026-11-09",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
