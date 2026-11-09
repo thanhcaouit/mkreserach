@@ -4953,6 +4953,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.ironhidegames.android.kingdomrush": {
+      "first_seen": "2026-11-09",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
