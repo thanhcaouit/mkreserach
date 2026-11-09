@@ -4989,6 +4989,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.game.candywitch.cookie.stars.free": {
+      "first_seen": "2026-11-09",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
