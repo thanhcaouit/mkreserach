@@ -5038,6 +5038,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sofish.soeasymahjong2.gp": {
+      "first_seen": "2026-11-10",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
