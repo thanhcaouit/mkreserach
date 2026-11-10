@@ -5044,6 +5044,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.gamovation.chessclubpilot": {
+      "first_seen": "2026-11-10",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
