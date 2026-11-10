@@ -5026,6 +5026,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "sort.casual.color.cat.puzzle.match": {
+      "first_seen": "2026-11-10",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.theroottrees.android": {
+      "first_seen": "2026-11-10",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
