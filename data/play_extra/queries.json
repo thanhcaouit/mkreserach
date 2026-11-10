@@ -537,5 +537,7 @@
     "dig puzzle levels",
     "tap puzzle sheep out"
   ],
-  "pending": []
+  "pending": [
+    "tap puzzle arrow out game"
+  ]
 }
