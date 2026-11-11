@@ -5050,6 +5050,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.playdigious.absolum": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
