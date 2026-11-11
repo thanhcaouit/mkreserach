@@ -5116,6 +5116,54 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.tencent.igfit": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.spellgarden.thriftybusiness": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pid.lilguardsman": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.merge.foodie.cooking.restaurant": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.mobibrain.championforge": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ninjakiwi.zombieassault": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fathermade.merge": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.spcomes.jeweltemple": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
