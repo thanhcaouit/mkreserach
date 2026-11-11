@@ -5164,6 +5164,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.outplayentertainment.chefblast": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.rbx.m3.android": {
+      "first_seen": "2026-11-11",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
