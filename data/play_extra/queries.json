@@ -540,5 +540,7 @@
     "freeze the path puzzle levels",
     "shove the statue puzzle levels"
   ],
-  "pending": []
+  "pending": [
+    "tap puzzle arrow out game"
+  ]
 }
