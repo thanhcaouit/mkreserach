@@ -5194,6 +5194,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.cy.cottage.merge.gp": {
+      "first_seen": "2026-11-12",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
