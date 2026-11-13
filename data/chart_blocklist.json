@@ -5200,6 +5200,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "br.com.mothergaia.theposthumousinvestigation": {
+      "first_seen": "2026-11-13",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.pid.preserve_complete": {
+      "first_seen": "2026-11-13",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
