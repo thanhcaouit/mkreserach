@@ -5224,6 +5224,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.wanda.transformers.gg.am": {
+      "first_seen": "2026-11-13",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
