@@ -5236,6 +5236,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.easybrain.spider.solitaire": {
+      "first_seen": "2026-11-14",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.riotgames.legendsofruneterra": {
+      "first_seen": "2026-11-14",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
