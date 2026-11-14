@@ -540,7 +540,8 @@
     "freeze the path puzzle levels",
     "shove the statue puzzle levels",
     "run puzzle",
-    "bell toll puzzle levels"
+    "bell toll puzzle levels",
+    "fill puzzle levels"
   ],
   "pending": []
 }
