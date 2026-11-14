@@ -5230,6 +5230,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.disney.frozensaga_goo": {
+      "first_seen": "2026-11-14",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
