@@ -5254,6 +5254,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.g5e.sherlock.android": {
+      "first_seen": "2026-11-15",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
