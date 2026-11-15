@@ -5248,6 +5248,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.makingfun.mageandminions": {
+      "first_seen": "2026-11-15",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
