@@ -5272,6 +5272,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.AurochDigital.WarhammerSurvivors": {
+      "first_seen": "2026-11-15",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
