@@ -546,7 +546,8 @@
     "lock puzzle levels",
     "push puzzle levels",
     "heat puzzle levels",
-    "run puzzle levels"
+    "run puzzle levels",
+    "close puzzle levels"
   ],
   "pending": []
 }
