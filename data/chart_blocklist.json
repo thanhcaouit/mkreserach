@@ -5030,7 +5030,8 @@
     "sort.casual.color.cat.puzzle.match": {
       "first_seen": "2026-11-10",
       "sources": [
-        "GAME_PUZZLE"
+        "GAME_PUZZLE",
+        "GAME"
       ]
     },
     "com.theroottrees.android": {
@@ -5280,6 +5281,12 @@
       ]
     },
     "com.hyperbeard.odyssey": {
+      "first_seen": "2026-11-16",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.clipwiregames.monopolybingo": {
       "first_seen": "2026-11-16",
       "sources": [
         "GAME"
