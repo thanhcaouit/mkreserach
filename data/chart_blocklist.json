@@ -5291,6 +5291,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.mf.coffee": {
+      "first_seen": "2026-11-17",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
     }
   }
 }
