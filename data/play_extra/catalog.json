@@ -383,6 +383,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.fit.the.clues.puzzle.android&hl=en",
       "message_id": 4317,
       "suggested_at": "2026-11-08T19:01:35.410318+00:00"
+    },
+    "com.sogame.mmwbh.admob": {
+      "app_id": "com.sogame.mmwbh.admob",
+      "title": "Grow Up:Puzzle Game",
+      "title_norm": "grow up puzzle game",
+      "developer": "Noah Ark Deluxe Studio",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": null,
+      "url": "https://play.google.com/store/apps/details?id=com.sogame.mmwbh.admob&hl=en",
+      "message_id": 5112,
+      "suggested_at": "2026-11-17T16:02:02.661897+00:00"
     }
   }
 }
