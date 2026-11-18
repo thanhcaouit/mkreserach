@@ -5309,6 +5309,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.asanteegames.magicrampage": {
+      "first_seen": "2026-11-18",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
