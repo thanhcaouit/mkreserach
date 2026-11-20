@@ -5375,6 +5375,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "pampam.ibf2": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
