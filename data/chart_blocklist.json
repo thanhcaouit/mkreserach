@@ -5387,6 +5387,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.tempogames.thebazaar": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "games.zero1.chefmaster": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bakerystory.soulbox.gp": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.n2pge.ironblitz": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
