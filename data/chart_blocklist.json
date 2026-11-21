@@ -5411,6 +5411,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.nhn.oshinoko": {
+      "first_seen": "2026-11-21",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.n2pg.idlesaga": {
+      "first_seen": "2026-11-21",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
