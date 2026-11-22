@@ -407,6 +407,18 @@
       "url": "https://play.google.com/store/apps/details?id=com.greatboystudio.crossmath&hl=en",
       "message_id": 5133,
       "suggested_at": "2026-11-17T21:01:37.076807+00:00"
+    },
+    "com.xsgames.efbr": {
+      "app_id": "com.xsgames.efbr",
+      "title": "Escape From Benjamin's Room",
+      "title_norm": "escape from benjamin s room",
+      "developer": "XSGames",
+      "installs": "10,000+",
+      "min_installs": 10000,
+      "score": 3.875,
+      "url": "https://play.google.com/store/apps/details?id=com.xsgames.efbr&hl=en",
+      "message_id": 5526,
+      "suggested_at": "2026-11-22T04:01:31.531639+00:00"
     }
   }
 }
