@@ -5429,6 +5429,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.gamehivecorp.taptitans2": {
+      "first_seen": "2026-11-22",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
