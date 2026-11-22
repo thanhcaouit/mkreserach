@@ -5423,6 +5423,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.sohi.mahjongtap.gp": {
+      "first_seen": "2026-11-22",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
