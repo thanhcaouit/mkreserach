@@ -5489,6 +5489,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.highbrow.games.tkr": {
+      "first_seen": "2026-11-23",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.hykick.catark": {
+      "first_seen": "2026-11-23",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
