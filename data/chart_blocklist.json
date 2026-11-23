@@ -5459,6 +5459,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.generagames.resistance": {
+      "first_seen": "2026-11-23",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
