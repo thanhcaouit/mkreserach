@@ -5447,6 +5447,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.moonfrog.parchisi.club": {
+      "first_seen": "2026-11-23",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.tikofun.armada": {
+      "first_seen": "2026-11-23",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
