@@ -5471,6 +5471,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.agavegames.wordtiles": {
+      "first_seen": "2026-11-23",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
