@@ -5525,6 +5525,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.yoozoo.jp.ik": {
+      "first_seen": "2026-11-24",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
