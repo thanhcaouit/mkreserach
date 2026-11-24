@@ -5501,6 +5501,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.infinity.traffix": {
+      "first_seen": "2026-11-24",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
