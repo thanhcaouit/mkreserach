@@ -5507,6 +5507,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.gtarcade.eoa": {
+      "first_seen": "2026-11-24",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
