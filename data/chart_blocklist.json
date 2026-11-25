@@ -5567,6 +5567,30 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.playrix.homescapes": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.bgg.jump": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.gameloft.android.ANMP.GloftA9HM": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.drivezone.car.race.game": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
