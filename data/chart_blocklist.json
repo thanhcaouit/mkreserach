@@ -5591,6 +5591,90 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.blockblast.lite": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
+    },
+    "com.chucklefish.stardewvalley": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playdigious.littlenightmare": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ghostshippublishing.deeprockgalacticsurvivor": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.fundaygames.scritchyscratchy": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ninjakiwi.bloonstd5": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.playdigious.deadcells.mobile": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.strayfawnstudio.gambonanza": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.sofarsogood.incredibox": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.PanikArcade.CloverPit": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.strayfawnstudio.dungeonclawlermobile": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "air.com.RustyLake.RustyLakeParadise": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.GameCoaster.DungeonWithin": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.RustyLake.ServantOfTheLake": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
