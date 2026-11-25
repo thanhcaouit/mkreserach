@@ -5537,6 +5537,18 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.hykick.mewage": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.khg.doorkickers2": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
