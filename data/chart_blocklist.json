@@ -5549,6 +5549,24 @@
       "sources": [
         "GAME"
       ]
+    },
+    "vikings.strategy.rpg.tactics.card": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.ea.game.pvz2_na": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
+    },
+    "com.igg.android.lordsmobile": {
+      "first_seen": "2026-11-25",
+      "sources": [
+        "GAME"
+      ]
     }
   }
 }
