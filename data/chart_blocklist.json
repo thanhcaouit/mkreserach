@@ -5723,6 +5723,12 @@
       "sources": [
         "GAME"
       ]
+    },
+    "com.vizorapps.merge": {
+      "first_seen": "2026-11-28",
+      "sources": [
+        "GAME_PUZZLE"
+      ]
     }
   }
 }
