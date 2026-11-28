@@ -566,7 +566,8 @@
     "sink puzzle levels",
     "lift the platform puzzle levels",
     "tilt puzzle levels",
-    "burn puzzle levels"
+    "burn puzzle levels",
+    "conveyor puzzle levels"
   ],
   "pending": []
 }
